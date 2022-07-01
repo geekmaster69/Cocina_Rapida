@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_amarillo"
+    tools:context=".SpaghettiRojoCremosoActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/spaghetti_cremoso"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Ingredientes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - 6 Piezas de jitomate,rebanados en cuadros y sin semillas\n
+- 2 Cucharadas de aceite de oliva\n
+- Sal al gusto\n
+- 1 Cucharadita de hierbas finas\n
+- ¼ De cucharadita de pimienta negra molida\n
+- 1 Lata de leche evaporada\n
+- 1 Cubo de caldo de pollo\n
+- 1 Paquete de espagueti de 500g\n"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Sustitutos"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - 1 cuadro de 250mñ de prure de tomate condimentado"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Preparacion"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:text=" 1 - cocer la pasta (ir a básicos de la cocina)\n\n
+2 - en la licuadora mezclamos los jitomates, cucharadas de acite de oliva, hierbas finas, pimienta, leche evaporada, cubo de caldo de pollo y sal.\n\n
+3 - ponemos a calentar la salsa en una olla aparte, cuando empiece a hervir retiramos del fuego y vaciamos la salsa sobre el espagueti.\n\n
+4 - mezcla el espagueti suavemente hasta que toda la pasta tenga el color de la salsa.\n\n
+5 - sirve caliente.n\n
+
+
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Para Acompañar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - Puedes acompañar con pollo asado o albondigas y una ensalada."/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_amarillo"
+    tools:context=".SopaColActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sopa_col_tomate"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Ingredientes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start"
+            android:text=" - Aceite\n
+- 1 Cebolla blanca picada\n
+- ½ cucharada de tomillo seco\n
+- Orégano\n
+- 2 tazas de puré de tomate \n
+- 4 Tazas de caldo de pollo (Natural o Tetrapack)\n
+- 4 Tazas de col picada\n
+- 1 Vara de apio\n
+- 1 Zanahoria pelada\n
+- Sal y pimienta"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Preparacion"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:text="1 - En una olla a fuego medio coloca un chorrito de aceite y saltea el ajo y la cebolla.\n\n
+2 - Después de 3 min agrega la zanahoria y el apio picado en trozos pequeños.\n\n
+3 - Agrega el orégano, el tomillo, la sal y la pimienta y cocina por 8 minutos.\n\n
+4 - Agrega el puré de tomate, la col y el caldo de verduras o pollo y espera a que empiece a hervir.\n\n
+"/>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

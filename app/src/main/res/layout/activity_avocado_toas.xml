@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_amarillo"
+    tools:context=".AvocadoToasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/avocado_toas"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Ingredientes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - Pan de caja\n
+- 1 Aguacate\n
+- 1 Huevo\n
+- 1 Limon\n
+- 1 Jitomate\n
+- Sal\n
+- Pimienta"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Preparacion"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:text="1 - Ponemos el pan a tostar en comal o en tostadora:\n\n
+            *En comal: la llama baja y pon las rebanadas de pan alejadas del centro del comal, pon 5 min por cada lado, o hasta que tomen un color café claro\n\n
+            *En tostadora: poner el pan a 250°C por 3 minutos, si no consigues el color tostado vuelve a meter el pan 1 min más a la misma temperatura hasta que se torne color café claro.\n\n
+2 - Mientras, calentamos un sartén a fuego medio con un poco de aceite bien esparcido y cuando esté caliente ponemos el huevo estrellado, pon un poco de sal y pimienta en la yema.\n\n
+3 - En un bowl aplasta el aguacate y mezcla con la mitad del limón, sal y pimienta y úntalo sobre las dos rebanadas de pan.\n\n
+4 - Pon el huevo estrellado sobre una rebanada de pan y en la otra ponemos rodajas de jitomate con mezcla de hierbas para ensalada o el aderezo de tu preferencia.\n\n
+"/>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

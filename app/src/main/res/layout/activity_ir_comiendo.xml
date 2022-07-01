@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_mantel"
+    tools:context=".IrComiendo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+
+            android:id="@+id/bt_sandwiches"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:text="Sandwiches" />
+
+        <TextView
+
+            android:id="@+id/bt_tortas"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:textSize="40sp"
+            android:text="Tortas" />
+
+        <TextView
+
+            android:id="@+id/bt_wraps"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:textSize="40sp"
+            android:text="Wraps" />
+
+        <TextView
+
+            android:id="@+id/bt_croissant"
+            android:layout_width="match_parent"
+            android:layout_height="128dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:text="Croissant" />
+
+        <TextView
+
+            android:id="@+id/bt_panini"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:text="Panini" />
+
+        <TextView
+
+            android:id="@+id/bt_hamburguesas"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:text="Hamburguesas" />
+
+        <TextView
+
+            android:id="@+id/bt_licuados"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:text="Licuados" />
+
+        <TextView
+
+            android:id="@+id/bt_antojitos"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:text="Antojitos" />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_amarillo"
+    tools:context=".ChilaquilesRojosVerdesActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chilaquiles_verdes"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Ingredientes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text="- 500grs de totopos de maiz\n
+- 1 Kg de tomate verde limpio pelado\n
+- ½	Cebolla\n
+- 1 Diente de ajo pelado\n
+- 2 Chiles serranos\n
+- 1/8 De manojo de cilantro (Solo las hojas)\n
+- 1 Cebolla fileteada Finamente\n
+- 100grs de queso fresco panela, cotija o manchego\n
+- 2 Cucharadas de aceite\n
+- Sal y pimineta al gusto\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Preparacion"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:text="1- En una olla poner los tomates y los chiles a cocer con suficiente agua Los tomates y chiles estarán cocidos cuando el color de ambos cambie a un color verde sin brillo y apagado. No se debe tirar el agua donde se cocieron los tomates ya que se va a utilizar.\n\n
+2- Poner en la licuadora los tomates, lo chiles, la cebolla, cilantro, ajo, sal, pimienta y licuar.
+3- En una olla mediana poner el aceite y calentar, ya caliente poner la salsa de la licuadora en la olla y debe chisporrotear. Mover y poner agua de la olla de cocimiento de los tomates no debe quedar muy aguada ni muy espesa.\n\n
+4- Cuando se vaya a emplatar colocar los totopos para una porción en un bol tibio de vidrio o de aluminio. Verterles salsa suficiente y emplatarlos.\n\n
+5- Espolvorear los chilaquiles con queso y una cucharada de crema.\n\n
+6- Opcionalmente poner cebolla poner en la mesa la cebolla fileteada.\n\n"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_amarillo"
+    tools:context=".HuevosNormaActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Ingredientes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text=" - 2 Huevos\n
+-1 Pieza de pan thins\n
+-2 Rebanadas circulares de queso manchego\n
+-2 Rebanadas de pechuga de pollo rostizado\n
+-2 Rebanadas delagdas de jitomate bola\n
+-2 Cucharadas de aceite de canola\n
+- Sal y pimienta al gusto"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Preparacion"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:text="1- Calentar el sartén con el aceite\n\n
+2- Romper los huevos en cazo pequeño de aluminio\n\n
+3- Con el sartén caliente verter los huevos en él. Cocinarlos al gusto"/>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

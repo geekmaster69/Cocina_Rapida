@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_amarillo"
+    tools:context=".CremaHabasActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/crema_habas"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Ingredientes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - 400g De Habas\n
+- 3 Papas medianas\n
+- 2 Zanahorias\
+- 1 Cebolla\n
+- Aceite\n
+- 1  Litro de agua\n
+- Sl y Pimienta\n
+- 1 Cucharada de caldo de pollo en polvo\n
+
+"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Sustitutos"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - Puré de papa deshidratado\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Preparacion"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:text=" 1 - Rebanar las zanahorias, las papas y la cebolla en trozos medianos.\n\n
+2- En una cacerola con un un poco de aceite,sofreímos la cebolla y las zanahorias.\n\n
+3 - Cuando la cebolla esté transparente agregamos las papas.\n\n
+4 - Ya que la papa se vea un poco blanda se agrega el litro de agua y añadimos las habas y agregamos sal y pimienta.\n\n
+5 - Dejamos que hierba unos 20- 25 min hasta que las habas cambian de verde brillante a un verde opaco.\n\n
+6 - Ahora agregamos todo a la licuadora con una cucharada o un cubo de caldo de pollo.\n\n
+7 - Sirve, puedes acompañar con jamón, crutones.\n"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Opcionales"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - Puedes acompañar con rebanadas de pan tostado o con crutones."/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

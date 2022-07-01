@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_amarillo"
+    tools:context=".CaldoTlalpenoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/caldo_tlalpeno"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Ingredientes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - 2 Piernas de pollo sin piel\n
+- 2 Muslos de pollo sin piel\n
+- 1 Pechuga sin piel\n
+- ¼ De cebolla\n
+- 1 Diente de ajo\n
+- 2L De agua\n
+- Sal en grano\n
+- Puré de tomate condimentado\n
+- 1 Lata de chile chipotle\n
+- 2 Chiles guajillo remojados en agua caliente\n
+- 1 Ramita de epazote\n
+- 4  Zanahorias grandes cocidas y  cortadas en trozos pequeños (ir básicos de cocina)\n
+- 3 Papas medianas cocidas y en trozos pequeños (ir básicos de cocina)\n
+- Un puñado de ejotes cocidos y en trozos pequeños (ir básicos de cocina)\n
+- 250g de Garbanzos cocidos (ir básicos de la cocina)\n"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Sustitutos"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - 2 latas  de garbanzos\n
+- 2 latas  de zanahoria y papas en trozos\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Preparacion"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:text=" 1 - En una olla a fuego medio agrega las piernas de pollo, muslos de pollo, pechuga de pollo, ajo, cebolla, garbanzos, sal en grano y los 2L de agua, deja hervir.\n\n
+2 - Mientras hierve el caldo, en la licuadora agregamos el chipotle, el puré de tomate y los chiles.\n\n
+3 - Cuando el caldo empiece a hervir vertemos la salsa de la licuadora, y la rama de epazote  en el caldo de pollo y bajamos la llama a fuego bajo.\n\n
+4 - Dejamos hervir 20 min, y agregamos las zanahorias y las papas.\n\n
+5 - Sirve caliente con una rebanada de aguacate, puedes acompañar con un poco de limón, tortillas, queso panela y más chipotle.\n\n"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Opcionales"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - Tortillas\n
+- Queso panela\n
+- Aguacate\n"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

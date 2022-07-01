@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_amarillo"
+    tools:context=".SpaghettiCremaAguacateActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/spaghetti_aguacate"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Ingredientes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - 500g De pasta\n
+- ⅓ Taza de cacahuates (pueden ser naturales o con sal y limón)\n
+- 1 Taza de menta fresca\n
+- ½ Taza de perejil\n
+- ½ Taza de cilantro\n
+- 1 Diente de ajo\n
+- 3 Limones verdes \n
+- 1 ½ Aguacates grandes\n
+- ¼ Taza aceite de oliva\n
+- 1 Taza de agua de la cocción de la pasta\n
+
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Preparacion"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:text=" 1 - Cocer la pasta( ir a básicos de la cocina)\n\n
+2 - En la licuadora ponemos todo el aguacate,  la menta, perejil, cilantro, ajo, el jugo del limón, agua de la cocción de la pasta, el aceite de oliva y sal y pimienta al gusto.\n\n
+3 - Agrega la mezcla a la pasta y envuelve suavemente hasta que toda la pasta esté perfectamente mezclada con la salsa.\n\n
+4 - Sirve.
+"
+/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Para Acompañar"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - Pechiga asada.\n
+- Queso parmesano."/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

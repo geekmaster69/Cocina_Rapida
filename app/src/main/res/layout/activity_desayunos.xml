@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_mantel"
+    tools:context=".DesayunosActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/desayuno_menu"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/bt_huevo_amelia"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="Huevos Estilo Amelia"/>
+
+        <TextView
+            android:id="@+id/bt_huevo_norma"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:text="Huevos Norma"/>
+
+        <TextView
+            android:id="@+id/bt_omelette_jamon_queso"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="32sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:text="Omelette de Jamon y Queso"/>
+
+        <TextView
+            android:id="@+id/bt_huevo_tortilla_jalapeño"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:layout_marginBottom="8dp"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:text="Huevo con tortilla y jalapeños"/>
+
+        <TextView
+            android:id="@+id/bt_huevo_lugo_lopez"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:text="Huevos Lugo Lopez"/>
+
+        <TextView
+            android:id="@+id/bt_huevo_salsa_jitomate"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:layout_marginBottom="8dp"
+            android:text="Huevos en salsa de jitomate"/>
+
+        <TextView
+            android:id="@+id/bt_chilaquiles_rojos_verdes"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:layout_marginBottom="8dp"
+            android:text="Chilaquiles Rojos o Verdes"/>
+
+        <TextView
+            android:id="@+id/bt_enfrijoladas"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:layout_marginBottom="8dp"
+            android:text="Enfrijoladas"/>
+
+        <TextView
+            android:id="@+id/bt_panque_avena"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:layout_marginBottom="8dp"
+            android:text="Panqué de Avena"/>
+
+        <TextView
+            android:id="@+id/bt_avocado_toas"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:layout_marginBottom="8dp"
+            android:text="Avocado Toas"/>
+
+        <TextView
+            android:id="@+id/bt_omurice"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:layout_marginBottom="8dp"
+            android:text="Omurice"/>
+        <TextView
+            android:id="@+id/bt_omelette_espinacas"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:layout_marginBottom="8dp"
+            android:text="Omelette de Espinacas"/>
+
+        <TextView
+            android:id="@+id/bt_omelette_champinones"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:layout_marginBottom="8dp"
+            android:text="Omelette de Champiñomes"/>
+
+        <TextView
+            android:id="@+id/bt_huevo_salchicha"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:layout_marginBottom="8dp"
+            android:text="Huevo con Salchicha"/>
+
+    </LinearLayout>
+</ScrollView>

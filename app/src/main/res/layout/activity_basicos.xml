@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_principal"
+    tools:context=".BasicosActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/bt_utensilios"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/madera_boton"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:fontFamily="@font/dancin_script_regular"
+            android:layout_marginBottom="16dp"
+            android:text="Utensilios"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/madera_boton"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:fontFamily="@font/dancin_script_regular"
+            android:layout_marginBottom="16dp"
+            android:text="Sartenes y Ollas"/>
+        <TextView
+            android:id="@+id/bt_especias"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/madera_boton"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:fontFamily="@font/dancin_script_regular"
+            android:layout_marginBottom="16dp"
+            android:text="Especias"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/madera_boton"
+            android:textSize="40sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:fontFamily="@font/dancin_script_regular"
+            android:layout_marginBottom="16dp"
+            android:text="Despensa"/>
+
+        <TextView
+            android:id="@+id/tecnicas"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:gravity="center"
+            android:text="Tecnicas"
+            android:textColor="@color/white"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/tecnicas_universal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tecnicas"/>
+
+
+    </LinearLayout>
+
+</ScrollView>

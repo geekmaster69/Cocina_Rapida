@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context=".SalsaVerdeCocidaActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Ingredientes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - 1kg de tomate verde pelado y limpio\n
+- ½	cebolla\n
+- 2	dientes ajo pelado\n
+- 3	chiles serranos\n
+- 1/5	de manojo de cilantro solo hojas sin tallo\n
+- Sal y pimienta al gusto\n
+- Oregano, Albahaca\n
+- 2 Cucharadas de aceite"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Preparacion"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:text="1 - En una olla a fuego medio coloca un chorrito de aceite y saltea el ajo y la cebolla.\n\n
+2 - Después de 3 min agrega la zanahoria y el apio picado en trozos pequeños.\n\n
+3 - Agrega el orégano, el tomillo, la sal y la pimienta y cocina por 8 minutos.\n\n
+4 - Agrega el puré de tomate, la col y el caldo de verduras o pollo y espera a que empiece a hervir.\n\n
+"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

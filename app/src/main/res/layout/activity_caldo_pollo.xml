@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_amarillo"
+    tools:context=".CaldoPolloActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/caldo_pollo_2"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Ingredientes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - 4 Piernas de pollo\n
+- 4 Muslos de pollo\n
+- 4 Zanahorias\n
+- 2 Chayotes\n
+- 2 Papas grandes\n
+- 1 Brócoli\n
+- 4 calabazas\n
+- 1 Cebolla\n
+- 2 Dientes de ajo\n
+- Un manojo de cilantro\n
+- Sal de grano"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Opcionales"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - Aguacate\n
+- Salsa de tu Preferencia\n
+-Queso Panela\n
+-Tortillas"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Sustitutos"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - Bolsa de vegetales congelados"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Preparacion"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:text=" 1 - En una olla grande agrega el pollo con los dientes de ajo, media cebolla, manojo de cilantro y unas dos cucharadas de sal de grano, zanahorias en trozos,papas en trozos, brócoli en trozos y chayote en trozos.\n\n
+2 - Llena la olla de agua hasta cubrir el pollo y las verduras , calienta hasta hervir, dejá hervir 20 min (o bien en una olla express electrica deja 12 min y libera la presión.\n\n
+3 - cuando las papas y las zanahorias estén suaves, agrega la calabaza en trozos, mueve (para que la calabaza se sumerja en el caldo hirviendo y deja hervir otros 5 min.\n\n
+4- Sirve.
+"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

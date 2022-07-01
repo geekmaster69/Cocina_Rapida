@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_amarillo"
+    tools:context=".EnfrijoladasActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/enfrijoladas"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Ingredientes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text="- 4 Huevos\n
+- 2 Jitomates picados en cuadros\n
+- 1 Cebolla picada\n
+- 1 Chile cuaresmeño fileteado en julianas\n
+- 1 Bolsa de frojoles negros refritos\n
+- 1/5 Manojo de cilantro\n
+- 100grs de longaniza\n
+- Crema\n
+- 3 Cucharadas de aceite\n
+- Agua\n
+- Sll y pimienta al gusto\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Preparacion"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:text="1- En un Bowl batir los huevos con sal y pimienta.\n\n
+2- Calentar un sartén con la mantequilla, ya caliente adicionar ½ de la cebolla y un jitomate picados. Cuando la cebolla este translucida adicionar el huevo y mover hasta que el huevo este cocido, reservar.\n\n
+3- Pone en la licuadora el resto de la cebolla, la mitad del jitomate restante, el cilantro, el ajo y los frijoles negros con 50 ml de agua para que todo se licue en forma uniforme.\n\n
+4- En un sartén con una cucharada de aceite, dorar la longaniza y las julianas de chile cuaresmeño y reservar ambos.\n\n
+5- En el sartén con la grasa de la longaniza caliente, verter la salsa de frijol, debe chisporrotear, mover hasta que la salsa se cueza, añadir sal y pimienta para rectificar la sazón.\n\n
+6- Calentar las tortillas de preferencia en un horno de microondas, yo no frío las tortillas, pero es al gusto. Con las tortillas calientes rellenarlas con huevo y enrollarla. Repetir esto con dos más y ponerlas en un plato tibio.\n\n
+7- Verter sobre los tacos salsa de frijol hasta cubrirlos. Con una cuchara 	verter sobre ellos un poco de crema, un poco de longaniza y unas rajas de cuaresmeño.\n\n
+"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</ScrollView>

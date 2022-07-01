@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_amarillo"
+    tools:context=".TecnicasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Desinfectar Verduras"/>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - Desinfectar verduras\n
+- Colocar las verduras en un recipiente\n
+- Agregar lo de una tapa de cloro en el recipiente\n
+- Llegar de agua hasta que cubran las verduras\n
+- Esperar 5 minutos\n
+- Enjuagar con agua\n
+"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Cortar Cebolla"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cortar_cebolla"
+            android:layout_marginBottom="16dp"
+            android:adjustViewBounds="true"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/black"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:text="Cocer Pasta"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - Poner en una olla suficiente agua, (1L por cada 100g Aporx.)\n
+- Agregar: 1 diente de ajo, media cebolla, sal de grano y 3 hojas de laurel\n
+- Calentar hasta que empiece a hervir\n
+- El tiempo de cocción cambia dependiendo de la pasta de entre 5 a 15 minutos\n
+- La pasta debe estar suabe\n
+"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:background="@color/black"/>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

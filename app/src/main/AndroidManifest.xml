@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cocinarapida">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CocinaRapida">
+        <activity
+            android:name=".HuevoSalchichaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OmeletteChampinonesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OmeletteEspinacasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OmuriceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AvocadoToasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TecnicasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WrapJitomateEspinacaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".WrapSushiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BowlArrozHuevoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PanqueAvenaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CaldoTlalpenoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CremaVerdurasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CremaEspinacasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SopaPoroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CremaHabasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CremaChampinonesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpaghettiRojoCremosoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpaghettiPimientoCremosoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpaghettiCremaAguacateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpaghettiPestoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SpaguettiTomateAlabahacaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EspeciasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UtensiliosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".BasicosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EnfrijoladasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ChilaquilesRojosVerdesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HuevosSalsaJitomateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HuevoLugoLopezActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HuevoTortillaJalapenosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OmeletteJamonQuesoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HuevosNormaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HuevosAmeliaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DesayunosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SalsaVerdeCocidaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SalsasMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SopaColActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SopaVerdolagasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CaldoPolloActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SopaFideosActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".PastaTomateAlbahacaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PastaCamaronesSalsaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PastasMenu"
+            android:exported="false" />
+        <activity
+            android:name=".IrComiendo"
+            android:exported="false" />
+        <activity
+            android:name=".Parallevar"
+            android:exported="false" />
+        <activity
+            android:name=".OnionSoupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SopasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TogoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RideActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CtipoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

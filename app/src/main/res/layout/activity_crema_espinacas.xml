@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_amarillo"
+    tools:context=".CremaEspinacasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/crema_espinacas"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Ingredientes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - Un manojo de espinacas\n
+- 250ml de leche evaporada\n
+- 3 Papas cocidas en cubos pequeños\n
+- 1 Taza de leche\n
+- ½ Litro de caldo de pollo\n
+- ½ Cucharada de caldo de pollo en polvo\n
+- 2 Cucharadas de mantequilla\n"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Sustitutos"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - Espinacas en bolsa (Sustituye espinacas)\n
+- Caldo de pollo en tetrapack (Sustituye caldo de pollo)\n
+- Puré de papa deshidratado (Sustituye papas)\n"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Preparacion"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:text=" 1 - Desinfectar las espinacas (ir básicos de cocina) si tienes espinacas en bolsa puedes saltarte este paso.\n\n
+2 - En una olla ponemos a derretir la mantequilla.\n\n
+3 - Licuamos las espinacas, leche evaporada,3 papas cocidas en cubos pequeños, la leche, ½ litro de caldo de pollo. (si no cabe todo en el vaso de la licuadora, licua por partes).\n\n
+4 - Vaciamos la mezcla de la licuadora a la olla que tiene la mantequilla derretida.\n\n
+5 - Mezclamos hasta que tengamos un color homogéneo.\n\n
+6 - Dejamos hervir a fuego medio 15 minutos.\n\n
+7 - Servir.\n
+"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

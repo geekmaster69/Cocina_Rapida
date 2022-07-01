@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_amarillo"
+    tools:context=".WrapSushiActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/wrap_sushi"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Ingredientes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text="- 1 Hoja de nori\n
+- Medio aguacate\n
+- 1 Pepino\n
+- 2 Barras de surimi\n
+- 1 Taza de arroz al vapor (ir básicos de la cocina)\n
+- Queso crema\n
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Preparacion"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:text="1- Imaginariamente vamos a trazar dos líneas que dividan en cuatro cuadros  la hoja de nori y vamos a cortar un lado de uno de los cuadros hacia el centro.\n\n
+2 - En un cuadro vamos a poner una capa de arroz al vapor  presionando el arroz hasta que cubra todo el espacio de ese cuadro.\n\n
+3 - En el siguiente cuadro vamos a poner el surimi calientito (ir básicos de la cocina) y rebanamos la barra a lo largo y a lo ancho de forma que cubra el segundo cuadro\n\n
+4 - En el tercer cuadro ponemos rebanadas en medias lunas delgadas de aguacate hasta que se cubra todo el cuadro.\n\n
+5 - En el último cuadro ponemos una capa delgada de queso crema y rebanadas delgadas en ángulo del pepino (con cáscara o sin cáscara)\n\n
+6 - Ahora doblamos, el cuadro con el corte en un lado sobre el segundo cuadro, luego el tercero y el cuarto.\n\n
+7 - Obtendremos un “sándwich” , puedes partir en triángulo con un cuchillo de cierra  o llevártelo en sandwich.\n\n
+"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

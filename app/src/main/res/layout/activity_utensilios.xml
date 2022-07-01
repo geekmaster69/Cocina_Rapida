@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_principal"
+    tools:context=".UtensiliosActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/sarten"
+            app:layout_constraintEnd_toStartOf="@id/wok"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/sarten_2" />
+        <TextView
+            android:id="@+id/text_sarten"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/sarten"
+            app:layout_constraintEnd_toStartOf="@id/text_wok"
+            android:layout_width="0dp"
+            android:text="Sarten"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/wok"
+            app:layout_constraintStart_toEndOf="@id/sarten"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/wok_3" />
+
+        <TextView
+            android:id="@+id/text_wok"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/wok"
+            app:layout_constraintStart_toEndOf="@id/text_sarten"
+            android:layout_width="0dp"
+            android:text="Wok"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginTop="16dp"
+            android:id="@+id/cucharon_sopa"
+            app:layout_constraintEnd_toStartOf="@id/cuchara_pasta"
+            app:layout_constraintTop_toBottomOf="@id/text_sarten"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/cucharon_sopa" />
+        <TextView
+            android:id="@+id/text_cucharon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cucharon_sopa"
+            app:layout_constraintEnd_toStartOf="@id/text_cuchara_pasta"
+            android:layout_width="0dp"
+            android:text="Cucharon de Sopa"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginTop="16dp"
+            android:id="@+id/cuchara_pasta"
+            app:layout_constraintStart_toEndOf="@id/cucharon_sopa"
+            app:layout_constraintTop_toBottomOf="@id/text_wok"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/cuchara_pasta" />
+        <TextView
+            android:id="@+id/text_cuchara_pasta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cuchara_pasta"
+            app:layout_constraintStart_toEndOf="@id/text_cucharon"
+            android:layout_width="0dp"
+            android:text="Cuchara de Pasta"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginTop="16dp"
+            android:id="@+id/espatula"
+            app:layout_constraintEnd_toStartOf="@id/pinzas"
+            app:layout_constraintTop_toBottomOf="@id/text_cucharon"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:layout_marginEnd="8dp"
+            android:src="@drawable/espatula" />
+        <TextView
+            android:id="@+id/text_espatula"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/espatula"
+            app:layout_constraintEnd_toStartOf="@id/text_pinzas"
+            android:layout_width="0dp"
+            android:text="Espátula"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginTop="16dp"
+            android:id="@+id/pinzas"
+            app:layout_constraintStart_toEndOf="@id/espatula"
+            app:layout_constraintTop_toBottomOf="@id/text_cuchara_pasta"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/pinzas_cocina" />
+        <TextView
+            android:id="@+id/text_pinzas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/pinzas"
+            app:layout_constraintStart_toEndOf="@id/text_espatula"
+            android:layout_width="0dp"
+            android:text="Pinzas para Cocina"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_height="wrap_content"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

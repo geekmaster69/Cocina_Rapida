@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/fondo_amarillo"
+    tools:context=".OmuriceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/omurice"
+            android:adjustViewBounds="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Ingredientes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"
+            android:text=" - 2 Huevos\n
+- 1 cebollín o cebolla cambray\n
+- 1 cuadro de mantequilla\n
+- ½ taza de arroz rojo, blanco, chino o al vapor (el de tu preferencia)\n
+- Agua\n
+- Catsup\n
+- Sal\n
+- Pimienta\n
+"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="Preparacion"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"
+            android:text="1 - En un sartén mediano ponemos la mantequilla a derretir a fuego bajo.\n\n
+2 - Mientras rebanamos todo el cebollín, separamos los trozos picados de la cabeza y los trozos de la cola.\n\n
+3 - En un bowl batimos los huevos con sal, pimienta y los trozos que picamos de la cabeza del cebollín.\n\n
+4 - Ya con la mantequilla derretida, la esparcimos por todo el sartén y vaciamos el huevo batido por todo el sartén y tapamos.\n\n
+5 - Calentamos el arroz preparado que escogimos en un sartén con 10ml de agua a fuego medio por 10 min  o por 2min 30seg, en el microondas.\n\n
+6 - Ya que el huevo esté completamente cocido, en un extremo ponemos el arroz y doblamos la tortilla de huevo (si te sientes más seguro puedes intentar enrollar la tortilla y que el arroz quede en medio).\n\n
+7 - Retiramos de la sartén ponemos la cola picada del  cebollín sobre el huevo y  una línea en zig zag de catsup.\n\n
+8 - Sirve."/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

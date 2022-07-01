@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/fondo_mantel"
+    android:layout_marginBottom="8dp"
+    tools:context=".SopasActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sopas_portada"
+            android:adjustViewBounds="true"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:id="@+id/bt_sopa_verdolagas"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:fontFamily="@font/dancin_script_regular"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/madera_boton"
+            android:text="Sopa de Verdolagas"/>
+
+        <TextView
+            android:id="@+id/bt_sopa_fideos"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/madera_boton"
+            android:fontFamily="@font/dancin_script_regular"
+            android:text="Sopa de Fideos"/>
+
+        <TextView
+            android:id="@+id/bt_caldo_pollo"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="40sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:fontFamily="@font/dancin_script_regular"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:text="Caldo de Pollo"/>
+
+        <TextView
+            android:id="@+id/bt_sopa_col"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="40sp"
+            android:gravity="center"
+            android:fontFamily="@font/dancin_script_regular"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/madera_boton"
+            android:text="Sopa de Col y Tomate"/>
+        <TextView
+            android:id="@+id/bt_crema_champiñones"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="40sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:fontFamily="@font/dancin_script_regular"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:text="Crema de Champiñones"/>
+        <TextView
+            android:id="@+id/bt_crema_habas"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="40sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:fontFamily="@font/dancin_script_regular"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:text="Crema de Habas"/>
+
+        <TextView
+            android:id="@+id/bt_sopa_poro"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="40sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:fontFamily="@font/dancin_script_regular"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:text="Sopa de Poro"/>
+        <TextView
+            android:id="@+id/bt_crema_espinacas"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="40sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:fontFamily="@font/dancin_script_regular"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:text="Crema de Espinacas"/>
+
+        <TextView
+            android:id="@+id/bt_crema_verduras"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="40sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:fontFamily="@font/dancin_script_regular"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:text="Crema de Verduras"/>
+
+        <TextView
+            android:id="@+id/bt_caldo_talpeno"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="40sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:fontFamily="@font/dancin_script_regular"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:text="Caldo Tlalpeño"/>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
+            
+            
