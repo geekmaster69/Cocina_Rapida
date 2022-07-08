@@ -36,56 +36,49 @@
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:textSize="20sp"
-            android:gravity="start"
-            android:text="@string/cuadro_leche_ev_250"/>
+            android:gravity="start"/>
         <TextView
             android:id="@+id/ingredient_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:textSize="20sp"
-            android:gravity="start"
-            android:text="@string/mantequilla_1_4"/>
+            android:gravity="start"/>
         <TextView
             android:id="@+id/ingredient_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:textSize="20sp"
-            android:gravity="start"
-            android:text="@string/papas_medianas_4"/>
+            android:gravity="start"/>
         <TextView
             android:id="@+id/ingredient_4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:textSize="20sp"
-            android:gravity="start"
-            android:text="@string/champinones_250"/>
+            android:gravity="start"/>
         <TextView
             android:id="@+id/ingredient_5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:textSize="20sp"
-            android:gravity="start"
-            android:text="@string/tazas_agua_4"/>
+            android:gravity="start"/>
         <TextView
             android:id="@+id/ingredient_6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:textSize="20sp"
-            android:gravity="start"
-            android:text="@string/clado_pollo_cucharada_4"/>
+            android:gravity="start"/>
         <TextView
             android:id="@+id/ingredient_7"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:textSize="20sp"
-            android:gravity="start"
-            android:text="@string/taza_leche"/>
+            android:gravity="start"/>
         <TextView
             android:id="@+id/ingredient_8"
             android:layout_width="match_parent"
@@ -107,6 +100,64 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:gravity="start"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="@string/substitutes"/>
+
+        <TextView
+            android:id="@+id/substitute_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
+
+        <TextView
+            android:id="@+id/substitute_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/substitute_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/substitute_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="@string/preparation"/>
+
+        <TextView
+            android:id="@+id/tv_preparation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:layout_marginBottom="8dp"/>
+
+
 
 
     </LinearLayout>

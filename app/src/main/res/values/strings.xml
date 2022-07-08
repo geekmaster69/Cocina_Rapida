@@ -4,7 +4,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tecnicas">tecnicas</string>
     <string name="action_contactus">Contactanos</string>
+
     <string name="tv_ingredients">Ingredientes</string>
+    <string name="substitutes">Sustitutos</string>
+    <string name="preparation">Preparacion</string>
+
+    //Crema de champiñones
     <string name="cuadro_leche_ev_250">- 1 Cuadro de 250ml de leche evaporada</string>
     <string name="mantequilla_1_4">- ¼ De mantequilla</string>
     <string name="papas_medianas_4">- 4 Papas medianas</string>
@@ -12,4 +17,7 @@
     <string name="tazas_agua_4">- 4 Tazas de agua</string>
     <string name="clado_pollo_cucharada_4">- 1 Cucharada de caldo de pollo en polvo</string>
     <string name="taza_leche">- 1 Taza de leche</string>
+    <string name="pure_papa_des">- Puré de papa deshidratado</string>
+    <string name="lata_champinones_rev">- 2 Latas de champiñones rebanados\n</string>
+    <string name="prep_crema_champinones">1 - Pon a cocer las papas (ir básicos de la cocina)\n\n 2 - En una olla pon la mantequilla junto con la mitad de los champiñones (125g o bien una lata de champiñones rebanados) y saltea a fuego bajo.\n\n 3 - Corta las papas en cubos, agrega la leche evaporada, y 2 tazas de agua, licua y agrega a la olla donde están los champiñones con la mantequilla.\n\n 4 - En la misma licuadora ahora agrega las dos tazas de agua restantes, la taza de leche y la otra mitad de los champiñones (125g o una lata de champiñones rebanados)\n\n 5 - Agrega a la olla y mezcla todo hasta que tenga un color uniforme y apagar cuando empiece a hervir.\n\n 6 - Sirve.\n\n</string>
 </resources>

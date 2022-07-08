@@ -28,7 +28,20 @@ class SopasActivity : AppCompatActivity() {
             openSopaColActivity()
         }
         binding.btCremaChampiOnes.setOnClickListener {
-            openCremaChampinonesActivity()
+
+            val ingredient1: String = getString(R.string.cuadro_leche_ev_250)
+            val ingredient2: String = getString(R.string.mantequilla_1_4)
+            val ingredient3: String = getString(R.string.papas_medianas_4)
+            val ingredient4: String = getString(R.string.champinones_250)
+            val ingredient5: String = getString(R.string.tazas_agua_4)
+            val ingredient6: String = getString(R.string.clado_pollo_cucharada_4)
+            val ingredient7: String = getString(R.string.taza_leche)
+            val substitute1: String = getString(R.string.pure_papa_des)
+            val substitute2: String = getString(R.string.lata_champinones_rev)
+            val preparation1: String = getString(R.string.prep_crema_champinones)
+
+            openCremaChampinonesActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
+                ingredient6, ingredient7, substitute1, substitute2, preparation1)
         }
         binding.btCremaHabas.setOnClickListener {
             openCremaHabasActivity()
@@ -71,8 +84,26 @@ class SopasActivity : AppCompatActivity() {
         startActivity(Intent(this, CremaHabasActivity::class.java))
     }
 
-    private fun openCremaChampinonesActivity() {
-        startActivity(Intent(this, CremaChampinonesActivity::class.java))
+    private fun openCremaChampinonesActivity(ingredient1: String, ingredient2: String, ingredient3: String,
+                                             ingredient4: String, ingredient5: String, ingredient6: String, ingredient7: String,
+                                             substitute1: String, substitute2: String, preparation1: String) {
+        val intent = Intent(this, RecipeTemplateActivity::class.java)
+        intent.putExtra("ingredient_1", ingredient1)
+        intent.putExtra("ingredient_2", ingredient2)
+        intent.putExtra("ingredient_3", ingredient3)
+        intent.putExtra("ingredient_4", ingredient4)
+        intent.putExtra("ingredient_5", ingredient5)
+        intent.putExtra("ingredient_6", ingredient6)
+        intent.putExtra("ingredient_7", ingredient7)
+
+        intent.putExtra("sustituto_1", substitute1)
+        intent.putExtra("sustituto_2", substitute2)
+
+        intent.putExtra("preparation1", preparation1)
+
+        intent.putExtra("img_champinones_crema", R.drawable.crema_champinones)
+
+        startActivity(intent)
     }
 
     private fun openSopaColActivity() {

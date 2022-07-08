@@ -4,6 +4,7 @@ import android.app.SearchManager
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import com.example.cocinarapida.databinding.ActivityEspeciasBinding
 
 class EspeciasActivity : AppCompatActivity() {
@@ -12,6 +13,8 @@ class EspeciasActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityEspeciasBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         setupIntents()
     }
@@ -128,5 +131,9 @@ class EspeciasActivity : AppCompatActivity() {
         }
 
 
+
+
     }
+
+
 }

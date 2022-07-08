@@ -10,7 +10,7 @@
     tools:context=".MainActivity">
 
         <TextView
-            android:id="@+id/ib_eat_hear"
+            android:id="@+id/bt_para_comer_aqui"
             android:background="@drawable/madera_boton"
             android:layout_width="match_parent"
             android:layout_height="128dp"

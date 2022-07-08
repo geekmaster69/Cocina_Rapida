@@ -14,18 +14,23 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.ibEatHear.setOnClickListener {
-            openCtipoActivity()
-        }
+
         binding.btParaLlevar.setOnClickListener {
             openRideActivity()
         }
         binding.btParaIrComiendo.setOnClickListener {
             openTogoActivity()
         }
+        binding.btParaComerAqui.setOnClickListener {
+            openParaComerAquiActivity()
+        }
         binding.btBasicos.setOnClickListener {
             openBasicosActivity()
         }
+    }
+
+    private fun openParaComerAquiActivity() {
+        startActivity(Intent(this, ParaComerAquiActivity::class.java))
     }
 
     private fun openBasicosActivity() {
@@ -40,9 +45,7 @@ class MainActivity : AppCompatActivity() {
         startActivity( Intent(this, Parallevar::class.java))
     }
 
-    private fun openCtipoActivity() {
-        startActivity(Intent(this, ParaComerAquiActivity::class.java))
-    }
+
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)
