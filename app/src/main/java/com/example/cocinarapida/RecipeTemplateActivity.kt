@@ -12,12 +12,13 @@ class RecipeTemplateActivity : AppCompatActivity() {
         binding = ActivityRecipeTemplateBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
 
 
         val imagen_receta = intent?.getIntExtra("img_champinones_crema", 0)
         val imagen_final = imagen_receta?.let { resources.getDrawable(it) }
         binding.imgRecipe.setImageDrawable(imagen_final)
-
 
 
         binding.ingredient1.text = intent.extras?.getString("ingredient_1")
@@ -31,6 +32,13 @@ class RecipeTemplateActivity : AppCompatActivity() {
         binding.substitute1.text = intent.extras?.getString("sustituto_1")
         binding.substitute2.text = intent.extras?.getString("sustituto_2")
         binding.tvPreparation.text = intent.extras?.getString("preparation1")
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == android.R.id.home){
+            onBackPressed()
+        }
+        return super.onOptionsItemSelected(item)
     }
 
 
