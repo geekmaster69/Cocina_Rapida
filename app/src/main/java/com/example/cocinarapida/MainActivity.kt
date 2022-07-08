@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun openCtipoActivity() {
-        startActivity(Intent(this, CtipoActivity::class.java))
+        startActivity(Intent(this, ParaComerAquiActivity::class.java))
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

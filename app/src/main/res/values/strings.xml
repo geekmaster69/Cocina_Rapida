@@ -4,4 +4,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="tecnicas">tecnicas</string>
     <string name="action_contactus">Contactanos</string>
+    <string name="tv_ingredients">Ingredientes</string>
+    <string name="cuadro_leche_ev_250">- 1 Cuadro de 250ml de leche evaporada</string>
+    <string name="mantequilla_1_4">- ¼ De mantequilla</string>
+    <string name="papas_medianas_4">- 4 Papas medianas</string>
+    <string name="champinones_250">- 250g De champiñones</string>
+    <string name="tazas_agua_4">- 4 Tazas de agua</string>
+    <string name="clado_pollo_cucharada_4">- 1 Cucharada de caldo de pollo en polvo</string>
+    <string name="taza_leche">- 1 Taza de leche</string>
 </resources>

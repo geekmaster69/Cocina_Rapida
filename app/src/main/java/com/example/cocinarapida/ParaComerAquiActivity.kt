@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.cocinarapida.databinding.ActivityCtipoBinding
 
-class CtipoActivity : AppCompatActivity() {
+class ParaComerAquiActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCtipoBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
