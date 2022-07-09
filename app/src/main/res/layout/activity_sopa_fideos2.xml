@@ -64,12 +64,7 @@
             android:textColor="@color/black"
             android:textSize="24sp"
             android:layout_marginBottom="8dp"
-            android:text=" 1 - En una olla calienta el aceite a fuego medio y agrega los fideos.\n\n
-2 - Mueve los fideos con una pala hasta que logren un color tostado uniforme (si dejas de mover se pueden quemar).\n\n
-3 -  Cuando el fideo haya cambiado de color agrega el caldo de pollo y el pure de tomate.\n\n
-4 - Cocina hasta que el fideo tenga consistencia suave.\n\n
-5 - Sirve
-"/>
+            android:text="@string/prep_sop_fideos"/>
 
 
 

@@ -18,8 +18,12 @@ class SopasActivity : AppCompatActivity() {
             val sop_fod_ing_3: String = getString(R.string.aceite)
             val sop_fod_ing_4: String = getString(R.string.pure_sazonado_tetrapack)
             val sop_fod_ing_5: String = getString(R.string.caldo_pollo)
+
+            val sop_fod_subs_1: String = getString(R.string.caldo_pollo_tp)
+
+            val pre_sop_fideos: String = getString(R.string.prep_sop_fideos)
             openSopaFideosActivity(sop_fod_ing_1, sop_fod_ing_2, sop_fod_ing_3,
-                                    sop_fod_ing_4, sop_fod_ing_5)
+                                    sop_fod_ing_4, sop_fod_ing_5, sop_fod_subs_1, pre_sop_fideos)
         }
 
         binding.btCaldoPollo.setOnClickListener {
@@ -107,6 +111,7 @@ class SopasActivity : AppCompatActivity() {
 
         intent.putExtra("preparation1", preparation1)
 
+
         intent.putExtra("img_champinones_crema", R.drawable.crema_champinones)
 
         startActivity(intent)
@@ -126,13 +131,23 @@ class SopasActivity : AppCompatActivity() {
 
 
     private fun openSopaFideosActivity(sop_fod_ing_1: String,sop_fod_ing_2: String,sop_fod_ing_3:
-                                        String,sop_fod_ing_4: String,sop_fod_ing_5: String,) {
+                                        String,sop_fod_ing_4: String,sop_fod_ing_5: String,
+                                       sop_fod_subs_1: String, pre_sop_fideos: String) {
+
+        val intent = Intent(this, RecipeTemplateActivity::class.java)
 
         intent.putExtra("ingredient_1", sop_fod_ing_1)
         intent.putExtra("ingredient_2", sop_fod_ing_2)
         intent.putExtra("ingredient_3", sop_fod_ing_3)
         intent.putExtra("ingredient_4", sop_fod_ing_4)
         intent.putExtra("ingredient_5", sop_fod_ing_5)
-        val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("sustituto_1", sop_fod_subs_1)
+
+        intent.putExtra("preparation1", pre_sop_fideos)
+
+        intent.putExtra("img_champinones_crema", R.drawable.sopa_fideos)
+
+        startActivity(intent)
     }
 }
