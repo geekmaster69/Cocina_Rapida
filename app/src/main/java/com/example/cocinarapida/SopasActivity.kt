@@ -13,7 +13,13 @@ class SopasActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btSopaFideos.setOnClickListener {
-            openSopaFideosActivity()
+            val sop_fod_ing_1: String = getString(R.string.sal_gusto)
+            val sop_fod_ing_2: String = getString(R.string.bolsa_sop_fideos)
+            val sop_fod_ing_3: String = getString(R.string.aceite)
+            val sop_fod_ing_4: String = getString(R.string.pure_sazonado_tetrapack)
+            val sop_fod_ing_5: String = getString(R.string.caldo_pollo)
+            openSopaFideosActivity(sop_fod_ing_1, sop_fod_ing_2, sop_fod_ing_3,
+                                    sop_fod_ing_4, sop_fod_ing_5)
         }
 
         binding.btCaldoPollo.setOnClickListener {
@@ -119,7 +125,14 @@ class SopasActivity : AppCompatActivity() {
     }
 
 
-    private fun openSopaFideosActivity() {
-        startActivity(Intent(this, SopaFideosActivity2::class.java))
+    private fun openSopaFideosActivity(sop_fod_ing_1: String,sop_fod_ing_2: String,sop_fod_ing_3:
+                                        String,sop_fod_ing_4: String,sop_fod_ing_5: String,) {
+
+        intent.putExtra("ingredient_1", sop_fod_ing_1)
+        intent.putExtra("ingredient_2", sop_fod_ing_2)
+        intent.putExtra("ingredient_3", sop_fod_ing_3)
+        intent.putExtra("ingredient_4", sop_fod_ing_4)
+        intent.putExtra("ingredient_5", sop_fod_ing_5)
+        val intent = Intent(this, RecipeTemplateActivity::class.java)
     }
 }

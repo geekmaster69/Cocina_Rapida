@@ -33,11 +33,7 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:gravity="start"
-            android:text=" - Sal al gusto\n
-- 1 Bolsa de sopa de Fideos\n
-- Aceite\n
-- 500ml de pure sazonado en tetrapack\n
-- Caldo de pollo"/>
+            android:text="@string/caldo_pollo"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,7 +48,7 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:gravity="start"
-            android:text=" - Caldo de pollo en Tetapack"/>
+            android:text="@string/caldo_pollo_tp"/>
 
         <TextView
             android:layout_width="match_parent"
