@@ -21,17 +21,27 @@ class RecipeTemplateActivity : AppCompatActivity() {
         binding.imgRecipe.setImageDrawable(imagen_final)
 
 
+
         binding.ingredient1.text = intent.extras?.getString("ingredient_1")
         binding.ingredient2.text = intent.extras?.getString("ingredient_2")
         binding.ingredient3.text = intent.extras?.getString("ingredient_3")
         binding.ingredient4.text = intent.extras?.getString("ingredient_4")
         binding.ingredient5.text = intent.extras?.getString("ingredient_5")
         binding.ingredient6.text = intent.extras?.getString("ingredient_6")
+
+
         binding.ingredient7.text = intent.extras?.getString("ingredient_7")
+        binding.ingredient8.text = intent.extras?.getString("ingredient_8")
+        binding.ingredient9.text = intent.extras?.getString("ingredient_9")
+        binding.ingredient10.text = intent.extras?.getString("ingredient_10")
+        binding.ingredient11.text = intent.extras?.getString("ingredient_11")
 
         binding.substitute1.text = intent.extras?.getString("sustituto_1")
         binding.substitute2.text = intent.extras?.getString("sustituto_2")
         binding.tvPreparation.text = intent.extras?.getString("preparation1")
+
+
+        binding.optional1.text = intent.extras?.getString("optional_1")
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

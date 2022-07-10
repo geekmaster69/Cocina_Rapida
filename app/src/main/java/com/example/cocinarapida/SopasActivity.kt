@@ -27,7 +27,29 @@ class SopasActivity : AppCompatActivity() {
         }
 
         binding.btCaldoPollo.setOnClickListener {
-            openCaldoPolloActivity()
+
+            val cal_pollo_ing_1: String = getString(R.string.piernas_pollo_4)
+            val cal_pollo_ing_2: String = getString(R.string.muslos_pollo_4)
+            val cal_pollo_ing_3: String = getString(R.string.zanahorias_4)
+            val cal_pollo_ing_4: String = getString(R.string.chayotes_2)
+            val cal_pollo_ing_5: String = getString(R.string.papas_2)
+            val cal_pollo_ing_6: String = getString(R.string.brocoli)
+            val cal_pollo_ing_7: String = getString(R.string.calabazas_4)
+            val cal_pollo_ing_8: String = getString(R.string.cebolla)
+            val cal_pollo_ing_9: String = getString(R.string.dientes_ajo_2)
+            val cal_pollo_ing_10: String = getString(R.string.manojo_cilantro)
+            val cal_pollo_ing_11: String = getString(R.string.sal_grano)
+
+            val cal_pollo_subs_1: String = getString(R.string.vegetales_congelados)
+
+            val cal_pollo_prep: String = getString(R.string.caldo_pollo_preparation)
+
+            val cal_pollo_option: String = getString(R.string.optional_caldo_pollo)
+
+            openCaldoPolloActivity(cal_pollo_ing_1, cal_pollo_ing_2, cal_pollo_ing_3, cal_pollo_ing_4,
+                                   cal_pollo_ing_5, cal_pollo_ing_6, cal_pollo_ing_7, cal_pollo_ing_8,
+                                   cal_pollo_ing_9, cal_pollo_ing_10, cal_pollo_ing_11, cal_pollo_subs_1,
+                                    cal_pollo_prep, cal_pollo_option)
         }
 
         binding.btSopaVerdolagas.setOnClickListener {
@@ -125,8 +147,39 @@ class SopasActivity : AppCompatActivity() {
         startActivity(Intent(this, SopaVerdolagasActivity::class.java))
     }
 
-    private fun openCaldoPolloActivity() {
-        startActivity(Intent(this, CaldoPolloActivity::class.java))
+    private fun openCaldoPolloActivity(cal_pollo_ing_1: String, cal_pollo_ing_2: String, cal_pollo_ing_3: String,
+                                       cal_pollo_ing_4: String, cal_pollo_ing_5: String, cal_pollo_ing_6: String,
+                                       cal_pollo_ing_7: String, cal_pollo_ing_8: String, cal_pollo_ing_9: String,
+                                       cal_pollo_ing_10: String, cal_pollo_ing_11: String, cal_pollo_subs_1: String,
+                                       cal_pollo_prep: String, cal_pollo_option: String) {
+        val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("img_champinones_crema", R.drawable.caldo_pollo_2)
+
+        intent.putExtra("ingredient_1", cal_pollo_ing_1)
+        intent.putExtra("ingredient_2", cal_pollo_ing_2)
+        intent.putExtra("ingredient_3", cal_pollo_ing_3)
+        intent.putExtra("ingredient_4", cal_pollo_ing_4)
+        intent.putExtra("ingredient_5", cal_pollo_ing_5)
+        intent.putExtra("ingredient_6", cal_pollo_ing_6)
+        intent.putExtra("ingredient_7", cal_pollo_ing_7)
+        intent.putExtra("ingredient_8", cal_pollo_ing_8)
+        intent.putExtra("ingredient_9", cal_pollo_ing_9)
+        intent.putExtra("ingredient_10", cal_pollo_ing_10)
+        intent.putExtra("ingredient_11", cal_pollo_ing_11)
+
+
+        intent.putExtra("sustituto_1", cal_pollo_subs_1)
+
+
+        intent.putExtra("preparation1", cal_pollo_prep)
+
+        intent.putExtra("optional_1", cal_pollo_option)
+
+
+
+        startActivity(intent)
+
     }
 
 

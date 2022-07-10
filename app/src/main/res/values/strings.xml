@@ -27,4 +27,19 @@
     <string name="caldo_pollo">- Caldo de pollo</string>
     <string name="caldo_pollo_tp">- Caldo de pollo en Tetapack</string>
     <string name="prep_sop_fideos">1 - En una olla calienta el aceite a fuego medio y agrega los fideos.\n\n 2 - Mueve los fideos con una pala hasta que logren un color tostado uniforme (si dejas de mover se pueden quemar).\n\n 3 - Cuando el fideo haya cambiado de color agrega el caldo de pollo y el pure de tomate.\n\n 4 - Cocina hasta que el fideo tenga consistencia suave.\n\n 5 - Sirve</string>
+    <string name="piernas_pollo_4">- 4 Piernas de pollo</string>
+    <string name="muslos_pollo_4">- 4 Muslos de pollo</string>
+    <string name="zanahorias_4">- 4 Zanahorias</string>
+    <string name="chayotes_2">- 2 Chayotes</string>
+    <string name="papas_2">- 2 Papas grandes</string>
+    <string name="brocoli">- 1 Brócoli</string>
+    <string name="calabazas_4">- 4 calabazas</string>
+    <string name="cebolla">- 1 Cebolla</string>
+    <string name="dientes_ajo_2">- 2 Dientes de ajo</string>
+    <string name="manojo_cilantro">- Un manojo de cilantro</string>
+    <string name="sal_grano">- Sal de grano</string>
+    <string name="optional">Opcionales</string>
+    <string name="optional_caldo_pollo">- Aguacate\n - Salsa de tu Preferencia\n -Queso Panela\n -Tortillas</string>
+    <string name="vegetales_congelados">- Bolsa de vegetales congelados</string>
+    <string name="caldo_pollo_preparation">1 - En una olla grande agrega el pollo con los dientes de ajo, media cebolla, manojo de cilantro y unas dos cucharadas de sal de grano, zanahorias en trozos,papas en trozos, brócoli en trozos y chayote en trozos.\n\n 2 - Llena la olla de agua hasta cubrir el pollo y las verduras , calienta hasta hervir, dejá hervir 20 min (o bien en una olla express electrica deja 12 min y libera la presión.\n\n 3 - cuando las papas y las zanahorias estén suaves, agrega la calabaza en trozos, mueve (para que la calabaza se sumerja en el caldo hirviendo y deja hervir otros 5 min.\n\n 4- Sirve.</string>
 </resources>

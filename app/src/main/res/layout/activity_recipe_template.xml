@@ -100,6 +100,13 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:gravity="start"/>
+        <TextView
+            android:id="@+id/ingredient_11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
 
 
         <TextView
@@ -156,6 +163,31 @@
             android:textColor="@color/black"
             android:textSize="24sp"
             android:layout_marginBottom="8dp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E81212"
+            android:textSize="28sp"
+            android:gravity="center"
+            android:text="@string/optional"/>
+
+
+        <TextView
+            android:id="@+id/optional_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/optional_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
 
 
 
