@@ -35,7 +35,7 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:gravity="start"
-            android:text="@string/jitomates_2"/>
+            android:text="@string/caldo_pollo_1_1_2"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -68,10 +68,7 @@ Caldo de pollo ultrapasteurizado\n"/>
             android:textColor="@color/black"
             android:textSize="24sp"
             android:layout_marginBottom="8dp"
-            android:text=" 1 - Calienta el aceite a fuego medio  en una olla y sofríe el poro por dos minutos, no dejes de moverlo.\n\n
-2 - Licua el jitomate con el ajo, ½ litro de caldo de pollo (básicos de la cocina) y sal, cuando esté todo homogéneo viértelo en la olla.\n\n
-3 - Cuando empiece a hervir agrega las papas en cubos pequeños y el resto del caldo de pollo.\n\n
-4 - Cuando empiece a hervir de nuevo, deja cocinar a fuego bajo hasta que las papas estén suaves, agrega la pimienta y sirve caliente.\n\n"/>
+            android:text="@string/sopa_poro_preparation"/>
 
 
         <TextView
@@ -88,7 +85,7 @@ Caldo de pollo ultrapasteurizado\n"/>
             android:textColor="@color/black"
             android:textSize="20sp"
             android:gravity="start"
-            android:text=" - Puedes acompañar con rebanadas de pan tostado o con crutones."/>
+            android:text="@string/sopa_poro_options"/>
 
 
 

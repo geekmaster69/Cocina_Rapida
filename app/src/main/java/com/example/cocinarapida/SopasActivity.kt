@@ -3,6 +3,7 @@ package com.example.cocinarapida
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import android.widget.Toast
 import com.example.cocinarapida.databinding.ActivitySopasBinding
 
@@ -12,6 +13,8 @@ class SopasActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySopasBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         binding.btSopaFideos.setOnClickListener {
 
@@ -103,8 +106,10 @@ class SopasActivity : AppCompatActivity() {
             val ingredient5: String = getString(R.string.tazas_agua_4)
             val ingredient6: String = getString(R.string.clado_pollo_cucharada_4)
             val ingredient7: String = getString(R.string.taza_leche)
+
             val substitute1: String = getString(R.string.pure_papa_des)
             val substitute2: String = getString(R.string.lata_champinones_rev)
+
             val preparation1: String = getString(R.string.prep_crema_champinones)
 
             openCremaChampinonesActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
@@ -129,6 +134,23 @@ class SopasActivity : AppCompatActivity() {
                 ingredient6, ingredient7, ingredient8, substitute1, preparation1 )
         }
         binding.btSopaPoro.setOnClickListener {
+
+
+            val ingredient1: String = getString(R.string.papas_medianas_3)
+            val ingredient2: String = getString(R.string.aceite_oliva_cda)
+            val ingredient3: String = getString(R.string.poro_rodajas_1)
+            val ingredient4: String = getString(R.string.jitomates_2)
+            val ingredient5: String = getString(R.string.ajo_1)
+            val ingredient6: String = getString(R.string.caldo_pollo_1_1_2)
+            val ingredient7: String = getString(R.string.sal_pimineta_gusto)
+
+            val substitute1: String = getString(R.string.caldo_pollo_tp)
+            val substitute2: String = getString(R.string.pure_tomate_tp)
+
+            val preparation1: String = getString(R.string.sopa_poro_preparation)
+
+            val optional1: String = getString(R.string.sopa_poro_options)
+
             openSopaPoroActivity()
         }
         binding.btCremaEspinacas.setOnClickListener {
@@ -159,7 +181,8 @@ class SopasActivity : AppCompatActivity() {
     }
 
     private fun openSopaPoroActivity() {
-        startActivity(Intent(this, SopaPoroActivity::class.java))
+        val intent = Intent(this, RecipeTemplateActivity::class.java)
+
     }
 
     private fun openCremaHabasActivity(ingredient1: String, ingredient2: String, ingredient3: String,
@@ -315,5 +338,12 @@ class SopasActivity : AppCompatActivity() {
 
 
         startActivity(intent)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if(item.itemId == android.R.id.home){
+            onBackPressed()
+        }
+        return super.onOptionsItemSelected(item)
     }
 }

@@ -54,7 +54,7 @@
             android:textColor="#E81212"
             android:textSize="28sp"
             android:gravity="center"
-            android:text="Sustitutos"/>
+            android:text="@string/ejemplo_1"/>
 
         <TextView
             android:layout_width="match_parent"
