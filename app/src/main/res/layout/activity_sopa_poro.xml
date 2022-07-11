@@ -35,13 +35,7 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:gravity="start"
-            android:text=" - 3 Papas medianas en cubos pequeños\n
-1 Cucharada de aceite de oliva\n
-1 Poro en rodajas finas\n
-2 Jitomates\n
-1 Diente de ajo\n
-1 ½ Litros de caldo de pollo\n
-Sal y Pimienta\n"/>
+            android:text="@string/jitomates_2"/>
 
         <TextView
             android:layout_width="match_parent"

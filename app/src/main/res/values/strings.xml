@@ -20,6 +20,8 @@
     <string name="pure_papa_des">- Puré de papa deshidratado</string>
     <string name="lata_champinones_rev">- 2 Latas de champiñones rebanados\n</string>
     <string name="prep_crema_champinones">1 - Pon a cocer las papas (ir básicos de la cocina)\n\n 2 - En una olla pon la mantequilla junto con la mitad de los champiñones (125g o bien una lata de champiñones rebanados) y saltea a fuego bajo.\n\n 3 - Corta las papas en cubos, agrega la leche evaporada, y 2 tazas de agua, licua y agrega a la olla donde están los champiñones con la mantequilla.\n\n 4 - En la misma licuadora ahora agrega las dos tazas de agua restantes, la taza de leche y la otra mitad de los champiñones (125g o una lata de champiñones rebanados)\n\n 5 - Agrega a la olla y mezcla todo hasta que tenga un color uniforme y apagar cuando empiece a hervir.\n\n 6 - Sirve.\n\n</string>
+
+    //Sopa de Fideos
     <string name="sal_gusto">- Sal al gusto</string>
     <string name="bolsa_sop_fideos">- 1 Bolsa de sopa de Fideos</string>
     <string name="aceite">- Aceite</string>
@@ -27,6 +29,8 @@
     <string name="caldo_pollo">- Caldo de pollo</string>
     <string name="caldo_pollo_tp">- Caldo de pollo en Tetapack</string>
     <string name="prep_sop_fideos">1 - En una olla calienta el aceite a fuego medio y agrega los fideos.\n\n 2 - Mueve los fideos con una pala hasta que logren un color tostado uniforme (si dejas de mover se pueden quemar).\n\n 3 - Cuando el fideo haya cambiado de color agrega el caldo de pollo y el pure de tomate.\n\n 4 - Cocina hasta que el fideo tenga consistencia suave.\n\n 5 - Sirve</string>
+
+    //Caldo de pollo
     <string name="piernas_pollo_4">- 4 Piernas de pollo</string>
     <string name="muslos_pollo_4">- 4 Muslos de pollo</string>
     <string name="zanahorias_4">- 4 Zanahorias</string>
@@ -42,4 +46,42 @@
     <string name="optional_caldo_pollo">- Aguacate\n - Salsa de tu Preferencia\n -Queso Panela\n -Tortillas</string>
     <string name="vegetales_congelados">- Bolsa de vegetales congelados</string>
     <string name="caldo_pollo_preparation">1 - En una olla grande agrega el pollo con los dientes de ajo, media cebolla, manojo de cilantro y unas dos cucharadas de sal de grano, zanahorias en trozos,papas en trozos, brócoli en trozos y chayote en trozos.\n\n 2 - Llena la olla de agua hasta cubrir el pollo y las verduras , calienta hasta hervir, dejá hervir 20 min (o bien en una olla express electrica deja 12 min y libera la presión.\n\n 3 - cuando las papas y las zanahorias estén suaves, agrega la calabaza en trozos, mueve (para que la calabaza se sumerja en el caldo hirviendo y deja hervir otros 5 min.\n\n 4- Sirve.</string>
+
+    //Sopa de verdolagas
+    <string name="cucharadas_aceite_2">- 2 Cucharadas de aceite</string>
+    <string name="cebolla_1_4">- ¼ de cebolla</string>
+    <string name="ajos_2">- 2 Ajos</string>
+    <string name="verdolagas">- Verdolagas</string>
+    <string name="jitomates_3">- 3 Jitomates</string>
+    <string name="tazas_caldo_pollo">- 4 Tazas de caldo de pollo (Natural o Tetrapack)</string>
+    <string name="chile_guajillo_1">- 1 Chile guajillo</string>
+    <string name="pure_tomate_tp">- 1 Litro de pure de tomate condimentado</string>
+    <string name="sopa_verdeolagas_preparation">1 - Calienta el aceite en una olla a fuego medio, fríe la cebolla hasta que quede transparente, añade el ajo, las verdolagas lavadas y desinfectadas ( ir a básicos) y las papas.\n\n 2 - Cocina hasta que veas las papas doraditas por fuera.\n\n 3 - Licua los tomates (o una taza de puré de tomate con el chile guajillo.\n\n 4 - Agrega lo licuado a la olla junto con las 4 tazas de caldo de pollo y agrega sal al gusto.\n\n 5 - Deja hervir hasta que las papas estén blanditas.\n\n 6 - Sirve caliente (puedes poner un chile chipotle para agregar sabor a tu plato)</string>
+
+    //Sopa de col
+    <string name="cebolla_blanca_picada_1">- 1 Cebolla blanca picada</string>
+    <string name="cucharada_tomillo_seco_1_2">- ½ cucharada de tomillo seco</string>
+    <string name="oregano">- Orégano</string>
+    <string name="pure_tomate_2_tazas">- 2 tazas de puré de tomate</string>
+    <string name="caldo_pollo_4_tazas">- 4 Tazas de caldo de pollo (Natural o Tetrapack)</string>
+    <string name="col_picada_4_tazas">- 4 Tazas de col picada</string>
+    <string name="vara_apio_1">- 1 Vara de apio</string>
+    <string name="zanahoria_pelada_1">- 1 Zanahoria pelada</string>
+    <string name="sal_pimineta_gusto">- Sal y pimienta al gusto</string>
+    <string name="sopa_col_preparation">1 - En una olla a fuego medio coloca un chorrito de aceite y saltea el ajo y la cebolla.\n\n 2 - Después de 3 min agrega la zanahoria y el apio picado en trozos pequeños.\n\n 3 - Agrega el orégano, el tomillo, la sal y la pimienta y cocina por 8 minutos.\n\n 4 - Agrega el puré de tomate, la col y el caldo de verduras o pollo y espera a que empiece a hervir.\n\n</string>
+
+    //crema de Habas
+    <string name="habas_400g">- 400g De Habas</string>
+    <string name="papa_mediana_3">- 3 Papas medianas</string>
+    <string name="zanahorias_2">- 2 Zanahorias</string>
+    <string name="cebolla_1">- 1 Cebolla</string>
+    <string name="agua_1l">- 1 Litro de agua</string>
+    <string name="caldo_pollo_polvo_1cda">- 1 Cucharada de caldo de pollo en polvo</string>
+    <string name="pure_papa_dht">- Puré de papa deshidratado</string>
+    <string name="crema_habas_preparation">1 - Rebanar las zanahorias, las papas y la cebolla en trozos medianos.\n\n 2- En una cacerola con un un poco de aceite,sofreímos la cebolla y las zanahorias.\n\n 3 - Cuando la cebolla esté transparente agregamos las papas.\n\n 4 - Ya que la papa se vea un poco blanda se agrega el litro de agua y añadimos las habas y agregamos sal y pimienta.\n\n 5 - Dejamos que hierba unos 20- 25 min hasta que las habas cambian de verde brillante a un verde opaco.\n\n 6 - Ahora agregamos todo a la licuadora con una cucharada o un cubo de caldo de pollo.\n\n 7 - Sirve, puedes acompañar con jamón, crutones.\n</string>
+    <string name="crema_habas_options">- Puedes acompañar con rebanadas de pan tostado o con crutones.</string>
+    <string name="papas_mediana_3">- 3 Papas medianas</string>
+    <string name="aceite_oliva_cda">- 1 Cucharada de aceite de oliva</string>
+    <string name="poro_rodajas_1">- 1 Poro en rodajas finas</string>
+    <string name="jitomates_2">- 2 Jitomates</string>
 </resources>

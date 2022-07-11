@@ -3,10 +3,13 @@ package com.example.cocinarapida
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.Toast
 import com.example.cocinarapida.databinding.ActivityRecipeTemplateBinding
 
 class RecipeTemplateActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRecipeTemplateBinding
+
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityRecipeTemplateBinding.inflate(layoutInflater)
@@ -23,6 +26,7 @@ class RecipeTemplateActivity : AppCompatActivity() {
 
 
         binding.ingredient1.text = intent.extras?.getString("ingredient_1")
+
         binding.ingredient2.text = intent.extras?.getString("ingredient_2")
         binding.ingredient3.text = intent.extras?.getString("ingredient_3")
         binding.ingredient4.text = intent.extras?.getString("ingredient_4")
@@ -42,7 +46,19 @@ class RecipeTemplateActivity : AppCompatActivity() {
 
 
         binding.optional1.text = intent.extras?.getString("optional_1")
+
+        binding.ingredient1.setOnClickListener {
+           listaCompras()
+        }
+
+
+
     }
+
+    private fun listaCompras() {
+        Toast.makeText(this, "${binding.ingredient1.text} Se añadio a la lista de compras", Toast.LENGTH_SHORT).show()
+    }
+
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == android.R.id.home){
