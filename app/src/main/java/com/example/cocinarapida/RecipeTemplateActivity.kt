@@ -3,6 +3,7 @@ package com.example.cocinarapida
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
 import com.example.cocinarapida.databinding.ActivityRecipeTemplateBinding
 
@@ -36,6 +37,7 @@ class RecipeTemplateActivity : AppCompatActivity() {
         binding.ingredient9.text = intent.extras?.getString("ingredient_9")
         binding.ingredient10.text = intent.extras?.getString("ingredient_10")
         binding.ingredient11.text = intent.extras?.getString("ingredient_11")
+
 
         binding.substitute1.text = intent.extras?.getString("sustituto_1")
         binding.substitute2.text = intent.extras?.getString("sustituto_2")
