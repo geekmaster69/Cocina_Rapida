@@ -151,7 +151,9 @@ class SopasActivity : AppCompatActivity() {
 
             val optional1: String = getString(R.string.sopa_poro_options)
 
-            openSopaPoroActivity()
+            openSopaPoroActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
+                                 ingredient6, ingredient7, substitute1, substitute2, preparation1,
+                                 optional1)
         }
         binding.btCremaEspinacas.setOnClickListener {
             openCremaEspinacasActivity()
@@ -180,8 +182,29 @@ class SopasActivity : AppCompatActivity() {
         startActivity(Intent(this, CremaEspinacasActivity::class.java))
     }
 
-    private fun openSopaPoroActivity() {
+    private fun openSopaPoroActivity(ingredient1: String, ingredient2: String, ingredient3: String,
+                                     ingredient4: String, ingredient5: String, ingredient6: String,
+                                     ingredient7: String, substitute1: String, substitute2: String,
+                                      preparation1: String, optional: String) {
+
         val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("img_top_recipe", R.drawable.sopa_poro)
+
+        intent.putExtra("ingredient_1", ingredient1)
+        intent.putExtra("ingredient_2", ingredient2)
+        intent.putExtra("ingredient_3", ingredient3)
+        intent.putExtra("ingredient_4", ingredient4)
+        intent.putExtra("ingredient_5", ingredient5)
+        intent.putExtra("ingredient_6", ingredient6)
+        intent.putExtra("ingredient_7", ingredient7)
+
+        intent.putExtra("sustituto_1", substitute1)
+        intent.putExtra("sustituto_2", substitute2)
+
+        intent.putExtra("preparation1", preparation1)
+
+        startActivity(intent)
 
     }
 
@@ -190,6 +213,8 @@ class SopasActivity : AppCompatActivity() {
                                        ingredient8: String, substitute1: String, preparation1: String) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("img_top_recipe", R.drawable.crema_habas)
 
         intent.putExtra("ingredient_1", ingredient1)
         intent.putExtra("ingredient_2", ingredient2)
@@ -203,8 +228,6 @@ class SopasActivity : AppCompatActivity() {
         intent.putExtra("sustituto_1", substitute1)
 
         intent.putExtra("preparation1", preparation1)
-
-        intent.putExtra("img_champinones_crema", R.drawable.crema_habas)
 
         startActivity(intent)
 
@@ -229,7 +252,7 @@ class SopasActivity : AppCompatActivity() {
 
         intent.putExtra("preparation1", preparation1)
 
-        intent.putExtra("img_champinones_crema", R.drawable.crema_champinones)
+        intent.putExtra("img_top_recipe", R.drawable.crema_champinones)
 
         startActivity(intent)
     }
@@ -240,6 +263,8 @@ class SopasActivity : AppCompatActivity() {
                                     ingredient10: String, preparation1: String) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("img_top_recipe", R.drawable.sopa_col_tomate)
 
         intent.putExtra("ingredient_1", ingredient1)
         intent.putExtra("ingredient_2", ingredient2)
@@ -254,8 +279,6 @@ class SopasActivity : AppCompatActivity() {
 
         intent.putExtra("preparation1", preparation1)
 
-        intent.putExtra("img_champinones_crema", R.drawable.sopa_col_tomate)
-
         startActivity(intent)
     }
 
@@ -265,6 +288,8 @@ class SopasActivity : AppCompatActivity() {
                                            substitute1: String, substitute2: String, preparation1: String) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("img_top_recipe", R.drawable.sopa_verdolagas)
 
         intent.putExtra("ingredient_1", ingredient1)
         intent.putExtra("ingredient_2", ingredient2)
@@ -281,8 +306,6 @@ class SopasActivity : AppCompatActivity() {
 
         intent.putExtra("preparation1", preparation1)
 
-        intent.putExtra("img_champinones_crema", R.drawable.sopa_verdolagas)
-
         startActivity(intent)
     }
 
@@ -294,7 +317,7 @@ class SopasActivity : AppCompatActivity() {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
 
-        intent.putExtra("img_champinones_crema", R.drawable.caldo_pollo_2)
+        intent.putExtra("img_top_recipe", R.drawable.caldo_pollo_2)
 
         intent.putExtra("ingredient_1", cal_pollo_ing_1)
         intent.putExtra("ingredient_2", cal_pollo_ing_2)
@@ -307,7 +330,6 @@ class SopasActivity : AppCompatActivity() {
         intent.putExtra("ingredient_9", cal_pollo_ing_9)
         intent.putExtra("ingredient_10", cal_pollo_ing_10)
         intent.putExtra("ingredient_11", cal_pollo_ing_11)
-
 
         intent.putExtra("sustituto_1", cal_pollo_subs_1)
 
@@ -324,6 +346,8 @@ class SopasActivity : AppCompatActivity() {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
 
+        intent.putExtra("img_top_recipe", R.drawable.sopa_fideos)
+
         intent.putExtra("ingredient_1", sop_fod_ing_1)
         intent.putExtra("ingredient_2", sop_fod_ing_2)
         intent.putExtra("ingredient_3", sop_fod_ing_3)
@@ -333,9 +357,6 @@ class SopasActivity : AppCompatActivity() {
         intent.putExtra("sustituto_1", sop_fod_subs_1)
 
         intent.putExtra("preparation1", pre_sop_fideos)
-
-        intent.putExtra("img_champinones_crema", R.drawable.sopa_fideos)
-
 
         startActivity(intent)
     }
