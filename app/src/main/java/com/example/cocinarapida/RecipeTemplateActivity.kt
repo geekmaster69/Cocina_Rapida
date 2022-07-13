@@ -93,6 +93,63 @@ class RecipeTemplateActivity : AppCompatActivity() {
         }else{
             binding.ingredient11.visibility = View.VISIBLE
         }
+        binding.ingredient12.text = intent.extras?.getString("ingredient_12")
+        if (binding.ingredient12.text.isBlank()){
+            binding.ingredient12.visibility = View.GONE
+        }else{
+            binding.ingredient12.visibility = View.VISIBLE
+        }
+        binding.ingredient13.text = intent.extras?.getString("ingredient_13")
+        if (binding.ingredient13.text.isBlank()){
+            binding.ingredient13.visibility = View.GONE
+        }else{
+            binding.ingredient13.visibility = View.VISIBLE
+        }
+        binding.ingredient14.text = intent.extras?.getString("ingredient_14")
+        if (binding.ingredient14.text.isBlank()){
+            binding.ingredient14.visibility = View.GONE
+        }else{
+            binding.ingredient14.visibility = View.VISIBLE
+        }
+        binding.ingredient15.text = intent.extras?.getString("ingredient_15")
+        if (binding.ingredient15.text.isBlank()){
+            binding.ingredient15.visibility = View.GONE
+        }else{
+            binding.ingredient15.visibility = View.VISIBLE
+        }
+        binding.ingredient16.text = intent.extras?.getString("ingredient_16")
+        if (binding.ingredient16.text.isBlank()){
+            binding.ingredient16.visibility = View.GONE
+        }else{
+            binding.ingredient16.visibility = View.VISIBLE
+        }
+        binding.ingredient17.text = intent.extras?.getString("ingredient_17")
+        if (binding.ingredient17.text.isBlank()){
+            binding.ingredient17.visibility = View.GONE
+        }else{
+            binding.ingredient17.visibility = View.VISIBLE
+        }
+        binding.ingredient18.text = intent.extras?.getString("ingredient_18")
+        if (binding.ingredient18.text.isBlank()){
+            binding.ingredient18.visibility = View.GONE
+        }else{
+            binding.ingredient18.visibility = View.VISIBLE
+        }
+        binding.ingredient19.text = intent.extras?.getString("ingredient_19")
+        if (binding.ingredient19.text.isBlank()){
+            binding.ingredient19.visibility = View.GONE
+        }else{
+            binding.ingredient19.visibility = View.VISIBLE
+        }
+        binding.ingredient20.text = intent.extras?.getString("ingredient_20")
+        if (binding.ingredient20.text.isBlank()){
+            binding.ingredient20.visibility = View.GONE
+        }else{
+            binding.ingredient20.visibility = View.VISIBLE
+        }
+
+
+
 
         binding.substitute1.text = intent.extras?.getString("sustituto_1")
         if (binding.substitute1.text.isBlank()){

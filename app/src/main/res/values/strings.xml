@@ -78,8 +78,10 @@
     <string name="agua_1l">- 1 Litro de agua</string>
     <string name="caldo_pollo_polvo_1cda">- 1 Cucharada de caldo de pollo en polvo</string>
     <string name="pure_papa_dht">- Puré de papa deshidratado</string>
-    <string name="crema_habas_preparation">1 - Rebanar las zanahorias, las papas y la cebolla en trozos medianos.\n\n 2- En una cacerola con un un poco de aceite,sofreímos la cebolla y las zanahorias.\n\n 3 - Cuando la cebolla esté transparente agregamos las papas.\n\n 4 - Ya que la papa se vea un poco blanda se agrega el litro de agua y añadimos las habas y agregamos sal y pimienta.\n\n 5 - Dejamos que hierba unos 20- 25 min hasta que las habas cambian de verde brillante a un verde opaco.\n\n 6 - Ahora agregamos todo a la licuadora con una cucharada o un cubo de caldo de pollo.\n\n 7 - Sirve, puedes acompañar con jamón, crutones.\n</string>
+    <string name="crema_habas_preparation">1– Rebanar las zanahorias, las papas y la cebolla en trozos medianos.\n\n 2- En una cacerola con un un poco de aceite,sofreímos la cebolla y las zanahorias.\n\n 3 - Cuando la cebolla esté transparente agregamos las papas.\n\n 4 - Ya que la papa se vea un poco blanda se agrega el litro de agua y añadimos las habas y agregamos sal y pimienta.\n\n 5 - Dejamos que hierba unos 20- 25 min hasta que las habas cambian de verde brillante a un verde opaco.\n\n 6 - Ahora agregamos todo a la licuadora con una cucharada o un cubo de caldo de pollo.\n\n 7 - Sirve, puedes acompañar con jamón, crutones.\n</string>
     <string name="crema_habas_options">- Puedes acompañar con rebanadas de pan tostado o con crutones.</string>
+
+    //Sopa de Poro
     <string name="papas_medianas_3">- 3 Papas medianas</string>
     <string name="aceite_oliva_cda">- 1 Cucharada de aceite de oliva</string>
     <string name="poro_rodajas_1">- 1 Poro en rodajas finas</string>
@@ -89,6 +91,8 @@
     <string name="sopa_poro_preparation">1 - Calienta el aceite a fuego medio en una olla y sofríe el poro por dos minutos, no dejes de moverlo.\n\n 2 - Licua el jitomate con el ajo, ½ litro de caldo de pollo (básicos de la cocina) y sal, cuando esté todo homogéneo viértelo en la olla.\n\n 3 - Cuando empiece a hervir agrega las papas en cubos pequeños y el resto del caldo de pollo.\n\n 4 - Cuando empiece a hervir de nuevo, deja cocinar a fuego bajo hasta que las papas estén suaves, agrega la pimienta y sirve caliente.\n\n</string>
     <string name="sopa_poro_options">- Puedes acompañar con rebanadas de pan tostado o con crutones.</string>
     <string name="ejemplo_1">Sustitutos</string>
+
+    //Crema de Espinacas
     <string name="manojo_espinacas">- Un manojo de espinacas</string>
     <string name="leche_evaporada_250ml">- 250ml de leche evaporada</string>
     <string name="taza_leche_1">- 1 Taza de leche</string>
@@ -97,4 +101,25 @@
     <string name="caldo_pollo_polvo_1_2_cda">- ½ Cucharada de caldo de pollo en polvo</string>
     <string name="espinacas_bolsa">- Espinacas en bolsa (Sustituye espinacas)</string>
     <string name="crema_espinacas_preparation">1 - Desinfectar las espinacas (ir básicos de cocina) si tienes espinacas en bolsa puedes saltarte este paso.\n\n 2 - En una olla ponemos a derretir la mantequilla.\n\n 3 - Licuamos las espinacas, leche evaporada,3 papas cocidas en cubos pequeños, la leche, ½ litro de caldo de pollo. (si no cabe todo en el vaso de la licuadora, licua por partes).\n\n 4 - Vaciamos la mezcla de la licuadora a la olla que tiene la mantequilla derretida.\n\n 5 - Mezclamos hasta que tengamos un color homogéneo.\n\n 6 - Dejamos hervir a fuego medio 15 minutos.\n\n 7 - Servir.\n</string>
+    <string name="mezcla_verduras_500g">- 500g Mezcla de verduras de tu elección</string>
+    <string name="mezcla_verduras_congeladas">- Mezcla de verduras congeladas(Sustituye verduras)</string>
+    <string name="ajos_picados_frasco">- Ajos picados en frasco (Sustituye ajos)</string>
+    <string name="crema_verduras_preparation">1 - En una olla a fuego medio agrega el caldo de pollo con la cebolla y el ajo y deja hervir.\n 2 - Cuando empiece a hervir el caldo de pollo agregamos las verduras de nuestra preferencia (si ya tienes las verduras cocidas puedes saltarte éste paso)\n 3 - En la licuadora mezclamos el caldo de pollo (con ajo y cebolla), las papas, la leche evaporada y las verduras (si no cabe todo en el vaso de la licuadora podemos licuar por partes)\n 4 - Vacía en la olla, mezcla hasta que sea de un color homogéneo.\n 5 - Cuando empiece a hervir, apaga y sirve.\n</string>
+    <string name="piernas_pollo_sin_piel_2">- 2 Piernas de pollo sin piel</string>
+    <string name="muslos_pollo_sin_piel_2">- 2 Muslos de pollo sin piel</string>
+    <string name="pechuga_pollo_sin_piel">- 1 Pechuga sin piel</string>
+    <string name="agua_2l">- 2L De agua</string>
+    <string name="chile_chipotle_lata_1">- 1 Lata de chile chipotle</string>
+    <string name="chile_huajillo_remojado_2">- 2 Chiles guajillo remojados en agua caliente</string>
+    <string name="manojo_epazote">Manojo de Epazote</string>
+    <string name="ejotes_cocidos_250g">- 250g de ejotes cocidos y en trozos pequeños</string>
+    <string name="garbanzos_cocidos_250g">- 250g de Garbanzos cocidos</string>
+    <string name="caldo_tlalpeño_preparation">1 - En una olla a fuego medio agrega las piernas de pollo, muslos de pollo, pechuga de pollo, ajo, cebolla, garbanzos, sal en grano y los 2L de agua, deja hervir.\n\n 2 - Mientras hierve el caldo, en la licuadora agregamos el chipotle, el puré de tomate y los chiles.\n\n 3 - Cuando el caldo empiece a hervir vertemos la salsa de la licuadora, y la rama de epazote en el caldo de pollo y bajamos la llama a fuego bajo.\n\n 4 - Dejamos hervir 20 min, y agregamos las zanahorias y las papas.\n\n 5 - Sirve caliente con una rebanada de aguacate, puedes acompañar con un poco de limón, tortillas, queso panela y más chipotle.\n\n</string>
+    <string name="garbanzos_lata">- 2 latas de garbanzos</string>
+    <string name="zanahorias_papas_lata">- 2 latas de zanahoria y papas en trozos</string>
+    <string name="tortillas">- Tortillas</string>
+    <string name="queso_panela">Queso Panela</string>
+    <string name="aguacate">Aguacate</string>
+
+    //Crema de Verduras
 </resources>

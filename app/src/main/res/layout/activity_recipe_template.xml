@@ -107,6 +107,69 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:gravity="start"/>
+        <TextView
+            android:id="@+id/ingredient_12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/ingredient_13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/ingredient_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/ingredient_15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/ingredient_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/ingredient_17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/ingredient_18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/ingredient_19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
+        <TextView
+            android:id="@+id/ingredient_20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:gravity="start"/>
 
 
         <TextView
