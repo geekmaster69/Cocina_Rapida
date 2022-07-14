@@ -39,24 +39,28 @@ class RecipeTemplateActivity : AppCompatActivity() {
         }else{
             binding.ingredient2.visibility = View.VISIBLE
         }
+
         binding.ingredient3.text = intent.extras?.getString("ingredient_3")
         if (binding.ingredient3.text.isBlank()){
             binding.ingredient3.visibility = View.GONE
         }else{
             binding.ingredient3.visibility = View.VISIBLE
         }
+
         binding.ingredient4.text = intent.extras?.getString("ingredient_4")
         if (binding.ingredient4.text.isBlank()){
             binding.ingredient4.visibility = View.GONE
         }else{
             binding.ingredient4.visibility = View.VISIBLE
         }
+
         binding.ingredient5.text = intent.extras?.getString("ingredient_5")
         if (binding.ingredient5.text.isBlank()){
             binding.ingredient5.visibility = View.GONE
         }else{
             binding.ingredient5.visibility = View.VISIBLE
         }
+
         binding.ingredient6.text = intent.extras?.getString("ingredient_6")
         if (binding.ingredient6.text.isBlank()){
             binding.ingredient6.visibility = View.GONE
@@ -181,25 +185,12 @@ class RecipeTemplateActivity : AppCompatActivity() {
 
 
         binding.optional1.text = intent.extras?.getString("optional_1")
+        binding.optional2.text = intent.extras?.getString("optional_2")
+        binding.optional3.text = intent.extras?.getString("optional_3")
 
         binding.ingredient1.setOnClickListener {
            listaCompras()
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

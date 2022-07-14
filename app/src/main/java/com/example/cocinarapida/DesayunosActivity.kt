@@ -12,7 +12,6 @@ class DesayunosActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDesayunosBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        //hola gente
 
 
         binding.btOmeletteJamonQueso.setOnClickListener {

@@ -221,7 +221,11 @@ class SopasActivity : AppCompatActivity() {
             val optional2: String = getString(R.string.queso_panela)
             val optional3: String = getString(R.string.aguacate)
 
-            openCladoTlalpenoActivity()
+            openCladoTlalpenoActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
+                                      ingredient6, ingredient7, ingredient8, ingredient9, ingredient10,
+                                      ingredient11, ingredient12, ingredient13, ingredient14,
+                                      substitute1, substitute2, preparation1, optional1, optional2,
+                                      optional3)
         }
 
 
@@ -229,9 +233,48 @@ class SopasActivity : AppCompatActivity() {
 
     }
 
-    private fun openCladoTlalpenoActivity() {
-        startActivity(Intent(this, CaldoTlalpenoActivity::class.java))
+    private fun openCladoTlalpenoActivity(ingredient1: String, ingredient2: String, ingredient3: String,
+                                          ingredient4: String, ingredient5: String, ingredient6: String,
+                                          ingredient7: String, ingredient8: String, ingredient9: String,
+                                          ingredient10: String, ingredient11: String, ingredient12: String,
+                                          ingredient13: String, ingredient14: String, substitute1: String,
+                                          substitute2: String, preparation1: String, optional1: String,
+                                          optional2: String, optional3: String) {
+
+        val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("img_top_recipe", R.drawable.caldo_tlalpeno)
+
+        intent.putExtra("ingredient_1", ingredient1)
+        intent.putExtra("ingredient_2", ingredient2)
+        intent.putExtra("ingredient_3", ingredient3)
+        intent.putExtra("ingredient_4", ingredient4)
+        intent.putExtra("ingredient_5", ingredient5)
+        intent.putExtra("ingredient_6", ingredient6)
+        intent.putExtra("ingredient_7", ingredient7)
+        intent.putExtra("ingredient_8", ingredient8)
+        intent.putExtra("ingredient_9", ingredient9)
+        intent.putExtra("ingredient_10", ingredient10)
+        intent.putExtra("ingredient_11", ingredient11)
+        intent.putExtra("ingredient_12", ingredient12)
+        intent.putExtra("ingredient_13", ingredient13)
+        intent.putExtra("ingredient_14", ingredient14)
+
+        intent.putExtra("sustituto_2", substitute1)
+        intent.putExtra("sustituto_3", substitute2)
+
+        intent.putExtra("preparation1", preparation1)
+
+        intent.putExtra("optional_1", optional1)
+        intent.putExtra("optional_2", optional2)
+        intent.putExtra("optional_3", optional3)
+
+        startActivity(intent)
+
+
+
     }
+
 
     private fun openCremaVerdurasActivity(ingredient1: String, ingredient2: String, ingredient3: String,
                                           ingredient4: String, ingredient5: String, ingredient6: String,
@@ -239,6 +282,8 @@ class SopasActivity : AppCompatActivity() {
                                           preparation1: String) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+
 
         intent.putExtra("img_top_recipe", R.drawable.crema_verduras)
 
