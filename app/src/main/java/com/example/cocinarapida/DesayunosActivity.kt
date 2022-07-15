@@ -190,19 +190,77 @@ class DesayunosActivity : AppCompatActivity() {
                 ingredient6, ingredient7, substitute1, preparation1)
         }
         binding.btOmeletteChampinones.setOnClickListener {
-            openOmeletteChampinonesActivity()
+
+            val ingredient1: String = getString(R.string.huevos_2)
+            val ingredient2: String = getString(R.string.leche_10ml)
+            val ingredient3: String = getString(R.string.champinones_250)
+            val ingredient4: String = getString(R.string.queso_manchego_2)
+            val ingredient5: String = getString(R.string.cebolla_picada_1_4)
+            val ingredient6: String = getString(R.string.jamon)
+            val ingredient7: String = getString(R.string.mantequilla_cda_1)
+            val ingredient8: String = getString(R.string.sal_pimineta_gusto)
+
+            val preparation1: String = getString(R.string.omelette_champinones_preparation)
+
+            openOmeletteChampinonesActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
+                ingredient6, ingredient7, ingredient8, preparation1)
         }
         binding.btHuevoSalchicha.setOnClickListener {
-            openHuevoSalchichaActivity()
+
+            val ingredient1: String = getString(R.string.huevos_2)
+            val ingredient2: String = getString(R.string.leche_10ml)
+            val ingredient3: String = getString(R.string.salchichas_2)
+            val ingredient4: String = getString(R.string.mantequilla_cda_1)
+            val ingredient5: String = getString(R.string.sal_pimineta_gusto)
+
+            val preparation1: String = getString(R.string.huevos_salchicha_preparation)
+
+            openHuevoSalchichaActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
+                preparation1)
         }
     }
 
-    private fun openHuevoSalchichaActivity() {
-        startActivity(Intent(this, HuevoSalchichaActivity::class.java))
+    private fun openHuevoSalchichaActivity(ingredient1: String, ingredient2: String, ingredient3: String,
+                                           ingredient4: String, ingredient5: String, preparation1: String) {
+
+        val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("img_top_recipe", R.drawable.huevo_salchicha)
+
+        intent.putExtra("ingredient_1", ingredient1)
+        intent.putExtra("ingredient_2", ingredient2)
+        intent.putExtra("ingredient_3", ingredient3)
+        intent.putExtra("ingredient_4", ingredient4)
+        intent.putExtra("ingredient_5", ingredient5)
+
+        intent.putExtra("preparation1", preparation1)
+
+        startActivity(intent)
     }
 
-    private fun openOmeletteChampinonesActivity() {
-        startActivity(Intent(this, OmeletteChampinonesActivity::class.java))
+    private fun openOmeletteChampinonesActivity(ingredient1: String, ingredient2: String, ingredient3: String,
+                                                ingredient4: String, ingredient5: String, ingredient6: String,
+                                                ingredient7: String, ingredient8: String,
+                                                preparation1: String) {
+
+
+        val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("img_top_recipe", R.drawable.omelette_champinones)
+
+        intent.putExtra("ingredient_1", ingredient1)
+        intent.putExtra("ingredient_2", ingredient2)
+        intent.putExtra("ingredient_3", ingredient3)
+        intent.putExtra("ingredient_4", ingredient4)
+        intent.putExtra("ingredient_5", ingredient5)
+        intent.putExtra("ingredient_6", ingredient6)
+        intent.putExtra("ingredient_7", ingredient7)
+        intent.putExtra("ingredient_8", ingredient8)
+
+
+        intent.putExtra("preparation1", preparation1)
+
+        startActivity(intent)
     }
 
     private fun openOmeletteEspinacasActivity(ingredient1: String, ingredient2: String, ingredient3: String,
