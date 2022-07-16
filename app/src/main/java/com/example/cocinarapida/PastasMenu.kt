@@ -3,6 +3,7 @@ package com.example.cocinarapida
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import com.example.cocinarapida.databinding.ActivityPastasMenuBinding
 
 class PastasMenu : AppCompatActivity() {
@@ -11,6 +12,8 @@ class PastasMenu : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityPastasMenuBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         binding.btPastaCamaronBlanco.setOnClickListener {
             openPastaCamaronBlancoActivity()
@@ -54,5 +57,12 @@ class PastasMenu : AppCompatActivity() {
 
     private fun openPastaCamaronBlancoActivity() {
         startActivity(Intent(this, PastaCamaronesSalsaActivity::class.java))
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if(item.itemId == android.R.id.home){
+            onBackPressed()
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
