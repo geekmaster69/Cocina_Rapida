@@ -34,12 +34,7 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:gravity="start"
-            android:text=" - 3 jitomates bola\n
-- 1 Manojo de albahaca\n
-- 4 Dientes de ajo picado\n
-- Sal en grano\n
-- Pimienta\n
-- Queso parmesano\n"/>
+            android:text=""/>
 
         <TextView
             android:layout_width="match_parent"
@@ -56,9 +51,7 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:gravity="start"
-            android:text=" - 2 Cuadros de 350g de tomate machacado (Sustitulle jitomate)\n
-- Frasco de salsa de tomate para spaguetti (Sustitulle jitomate)\n
-- Frasco de ajo picado (Sustitulle Ajo)"/>
+            android:text="@string/pasta_albahaca_subtitute_3"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -83,9 +76,7 @@
             android:textColor="@color/black"
             android:textSize="24sp"
             android:layout_marginBottom="8dp"
-            android:text="2 - Poner en una olla a fuego medio  el tomate picado (o los dos cuadros de puré), los 4 dientes de ajo (o dos cucharadas), 1 cucharada de sal en grano. Dejar hervir\n\n
-3 - Cuando la salsa empiece a hervir  agrega medio manojode hojas de albahaca y apaga el quemador.\n\n
-4 - Servir la la pasta primero luego salsa y queso parmesano al gusto.\n\n"/>
+            android:text="@string/pasta_albahaca_preparation"/>
 
         <TextView
             android:layout_width="match_parent"

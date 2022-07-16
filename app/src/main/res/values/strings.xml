@@ -180,6 +180,18 @@
     <string name="omelette_champinones_preparation">1 - Ponemos a derretir la mantequilla en un sartén mediano a fuego bajo.\n\n 2 - En un bowl batimos los dos huevos con la leche, la sal y la pimienta.\n\n 3 - Cuando la sartén esté lista nos aseguramos de que la mantequilla cubra todo el sartén y vaciamos el huevo, tapamos y subimos a fuego medio.\n\n 4 - Cuando la tortilla de huevo esté lista ponemos el queso en toda la tortilla y los champiñones en la mitad de la tortilla.\n\n 5 - Doblamos, y esperamos a que el queso se derrita.\n\n 6 - Sirve, puedes acompañar con la salsa de tu preferencia.\n\n</string>
     <string name="salchichas_2">- 2 salchichas de tu preferencia</string>
     <string name="huevos_salchicha_preparation">1 - En un sartén mediano a fuego medio ponemos 1 cuadro de mantequilla.\n\n 2 - Mientras cortamos las salchichas en rebanadas circulares, no muy gruesas y las agregamos a la sartén.\n\n 3 - Mientras, en un bowl batimos los huevos con sal, pimienta y leche.\n\n 4 - Cuando las salchichas ya se vean un poco fritas las movemos un poco y agregamos el huevo.\n\n 5 - Movemos el huevo hasta que esté bien cocido.\n\n 6 - Sirve, puedes acompañar con catsup, salsa, tortillas o pan.</string>
+    <string name="camarones_precosidos_300grs">- 300g de Camarones precocidos</string>
+    <string name="pasta_espagueti">- Pasta Espagueti No.5 o No.7</string>
+    <string name="queso_parmesano">- Queso Parmesano</string>
+    <string name="perejil">- Perejil</string>
+    <string name="pasta_camarones_preparation">1 - Cocer la pasta 2 - Saltear en el sartén 300g de camarones con sal, pimienta y 4 dientes de ajo picados (o bien puedes usar sal de ajo y sólo agregas pimienta)\n\n 3 - cuando estén rosados los camarones, los retiras de la sartén. En esa misma sartén agrega ¼ de mantequilla, 1 taza de crema, 1 taza de agua de la pasta, ¼ de cucharada de sal y 2 dientes de ajo picados (o bien 2 cucharadas de ajo picado).\n\n 4 - Dejar hervir.\n\n 5 - agrega ¼ de taza, queso parmesano y 1 cucharada de perejil.\n\n 6 - Agregar la pasta, los camarones y mezclar.\n\n 7 - Sirve, puedes agregar mas parmesano y perejil para decorar.</string>
+    <string name="jitomate_bola_3">- 3 jitomates bola</string>
+    <string name="manojo_albahaca_1">- 1 Manojo de albahaca</string>
+    <string name="ajos_picados_4">- 4 Dientes de ajo picado</string>
+    <string name="pimienta">- Pimienta</string>
+    <string name="substitute_pasta_albahaca_1">- 2 Cuadros de 350g de tomate machacado (Sustitulle jitomate)</string>
+    <string name="pasta_albahaca_substitute_1">- Frasco de salsa de tomate para spaguetti (Sustitulle jitomate)</string>
+    <string name="pasta_albahaca_subtitute_3">- Frasco de ajo picado (Sustitulle Ajo)</string>
+    <string name="pasta_albahaca_preparation">1 - Cocer la pasta\n 2 - Poner en una olla a fuego medio el tomate picado (o los dos cuadros de puré), los 4 dientes de ajo (o dos cucharadas), 1 cucharada de sal en grano. Dejar hervir\n\n 3 - Cuando la salsa empiece a hervir agrega medio manojode hojas de albahaca y apaga el quemador.\n\n 4 - Servir la la pasta primero luego salsa y queso parmesano al gusto.\n\n</string>
 
-    //Crema de Verduras
 </resources>
