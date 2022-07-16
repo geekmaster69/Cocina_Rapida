@@ -1,7 +1,9 @@
 package com.example.cocinarapida
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
@@ -157,7 +159,8 @@ class RecipeTemplateActivity : AppCompatActivity() {
 
         binding.substitute1.text = intent.extras?.getString("sustituto_1")
         if (binding.substitute1.text.isBlank()){
-            binding.substitute1.visibility = View.GONE
+            val noSubstitutes = "***No hay sustitutos disponibles***"
+            binding.substitute1.text = noSubstitutes
         }else{
             binding.substitute1.visibility = View.VISIBLE
         }
@@ -199,10 +202,16 @@ class RecipeTemplateActivity : AppCompatActivity() {
         Toast.makeText(this, "${binding.ingredient1.text} Se añadio a la lista de compras", Toast.LENGTH_SHORT).show()
     }
 
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.menu_recipe_template, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        if (item.itemId == android.R.id.home){
-            onBackPressed()
+        when(item.itemId){
+            android.R.id.home -> onBackPressed()
+            R.id.action_basics -> startActivity(Intent(this, BasicosActivity::class.java))
         }
         return super.onOptionsItemSelected(item)
     }

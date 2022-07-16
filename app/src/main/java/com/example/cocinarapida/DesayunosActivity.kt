@@ -3,6 +3,7 @@ package com.example.cocinarapida
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import com.example.cocinarapida.databinding.ActivityDesayunosBinding
 
 class DesayunosActivity : AppCompatActivity() {
@@ -11,6 +12,10 @@ class DesayunosActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityDesayunosBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+
 
 
         binding.btOmeletteJamonQueso.setOnClickListener {
@@ -500,5 +505,12 @@ class DesayunosActivity : AppCompatActivity() {
         intent.putExtra("preparation1", preparation1)
 
         startActivity(intent)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if(item.itemId == android.R.id.home){
+            onBackPressed()
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
