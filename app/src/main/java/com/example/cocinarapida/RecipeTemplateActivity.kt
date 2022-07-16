@@ -188,8 +188,27 @@ class RecipeTemplateActivity : AppCompatActivity() {
 
 
         binding.optional1.text = intent.extras?.getString("optional_1")
+
+        if (binding.optional1.text.isBlank()){
+            val notOptions = "***No hay opciones disponibles***"
+            binding.optional1.text = notOptions
+        }else{
+            binding.optional1.visibility = View.VISIBLE
+        }
+
         binding.optional2.text = intent.extras?.getString("optional_2")
+        if (binding.optional2.text.isBlank()){
+            binding.optional2.visibility = View.GONE
+        }else{
+            binding.optional2.visibility = View.VISIBLE
+        }
+
         binding.optional3.text = intent.extras?.getString("optional_3")
+        if (binding.optional3.text.isBlank()){
+            binding.optional3.visibility = View.GONE
+        }else{
+            binding.optional3.visibility = View.VISIBLE
+        }
 
         binding.ingredient1.setOnClickListener {
            listaCompras()
