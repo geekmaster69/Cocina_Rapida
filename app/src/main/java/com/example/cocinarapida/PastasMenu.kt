@@ -51,6 +51,10 @@ class PastasMenu : AppCompatActivity() {
                 ingredient6, substitute1, substitute2, substitute3, preparation1)
         }
         binding.btPastaSalsaPesto.setOnClickListener {
+
+
+
+
            // openspaghettiPestoActivity()
         }
         binding.btSpaghettiCremaAguacate.setOnClickListener {

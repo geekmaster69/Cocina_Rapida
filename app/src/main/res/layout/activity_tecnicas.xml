@@ -30,7 +30,7 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:gravity="start"
-            android:text=" - Desinfectar verduras\n
+            android:text="
 - Colocar las verduras en un recipiente\n
 - Agregar lo de una tapa de cloro en el recipiente\n
 - Llegar de agua hasta que cubran las verduras\n
@@ -39,7 +39,7 @@
 "/>
         <View
             android:layout_width="match_parent"
-            android:layout_height="3dp"
+            android:layout_height="4dp"
             android:background="@color/black"/>
 
         <TextView
@@ -58,7 +58,7 @@
             android:adjustViewBounds="true"/>
         <View
             android:layout_width="match_parent"
-            android:layout_height="3dp"
+            android:layout_height="4dp"
             android:background="@color/black"/>
 
 
