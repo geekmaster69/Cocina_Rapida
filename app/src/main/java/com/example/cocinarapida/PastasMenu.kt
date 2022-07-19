@@ -67,15 +67,30 @@ class PastasMenu : AppCompatActivity() {
             val optional1: String = getString(R.string.pan_con_mantequilla)
             val optional2: String = getString(R.string.ensalada_campesina)
 
-
-
-
-
             openspaghettiPestoActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
             ingredient6, ingredient7,substitute1, preparation1, optional1, optional2)
+
         }
         binding.btSpaghettiCremaAguacate.setOnClickListener {
-          //  openspaghettiCremaAguacateActivity()
+
+            val ingredient1: String = getString(R.string.spaghetti_500g)
+            val ingredient2: String = getString(R.string.cacahuates_1_3_tza)
+            val ingredient3: String = getString(R.string.mente_fresca_tza_1)
+            val ingredient4: String = getString(R.string.perejil_1_2_tza)
+            val ingredient5: String = getString(R.string.cilantro_1_2_tza)
+            val ingredient6: String = getString(R.string.ajo_1)
+            val ingredient7: String = getString(R.string.limones_3)
+            val ingredient8: String = getString(R.string.aguacates_grandes_1_1_2)
+            val ingredient9: String = getString(R.string.aceite_oliva_1_4_tza)
+            val ingredient10: String = getString(R.string.agua_coccion_pasta)
+
+            val preparation1: String = getString(R.string.spaghetti_crema_aguacate_preparation)
+
+            val optional1: String = getString(R.string.pechuga_asada)
+            val optional2: String = getString(R.string.queso_parmesano)
+
+           openspaghettiCremaAguacateActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
+               ingredient6, ingredient7,ingredient8, ingredient9, ingredient10, preparation1, optional1, optional2)
         }
         binding.btSpaghettiPimientosCremoso.setOnClickListener {
            // openSpaghettiPimientosCremosoActivity()
@@ -83,6 +98,36 @@ class PastasMenu : AppCompatActivity() {
         binding.btSpaghettiRojoCremoso.setOnClickListener {
            // openSpaghettiRojoCremosoActivity()
         }
+    }
+
+    private fun openspaghettiCremaAguacateActivity(
+        ingredient1: String, ingredient2: String, ingredient3: String, ingredient4: String, ingredient5: String,
+        ingredient6: String, ingredient7: String, ingredient8: String, ingredient9: String, ingredient10: String,
+        preparation1: String, optional1: String, optional2: String) {
+
+        val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("img_top_recipe", R.drawable.spaghetti_aguacate)
+
+
+        intent.putExtra("ingredient_1", ingredient1)
+        intent.putExtra("ingredient_2", ingredient2)
+        intent.putExtra("ingredient_3", ingredient3)
+        intent.putExtra("ingredient_4", ingredient4)
+        intent.putExtra("ingredient_5", ingredient5)
+        intent.putExtra("ingredient_6", ingredient6)
+        intent.putExtra("ingredient_7", ingredient7)
+        intent.putExtra("ingredient_8", ingredient8)
+        intent.putExtra("ingredient_9", ingredient9)
+        intent.putExtra("ingredient_10", ingredient10)
+
+        intent.putExtra("preparation1", preparation1)
+
+        intent.putExtra("optional_1", optional1)
+        intent.putExtra("optional_2", optional2)
+
+        startActivity(intent)
+
     }
 
     private fun openspaghettiPestoActivity(
@@ -110,7 +155,6 @@ class PastasMenu : AppCompatActivity() {
         intent.putExtra("optional_2", optional2)
 
         startActivity(intent)
-
     }
 
     private fun openPastaTomateAlbahacaActivity(
