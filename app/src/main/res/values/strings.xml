@@ -193,5 +193,13 @@
     <string name="pasta_albahaca_substitute_1">- Frasco de salsa de tomate para spaguetti (Sustitulle jitomate)</string>
     <string name="pasta_albahaca_subtitute_3">- Frasco de ajo picado (Sustitulle Ajo)</string>
     <string name="pasta_albahaca_preparation">1 - Cocer la pasta\n 2 - Poner en una olla a fuego medio el tomate picado (o los dos cuadros de puré), los 4 dientes de ajo (o dos cucharadas), 1 cucharada de sal en grano. Dejar hervir\n\n 3 - Cuando la salsa empiece a hervir agrega medio manojode hojas de albahaca y apaga el quemador.\n\n 4 - Servir la la pasta primero luego salsa y queso parmesano al gusto.\n\n</string>
+    <string name="queso_parmesano_cda">- 1 Cucharada de queso parmesano</string>
+    <string name="aceite_oliva_1_2_tza">- ½ Taza aceite de oliva</string>
+    <string name="nueces_1_4_tza">- ¼ de taza de nueces</string>
+    <string name="spaghetti_500g">- 500g de spaghetti</string>
+    <string name="spaghetti_pesto_preparation">1 - Cocer pasta (ir a básicos de la cocina)\n\n 2 - Licuar todos los ingredientes (menos la pasta) hasta que tenga consistencia de puré y color uniforme\n\n 3 - Servir con queso parmesano</string>
+    <string name="spaghetti_pesto_substitute">- Salsa pesto en frasco (Sustitulle todos los ingredientes)</string>
+    <string name="pan_con_mantequilla">- Pan con mantequilla</string>
+    <string name="ensalada_campesina">- Ensalada Campesina</string>
 
 </resources>

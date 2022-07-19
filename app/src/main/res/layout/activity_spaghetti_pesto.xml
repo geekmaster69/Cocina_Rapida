@@ -33,13 +33,7 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:gravity="start"
-            android:text=" - 1 Taza de albahaca\n
-- 1 Cucharada de queso parmesano\n
-- 1 Diente de ajo\n
-- ½ Taza aceite de oliva\n
-- ¼ de taza de nueces\n
-- Sal al gusto\n
-- 500g de spaghetti"/>
+            android:text="@string/spaghetti_500g"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -56,7 +50,7 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:gravity="start"
-            android:text=" - Salsa pesto en frasco\n (Sustitulle todos los ingredientes)"/>
+            android:text="@string/spaghetti_pesto_substitute"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -72,10 +66,7 @@
             android:textColor="@color/black"
             android:textSize="24sp"
             android:layout_marginBottom="8dp"
-            android:text=" 1 - Cocer pasta (ir a básicos de la cocina)\n\n
-2 - Licuar todos los ingredientes (menos la pasta) hasta que tenga consistencia de puré y color uniforme\n\n
-3 - Servir con queso parmesano\n\n
-"/>
+            android:text=""/>
 
         <TextView
             android:layout_width="match_parent"
@@ -91,8 +82,7 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             android:gravity="start"
-            android:text=" - Pan con mantequilla.\n
-- Ensalada Campesina."/>
+            android:text="@string/ensalada_campesina"/>
 
 
 
