@@ -14,7 +14,7 @@
             android:background="@drawable/madera_boton"
             android:layout_width="match_parent"
             android:layout_height="128dp"
-            android:text="Para Comer Aqui"
+            android:text="@string/title_comer_aqui"
             android:textColor="@color/white"
             android:textSize="40sp"
             android:gravity="center"
@@ -26,7 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="128dp"
             android:background="@drawable/madera_boton"
-            android:text="Para llevar"
+            android:text="@string/title_para_llevar"
             android:textColor="@color/white"
             android:textSize="40sp"
             android:gravity="center"
@@ -38,7 +38,7 @@
             android:background="@drawable/madera_boton"
             android:layout_width="match_parent"
             android:layout_height="128dp"
-            android:text="Para ir Comiendo"
+            android:text="@string/title_para_ir_comiendo"
             android:textColor="@color/white"
             android:textSize="40sp"
             android:gravity="center"
@@ -54,12 +54,26 @@
                android:layout_height="match_parent">
 
                <TextView
+                   android:id="@+id/shoping_list"
                    android:layout_width="124dp"
                    android:layout_height="124dp"
                    android:layout_marginEnd="16dp"
                    android:background="@drawable/postit_fondo"
                    android:fontFamily="@font/dancin_script_regular"
-                   android:text="Tips"
+                   android:text="@string/title_lista_compras"
+                   android:textColor="@color/black"
+                   android:gravity="center"
+                   android:layout_gravity="center"
+                   android:textSize="34sp"/>
+
+               <TextView
+                   android:id="@+id/tips"
+                   android:layout_width="124dp"
+                   android:layout_height="124dp"
+                   android:layout_marginEnd="16dp"
+                   android:background="@drawable/postit_fondo"
+                   android:fontFamily="@font/dancin_script_regular"
+                   android:text="@string/title_tips"
                    android:textColor="@color/black"
                    android:gravity="center"
                    android:layout_gravity="center"
@@ -71,7 +85,7 @@
                    android:layout_height="124dp"
                    android:layout_marginEnd="16dp"
                    android:layout_gravity="center"
-                   android:text="Basicos"
+                   android:text="@string/title_basicos"
                    android:gravity="center"
                    android:textColor="@color/black"
                    android:textSize="40sp"
@@ -79,10 +93,11 @@
                    android:fontFamily="@font/dancin_script_regular"/>
 
                <TextView
+                   android:id="@+id/salsas"
                    android:layout_width="124dp"
                    android:layout_height="124dp"
                    android:layout_marginEnd="16dp"
-                   android:text="Salsas"
+                   android:text="@string/title_salsas"
                    android:gravity="center"
                    android:textSize="40sp"
                    android:textColor="@color/black"

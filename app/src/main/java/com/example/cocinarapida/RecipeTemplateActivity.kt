@@ -16,7 +16,10 @@ class RecipeTemplateActivity : AppCompatActivity() {
         binding = ActivityRecipeTemplateBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
+        supportActionBar?.let {
+            it.setDisplayHomeAsUpEnabled(true)
+            it.title = intent.extras?.getString("title")
+        }
 
 
 
@@ -218,6 +221,7 @@ class RecipeTemplateActivity : AppCompatActivity() {
     }
 
     private fun listaCompras() {
+        intent.putExtra("add1", binding.ingredient1.text)
         Toast.makeText(this, "${binding.ingredient1.text} Se añadio a la lista de compras", Toast.LENGTH_SHORT).show()
     }
 

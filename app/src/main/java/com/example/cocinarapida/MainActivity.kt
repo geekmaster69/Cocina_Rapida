@@ -27,6 +27,12 @@ class MainActivity : AppCompatActivity() {
         binding.btBasicos.setOnClickListener {
             openBasicosActivity()
         }
+        binding.shopingList.setOnClickListener {
+            openShoppingList()
+        }}
+
+    private fun openShoppingList() {
+        startActivity(Intent(this, ShoppingListActivity::class.java))
     }
 
     private fun openParaComerAquiActivity() {

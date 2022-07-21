@@ -33,7 +33,7 @@
             android:fontFamily="@font/dancin_script_regular"
             android:layout_marginBottom="8dp"
             android:background="@drawable/madera_boton"
-            android:text="Sopa de Verdolagas"/>
+            android:text="@string/title_sopa_verdolagas"/>
 
         <TextView
             android:id="@+id/bt_sopa_fideos"
@@ -45,7 +45,7 @@
             android:layout_marginBottom="8dp"
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
-            android:text="Sopa de Fideos"/>
+            android:text="@string/title_sopa_fideos"/>
 
         <TextView
             android:id="@+id/bt_caldo_pollo"
@@ -57,7 +57,7 @@
             android:fontFamily="@font/dancin_script_regular"
             android:textColor="@color/white"
             android:background="@drawable/madera_boton"
-            android:text="Caldo de Pollo"/>
+            android:text="@string/title_caldo_pollo"/>
 
         <TextView
             android:id="@+id/bt_sopa_col"
@@ -69,7 +69,7 @@
             android:textColor="@color/white"
             android:layout_marginBottom="8dp"
             android:background="@drawable/madera_boton"
-            android:text="Sopa de Col y Tomate"/>
+            android:text="@string/title_sopa_col_tomate"/>
         <TextView
             android:id="@+id/bt_crema_champiñones"
             android:layout_width="match_parent"
@@ -80,7 +80,7 @@
             android:fontFamily="@font/dancin_script_regular"
             android:textColor="@color/white"
             android:background="@drawable/madera_boton"
-            android:text="Crema de Champiñones"/>
+            android:text="@string/title_crema_champinones"/>
         <TextView
             android:id="@+id/bt_crema_habas"
             android:layout_width="match_parent"
@@ -91,7 +91,7 @@
             android:fontFamily="@font/dancin_script_regular"
             android:textColor="@color/white"
             android:background="@drawable/madera_boton"
-            android:text="Crema de Habas"/>
+            android:text="@string/title_crema_habas"/>
 
         <TextView
             android:id="@+id/bt_sopa_poro"
@@ -103,7 +103,7 @@
             android:fontFamily="@font/dancin_script_regular"
             android:textColor="@color/white"
             android:background="@drawable/madera_boton"
-            android:text="Sopa de Poro"/>
+            android:text="@string/title_sopa_poro"/>
         <TextView
             android:id="@+id/bt_crema_espinacas"
             android:layout_width="match_parent"
@@ -114,7 +114,7 @@
             android:fontFamily="@font/dancin_script_regular"
             android:textColor="@color/white"
             android:background="@drawable/madera_boton"
-            android:text="Crema de Espinacas"/>
+            android:text="@string/title_crema_espinacas"/>
 
         <TextView
             android:id="@+id/bt_crema_verduras"
@@ -126,7 +126,7 @@
             android:fontFamily="@font/dancin_script_regular"
             android:textColor="@color/white"
             android:background="@drawable/madera_boton"
-            android:text="Crema de Verduras"/>
+            android:text="@string/title_crema_verduras"/>
 
         <TextView
             android:id="@+id/bt_caldo_talpeno"
@@ -138,7 +138,7 @@
             android:fontFamily="@font/dancin_script_regular"
             android:textColor="@color/white"
             android:background="@drawable/madera_boton"
-            android:text="Caldo Tlalpeño"/>
+            android:text="@string/title_caldo_tlalpeno"/>
 
 
 

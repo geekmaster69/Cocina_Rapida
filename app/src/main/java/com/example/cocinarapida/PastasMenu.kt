@@ -142,6 +142,8 @@ class PastasMenu : AppCompatActivity() {
 
         intent.putExtra("img_top_recipe", R.drawable.spaghetti_cremoso)
 
+        intent.putExtra("title", getString(R.string.spaghetti_rojo_cremoso))
+
         intent.putExtra("ingredient_1", ingredient1)
         intent.putExtra("ingredient_2", ingredient2)
         intent.putExtra("ingredient_3", ingredient3)
@@ -168,6 +170,8 @@ class PastasMenu : AppCompatActivity() {
         val intent = Intent(this, RecipeTemplateActivity::class.java)
 
         intent.putExtra("img_top_recipe", R.drawable.spaghetti_pimiento)
+
+        intent.putExtra("title", getString(R.string.spaghetti_pimiento_rojo_cremoso))
 
 
         intent.putExtra("ingredient_1", ingredient1)
@@ -197,6 +201,7 @@ class PastasMenu : AppCompatActivity() {
 
         intent.putExtra("img_top_recipe", R.drawable.spaghetti_aguacate)
 
+        intent.putExtra("title", getString(R.string.spaghetti_crema_aguacate))
 
         intent.putExtra("ingredient_1", ingredient1)
         intent.putExtra("ingredient_2", ingredient2)
@@ -227,6 +232,8 @@ class PastasMenu : AppCompatActivity() {
 
         intent.putExtra("img_top_recipe", R.drawable.spaghetti_pesto)
 
+        intent.putExtra("title", getString(R.string.spaghetti_salsa_pesto))
+
         intent.putExtra("ingredient_1", ingredient1)
         intent.putExtra("ingredient_2", ingredient2)
         intent.putExtra("ingredient_3", ingredient3)
@@ -253,6 +260,9 @@ class PastasMenu : AppCompatActivity() {
 
         intent.putExtra("img_top_recipe", R.drawable.spaghetti_albahaca)
 
+        intent.putExtra("title", getString(R.string.spaghetti_salsa_tomate_albahaca))
+
+
         intent.putExtra("ingredient_1", ingredient1)
         intent.putExtra("ingredient_2", ingredient2)
         intent.putExtra("ingredient_3", ingredient3)
@@ -278,6 +288,8 @@ class PastasMenu : AppCompatActivity() {
         val intent = Intent(this, RecipeTemplateActivity::class.java)
 
         intent.putExtra("img_top_recipe", R.drawable.spaghetti_camarones)
+
+        intent.putExtra("title", getString(R.string.spaghetti_camarones_salsa_blanca))
 
         intent.putExtra("ingredient_1", ingredient1)
         intent.putExtra("ingredient_2", ingredient2)

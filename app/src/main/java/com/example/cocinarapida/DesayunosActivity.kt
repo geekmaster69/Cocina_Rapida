@@ -230,6 +230,8 @@ class DesayunosActivity : AppCompatActivity() {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
 
+        intent.putExtra("title", getString(R.string.title_huevo_salchicha))
+
         intent.putExtra("img_top_recipe", R.drawable.huevo_salchicha)
 
         intent.putExtra("ingredient_1", ingredient1)
@@ -250,6 +252,8 @@ class DesayunosActivity : AppCompatActivity() {
 
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("title", getString(R.string.title_omelette_champinones))
 
         intent.putExtra("img_top_recipe", R.drawable.omelette_champinones)
 
@@ -274,6 +278,8 @@ class DesayunosActivity : AppCompatActivity() {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
 
+        intent.putExtra("title", getString(R.string.title_omelette_espinacas))
+
         intent.putExtra("img_top_recipe", R.drawable.omelette_espinaca)
 
         intent.putExtra("ingredient_1", ingredient1)
@@ -297,6 +303,8 @@ class DesayunosActivity : AppCompatActivity() {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
 
+        intent.putExtra("title", getString(R.string.title_omurice))
+
         intent.putExtra("img_top_recipe", R.drawable.omurice)
 
         intent.putExtra("ingredient_1", ingredient1)
@@ -318,6 +326,8 @@ class DesayunosActivity : AppCompatActivity() {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
 
+        intent.putExtra("title", getString(R.string.title_avocado_toas))
+
         intent.putExtra("img_top_recipe", R.drawable.avocado_toas)
 
         intent.putExtra("ingredient_1", ingredient1)
@@ -337,6 +347,9 @@ class DesayunosActivity : AppCompatActivity() {
                                        ingredient7: String, preparation1: String) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("title", getString(R.string.title_panque_avena))
+
 
         intent.putExtra("img_top_recipe", R.drawable.panke_avena)
 
@@ -359,6 +372,8 @@ class DesayunosActivity : AppCompatActivity() {
                                          ingredient10: String, ingredient11: String, preparation1: String) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("title", getString(R.string.title_enfrijoladas))
 
         intent.putExtra("img_top_recipe", R.drawable.enfrijoladas)
 
@@ -387,6 +402,8 @@ class DesayunosActivity : AppCompatActivity() {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
 
+        intent.putExtra("title", getString(R.string.title_chilaquiles_rojos_verdes))
+
         intent.putExtra("img_top_recipe", R.drawable.chilaquiles)
 
         intent.putExtra("ingredient_1", ingredient1)
@@ -414,6 +431,8 @@ class DesayunosActivity : AppCompatActivity() {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
 
+        intent.putExtra("title", getString(R.string.title_huevos_salsa_jitomate))
+
         intent.putExtra("img_top_recipe", R.drawable.huevos_salsa_jitomate)
 
         intent.putExtra("ingredient_1", ingredient1)
@@ -437,6 +456,8 @@ class DesayunosActivity : AppCompatActivity() {
                                             ingredient7:String, ingredient8: String, preparation1: String) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("title", getString(R.string.title_huevos_lugo_lopez))
 
         intent.putExtra("img_top_recipe", R.drawable.huevos_amelia)
 
@@ -469,6 +490,8 @@ class DesayunosActivity : AppCompatActivity() {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
 
+        intent.putExtra("title", getString(R.string.title_huevos_estilo_amelia))
+
         intent.putExtra("img_top_recipe", R.drawable.huevos_amelia)
 
         intent.putExtra("ingredient_1", ingredient1)
@@ -487,7 +510,10 @@ class DesayunosActivity : AppCompatActivity() {
                                                ingredient4: String, ingredient5: String, ingredient6: String,
                                                ingredient7: String, ingredient8: String, ingredient9: String,
                                                 preparation1: String) {
+
         val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("title", getString(R.string.title_omelette_jamon_queso))
 
         intent.putExtra("img_top_recipe", R.drawable.omelette_jamon_queso)
 
