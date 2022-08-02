@@ -267,5 +267,9 @@
     <string name="title_basicos">Basicos</string>
     <string name="title_salsas">Salsas</string>
     <string name="title_lista_compras">Lista de compras</string>
+    <string name="hint_description">Añadir Nota</string>
+    <string name="alert_dialog">Borrar Nota?</string>
+    <string name="dialog_ok">Borrar</string>
+    <string name="dialog_cancel">Cancelar</string>
 
 </resources>

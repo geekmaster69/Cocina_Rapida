@@ -7,6 +7,7 @@
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/drawable/background_button_rout.xml" value="0.149" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/drawable/ic_book_.xml" value="0.1285" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1535" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/drawable/ic_note_add.xml" value="0.1285" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout-v23/activity_sopas.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/activity_avocado_toas.xml" value="0.1" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/activity_basicos.xml" value="0.27447916666666666" />
@@ -65,8 +66,10 @@
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/activity_wrap_jitomate_espinaca.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/activity_wrap_sushi.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/fragment_onion_soup.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/item_note.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/menu/menu_main.xml" value="0.2734375" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/menu/menu_recipe_template.xml" value="0.19537037037037036" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1285" />
       </map>
     </option>
   </component>

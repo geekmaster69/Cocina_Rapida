@@ -35,6 +35,11 @@ class RecipeTemplateActivity : AppCompatActivity() {
         }else{
             binding.ingredient1.visibility = View.VISIBLE
         }
+        binding.ingredient1.setOnClickListener {
+            val ingredientAdd = binding.ingredient1.text.toString()
+            listaCompras(ingredientAdd)
+        }
+
 
 
 
@@ -43,6 +48,10 @@ class RecipeTemplateActivity : AppCompatActivity() {
             binding.ingredient2.visibility = View.GONE
         }else{
             binding.ingredient2.visibility = View.VISIBLE
+        }
+        binding.ingredient2.setOnClickListener {
+            val ingredientAdd = binding.ingredient2.text.toString()
+            listaCompras(ingredientAdd)
         }
 
         binding.ingredient3.text = intent.extras?.getString("ingredient_3")
@@ -213,16 +222,16 @@ class RecipeTemplateActivity : AppCompatActivity() {
             binding.optional3.visibility = View.VISIBLE
         }
 
-        binding.ingredient1.setOnClickListener {
-           listaCompras()
-        }
+
 
 
     }
 
-    private fun listaCompras() {
-        intent.putExtra("add1", binding.ingredient1.text)
-        Toast.makeText(this, "${binding.ingredient1.text} Se añadio a la lista de compras", Toast.LENGTH_SHORT).show()
+    private fun listaCompras(ingredientAdd: String) {
+
+        intent.putExtra("add1", ingredientAdd)
+        Toast.makeText(this, "${ingredientAdd} Se añadio a la lista de compras", Toast.LENGTH_SHORT).show()
+
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
