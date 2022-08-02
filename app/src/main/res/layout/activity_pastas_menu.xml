@@ -35,7 +35,7 @@
                 android:textColor="@color/white"
                 android:fontFamily="@font/dancin_script_regular"
                 android:layout_marginBottom="8dp"
-                android:text="Spaghetti con Camarones en Salsa Blanca"/>
+                android:text="@string/spaghetti_camarones_salsa_blanca"/>
 
             <androidx.appcompat.widget.AppCompatTextView
                 android:id="@+id/bt_pasta_tomate_albahaca"
@@ -47,7 +47,7 @@
                 android:fontFamily="@font/dancin_script_regular"
                 android:background="@drawable/madera_boton"
                 android:layout_marginBottom="8dp"
-                android:text="Spaghetti con Salsa de Tomate y Albahaca"/>
+                android:text="@string/spaghetti_salsa_tomate_albahaca"/>
 
             <TextView
                 android:id="@+id/bt_pasta_salsa_pesto"
@@ -59,7 +59,7 @@
                 android:textColor="@color/white"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/dancin_script_regular"
-                android:text="Spaghetti con Salsa Pesto"/>
+                android:text="@string/spaghetti_salsa_pesto"/>
 
             <TextView
                 android:id="@+id/bt_spaghetti_crema_aguacate"
@@ -71,7 +71,7 @@
                 android:textColor="@color/white"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/dancin_script_regular"
-                android:text="Spaghetti con Crema de Aguacate"/>
+                android:text="@string/spaghetti_crema_aguacate"/>
             <TextView
                 android:id="@+id/bt_spaghetti_pimientos_cremoso"
                 android:layout_width="match_parent"
@@ -82,7 +82,7 @@
                 android:textColor="@color/white"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/dancin_script_regular"
-                android:text="Spaghetti con Pimiento Rojo Cremoso"/>
+                android:text="@string/spaghetti_pimiento_rojo_cremoso"/>
             <TextView
                 android:id="@+id/bt_spaghetti_rojo_cremoso"
                 android:layout_width="match_parent"
@@ -93,7 +93,7 @@
                 android:textColor="@color/white"
                 android:layout_marginBottom="8dp"
                 android:fontFamily="@font/dancin_script_regular"
-                android:text="Spaghetti Rojo Cremoso"/>
+                android:text="@string/spaghetti_rojo_cremoso"/>
 
 
 

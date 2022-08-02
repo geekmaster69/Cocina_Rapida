@@ -33,7 +33,7 @@
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/dancin_script_regular"
             android:background="@drawable/madera_boton"
-            android:text="Huevos Estilo Amelia"/>
+            android:text="@string/title_huevos_estilo_amelia"/>
 
         <TextView
             android:id="@+id/bt_huevo_norma"
@@ -45,7 +45,7 @@
             android:layout_marginBottom="8dp"
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
-            android:text="Huevos Norma"/>
+            android:text="@string/title_huevos_norma"/>
 
         <TextView
             android:id="@+id/bt_omelette_jamon_queso"
@@ -57,7 +57,7 @@
             android:textColor="@color/white"
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
-            android:text="Omelette de Jamon y Queso"/>
+            android:text="@string/title_omelette_jamon_queso"/>
 
         <TextView
             android:id="@+id/bt_huevo_tortilla_jalapeño"
@@ -69,7 +69,7 @@
             android:textColor="@color/white"
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
-            android:text="Huevo con tortilla y jalapeños"/>
+            android:text="@string/title_huevo_tortilla_jalapenos"/>
 
         <TextView
             android:id="@+id/bt_huevo_lugo_lopez"
@@ -81,7 +81,7 @@
             android:background="@drawable/madera_boton"
             android:layout_marginBottom="8dp"
             android:fontFamily="@font/dancin_script_regular"
-            android:text="Huevos Lugo Lopez"/>
+            android:text="@string/title_huevos_lugo_lopez"/>
 
         <TextView
             android:id="@+id/bt_huevo_salsa_jitomate"
@@ -93,7 +93,7 @@
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
             android:layout_marginBottom="8dp"
-            android:text="Huevos en salsa de jitomate"/>
+            android:text="@string/title_huevos_salsa_jitomate"/>
 
         <TextView
             android:id="@+id/bt_chilaquiles_rojos_verdes"
@@ -105,7 +105,7 @@
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
             android:layout_marginBottom="8dp"
-            android:text="Chilaquiles Rojos o Verdes"/>
+            android:text="@string/title_chilaquiles_rojos_verdes"/>
 
         <TextView
             android:id="@+id/bt_enfrijoladas"
@@ -117,7 +117,7 @@
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
             android:layout_marginBottom="8dp"
-            android:text="Enfrijoladas"/>
+            android:text="@string/title_enfrijoladas"/>
 
         <TextView
             android:id="@+id/bt_panque_avena"
@@ -129,7 +129,7 @@
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
             android:layout_marginBottom="8dp"
-            android:text="Panqué de Avena"/>
+            android:text="@string/title_panque_avena"/>
 
         <TextView
             android:id="@+id/bt_avocado_toas"
@@ -141,7 +141,7 @@
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
             android:layout_marginBottom="8dp"
-            android:text="Avocado Toas"/>
+            android:text="@string/title_avocado_toas"/>
 
         <TextView
             android:id="@+id/bt_omurice"
@@ -153,7 +153,7 @@
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
             android:layout_marginBottom="8dp"
-            android:text="Omurice"/>
+            android:text="@string/title_omurice"/>
         <TextView
             android:id="@+id/bt_omelette_espinacas"
             android:layout_width="match_parent"
@@ -164,7 +164,7 @@
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
             android:layout_marginBottom="8dp"
-            android:text="Omelette de Espinacas"/>
+            android:text="@string/title_omelette_espinacas"/>
 
         <TextView
             android:id="@+id/bt_omelette_champinones"
@@ -176,7 +176,7 @@
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
             android:layout_marginBottom="8dp"
-            android:text="Omelette de Champiñomes"/>
+            android:text="@string/title_omelette_champinones"/>
 
         <TextView
             android:id="@+id/bt_huevo_salchicha"
@@ -188,7 +188,7 @@
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
             android:layout_marginBottom="8dp"
-            android:text="Huevo con Salchicha"/>
+            android:text="@string/title_huevo_salchicha"/>
 
     </LinearLayout>
 </ScrollView>

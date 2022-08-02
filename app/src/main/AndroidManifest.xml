@@ -10,22 +10,23 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CocinaRapida">
         <activity
-            android:name=".HuevoSalchichaActivity"
+            android:name=".ShoppingListActivity"
+            android:label="@string/lista_compras"
             android:exported="false" />
         <activity
-            android:name=".OmeletteChampinonesActivity"
+            android:name=".ParaComerAquiActivity"
+            android:label="@string/para_comer_aqui"
             android:exported="false" />
         <activity
-            android:name=".OmeletteEspinacasActivity"
+            android:name=".RecipeTemplateActivity"
             android:exported="false" />
         <activity
-            android:name=".OmuriceActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AvocadoToasActivity"
+            android:name=".ContactUsActivity"
+            android:label="@string/contactanos"
             android:exported="false" />
         <activity
             android:name=".TecnicasActivity"
+            android:label="@string/tecnicas_1"
             android:exported="false" />
         <activity
             android:name=".WrapJitomateEspinacaActivity"
@@ -37,76 +38,25 @@
             android:name=".BowlArrozHuevoActivity"
             android:exported="false" />
         <activity
-            android:name=".PanqueAvenaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CaldoTlalpenoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CremaVerdurasActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CremaEspinacasActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SopaPoroActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CremaHabasActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CremaChampinonesActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SpaghettiRojoCremosoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SpaghettiPimientoCremosoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SpaghettiCremaAguacateActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SpaghettiPestoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SpaguettiTomateAlabahacaActivity"
-            android:exported="false" />
-        <activity
             android:name=".EspeciasActivity"
+            android:label="@string/especias"
             android:exported="false" />
         <activity
             android:name=".UtensiliosActivity"
             android:exported="false" />
         <activity
             android:name=".BasicosActivity"
-            android:exported="false" />
-        <activity
-            android:name=".EnfrijoladasActivity"
-            android:exported="false" />
-        <activity
-            android:name=".ChilaquilesRojosVerdesActivity"
-            android:exported="false" />
-        <activity
-            android:name=".HuevosSalsaJitomateActivity"
-            android:exported="false" />
-        <activity
-            android:name=".HuevoLugoLopezActivity"
+            android:label="@string/basicos"
             android:exported="false" />
         <activity
             android:name=".HuevoTortillaJalapenosActivity"
             android:exported="false" />
         <activity
-            android:name=".OmeletteJamonQuesoActivity"
-            android:exported="false" />
-        <activity
             android:name=".HuevosNormaActivity"
             android:exported="false" />
         <activity
-            android:name=".HuevosAmeliaActivity"
-            android:exported="false" />
-        <activity
             android:name=".DesayunosActivity"
+            android:label="@string/desayunos"
             android:exported="false" />
         <activity
             android:name=".SalsaVerdeCocidaActivity"
@@ -115,46 +65,19 @@
             android:name=".SalsasMenuActivity"
             android:exported="false" />
         <activity
-            android:name=".SopaColActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SopaVerdolagasActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CaldoPolloActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SopaFideosActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".PastaTomateAlbahacaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".PastaCamaronesSalsaActivity"
-            android:exported="false" />
-        <activity
             android:name=".PastasMenu"
             android:exported="false" />
         <activity
             android:name=".IrComiendo"
+            android:label="@string/para_ir_comiendo"
             android:exported="false" />
         <activity
             android:name=".Parallevar"
-            android:exported="false" />
-        <activity
-            android:name=".OnionSoupActivity"
+            android:label="@string/para_llevar"
             android:exported="false" />
         <activity
             android:name=".SopasActivity"
-            android:exported="false" />
-        <activity
-            android:name=".TogoActivity"
-            android:exported="false" />
-        <activity
-            android:name=".RideActivity"
-            android:exported="false" />
-        <activity
-            android:name=".CtipoActivity"
+            android:label="@string/sopas"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
