@@ -10,10 +10,14 @@ import com.example.cocinarapida.databinding.ActivityShoppingListBinding
 class ShoppingListActivity : AppCompatActivity(), OnClickListener {
     private lateinit var binding: ActivityShoppingListBinding
     private lateinit var noteAdapter: NoteAdapter
+    private lateinit var database: DatabaseHelper
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityShoppingListBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        database = DatabaseHelper(this)
+
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         noteAdapter = NoteAdapter(mutableListOf(), this)
