@@ -20,7 +20,6 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
         setContentView(binding.root)
 
         database = DatabaseHelper(this)
-
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         notesAdapter = NoteAdapter(mutableListOf(), this)
@@ -59,13 +58,9 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
     }
 
     private fun getData(){
-//        var data = mutableListOf<Note>()
-
         val data = database.getAllNotes()
-
         data.forEach { note ->
             addNoteAuto(note)
-
         }
     }
 
@@ -76,6 +71,7 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
             notesAdapter.add(note)
         }
     }
+
     private fun deleteNoteAuto(note: Note) {
         if (note.isFinished) {
             notesAdapter.remove(note)
@@ -88,20 +84,24 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
         val builder = AlertDialog.Builder(this)
             .setTitle(getString(R.string.alert_dialog))
             .setPositiveButton(getString(R.string.dialog_ok), { dialogInterface, i ->
-                currentAdapter.remove(note)
+                if (database.deleteNote(note)) {
+                    currentAdapter.remove(note)
+                    showMesssage(R.string.message_write_database_success)
+                }else{
+                    showMesssage(R.string.message_write_database_error)
+                }
             })
             .setNegativeButton(getString(R.string.dialog_cancel), null)
-
         builder.create().show()
-
-
     }
 
     override fun onChecked(note: Note) {
-        deleteNoteAuto(note)
-        addNoteAuto(note)
-
-
+        if (database.updateNote(note)) {
+            deleteNoteAuto(note)
+            addNoteAuto(note)
+        }else{
+            showMesssage(R.string.message_write_database_error)
+        }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

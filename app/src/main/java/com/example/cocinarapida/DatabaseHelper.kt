@@ -65,10 +65,18 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, Constants.DAT
         }
         val result  = database.update(Constants.ENTITY_NOTE,
             contentValues,
-            "${Constants.PROPERTY_ID} = ${note.id}",
+            "${Constants.PROPERTY_ID} = ${note.id}", // id = valor numerico
             null)
 
         return result == Constants.TRUE
+    }
 
+    fun deleteNote(note: Note): Boolean{
+        val database = this.writableDatabase
+        val result = database.delete(Constants.ENTITY_NOTE,
+            "${Constants.PROPERTY_ID} = ${note.id}",
+            null )
+
+        return result == Constants.TRUE
     }
 }
