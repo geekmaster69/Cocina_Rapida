@@ -271,5 +271,9 @@
     <string name="alert_dialog">Borrar Nota?</string>
     <string name="dialog_ok">Borrar</string>
     <string name="dialog_cancel">Cancelar</string>
+    <string name="message_write_database_success">Operacion Exitosa</string>
+    <string name="message_write_database_error">Error al modificar base de datos</string>
+    <string name="notes_pending">Pendientes:</string>
+    <string name="notes_finished">Terminadas:</string>
 
 </resources>

@@ -6,11 +6,14 @@ import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.cocinarapida.databinding.ActivityShoppingListBinding
+import com.google.android.material.snackbar.Snackbar
 
 class ShoppingListActivity : AppCompatActivity(), OnClickListener {
     private lateinit var binding: ActivityShoppingListBinding
-    private lateinit var noteAdapter: NoteAdapter
+    private lateinit var notesAdapter: NoteAdapter
+    private lateinit var notesFinishedAdapter: NoteAdapter
     private lateinit var database: DatabaseHelper
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityShoppingListBinding.inflate(layoutInflater)
@@ -20,27 +23,34 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        noteAdapter = NoteAdapter(mutableListOf(), this)
-        binding.recyclerView.apply {
+        notesAdapter = NoteAdapter(mutableListOf(), this)
+        binding.rvNotes.apply {
             layoutManager = LinearLayoutManager(this@ShoppingListActivity)
-            adapter = noteAdapter
+            adapter = notesAdapter
+        }
+
+        notesFinishedAdapter = NoteAdapter(mutableListOf(), this)
+        binding.rvNotesFinished.apply {
+            layoutManager = LinearLayoutManager(this@ShoppingListActivity)
+            adapter = notesFinishedAdapter
         }
 
         binding.btnAdd.setOnClickListener {
             if (binding.etDescription.text.toString().isNotBlank()){
-                val note = Note((noteAdapter.itemCount + 1).toLong(), binding.etDescription.text.toString().trim())
-                addNoteAuto(note)
-                binding.etDescription.text?.clear()
-            }
+                val note = Note (description = binding.etDescription.text.toString().trim())
+                note.id = database.insertNote(note)
+                if (note.id != Constants.ID_ERROR ) {
+                    addNoteAuto(note)
+                    binding.etDescription.text?.clear()
+                    showMesssage(R.string.message_write_database_success)
 
+                }else{
+                   showMesssage(R.string.message_write_database_error)
+                }
+            }else{
+                binding.etDescription.error = "Campo Requerido"
+            }
         }
-//        binding.etDescription.setText(intent.extras?.getString("add1"))
-//        if (binding.etDescription.text.toString().isNotBlank()){
-//            val note = Note((noteAdapter.itemCount + 1).toLong(), binding.etDescription.text.toString().trim())
-//            addNoteAuto(note)
-//            binding.etDescription.text?.clear()
-//
-//        }
     }
 
     override fun onStart() {
@@ -49,7 +59,9 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
     }
 
     private fun getData(){
-        var data = mutableListOf<Note>()
+//        var data = mutableListOf<Note>()
+
+        val data = database.getAllNotes()
 
         data.forEach { note ->
             addNoteAuto(note)
@@ -58,13 +70,25 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
     }
 
     private fun addNoteAuto(note: Note) {
-        noteAdapter.add(note)
+        if (note.isFinished){
+            notesFinishedAdapter.add(note)
+        }else{
+            notesAdapter.add(note)
+        }
     }
     private fun deleteNoteAuto(note: Note) {
+        if (note.isFinished) {
+            notesAdapter.remove(note)
+        }else{
+            notesFinishedAdapter.remove(note)
+        }
+    }
+
+    override fun onLongClick(note: Note, currentAdapter: NoteAdapter) {
         val builder = AlertDialog.Builder(this)
             .setTitle(getString(R.string.alert_dialog))
             .setPositiveButton(getString(R.string.dialog_ok), { dialogInterface, i ->
-                noteAdapter.remove(note)
+                currentAdapter.remove(note)
             })
             .setNegativeButton(getString(R.string.dialog_cancel), null)
 
@@ -73,17 +97,22 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
 
     }
 
-    override fun onLongClick(note: Note) {
+    override fun onChecked(note: Note) {
         deleteNoteAuto(note)
+        addNoteAuto(note)
+
+
     }
-
-
-
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == android.R.id.home){
             onBackPressed()
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    private fun showMesssage(msgRes: Int){
+        Snackbar.make(binding.root, getString(msgRes), Snackbar.LENGTH_SHORT).show()
+
     }
 }
