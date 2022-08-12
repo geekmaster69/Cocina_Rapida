@@ -34,6 +34,7 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
             adapter = notesFinishedAdapter
         }
 
+
         binding.btnAdd.setOnClickListener {
             if (binding.etDescription.text.toString().isNotBlank()){
                 val note = Note (description = binding.etDescription.text.toString().trim())

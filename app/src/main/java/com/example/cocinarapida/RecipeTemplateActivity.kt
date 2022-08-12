@@ -8,13 +8,20 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import com.example.cocinarapida.databinding.ActivityRecipeTemplateBinding
+import com.google.android.material.snackbar.Snackbar
 
 class RecipeTemplateActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRecipeTemplateBinding
+    private lateinit var database: DatabaseHelper
+    private lateinit var notesAdapter: NoteAdapter
+    private lateinit var notesFinishedAdapter: NoteAdapter
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityRecipeTemplateBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        database = DatabaseHelper(this)
 
         supportActionBar?.let {
             it.setDisplayHomeAsUpEnabled(true)
@@ -37,7 +44,7 @@ class RecipeTemplateActivity : AppCompatActivity() {
         }
         binding.ingredient1.setOnClickListener {
             val ingredientAdd = binding.ingredient1.text.toString()
-            listaCompras(ingredientAdd)
+            addlistaCompras(ingredientAdd)
         }
 
 
@@ -51,7 +58,7 @@ class RecipeTemplateActivity : AppCompatActivity() {
         }
         binding.ingredient2.setOnClickListener {
             val ingredientAdd = binding.ingredient2.text.toString()
-            listaCompras(ingredientAdd)
+            addlistaCompras(ingredientAdd)
         }
 
         binding.ingredient3.text = intent.extras?.getString("ingredient_3")
@@ -222,17 +229,29 @@ class RecipeTemplateActivity : AppCompatActivity() {
             binding.optional3.visibility = View.VISIBLE
         }
 
+    }
+//
+//    override fun onStart() {
+//        super.onStart()
+//        getData()
+//    }
+//    private fun getData(){
+//        val data = database.getAllNotes()
+//        data.forEach { note ->
+//        }
+//    }
 
 
-
+    private fun addlistaCompras(ingredientAdd: String) {
+        val note = Note (description = ingredientAdd)
+        note.id = database.insertNote(note)
+        showMesssage(R.string.message_write_database_success)
+//        addNoteAuto(note)
     }
 
-    private fun listaCompras(ingredientAdd: String) {
-
-        intent.putExtra("add1", ingredientAdd)
-        Toast.makeText(this, "${ingredientAdd} Se añadio a la lista de compras", Toast.LENGTH_SHORT).show()
-
-    }
+//    private fun addNoteAuto(note: Note) {
+//        notesAdapter.add(note)
+//    }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_recipe_template, menu)
@@ -246,6 +265,11 @@ class RecipeTemplateActivity : AppCompatActivity() {
             R.id.action_basics -> startActivity(Intent(this, BasicosActivity::class.java))
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    private fun showMesssage(msgRes: Int){
+        Snackbar.make(binding.root, getString(msgRes), Snackbar.LENGTH_SHORT).show()
+
     }
 
 
