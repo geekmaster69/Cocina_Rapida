@@ -3,6 +3,7 @@ package com.example.cocinarapida
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.cocinarapida.databinding.ActivityShoppingListBinding
@@ -41,9 +42,10 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
                 note.id = database.insertNote(note)
                 if (note.id != Constants.ID_ERROR ) {
                     addNoteAuto(note)
+                    Toast.makeText(this, "Se agrego " +
+                            "${binding.etDescription.text.toString()} a la lista de compras",
+                               Toast.LENGTH_SHORT).show()
                     binding.etDescription.text?.clear()
-                    showMesssage(R.string.message_write_database_success)
-
                 }else{
                    showMesssage(R.string.message_write_database_error)
                 }
@@ -87,7 +89,9 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
             .setPositiveButton(getString(R.string.dialog_ok), { dialogInterface, i ->
                 if (database.deleteNote(note)) {
                     currentAdapter.remove(note)
-                    showMesssage(R.string.message_write_database_success)
+                    Toast.makeText(this, "Se elimino " +
+                            "${note.description} a la lista de compras",
+                               Toast.LENGTH_SHORT).show()
                 }else{
                     showMesssage(R.string.message_write_database_error)
                 }

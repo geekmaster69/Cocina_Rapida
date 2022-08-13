@@ -13,8 +13,6 @@ import com.google.android.material.snackbar.Snackbar
 class RecipeTemplateActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRecipeTemplateBinding
     private lateinit var database: DatabaseHelper
-    private lateinit var notesAdapter: NoteAdapter
-    private lateinit var notesFinishedAdapter: NoteAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,13 +26,18 @@ class RecipeTemplateActivity : AppCompatActivity() {
             it.title = intent.extras?.getString("title")
         }
 
-
-
         val imagen_receta = intent?.getIntExtra("img_top_recipe", 0)
         val imagen_final = imagen_receta?.let { resources.getDrawable(it) }
         binding.imgRecipe.setImageDrawable(imagen_final)
 
+        binding.basicosIcon.setOnClickListener {
+            startActivity(Intent(this, BasicosActivity::class.java))
+        }
 
+        binding.shopingListIcon.setOnClickListener {
+            startActivity(Intent(this, ShoppingListActivity::class.java))
+
+        }
 
         binding.ingredient1.text = intent.extras?.getString("ingredient_1")
         if (binding.ingredient1.text.isBlank()){
@@ -277,8 +280,6 @@ class RecipeTemplateActivity : AppCompatActivity() {
         }
 
 
-
-
         binding.substitute1.text = intent.extras?.getString("sustituto_1")
         if (binding.substitute1.text.isBlank()){
             val noSubstitutes = "***No hay sustitutos disponibles***"
@@ -330,9 +331,7 @@ class RecipeTemplateActivity : AppCompatActivity() {
 
         binding.tvPreparation.text = intent.extras?.getString("preparation1")
 
-
         binding.optional1.text = intent.extras?.getString("optional_1")
-
         if (binding.optional1.text.isBlank()){
             val notOptions = "***No hay opciones disponibles***"
             binding.optional1.text = notOptions
@@ -353,50 +352,18 @@ class RecipeTemplateActivity : AppCompatActivity() {
         }else{
             binding.optional3.visibility = View.VISIBLE
         }
-
     }
-//
-//    override fun onStart() {
-//        super.onStart()
-//        getData()
-//    }
-//    private fun getData(){
-//        val data = database.getAllNotes()
-//        data.forEach { note ->
-//        }
-//    }
-
 
     private fun addlistaCompras(ingredientAdd: String) {
         val note = Note (description = ingredientAdd)
         note.id = database.insertNote(note)
-        showMesssage(R.string.message_write_database_success)
-//        addNoteAuto(note)
+        Toast.makeText(this, "Se agrego $ingredientAdd a la Lista de Compras", Toast.LENGTH_SHORT).show()
     }
-
-//    private fun addNoteAuto(note: Note) {
-//        notesAdapter.add(note)
-//    }
-
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.menu_recipe_template, menu)
-        return super.onCreateOptionsMenu(menu)
-    }
-
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
             android.R.id.home -> onBackPressed()
-            R.id.action_basics -> startActivity(Intent(this, BasicosActivity::class.java))
         }
         return super.onOptionsItemSelected(item)
     }
-
-    private fun showMesssage(msgRes: Int){
-        Snackbar.make(binding.root, getString(msgRes), Snackbar.LENGTH_SHORT).show()
-
-    }
-
-
-
 }

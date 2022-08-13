@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:gravity="center_vertical"
-            android:padding="@dimen/common_padding_default">
+            android:padding="8dp">
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -45,30 +45,57 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/notes_pending"
-            android:paddingHorizontal="@dimen/common_padding_default"
-            android:textAppearance="?attr/textAppearanceOverline" />
+            android:textColor="@color/black"
+            android:paddingBottom="16dp"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:gravity="center_horizontal"
+            android:text="Manten precionado un ingrediente de tu receta para agregar a la lista de compras"
+            android:paddingHorizontal="@dimen/common_padding_default"/>
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvNotes"
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:listitem="@layout/item_note"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/notes_finished"
-            android:paddingHorizontal="@dimen/common_padding_default"
-            android:textAppearance="?attr/textAppearanceOverline" />
+            android:layout_height="wrap_content">
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvNotesFinished"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:listitem="@layout/item_note"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notes_pending"
+                    android:paddingHorizontal="@dimen/common_padding_default"
+                    android:textAppearance="?attr/textAppearanceOverline" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvNotes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/item_note"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/notes_finished"
+                    android:paddingHorizontal="@dimen/common_padding_default"
+                    android:textAppearance="?attr/textAppearanceOverline" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rvNotesFinished"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    tools:listitem="@layout/item_note"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
 
 
 
     </LinearLayout>
 
-</ScrollView>
+</LinearLayout>
