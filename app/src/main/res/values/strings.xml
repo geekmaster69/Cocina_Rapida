@@ -275,5 +275,6 @@
     <string name="message_write_database_error">Error al modificar base de datos</string>
     <string name="notes_pending">Pendientes:</string>
     <string name="notes_finished">Terminadas:</string>
+    <string name="shoppinglist_instructions">Manten precionado un ingrediente de tu receta para agregar a la lista de compras</string>
 
 </resources>

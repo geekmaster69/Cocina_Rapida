@@ -2,7 +2,9 @@ package com.example.cocinarapida
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.KeyEvent
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -35,24 +37,27 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
             adapter = notesFinishedAdapter
         }
 
-
-        binding.btnAdd.setOnClickListener {
-            if (binding.etDescription.text.toString().isNotBlank()){
-                val note = Note (description = binding.etDescription.text.toString().trim())
-                note.id = database.insertNote(note)
-                if (note.id != Constants.ID_ERROR ) {
-                    addNoteAuto(note)
-                    Toast.makeText(this, "Se agrego " +
-                            "${binding.etDescription.text.toString()} a la lista de compras",
-                               Toast.LENGTH_SHORT).show()
-                    binding.etDescription.text?.clear()
+        binding.etDescription.setOnKeyListener(View.OnKeyListener { v, keyCode, event ->
+            if (keyCode == KeyEvent.KEYCODE_ENTER && event.action == KeyEvent.ACTION_UP) {
+                if (binding.etDescription.text.toString().isNotBlank()){
+                    val note = Note (description = binding.etDescription.text.toString().trim())
+                    note.id = database.insertNote(note)
+                    if (note.id != Constants.ID_ERROR ) {
+                        addNoteAuto(note)
+                        Toast.makeText(this, "Se agrego " +
+                                "${binding.etDescription.text.toString()} a la lista de compras",
+                            Toast.LENGTH_SHORT).show()
+                        binding.etDescription.text?.clear()
+                    }else{
+                        showMesssage(R.string.message_write_database_error)
+                    }
                 }else{
-                   showMesssage(R.string.message_write_database_error)
+                    binding.etDescription.error = "Campo Requerido"
                 }
-            }else{
-                binding.etDescription.error = "Campo Requerido"
+                return@OnKeyListener true
             }
-        }
+            false
+        })
     }
 
     override fun onStart() {
