@@ -1,5 +1,7 @@
 package com.example.cocinarapida
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.KeyEvent
@@ -36,6 +38,17 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
             layoutManager = LinearLayoutManager(this@ShoppingListActivity)
             adapter = notesFinishedAdapter
         }
+
+//        binding.shareMail.setOnClickListener {
+//
+//            val intent = Intent(Intent.ACTION_SENDTO).apply {
+//                data = Uri.parse("mailto:")
+//                putExtra(Intent.EXTRA_EMAIL, arrayOf("micorreo@gmail.com"))
+//                putExtra(Intent.EXTRA_SUBJECT, "base de datos")
+//                putExtra(Intent.EXTRA_TEXT, "${notesAdapter.noteList}")
+//            }
+//            startActivity(intent)
+//        }
 
         binding.etDescription.setOnKeyListener(View.OnKeyListener { v, keyCode, event ->
             if (keyCode == KeyEvent.KEYCODE_ENTER && event.action == KeyEvent.ACTION_UP) {
@@ -126,3 +139,12 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
 
     }
 }
+
+
+
+
+//intent = Intent(Intent.ACTION_SEND)
+//intent.putExtra(Intent.EXTRA_TEXT, "${notesAdapter.noteList}")
+//intent.setType("text/plain")
+//intent.setPackage("com.whatsapp")
+//startActivity(intent)

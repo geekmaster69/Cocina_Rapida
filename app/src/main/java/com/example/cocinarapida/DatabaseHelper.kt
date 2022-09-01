@@ -31,16 +31,13 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, Constants.DAT
         if (result.moveToFirst()){
             do {
                 val note = Note()
-                note.id = result.getLong(result.getColumnIndex(Constants.PROPERTY_ID))
-                note.description = result.getString(result.getColumnIndex(Constants.PROPERTY_DESCRIPTION))   //Siempre dan error estas 3
-                note.isFinished = result.getInt(result.getColumnIndex(Constants.PROPERTY_IS_FINISHED)) == Constants.TRUE
+                note.id = result.getLong(result.getColumnIndexOrThrow(Constants.PROPERTY_ID))
+                note.description = result.getString(result.getColumnIndexOrThrow(Constants.PROPERTY_DESCRIPTION))
+                note.isFinished = result.getInt(result.getColumnIndexOrThrow(Constants.PROPERTY_IS_FINISHED)) == Constants.TRUE
 
                 notes.add(note)
             }while (result.moveToNext())
         }
-
-
-
         return notes
     }
 
@@ -50,10 +47,8 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, Constants.DAT
             put(Constants.PROPERTY_DESCRIPTION, note.description)
             put(Constants.PROPERTY_IS_FINISHED, note.isFinished)
         }
-
         val resultId = database.insert(Constants.ENTITY_NOTE, null, contentValues)
         return resultId
-
     }
 
     fun updateNote(note: Note): Boolean{

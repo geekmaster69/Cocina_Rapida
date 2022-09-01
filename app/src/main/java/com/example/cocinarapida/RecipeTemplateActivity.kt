@@ -3,12 +3,11 @@ package com.example.cocinarapida
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
 import android.view.MenuItem
 import android.view.View
 import android.widget.Toast
 import com.example.cocinarapida.databinding.ActivityRecipeTemplateBinding
-import com.google.android.material.snackbar.Snackbar
+
 
 class RecipeTemplateActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRecipeTemplateBinding
@@ -324,6 +323,7 @@ class RecipeTemplateActivity : AppCompatActivity() {
             binding.substitute4.visibility = View.VISIBLE
         }
         binding.substitute4.setOnLongClickListener {
+
             val ingredientAdd = binding.substitute4.text.toString()
             addlistaCompras(ingredientAdd)
             true
