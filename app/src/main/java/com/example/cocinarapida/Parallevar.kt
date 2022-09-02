@@ -1,5 +1,6 @@
 package com.example.cocinarapida
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -11,7 +12,16 @@ class Parallevar : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityParallevarBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        binding.btBento.setOnClickListener {
+            startActivity(Intent(this, Bento::class.java))
+        }
+
+        binding.btTortas.setOnClickListener {
+            startActivity(Intent(this, Tortas::class.java))
+        }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
