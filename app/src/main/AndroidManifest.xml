@@ -11,13 +11,16 @@
         android:theme="@style/Theme.CocinaRapida">
         <activity
             android:name=".Postres"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/postres"/>
         <activity
             android:name=".Tortas"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/tortas"/>
         <activity
             android:name=".Bento"
-            android:exported="false" />
+            android:exported="false"
+            android:label="@string/bento"/>
         <activity
             android:name=".ShoppingListActivity"
             android:exported="false"

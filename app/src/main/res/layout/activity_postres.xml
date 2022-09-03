@@ -33,6 +33,116 @@
             android:text="@string/title_panque_platano_taza"/>
 
 
+        <TextView
+            android:id="@+id/btCheescakeFrutosRojos"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_cheesecake_frutos_rojos"/>
+
+        <TextView
+            android:id="@+id/bttartaQuesoMicroondas"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_tarta_queso_microondas"/>
+
+        <TextView
+            android:id="@+id/btCarlotaLimon"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_carlota_limon"/>
+
+        <TextView
+            android:id="@+id/btCheesecakeMangotaza"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_cheesecake_mango_taza"/>
+
+        <TextView
+            android:id="@+id/btArrozLeche"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_arroz_leche"/>
+
+        <TextView
+            android:id="@+id/btBudinPane"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_budin_pan"/>
+
+
+        <TextView
+            android:id="@+id/btPanqueZanahoriaTaza"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_panque_zanahoria_taza"/>
+
+        <TextView
+            android:id="@+id/btRolCanelaTaza"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_rol_canela_taza"/>
+
+        <TextView
+            android:id="@+id/btCrumbleManzanaTaza"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_crumble_manzana_taza"/>
+
+
     </LinearLayout>
 
 </ScrollView>
