@@ -11,23 +11,23 @@
         android:theme="@style/Theme.CocinaRapida">
         <activity
             android:name=".ShoppingListActivity"
-            android:exported="false"
-            android:label="@string/lista_compras" />
+            android:label="@string/lista_compras"
+            android:exported="false" />
         <activity
             android:name=".ParaComerAquiActivity"
-            android:exported="false"
-            android:label="@string/para_comer_aqui" />
+            android:label="@string/para_comer_aqui"
+            android:exported="false" />
         <activity
             android:name=".RecipeTemplateActivity"
             android:exported="false" />
         <activity
             android:name=".ContactUsActivity"
-            android:exported="false"
-            android:label="@string/contactanos" />
+            android:label="@string/contactanos"
+            android:exported="false" />
         <activity
             android:name=".TecnicasActivity"
-            android:exported="false"
-            android:label="@string/tecnicas_1" />
+            android:label="@string/tecnicas_1"
+            android:exported="false" />
         <activity
             android:name=".WrapJitomateEspinacaActivity"
             android:exported="false" />
@@ -39,15 +39,15 @@
             android:exported="false" />
         <activity
             android:name=".EspeciasActivity"
-            android:exported="false"
-            android:label="@string/especias" />
+            android:label="@string/especias"
+            android:exported="false" />
         <activity
             android:name=".UtensiliosActivity"
             android:exported="false" />
         <activity
             android:name=".BasicosActivity"
-            android:exported="false"
-            android:label="@string/basicos" />
+            android:label="@string/basicos"
+            android:exported="false" />
         <activity
             android:name=".HuevoTortillaJalapenosActivity"
             android:exported="false" />
@@ -56,8 +56,8 @@
             android:exported="false" />
         <activity
             android:name=".DesayunosActivity"
-            android:exported="false"
-            android:label="@string/desayunos" />
+            android:label="@string/desayunos"
+            android:exported="false" />
         <activity
             android:name=".SalsaVerdeCocidaActivity"
             android:exported="false" />
@@ -69,16 +69,16 @@
             android:exported="false" />
         <activity
             android:name=".IrComiendo"
-            android:exported="false"
-            android:label="@string/para_ir_comiendo" />
+            android:label="@string/para_ir_comiendo"
+            android:exported="false" />
         <activity
             android:name=".Parallevar"
-            android:exported="false"
-            android:label="@string/para_llevar" />
+            android:label="@string/para_llevar"
+            android:exported="false" />
         <activity
             android:name=".SopasActivity"
-            android:exported="false"
-            android:label="@string/sopas" />
+            android:label="@string/sopas"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

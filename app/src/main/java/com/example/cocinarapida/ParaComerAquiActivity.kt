@@ -26,8 +26,15 @@ class ParaComerAquiActivity : AppCompatActivity() {
         binding.btDesayunos.setOnClickListener {
             openDesayunosActivity()
         }
+        binding.btPostres.setOnClickListener {
+            openPopstresActivity()
+        }
 
 
+    }
+
+    private fun openPopstresActivity() {
+        startActivity(Intent(this, Postres::class.java))
     }
 
     private fun openDesayunosActivity() {

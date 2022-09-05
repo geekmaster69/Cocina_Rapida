@@ -12,8 +12,6 @@ class Parallevar : AppCompatActivity() {
         binding = ActivityParallevarBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-
-
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
