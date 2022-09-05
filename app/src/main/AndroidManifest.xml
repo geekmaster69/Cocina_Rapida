@@ -28,12 +28,7 @@
             android:name=".TecnicasActivity"
             android:label="@string/tecnicas_1"
             android:exported="false" />
-        <activity
-            android:name=".WrapJitomateEspinacaActivity"
-            android:exported="false" />
-        <activity
-            android:name=".WrapSushiActivity"
-            android:exported="false" />
+
         <activity
             android:name=".BowlArrozHuevoActivity"
             android:exported="false" />
