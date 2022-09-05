@@ -1,5 +1,6 @@
 package com.example.cocinarapida
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
@@ -13,6 +14,14 @@ class IrComiendo : AppCompatActivity() {
         setContentView(binding.root)
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
+        binding.btTortas.setOnClickListener {
+            startActivity(Intent(this, Tortas::class.java))
+        }
+
+        binding.btWraps.setOnClickListener {
+            startActivity(Intent(this, WrapsActivity::class.java))
+        }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
