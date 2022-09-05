@@ -142,6 +142,29 @@
             android:background="@drawable/madera_boton"
             android:text="@string/title_crumble_manzana_taza"/>
 
+        <TextView
+            android:id="@+id/btPastelTresLechesTaza"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_pastel_tres_leches_taza"/>
+        <TextView
+            android:id="@+id/btGalletasMicroondas"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_galletas_microondas"/>
+
 
     </LinearLayout>
 

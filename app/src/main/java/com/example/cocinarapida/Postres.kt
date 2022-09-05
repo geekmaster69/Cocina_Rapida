@@ -57,6 +57,67 @@ class Postres : AppCompatActivity() {
             openCrumbleManzanaTaza()
         }
 
+        binding.btPastelTresLechesTaza.setOnClickListener {
+            openPastelTresLechesTaza()
+        }
+        binding.btGalletasMicroondas.setOnClickListener {
+            openGalletasMicroondas()
+        }
+
+    }
+
+    private fun openGalletasMicroondas() {
+
+        val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("title", getString(R.string.title_galletas_microondas))
+
+        intent.putExtra("img_top_recipe", R.drawable.galletas_microondas)
+
+        intent.putExtra("ingredient_1", getString(R.string.azucar_mascabada_4cda))
+        intent.putExtra("ingredient_2", getString(R.string.sal_pizca))
+        intent.putExtra("ingredient_3", getString(R.string.vainilla_cda_1))
+        intent.putExtra("ingredient_4", getString(R.string.huevo_1))
+        intent.putExtra("ingredient_5", getString(R.string.mantequilla_sin_sal_1_2barra))
+        intent.putExtra("ingredient_6", getString(R.string.harina_10cda))
+        intent.putExtra("ingredient_7", getString(R.string.chispas_chocolate_1_4tz))
+
+        intent.putExtra("optional_1", getString(R.string.nues_picada))
+        intent.putExtra("optional_2", getString(R.string.chispas_colores))
+
+        intent.putExtra("preparation1", getString(R.string.galletas_microondas_preparation))
+
+        startActivity(intent)
+
+    }
+
+    private fun openPastelTresLechesTaza() {
+
+        val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("title", getString(R.string.title_pastel_tres_leches_taza))
+
+        intent.putExtra("img_top_recipe", R.drawable.pastel_3_lehes_taza)
+
+        intent.putExtra("ingredient_1", getString(R.string.mantequilla_2_cda))
+        intent.putExtra("ingredient_2", getString(R.string.vainilla_cda_1))
+        intent.putExtra("ingredient_3", getString(R.string.huevo_1))
+        intent.putExtra("ingredient_4", getString(R.string.azuca_2cda))
+        intent.putExtra("ingredient_5", getString(R.string.leche_1cda))
+        intent.putExtra("ingredient_6", getString(R.string.harina_4cda))
+        intent.putExtra("ingredient_7", getString(R.string.polvo_hornear_1_2cda))
+        intent.putExtra("ingredient_8", getString(R.string.leche_1_4tz))
+        intent.putExtra("ingredient_9", getString(R.string.leche_evaporada_1_4tz))
+        intent.putExtra("ingredient_10", getString(R.string.leche_condensada_1_4tz))
+        intent.putExtra("ingredient_11", getString(R.string.fresas_1_2tz))
+        intent.putExtra("ingredient_12", getString(R.string.crema_batida))
+
+        intent.putExtra("sustituto_1", getString(R.string.stevia))
+
+        intent.putExtra("preparation1", getString(R.string.pastel_tres_leches_taza_preparation))
+
+        startActivity(intent)
+
     }
 
     private fun openCrumbleManzanaTaza() {

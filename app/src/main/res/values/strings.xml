@@ -156,13 +156,13 @@
     <string name="agua">Agua</string>
     <string name="enfrijoladas_preparation">1- En un Bowl batir los huevos con sal y pimienta.\n\n 2- Calentar un sartén con la mantequilla, ya caliente adicionar ½ de la cebolla y un jitomate picados. Cuando la cebolla este translucida adicionar el huevo y mover hasta que el huevo este cocido, reservar.\n\n 3- Pone en la licuadora el resto de la cebolla, la mitad del jitomate restante, el cilantro, el ajo y los frijoles negros con 50 ml de agua para que todo se licue en forma uniforme.\n\n 4- En un sartén con una cucharada de aceite, dorar la longaniza y las julianas de chile cuaresmeño y reservar ambos.\n\n 5- En el sartén con la grasa de la longaniza caliente, verter la salsa de frijol, debe chisporrotear, mover hasta que la salsa se cueza, añadir sal y pimienta para rectificar la sazón.\n\n 6- Calentar las tortillas de preferencia en un horno de microondas, yo no frío las tortillas, pero es al gusto. Con las tortillas calientes rellenarlas con huevo y enrollarla. Repetir esto con dos más y ponerlas en un plato tibio.\n\n 7- Verter sobre los tacos salsa de frijol hasta cubrirlos. Con una cuchara verter sobre ellos un poco de crema, un poco de longaniza y unas rajas de cuaresmeño.</string>
     <string name="platano_1">- 1 Plátano</string>
-    <string name="huevo_1">-1 Huevo</string>
-    <string name="yogurt_griego_1_3_tz">-⅓ Taza de yogurt griego sin azúcar</string>
-    <string name="vainilla_cda_1">-1 Cucharada de vainilla</string>
-    <string name="miel_cda">-1 Cucharada de miel</string>
-    <string name="avena_1_3_tza">-⅓ Taza de avena en hojuela</string>
-    <string name="chispas_chocolate_50grs">-50 g de Chispas de chocolate</string>
-    <string name="panque_avena_preparation">1 - Con un tenedor machacamos el plátano hasta hacer puré.\n\n 2 - Añadimos el huevo, el yogurt, la vainilla, la miel, la avena y el chocolate.\n\n 3 - Mezclamos todo hasta hacer una mezcla homogénea.\n\n 4 - Metemos al horno o a la freidora de aire 8 min a 160°C.\n\n 5 - Sirve, puedes acompañar con un topping de yogurt, nueces y cajeta.</string>
+    <string name="huevo_1">- 1 Huevo</string>
+    <string name="yogurt_griego_1_3_tz">- ⅓ Taza de yogurt griego sin azúcar</string>
+    <string name="vainilla_cda_1">- 1 Cucharada de vainilla</string>
+    <string name="miel_cda">- 1 Cucharada de miel</string>
+    <string name="avena_1_3_tza">- ⅓ Taza de avena en hojuela</string>
+    <string name="chispas_chocolate_50grs">- 50 g de Chispas de chocolate</string>
+    <string name="panque_avena_preparation">1- Con un tenedor machacamos el plátano hasta hacer puré.\n\n 2 - Añadimos el huevo, el yogurt, la vainilla, la miel, la avena y el chocolate.\n\n 3 - Mezclamos todo hasta hacer una mezcla homogénea.\n\n 4 - Metemos al horno o a la freidora de aire 8 min a 160°C.\n\n 5 - Sirve, puedes acompañar con un topping de yogurt, nueces y cajeta.</string>
     <string name="limon">- 1 Limon</string>
     <string name="avocado_toas_preparation">1 - Ponemos el pan a tostar en comal o en tostadora:\n\n * En comal: la llama baja y pon las rebanadas de pan alejadas del centro del comal, pon 5 min por cada lado, o hasta que tomen un color café claro\n\n * En tostadora: poner el pan a 250°C por 3 minutos, si no consigues el color tostado vuelve a meter el pan 1 min más a la misma temperatura hasta que se torne color café claro.\n\n 2 - Mientras, calentamos un sartén a fuego medio con un poco de aceite bien esparcido y cuando esté caliente ponemos el huevo estrellado, pon un poco de sal y pimienta en la yema.\n\n 3 - En un bowl aplasta el aguacate y mezcla con la mitad del limón, sal y pimienta y úntalo sobre las dos rebanadas de pan.\n\n 4 - Pon el huevo estrellado sobre una rebanada de pan y en la otra ponemos rodajas de jitomate con mezcla de hierbas para ensalada o el aderezo de tu preferencia.\n\n</string>
     <string name="jitomate_1">- 1 Jitomate</string>
@@ -380,7 +380,7 @@
     <string name="polvo_hornear_1_2cda">"- ½ cucharadita de polvo para hornear "</string>
     <string name="sustituto_azucar">"- sustituto de azúcar  "</string>
     <string name="glaseado">"- glaseado  "</string>
-    <string name="nueces_trozo">"- nueces en trozo.  "</string>
+    <string name="nueces_trozo">"- nueces en trozo  "</string>
     <string name="panque_zanahoria_taza_preparation">"1- Lavamos perfectamente la zanahoria y la rallamos en tiras finas. \n\n 2- En una taza o un recipiente apto para microondas agrega la zanahoria, la harina, el huevo, la canela, la vainilla, el yogurt y el polvo para hornear. mezcla hasta que tengas una mezcla homogénea. \n\n 3- Metemos al microondas y calentamos por 2 min. \n\n 4- Saca y deja enfriar el recipiente, puedes decorar con glaseado o crema batida y nueces en trozos.  "</string>
     <string name="title_rol_canela_taza">Rol de Canela en Taza</string>
     <string name="azucar_1_4tz">"- ¼ de taza de azúcar  "</string>
@@ -397,5 +397,22 @@
     <string name="masa_hojaldre">"- masa de hojaldre refrigerada.  "</string>
     <string name="helado_vainilla">"- helado de vainilla.  "</string>
     <string name="crumble_manzana_taza_preparation">"“Para el relleno”\n 1- Pelamos y desorazonamos la manzana (básicos de cocina), una vez listas cortamos en cubos pequeños y agregamos la taza de azúcar, el jugo de limón, la esencia de vainilla y la canela. \n\n 2- Machaca ligeramente con la ayuda de un tenedor para formar un puré suave con trozos de fruta. \n\n 3- Reserva. \n\n “Para la masa”\n 1-  En otro recipiente, mezclamos con una cuchara  la harina, la mantequilla fría y el azúcar,  hasta lograr una mezcla homogénea y arenosa.\n\n  “Unimos” \n 1- Ahora en una taza agregamos el puré de manzana en el fondo y la masa la  ponemos sobre el puré. \n\n 2- Llevamos al microondas y ponemos 2 min, cuando termine abrimos la puerta, volvemos a cerrar y agregamos un minuto más.\n\n  3-  Deja enfriar un poco y disfruta. Puedes agregar una bola de helado de vainilla y acompañar con la bebida de tu preferencia.  "</string>
+    <string name="title_pastel_tres_leches_taza">Pastel de Tres Leches en Taza</string>
+    <string name="azuca_2cda">"- 2 cucharadas de azúcar "</string>
+    <string name="leche_1cda">"- 1 cucharada de leche  "</string>
+    <string name="harina_4cda">"- 4 cucharadas de harina  "</string>
+    <string name="leche_evaporada_1_4tz">"- ¼ de leche evaporada "</string>
+    <string name="leche_condensada_1_4tz">"- ¼ de leche condensada  "</string>
+    <string name="fresas_1_2tz">"- ½ taza de fresas "</string>
+    <string name="title_galletas_microondas">Galletas de Microondas</string>
+    <string name="azucar_mascabada_4cda">"- 4 cucharadas de azúcar mascabado "</string>
+    <string name="sal_pizca">"- 1 pizca de sal "</string>
+    <string name="mantequilla_sin_sal_1_2barra">"- ½ barra de mantequilla sin sal a temperatura ambiente  "</string>
+    <string name="harina_10cda">"- 10 cucharadas de harina de trigo   "</string>
+    <string name="chispas_chocolate_1_4tz">"- ¼ de chispas de chocolate "</string>
+    <string name="nues_picada">"- nuez picada "</string>
+    <string name="pastel_tres_leches_taza_preparation">"1- Mezclamos en una taza el huevo, la mantequilla derretida, la vainilla, el azúcar, la leche, la harina y el polvo para hornear, revuelve todo hasta tener una mezcla homogénea. \n\n 2- Metemos al microondas por 2 minutos, dejamos que enfríe y con un palillo le hacemos varios orificios en la superficie. \n\n 3- En un bol aparte mezclamos la leche, leche condensada y la leche evaporada y vertemos la mezcla al pastel en taza.\n\n 4- Agregamos las fresas picadas en la superficie y terminamos con un poco de crema batida.\n\n 5- Sirve. puedes acompañarlo con la bebida de tu preferencia, y si lo prefieres frío puedes refrigerar por 30 min.  "</string>
+    <string name="chispas_colores">"- chispas de colores "</string>
+    <string name="galletas_microondas_preparation">"1- En un bowl ponemos el azúcar, la sal. la esencia de vainilla, la mitad del huevo (batido) la mantequilla, las chispas de chocolate  y la harina. \n\n 2- Mezclamos perfectamente hasta tener una masa. \n\n 3- Engrasamos el plato para microondas . \n\n 4- Formamos bolitas con la masa (que no sean muy grandes). \n\n 5- Metemos al microondas por 1 minutos, abrimos la puerta, dejamos ventilar y agregamos otros 30 seg. \n\n 6- Sacamos del microondas, dejamos enfriar y sirve. \n\n 7- Puedes acompañar con la bebida de tu preferencia.  "</string>
 
 </resources>
