@@ -9,6 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CocinaRapida">
+
+        <activity
+            android:name=".WrapsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Postres"
+            android:exported="false"
+            android:label="@string/postres" />
+        <activity
+            android:name=".Tortas"
+            android:exported="false"
+            android:label="@string/tortas" />
+        <activity
+            android:name=".Bento"
+            android:exported="false"
+            android:label="@string/bento" />
         <activity
             android:name=".ShoppingListActivity"
             android:label="@string/lista_compras"
