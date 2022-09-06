@@ -22,7 +22,6 @@ class Parallevar : AppCompatActivity() {
             startActivity(Intent(this, Tortas::class.java))
         }
 
-
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
