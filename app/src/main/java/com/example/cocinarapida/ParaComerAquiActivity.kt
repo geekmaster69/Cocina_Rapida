@@ -30,6 +30,15 @@ class ParaComerAquiActivity : AppCompatActivity() {
             openPopstresActivity()
         }
 
+        binding.btBebidas.setOnClickListener {
+            openBebidasActivity()
+        }
+
+
+    }
+
+    private fun openBebidasActivity() {
+        startActivity(Intent(this, BebidasActivity::class.java))
 
     }
 
