@@ -26,9 +26,9 @@ class RecipeTemplateActivity : AppCompatActivity() {
             it.title = intent.extras?.getString("title")
         }
 
-        val imagen_receta = intent?.getIntExtra("img_top_recipe", 0)
-        val imagen_final = imagen_receta?.let { resources.getDrawable(it) }
-        binding.imgRecipe.setImageDrawable(imagen_final)
+        val imagenReceta = intent?.getIntExtra("img_top_recipe", 0)
+        val imagenFinal = imagenReceta?.let { resources.getDrawable(it) }
+        binding.imgRecipe.setImageDrawable(imagenFinal)
 
         binding.basicosIcon.setOnClickListener {
             startActivity(Intent(this, BasicosActivity::class.java))
@@ -329,14 +329,17 @@ class RecipeTemplateActivity : AppCompatActivity() {
             true
         }
 
-        binding.tvPreparation.text = intent.extras?.getString("preparation1")
-
         binding.optional1.text = intent.extras?.getString("optional_1")
         if (binding.optional1.text.isBlank()){
             val notOptions = "***No hay opciones disponibles***"
             binding.optional1.text = notOptions
         }else{
             binding.optional1.visibility = View.VISIBLE
+        }
+        binding.optional1.setOnLongClickListener {
+            val ingredientAdd = binding.optional1.text.toString()
+            addlistaCompras(ingredientAdd)
+            true
         }
 
         binding.optional2.text = intent.extras?.getString("optional_2")
@@ -345,6 +348,11 @@ class RecipeTemplateActivity : AppCompatActivity() {
         }else{
             binding.optional2.visibility = View.VISIBLE
         }
+        binding.optional2.setOnLongClickListener {
+            val ingredientAdd = binding.optional2.text.toString()
+            addlistaCompras(ingredientAdd)
+            true
+        }
 
         binding.optional3.text = intent.extras?.getString("optional_3")
         if (binding.optional3.text.isBlank()){
@@ -352,6 +360,16 @@ class RecipeTemplateActivity : AppCompatActivity() {
         }else{
             binding.optional3.visibility = View.VISIBLE
         }
+
+        binding.optional3.setOnLongClickListener {
+            val ingredientAdd = binding.optional3.text.toString()
+            addlistaCompras(ingredientAdd)
+            true
+        }
+
+        binding.tvPreparation.text = intent.extras?.getString("preparation1")
+
+
     }
 
     private fun addlistaCompras(ingredientAdd: String) {
