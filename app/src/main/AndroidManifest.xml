@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CocinaRapida">
         <activity
+            android:name=".OniguirazuActivity"
+            android:exported="false" />
+        <activity
             android:name=".BebidasActivity"
             android:exported="false" />
         <activity

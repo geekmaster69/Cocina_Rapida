@@ -24,16 +24,7 @@
             android:fontFamily="@font/dancin_script_regular"
             android:layout_marginBottom="16dp"
             android:text="Utensilios"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="@drawable/madera_boton"
-            android:textSize="40sp"
-            android:textColor="@color/white"
-            android:gravity="center"
-            android:fontFamily="@font/dancin_script_regular"
-            android:layout_marginBottom="16dp"
-            android:text="Sartenes y Ollas"/>
+
         <TextView
             android:id="@+id/bt_especias"
             android:layout_width="match_parent"
