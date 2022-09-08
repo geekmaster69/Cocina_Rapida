@@ -4,6 +4,7 @@ import android.app.SearchManager
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import com.example.cocinarapida.databinding.ActivityEspeciasBinding
 
 class EspeciasActivity : AppCompatActivity() {
@@ -12,6 +13,8 @@ class EspeciasActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityEspeciasBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
 
         binding.canela.setOnClickListener {
@@ -80,11 +83,18 @@ class EspeciasActivity : AppCompatActivity() {
 
     }
 
-    fun busquedaWeb(especia: String){
+    private fun busquedaWeb(especia: String){
         val intent = Intent(Intent.ACTION_WEB_SEARCH).apply {
             putExtra(SearchManager.QUERY, especia)
         }
         startActivity(intent)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == android.R.id.home){
+            onBackPressed()
+        }
+        return super.onOptionsItemSelected(item)
     }
 
 }
