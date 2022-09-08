@@ -446,5 +446,13 @@
     <string name="agua_caliente_1_4tz">"-  ¼ de taza de agua caliente  "</string>
     <string name="fresas_frescas">"- fresas frescas  "</string>
     <string name="latte_fresa_te_verde_preparation">"1- Poner las fresas a descongelar en un microondas, cuando estén un poco descongeladas  y aplastarlas  un poco.\n\n 2- Coloca las fresas junto con el jugo en el fondo del vaso de tu bebida.\n\n 3- Agrega la cantidad de hielo de tu preferencia. \n\n 4- Agrega ¾ de la taza de leche. \n\n 5- En el ¼ de taza de leche restante diluye la cucharada de té verde en polvo. \n\n 6- Agrega el té verde sobre la leche. \n\n 7- Puedes decorar con fresas frescas y hojas de menta. "</string>
+    <string name="title_latte_cafe_baileys">Latte de Cafe con Baileys</string>
+    <string name="licor_cafe">"- licor de café  "</string>
+    <string name="licor_cafe_30ml">"- 30 ml de licor de café  "</string>
+    <string name="baileys_30ml">"- 30 ml de Baileys "</string>
+    <string name="crema_leche_30ml">"- 30ml de crema de leche  "</string>
+    <string name="nuez_moscada_polvo">"- nuez moscada en polvo "</string>
+    <string name="latte_cafe_baileys_preparation">"1- Agrega el hielo hasta ¾ del vaso. \n\n 2- Sobre los hielos, agregar el licor de café, el baileys,y la crema de leche y el café frío. \n\n 3- Revuelve hasta que la mezcla sea homogénea. \n\n 4- Puedes decorar con crema batida y espolvorear un poco de nuez moscada. "</string>
+    <string name="title_oniguirazu_atun">Oniguirazu de Atun</string>
 
 </resources>

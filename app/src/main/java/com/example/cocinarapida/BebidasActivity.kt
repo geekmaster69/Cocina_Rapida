@@ -3,6 +3,7 @@ package com.example.cocinarapida
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import com.example.cocinarapida.databinding.ActivityBebidasBinding
 
 class BebidasActivity : AppCompatActivity() {
@@ -11,6 +12,7 @@ class BebidasActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityBebidasBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         binding.btAguaJamaicaNatural.setOnClickListener {
             openAguaJamaicaNatural()
@@ -23,6 +25,32 @@ class BebidasActivity : AppCompatActivity() {
         binding.btLatteFresaTeverdes.setOnClickListener {
             openLatteFresaTeVerde()
         }
+
+        binding.btLatteCafeBaileys.setOnClickListener {
+            openLatteCafeBaileys()
+        }
+    }
+
+    private fun openLatteCafeBaileys() {
+
+        val intent = Intent(this, RecipeTemplateActivity::class.java)
+
+        intent.putExtra("title", getString(R.string.title_latte_cafe_baileys))
+
+        intent.putExtra("img_top_recipe", R.drawable.cafe_baileys)
+
+        intent.putExtra("ingredient_1", getString(R.string.licor_cafe_30ml))
+        intent.putExtra("ingredient_2", getString(R.string.hielo))
+        intent.putExtra("ingredient_3", getString(R.string.baileys_30ml))
+        intent.putExtra("ingredient_4", getString(R.string.crema_leche_30ml))
+
+        intent.putExtra("optional_1", getString(R.string.crema_batida))
+        intent.putExtra("optional_2", getString(R.string.nuez_moscada_polvo))
+
+        intent.putExtra("preparation1", getString(R.string.latte_cafe_baileys_preparation))
+
+        startActivity(intent)
+
     }
 
     private fun openLatteFresaTeVerde() {
@@ -88,5 +116,12 @@ class BebidasActivity : AppCompatActivity() {
         intent.putExtra("preparation1", getString(R.string.agua_jamaica_natural_preparation))
 
         startActivity(intent)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == android.R.id.home){
+            onBackPressed()
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
