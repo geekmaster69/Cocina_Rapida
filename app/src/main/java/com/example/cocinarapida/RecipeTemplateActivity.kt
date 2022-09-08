@@ -12,7 +12,6 @@ import com.example.cocinarapida.databinding.ActivityRecipeTemplateBinding
 class RecipeTemplateActivity : AppCompatActivity() {
     private lateinit var binding: ActivityRecipeTemplateBinding
     private lateinit var database: DatabaseHelper
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityRecipeTemplateBinding.inflate(layoutInflater)
