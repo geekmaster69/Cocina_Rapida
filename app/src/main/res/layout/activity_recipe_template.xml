@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-
         <ImageView
             android:id="@+id/img_Recipe"
             android:layout_width="match_parent"
@@ -45,11 +44,7 @@
                 android:background="?attr/selectableItemBackground"
                 app:tint="@color/black"
                 android:paddingHorizontal="16dp"/>
-
-
-
         </LinearLayout>
-
 
         <TextView
             android:layout_width="match_parent"
@@ -59,147 +54,10 @@
             android:gravity="center"
             android:text="@string/tv_ingredients"/>
 
-        <TextView
-            android:id="@+id/ingredient_1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_9"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_10"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_11"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_12"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_13"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_14"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_15"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_16"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_17"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_18"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_19"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/ingredient_20"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-
+       <ListView
+           android:id="@+id/lvIngredients"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -209,36 +67,10 @@
             android:gravity="center"
             android:text="@string/substitutes"/>
 
-        <TextView
-            android:id="@+id/substitute_1"
+        <ListView
+            android:id="@+id/lvSubstitutes"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-
-        <TextView
-            android:id="@+id/substitute_2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/substitute_3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/substitute_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-
+            android:layout_height="match_parent"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -248,30 +80,10 @@
             android:gravity="center"
             android:text="@string/optional"/>
 
-
-        <TextView
-            android:id="@+id/optional_1"
+        <ListView
+            android:id="@+id/lvOptionals"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-        <TextView
-            android:id="@+id/optional_2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-
-        <TextView
-            android:id="@+id/optional_3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:textSize="20sp"
-            android:gravity="start"/>
-
+            android:layout_height="match_parent"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -288,11 +100,6 @@
             android:textColor="@color/black"
             android:textSize="24sp"
             android:layout_marginBottom="8dp"/>
-
-
-
-
-
 
     </LinearLayout>
 
