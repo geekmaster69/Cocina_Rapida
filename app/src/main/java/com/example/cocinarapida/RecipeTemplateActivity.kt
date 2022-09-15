@@ -75,7 +75,7 @@ class RecipeTemplateActivity : AppCompatActivity() {
     private fun addlistaCompras(ingredientAdd: String) {
         val note = Note (description = ingredientAdd)
         note.id = database.insertNote(note)
-        Toast.makeText(this, "Se agrego $ingredientAdd a la Lista de Compras", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "$ingredientAdd Se agrego a la Lista de Compras", Toast.LENGTH_SHORT).show()
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
