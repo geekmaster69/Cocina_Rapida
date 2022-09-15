@@ -17,46 +17,50 @@ class Bento : AppCompatActivity() {
 
         binding.btCerdoAgridulce.setOnClickListener {
 
-            openCerdoAgridulce()
+            val title = getString(R.string.title_bento_cerdo_agridulce)
+
+            val image = R.drawable.bento_cerdo_agridulce
+
+            val ingredientList = arrayOf("- 1kg de filete de cerdo","- 2 cucharadas de salsa de soya",
+                "- 1 cucharadita de pimienta", "- 1 huevo","- harina de trigo","- aceite para freír",
+                "- 1 cuchara de ajo picado", "- 1 cucharada de jengibre picado","- 1 taza de jugo de naranja natural",
+                "- 3 cucharadas de azúcar","- 2 cucharadas de vinagre blanco", "- 2 cucharadas de puré de tomate",
+                "- 4 cucharadas de salsa de soya","- 2 cucharadas de agua","- 2 cucharadas de maizena")
+
+            val substitutesList = arrayOf("- frasco de ajo picado",
+                "-jugo de naranja en tetrapack ", "- stevia ",
+                  "- ketchup ")
+
+            val optionsList = arrayOf("- cebollín", "- semillas de sésamo")
+
+            val preparation =  getString(R.string.cerdo_agridulce_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                                       preparation)
         }
     }
 
-    private fun openCerdoAgridulce() {
+    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: Array<String>,
+                                           substitutesList: Array<String>, optionsList: Array<String>,
+                                           preparation: String) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
 
-        intent.putExtra("title", getString(R.string.title_bento_cerdo_agridulce))
+        intent.putExtra("title", title)
 
-        intent.putExtra("img_top_recipe", R.drawable.bento_cerdo_agridulce)
+        intent.putExtra("img_top_recipe", image)
 
-        intent.putExtra("ingredient_1", getString(R.string.fiele_cerdo_1kg))
-        intent.putExtra("ingredient_2", getString(R.string.salsa_soya_2cds))
-        intent.putExtra("ingredient_3", getString(R.string.pimienta))
-        intent.putExtra("ingredient_4", getString(R.string.huevo_1))
-        intent.putExtra("ingredient_5", getString(R.string.harina_trigo))
-        intent.putExtra("ingredient_6", getString(R.string.aceite))
-        intent.putExtra("ingredient_7", getString(R.string.ajo_1))
-        intent.putExtra("ingredient_8", getString(R.string.jengibre_picado_1cda))
-        intent.putExtra("ingredient_9", getString(R.string.jugo_naranja_1tz))
-        intent.putExtra("ingredient_10", getString(R.string.azucar_3cds))
-        intent.putExtra("ingredient_11", getString(R.string.vinagre_blanco_2cds))
-        intent.putExtra("ingredient_12", getString(R.string.pure_tomate_2cds))
-        intent.putExtra("ingredient_13", getString(R.string.agua_2cds))
-        intent.putExtra("ingredient_14", getString(R.string.maizena_2cds))
+        intent.putExtra("ingredientsList", ingredientList )
 
-        intent.putExtra("sustituto_1", getString(R.string.ajos_picados_frasco))
-        intent.putExtra("sustituto_2", getString(R.string.jugo_naranja_tetrapack))
-        intent.putExtra("sustituto_3", getString(R.string.stevia))
-        intent.putExtra("sustituto_4", getString(R.string.ketchup))
+        intent.putExtra("substitutesList", substitutesList)
 
-        intent.putExtra("optional_1", getString(R.string.cebollin))
-        intent.putExtra("optional_2", getString(R.string.semillas_sesamo))
+        intent.putExtra("optionList", optionsList )
 
-        intent.putExtra("preparation1", getString(R.string.cerdo_agridulce_preparation))
+        intent.putExtra("preparation", preparation)
 
         startActivity(intent)
-    }
 
+    }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == android.R.id.home){
