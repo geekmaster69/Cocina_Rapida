@@ -100,7 +100,5 @@
             android:textColor="@color/black"
             android:textSize="24sp"
             android:layout_marginBottom="8dp"/>
-
     </LinearLayout>
-
 </ScrollView>

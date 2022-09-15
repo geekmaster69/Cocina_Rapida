@@ -45,21 +45,13 @@ class Bento : AppCompatActivity() {
                                            preparation: String) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
-
         intent.putExtra("title", title)
-
         intent.putExtra("img_top_recipe", image)
-
         intent.putExtra("ingredientsList", ingredientList )
-
         intent.putExtra("substitutesList", substitutesList)
-
         intent.putExtra("optionList", optionsList )
-
         intent.putExtra("preparation", preparation)
-
         startActivity(intent)
-
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
