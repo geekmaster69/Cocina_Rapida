@@ -454,5 +454,7 @@
     <string name="nuez_moscada_polvo">"- nuez moscada en polvo "</string>
     <string name="latte_cafe_baileys_preparation">"1- Agrega el hielo hasta ¾ del vaso. \n\n 2- Sobre los hielos, agregar el licor de café, el baileys,y la crema de leche y el café frío. \n\n 3- Revuelve hasta que la mezcla sea homogénea. \n\n 4- Puedes decorar con crema batida y espolvorear un poco de nuez moscada. "</string>
     <string name="title_oniguirazu_atun">Oniguirazu de Atun</string>
+    <string name="no_subtitutes">No hay sustitutos disponibles</string>
+    <string name="no_optios">No hay opciones disponibles</string>
 
 </resources>

@@ -32,6 +32,18 @@
             android:background="@drawable/madera_boton"
             android:text="@string/title_panque_platano_taza"/>
 
+        <TextView
+            android:id="@+id/btPanqueAvena"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="32sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_panque_avena"/>
+
 
         <TextView
             android:id="@+id/btCheescakeFrutosRojos"

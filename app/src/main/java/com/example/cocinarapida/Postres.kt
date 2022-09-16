@@ -21,6 +21,27 @@ class Postres : AppCompatActivity() {
             openPanquePlatano()
         }
 
+        binding.btPanqueAvena.setOnClickListener {
+
+            val title = getString(R.string.title_panque_avena)
+
+            val image = R.drawable.avocado_toas
+
+            val ingredientList = arrayOf(getString(R.string.platano_1),getString(R.string.huevo_1),
+                getString(R.string.yogurt_griego_1_3_tz),getString(R.string.vainilla_cda_1),
+                getString(R.string.miel_cda),getString(R.string.avena_1_3_tza),
+                getString(R.string.chispas_chocolate_50grs))
+
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+
+            val optionsList = arrayOf(getString(R.string.no_optios))
+
+            val preparation: String = getString(R.string.panque_avena_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
+        }
+
         binding.btCheescakeFrutosRojos.setOnClickListener {
             openCheesecakeFrutosRojos()
         }
@@ -396,7 +417,20 @@ class Postres : AppCompatActivity() {
         intent.putExtra("preparation1", getString(R.string.panque_platano_taza_preparation))
 
         startActivity(intent)
+    }
 
+    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: Array<String>,
+                                           substitutesList: Array<String>, optionsList: Array<String>,
+                                           preparation: String) {
+
+        val intent = Intent(this, RecipeTemplateActivity::class.java)
+        intent.putExtra("title", title)
+        intent.putExtra("img_top_recipe", image)
+        intent.putExtra("ingredientsList", ingredientList )
+        intent.putExtra("substitutesList", substitutesList)
+        intent.putExtra("optionList", optionsList )
+        intent.putExtra("preparation", preparation)
+        startActivity(intent)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

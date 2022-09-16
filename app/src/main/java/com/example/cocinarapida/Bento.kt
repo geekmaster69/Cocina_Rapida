@@ -22,7 +22,7 @@ class Bento : AppCompatActivity() {
             val image = R.drawable.bento_cerdo_agridulce
 
             val ingredientList = arrayOf("- 1kg de filete de cerdo","- 2 cucharadas de salsa de soya",
-                "- 1 cucharadita de pimienta", "- 1 huevo","- harina de trigo","- aceite para freír",
+                "- 1 cucharada de pimienta", "- 1 huevo","- harina de trigo","- aceite para freír",
                 "- 1 cuchara de ajo picado", "- 1 cucharada de jengibre picado","- 1 taza de jugo de naranja natural",
                 "- 3 cucharadas de azúcar","- 2 cucharadas de vinagre blanco", "- 2 cucharadas de puré de tomate",
                 "- 4 cucharadas de salsa de soya","- 2 cucharadas de agua","- 2 cucharadas de maizena")

@@ -15,521 +15,251 @@ class DesayunosActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-
-
-
         binding.btOmeletteJamonQueso.setOnClickListener {
 
-            val ingredient1: String = getString(R.string.huevos_2)
-            val ingredient2: String = getString(R.string.rebanada_pechuga_pollo_rostizada)
-            val ingredient3: String = getString(R.string.queso_manchego_2)
-            val ingredient4: String = getString(R.string.rebanada_jitomate_bola_3)
-            val ingredient5: String = getString(R.string.rebanada_aguacate_3)
-            val ingredient6: String = getString(R.string.sal_grano_cda_1_2)
-            val ingredient7: String = getString(R.string.aceite_canola_cda)
-            val ingredient8: String = getString(R.string.mantequilla_cda_1_2)
-            val ingredient9: String = getString(R.string.sal_pimineta_gusto)
+            val title = getString(R.string.title_omelette_jamon_queso)
 
+            val image = R.drawable.omelette_jamon_queso
 
-            val preparation1: String = getString(R.string.omelette_jamon_queso_preparation)
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
 
+            val optionsList = arrayOf(getString(R.string.no_optios))
 
+            val ingredientList = arrayOf(getString(R.string.huevos_2),getString(R.string.rebanada_pechuga_pollo_rostizada),
+                getString(R.string.queso_manchego_2),getString(R.string.rebanada_jitomate_bola_3),
+                getString(R.string.rebanada_aguacate_3),getString(R.string.sal_grano_cda_1_2),
+                getString(R.string.aceite_canola_cda),getString(R.string.mantequilla_cda_1_2),
+                getString(R.string.sal_pimineta_gusto))
 
-            openOmeletteJamonQuesoActivity(ingredient1, ingredient2, ingredient3, ingredient4,
-                                           ingredient5, ingredient6, ingredient7, ingredient8,
-                                           ingredient9, preparation1)
+            val preparation: String = getString(R.string.omelette_jamon_queso_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
         }
+
         binding.btHuevoAmelia.setOnClickListener {
 
-            val ingredient1: String = getString(R.string.huevos_2)
-            val ingredient2: String = getString(R.string.rebanas_pan_caja_2)
-            val ingredient3: String = getString(R.string.sal_pimineta_gusto)
-            val ingredient4: String = getString(R.string.mantequilla)
-            val ingredient5: String = getString(R.string.miel_abeja)
+            val title = getString(R.string.title_huevos_estilo_amelia)
+
+            val image = R.drawable.huevos_amelia
+
+            val ingredientList = arrayOf(getString(R.string.huevos_2),getString(R.string.rebanas_pan_caja_2),
+                getString(R.string.sal_pimineta_gusto),getString(R.string.mantequilla),getString(R.string.miel_abeja))
+
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+
+            val optionsList = arrayOf(getString(R.string.no_optios))
 
 
-            val preparation1: String = getString(R.string.huevos_amelia_preparation)
+            val preparation: String = getString(R.string.huevos_amelia_preparation)
 
 
-            openHuevosAmeliaActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
-                                     preparation1)
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
         }
+
         binding.btHuevoNorma.setOnClickListener {
-            openHuevoNomraActivity()
+
         }
         binding.btHuevoTortillaJalapeO.setOnClickListener {
-            openHuevoTortillaJalapenoActivity()
+
         }
         binding.btHuevoLugoLopez.setOnClickListener {
 
-            val ingredient1: String = getString(R.string.huevos_4)
-            val ingredient2: String = getString(R.string.cebolla_blanca_picada_1)
-            val ingredient3: String = getString(R.string.jitomate_picado_cubos_1)
-            val ingredient4: String = getString(R.string.papa_cortada_cubos_1)
-            val ingredient5: String = getString(R.string.rebanadas_jamon_triangulos_2)
-            val ingredient6: String = getString(R.string.queso_oaxaca_20g)
-            val ingredient7: String = getString(R.string.aceite_cda_5)
-            val ingredient8: String = getString(R.string.sal_pimineta_gusto)
+            val title = getString(R.string.title_huevos_lugo_lopez)
 
-            val preparation1: String = getString(R.string.huevos_kuego_lopez_preparation)
+            val image = R.drawable.huevos_lugo_lopez
 
-            openHuevosLugoLopezActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
-                ingredient6, ingredient7, ingredient8, preparation1)
+            val ingredientList = arrayOf(getString(R.string.huevos_4),getString(R.string.cebolla_blanca_picada_1),
+                getString(R.string.jitomate_picado_cubos_1),getString(R.string.papa_cortada_cubos_1),
+                getString(R.string.rebanadas_jamon_triangulos_2),getString(R.string.queso_oaxaca_20g),
+                getString(R.string.aceite_cda_5),getString(R.string.sal_pimineta_gusto))
+
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+
+            val optionsList = arrayOf(getString(R.string.no_optios))
+
+            val preparation: String = getString(R.string.huevos_kuego_lopez_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
         }
+
         binding.btHuevoSalsaJitomate.setOnClickListener {
 
-            val ingredient1: String = getString(R.string.huevos_4)
-            val ingredient2: String = getString(R.string.jitomates_cortados_4_3)
-            val ingredient3: String = getString(R.string.cebolla_1_4)
-            val ingredient4: String = getString(R.string.ajo_1)
-            val ingredient5: String = getString(R.string.manojo_cilantro_1_8)
-            val ingredient6: String = getString(R.string.cucharadas_aceite_2)
-            val ingredient7: String = getString(R.string.agua_50ml)
-            val ingredient8: String = getString(R.string.mantequilla_2_cda)
+            val title = getString(R.string.title_huevos_salsa_jitomate)
 
-            val preparation1: String = getString(R.string.huevos_salsa_jitomate_preparation)
+            val image = R.drawable.huevos_salsa_jitomate
 
-            val optional1: String = getString(R.string.chiles_serranos_2)
+            val ingredientList = arrayOf(getString(R.string.huevos_4),getString(R.string.jitomates_cortados_4_3),
+                getString(R.string.cebolla_1_4),getString(R.string.ajo_1),getString(R.string.manojo_cilantro_1_8),
+                getString(R.string.cucharadas_aceite_2),getString(R.string.agua_50ml),getString(R.string.mantequilla_2_cda))
 
-            openHuevoSalsaJitomateAtivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
-                ingredient6, ingredient7, ingredient8, preparation1, optional1)
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+
+            val optionsList = arrayOf(getString(R.string.chiles_serranos_2))
+
+            val preparation: String = getString(R.string.huevos_salsa_jitomate_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
         }
+
         binding.btChilaquilesRojosVerdes.setOnClickListener {
 
-            val ingredient1: String = getString(R.string.totopos_500gr)
-            val ingredient2: String = getString(R.string.tomate_verde_1kg)
-            val ingredient3: String = getString(R.string.cebolla)
-            val ingredient4: String = getString(R.string.chiles_serranos_2)
-            val ingredient5: String = getString(R.string.manojo_cilantro_1_8)
-            val ingredient6: String = getString(R.string.cebolla_blanca_picada_1)
-            val ingredient7: String = getString(R.string.queso_panela_manchego_100gr)
-            val ingredient8: String = getString(R.string.cucharadas_aceite_2)
-            val ingredient9: String = getString(R.string.sal_pimineta_gusto)
-            val ingredient10: String = getString(R.string.ajo_1)
+            val title = getString(R.string.title_chilaquiles_rojos_verdes)
 
-            val preparation1: String = getString(R.string.chilaquiles_preparation)
+            val image = R.drawable.chilaquiles
 
-            openChilaquilesRojosVerdesActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
-                ingredient6, ingredient7, ingredient8, ingredient9, ingredient10, preparation1)
+            val ingredientList = arrayOf(getString(R.string.totopos_500gr),getString(R.string.tomate_verde_1kg),
+                getString(R.string.cebolla),getString(R.string.chiles_serranos_2),getString(R.string.manojo_cilantro_1_8),
+                getString(R.string.cebolla_blanca_picada_1),getString(R.string.queso_panela_manchego_100gr),
+                getString(R.string.cucharadas_aceite_2),getString(R.string.sal_pimineta_gusto),getString(R.string.ajo_1))
+
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+
+            val optionsList = arrayOf(getString(R.string.no_optios))
+
+            val preparation: String = getString(R.string.chilaquiles_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
         }
+
         binding.btEnfrijoladas.setOnClickListener {
 
-            val ingredient1: String = getString(R.string.huevos_4)
-            val ingredient2: String = getString(R.string.jitomate_picado_cubos_1)
-            val ingredient3: String = getString(R.string.cebolla_blanca_picada_1)
-            val ingredient4: String = getString(R.string.chile_cuaresmeno_jilianas_1)
-            val ingredient5: String = getString(R.string.bolsa_frijoles_refritos_1)
-            val ingredient6: String = getString(R.string.manojo_cilantro_1_8)
-            val ingredient7: String = getString(R.string.longaniza_100gr)
-            val ingredient8: String = getString(R.string.crema)
-            val ingredient9: String = getString(R.string.cucharadas_aceite_2)
-            val ingredient10: String = getString(R.string.agua)
-            val ingredient11: String = getString(R.string.sal_pimineta_gusto)
+            val title = getString(R.string.title_enfrijoladas)
 
-            val preparation1: String = getString(R.string.enfrijoladas_preparation)
+            val image = R.drawable.enfrijoladas
 
-            openEnfrijoladasActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
-                ingredient6, ingredient7, ingredient8, ingredient9, ingredient10,
-                ingredient11, preparation1)
+            val ingredientList = arrayOf(getString(R.string.huevos_4),getString(R.string.jitomate_picado_cubos_1),
+                getString(R.string.cebolla_blanca_picada_1),getString(R.string.chile_cuaresmeno_jilianas_1),
+                getString(R.string.bolsa_frijoles_refritos_1),getString(R.string.manojo_cilantro_1_8),
+                getString(R.string.longaniza_100gr),getString(R.string.crema),getString(R.string.cucharadas_aceite_2),
+                getString(R.string.agua),getString(R.string.sal_pimineta_gusto))
+
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+
+            val optionsList = arrayOf(getString(R.string.no_optios))
+
+            val preparation: String = getString(R.string.enfrijoladas_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
         }
-        binding.btPanqueAvena.setOnClickListener {
 
-            val ingredient1: String = getString(R.string.platano_1)
-            val ingredient2: String = getString(R.string.huevo_1)
-            val ingredient3: String = getString(R.string.yogurt_griego_1_3_tz)
-            val ingredient4: String = getString(R.string.vainilla_cda_1)
-            val ingredient5: String = getString(R.string.miel_cda)
-            val ingredient6: String = getString(R.string.avena_1_3_tza)
-            val ingredient7: String = getString(R.string.chispas_chocolate_50grs)
-
-            val preparation1: String = getString(R.string.panque_avena_preparation)
-
-            openPaqueAvenaActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
-                ingredient6, ingredient7, preparation1)
-        }
         binding.btAvocadoToas.setOnClickListener {
 
-            val ingredient1: String = getString(R.string.rebanas_pan_caja_2)
-            val ingredient2: String = getString(R.string.aguacate)
-            val ingredient3: String = getString(R.string.huevos_2)
-            val ingredient4: String = getString(R.string.limon)
-            val ingredient5: String = getString(R.string.jitomate_1)
-            val ingredient6: String = getString(R.string.sal_pimineta_gusto)
+            val title = getString(R.string.title_avocado_toas)
 
-            val preparation1: String = getString(R.string.avocado_toas_preparation)
+            val image = R.drawable.avocado_toas
 
-            openAvocadoToasActrivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
-                ingredient6, preparation1)
+            val ingredientList = arrayOf(getString(R.string.rebanas_pan_caja_2),getString(R.string.aguacate),
+                getString(R.string.huevos_2),getString(R.string.limon),getString(R.string.jitomate_1),
+                getString(R.string.sal_pimineta_gusto))
+
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+
+            val optionsList = arrayOf(getString(R.string.no_optios))
+
+            val preparation: String = getString(R.string.avocado_toas_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
         }
+
         binding.btOmurice.setOnClickListener {
 
-            val ingredient1: String = getString(R.string.huevos_2)
-            val ingredient2: String = getString(R.string.cebolla_cambray_1)
-            val ingredient3: String = getString(R.string.mantequilla_cda_1)
-            val ingredient4: String = getString(R.string.taza_arroz_vapor_1_2)
-            val ingredient5: String = getString(R.string.agua)
-            val ingredient6: String = getString(R.string.catsup)
-            val ingredient7: String = getString(R.string.sal_pimineta_gusto)
+            val title = getString(R.string.title_omurice)
 
-            val preparation1: String = getString(R.string.omurice_preparation)
+            val image = R.drawable.omurice
 
-            openOmuriceActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
-                ingredient6, ingredient7, preparation1)
+            val ingredientList = arrayOf(getString(R.string.huevos_2), getString(R.string.cebolla_cambray_1),
+                getString(R.string.mantequilla_cda_1), getString(R.string.taza_arroz_vapor_1_2),
+                getString(R.string.agua), getString(R.string.catsup), getString(R.string.sal_pimineta_gusto))
+
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+
+            val optionsList = arrayOf(getString(R.string.no_optios))
+
+            val preparation: String = getString(R.string.omurice_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
         }
+
         binding.btOmeletteEspinacas.setOnClickListener {
 
-            val ingredient1: String = getString(R.string.huevos_2)
-            val ingredient2: String = getString(R.string.leche_10ml)
-            val ingredient3: String = getString(R.string.manojo_espinacas)
-            val ingredient4: String = getString(R.string.queso_manchego_cabra)
-            val ingredient5: String = getString(R.string.jamon)
-            val ingredient6: String = getString(R.string.mantequilla_cda_1)
-            val ingredient7: String = getString(R.string.sal_pimineta_gusto)
+            val title = getString(R.string.title_omelette_espinacas)
 
+            val image = R.drawable.omelette_espinaca
 
-            val substitute1: String = getString(R.string.espinacas_bolsa)
+            val ingredientList = arrayOf(getString(R.string.huevos_2), getString(R.string.leche_10ml),
+                getString(R.string.manojo_espinacas), getString(R.string.queso_manchego_cabra),
+                getString(R.string.jamon), getString(R.string.mantequilla_cda_1), getString(R.string.sal_pimineta_gusto))
 
-            val preparation1: String = getString(R.string.omelette_espinacas_preparation)
+            val substitutesList = arrayOf(getString(R.string.espinacas_bolsa))
 
-            openOmeletteEspinacasActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
-                ingredient6, ingredient7, substitute1, preparation1)
+            val optionsList = arrayOf(getString(R.string.no_optios))
+
+            val preparation: String = getString(R.string.omelette_espinacas_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
         }
+
         binding.btOmeletteChampinones.setOnClickListener {
 
-            val ingredient1: String = getString(R.string.huevos_2)
-            val ingredient2: String = getString(R.string.leche_10ml)
-            val ingredient3: String = getString(R.string.champinones_250)
-            val ingredient4: String = getString(R.string.queso_manchego_2)
-            val ingredient5: String = getString(R.string.cebolla_picada_1_4)
-            val ingredient6: String = getString(R.string.jamon)
-            val ingredient7: String = getString(R.string.mantequilla_cda_1)
-            val ingredient8: String = getString(R.string.sal_pimineta_gusto)
+            val title = getString(R.string.title_omelette_champinones)
 
-            val preparation1: String = getString(R.string.omelette_champinones_preparation)
+            val image = R.drawable.omelette_champinones
 
-            openOmeletteChampinonesActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
-                ingredient6, ingredient7, ingredient8, preparation1)
+            val ingredientList = arrayOf(getString(R.string.huevos_2), getString(R.string.leche_10ml),
+                getString(R.string.champinones_250), getString(R.string.queso_manchego_2),
+                getString(R.string.cebolla_picada_1_4), getString(R.string.jamon), getString(R.string.mantequilla_cda_1),
+                getString(R.string.sal_pimineta_gusto))
+
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+
+            val optionsList = arrayOf(getString(R.string.no_optios))
+
+            val preparation: String = getString(R.string.omelette_champinones_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
         }
+
         binding.btHuevoSalchicha.setOnClickListener {
+            val title = getString(R.string.title_huevo_salchicha)
 
-            val ingredient1: String = getString(R.string.huevos_2)
-            val ingredient2: String = getString(R.string.leche_10ml)
-            val ingredient3: String = getString(R.string.salchichas_2)
-            val ingredient4: String = getString(R.string.mantequilla_cda_1)
-            val ingredient5: String = getString(R.string.sal_pimineta_gusto)
+            val image = R.drawable.huevo_salchicha
 
-            val preparation1: String = getString(R.string.huevos_salchicha_preparation)
+            val ingredientList = arrayOf(getString(R.string.huevos_2),getString(R.string.leche_10ml),
+                             getString(R.string.salchichas_2), getString(R.string.mantequilla_cda_1),
+                             getString(R.string.sal_pimineta_gusto))
 
-            openHuevoSalchichaActivity(ingredient1, ingredient2, ingredient3, ingredient4, ingredient5,
-                preparation1)
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+
+            val optionsList = arrayOf(getString(R.string.no_optios))
+
+            val preparation: String = getString(R.string.huevos_salchicha_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
         }
     }
 
-    private fun openHuevoSalchichaActivity(ingredient1: String, ingredient2: String, ingredient3: String,
-                                           ingredient4: String, ingredient5: String, preparation1: String) {
+    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: Array<String>,
+                                           substitutesList: Array<String>, optionsList: Array<String>,
+                                           preparation: String) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
-
-        intent.putExtra("title", getString(R.string.title_huevo_salchicha))
-
-        intent.putExtra("img_top_recipe", R.drawable.huevo_salchicha)
-
-        intent.putExtra("ingredient_1", ingredient1)
-        intent.putExtra("ingredient_2", ingredient2)
-        intent.putExtra("ingredient_3", ingredient3)
-        intent.putExtra("ingredient_4", ingredient4)
-        intent.putExtra("ingredient_5", ingredient5)
-
-        intent.putExtra("preparation1", preparation1)
-
-        startActivity(intent)
-    }
-
-    private fun openOmeletteChampinonesActivity(ingredient1: String, ingredient2: String, ingredient3: String,
-                                                ingredient4: String, ingredient5: String, ingredient6: String,
-                                                ingredient7: String, ingredient8: String,
-                                                preparation1: String) {
-
-
-        val intent = Intent(this, RecipeTemplateActivity::class.java)
-
-        intent.putExtra("title", getString(R.string.title_omelette_champinones))
-
-        intent.putExtra("img_top_recipe", R.drawable.omelette_champinones)
-
-        intent.putExtra("ingredient_1", ingredient1)
-        intent.putExtra("ingredient_2", ingredient2)
-        intent.putExtra("ingredient_3", ingredient3)
-        intent.putExtra("ingredient_4", ingredient4)
-        intent.putExtra("ingredient_5", ingredient5)
-        intent.putExtra("ingredient_6", ingredient6)
-        intent.putExtra("ingredient_7", ingredient7)
-        intent.putExtra("ingredient_8", ingredient8)
-
-
-        intent.putExtra("preparation1", preparation1)
-
-        startActivity(intent)
-    }
-
-    private fun openOmeletteEspinacasActivity(ingredient1: String, ingredient2: String, ingredient3: String,
-                                              ingredient4: String, ingredient5: String, ingredient6: String,
-                                              ingredient7: String, substitute1: String, preparation1: String) {
-
-        val intent = Intent(this, RecipeTemplateActivity::class.java)
-
-        intent.putExtra("title", getString(R.string.title_omelette_espinacas))
-
-        intent.putExtra("img_top_recipe", R.drawable.omelette_espinaca)
-
-        intent.putExtra("ingredient_1", ingredient1)
-        intent.putExtra("ingredient_2", ingredient2)
-        intent.putExtra("ingredient_3", ingredient3)
-        intent.putExtra("ingredient_4", ingredient4)
-        intent.putExtra("ingredient_5", ingredient5)
-        intent.putExtra("ingredient_6", ingredient6)
-        intent.putExtra("ingredient_7", ingredient7)
-
-        intent.putExtra("sustituto_1", substitute1)
-
-        intent.putExtra("preparation1", preparation1)
-
-        startActivity(intent)
-    }
-
-    private fun openOmuriceActivity(ingredient1: String, ingredient2: String, ingredient3: String,
-                                    ingredient4: String, ingredient5: String, ingredient6: String,
-                                    ingredient7: String, preparation1: String) {
-
-        val intent = Intent(this, RecipeTemplateActivity::class.java)
-
-        intent.putExtra("title", getString(R.string.title_omurice))
-
-        intent.putExtra("img_top_recipe", R.drawable.omurice)
-
-        intent.putExtra("ingredient_1", ingredient1)
-        intent.putExtra("ingredient_2", ingredient2)
-        intent.putExtra("ingredient_3", ingredient3)
-        intent.putExtra("ingredient_4", ingredient4)
-        intent.putExtra("ingredient_5", ingredient5)
-        intent.putExtra("ingredient_6", ingredient6)
-        intent.putExtra("ingredient_7", ingredient7)
-
-        intent.putExtra("preparation1", preparation1)
-
-        startActivity(intent)
-    }
-
-    private fun openAvocadoToasActrivity(ingredient1: String, ingredient2: String, ingredient3: String,
-                                         ingredient4: String, ingredient5: String, ingredient6: String,
-                                         preparation1: String) {
-
-        val intent = Intent(this, RecipeTemplateActivity::class.java)
-
-        intent.putExtra("title", getString(R.string.title_avocado_toas))
-
-        intent.putExtra("img_top_recipe", R.drawable.avocado_toas)
-
-        intent.putExtra("ingredient_1", ingredient1)
-        intent.putExtra("ingredient_2", ingredient2)
-        intent.putExtra("ingredient_3", ingredient3)
-        intent.putExtra("ingredient_4", ingredient4)
-        intent.putExtra("ingredient_5", ingredient5)
-        intent.putExtra("ingredient_6", ingredient6)
-
-        intent.putExtra("preparation1", preparation1)
-
-        startActivity(intent)
-    }
-
-    private fun openPaqueAvenaActivity(ingredient1: String, ingredient2: String, ingredient3: String,
-                                       ingredient4: String, ingredient5: String, ingredient6: String,
-                                       ingredient7: String, preparation1: String) {
-
-        val intent = Intent(this, RecipeTemplateActivity::class.java)
-
-        intent.putExtra("title", getString(R.string.title_panque_avena))
-
-
-        intent.putExtra("img_top_recipe", R.drawable.panke_avena)
-
-        intent.putExtra("ingredient_1", ingredient1)
-        intent.putExtra("ingredient_2", ingredient2)
-        intent.putExtra("ingredient_3", ingredient3)
-        intent.putExtra("ingredient_4", ingredient4)
-        intent.putExtra("ingredient_5", ingredient5)
-        intent.putExtra("ingredient_6", ingredient6)
-        intent.putExtra("ingredient_7", ingredient7)
-
-        intent.putExtra("preparation1", preparation1)
-
-        startActivity(intent)
-    }
-
-    private fun openEnfrijoladasActivity(ingredient1: String, ingredient2: String, ingredient3: String,
-                                         ingredient4: String, ingredient5: String, ingredient6: String,
-                                         ingredient7: String, ingredient8: String, ingredient9: String,
-                                         ingredient10: String, ingredient11: String, preparation1: String) {
-
-        val intent = Intent(this, RecipeTemplateActivity::class.java)
-
-        intent.putExtra("title", getString(R.string.title_enfrijoladas))
-
-        intent.putExtra("img_top_recipe", R.drawable.enfrijoladas)
-
-        intent.putExtra("ingredient_1", ingredient1)
-        intent.putExtra("ingredient_2", ingredient2)
-        intent.putExtra("ingredient_3", ingredient3)
-        intent.putExtra("ingredient_4", ingredient4)
-        intent.putExtra("ingredient_5", ingredient5)
-        intent.putExtra("ingredient_6", ingredient6)
-        intent.putExtra("ingredient_7", ingredient7)
-        intent.putExtra("ingredient_8", ingredient8)
-        intent.putExtra("ingredient_9", ingredient9)
-        intent.putExtra("ingredient_10", ingredient10)
-        intent.putExtra("ingredient_11", ingredient11)
-
-        intent.putExtra("preparation1", preparation1)
-
-        startActivity(intent)
-    }
-
-    private fun openChilaquilesRojosVerdesActivity(ingredient1: String, ingredient2: String, ingredient3: String,
-                                                   ingredient4: String, ingredient5: String, ingredient6: String,
-                                                   ingredient7: String, ingredient8: String, ingredient9: String,
-                                                   ingredient10: String, preparation1: String) {
-
-
-        val intent = Intent(this, RecipeTemplateActivity::class.java)
-
-        intent.putExtra("title", getString(R.string.title_chilaquiles_rojos_verdes))
-
-        intent.putExtra("img_top_recipe", R.drawable.chilaquiles)
-
-        intent.putExtra("ingredient_1", ingredient1)
-        intent.putExtra("ingredient_2", ingredient2)
-        intent.putExtra("ingredient_3", ingredient3)
-        intent.putExtra("ingredient_4", ingredient4)
-        intent.putExtra("ingredient_5", ingredient5)
-        intent.putExtra("ingredient_6", ingredient6)
-        intent.putExtra("ingredient_7", ingredient7)
-        intent.putExtra("ingredient_8", ingredient8)
-        intent.putExtra("ingredient_9", ingredient9)
-        intent.putExtra("ingredient_10", ingredient10)
-
-        intent.putExtra("preparation1", preparation1)
-
-        startActivity(intent)
-
-    }
-
-    private fun openHuevoSalsaJitomateAtivity(ingredient1: String, ingredient2: String, ingredient3: String,
-                                              ingredient4: String, ingredient5: String, ingredient6: String,
-                                              ingredient7: String, ingredient8: String, preparation1: String,
-                                              optional1: String) {
-
-
-        val intent = Intent(this, RecipeTemplateActivity::class.java)
-
-        intent.putExtra("title", getString(R.string.title_huevos_salsa_jitomate))
-
-        intent.putExtra("img_top_recipe", R.drawable.huevos_salsa_jitomate)
-
-        intent.putExtra("ingredient_1", ingredient1)
-        intent.putExtra("ingredient_2", ingredient2)
-        intent.putExtra("ingredient_3", ingredient3)
-        intent.putExtra("ingredient_4", ingredient4)
-        intent.putExtra("ingredient_5", ingredient5)
-        intent.putExtra("ingredient_6", ingredient6)
-        intent.putExtra("ingredient_8", ingredient7)
-        intent.putExtra("ingredient_8", ingredient8)
-
-        intent.putExtra("preparation1", preparation1)
-
-        intent.putExtra("optional_1", optional1)
-
-        startActivity(intent)
-    }
-
-    private fun openHuevosLugoLopezActivity(ingredient1: String, ingredient2: String, ingredient3: String,
-                                            ingredient4: String, ingredient5: String, ingredient6: String,
-                                            ingredient7:String, ingredient8: String, preparation1: String) {
-
-        val intent = Intent(this, RecipeTemplateActivity::class.java)
-
-        intent.putExtra("title", getString(R.string.title_huevos_lugo_lopez))
-
-        intent.putExtra("img_top_recipe", R.drawable.huevos_amelia)
-
-        intent.putExtra("ingredient_1", ingredient1)
-        intent.putExtra("ingredient_2", ingredient2)
-        intent.putExtra("ingredient_3", ingredient3)
-        intent.putExtra("ingredient_4", ingredient4)
-        intent.putExtra("ingredient_5", ingredient5)
-        intent.putExtra("ingredient_6", ingredient6)
-        intent.putExtra("ingredient_8", ingredient7)
-        intent.putExtra("ingredient_8", ingredient8)
-
-
-        intent.putExtra("preparation1", preparation1)
-
-        startActivity(intent)
-
-    }
-
-    private fun openHuevoTortillaJalapenoActivity() {
-        startActivity(Intent(this, HuevoTortillaJalapenosActivity::class.java))
-    }
-
-    private fun openHuevoNomraActivity() {
-        startActivity(Intent(this, HuevosNormaActivity::class.java))
-    }
-
-    private fun openHuevosAmeliaActivity(ingredient1: String, ingredient2: String, ingredient3: String,
-                                         ingredient4: String, ingredient5: String, preparation1: String) {
-
-        val intent = Intent(this, RecipeTemplateActivity::class.java)
-
-        intent.putExtra("title", getString(R.string.title_huevos_estilo_amelia))
-
-        intent.putExtra("img_top_recipe", R.drawable.huevos_amelia)
-
-        intent.putExtra("ingredient_1", ingredient1)
-        intent.putExtra("ingredient_2", ingredient2)
-        intent.putExtra("ingredient_3", ingredient3)
-        intent.putExtra("ingredient_4", ingredient4)
-        intent.putExtra("ingredient_5", ingredient5)
-
-
-        intent.putExtra("preparation1", preparation1)
-
-        startActivity(intent)
-    }
-
-    private fun openOmeletteJamonQuesoActivity(ingredient1: String, ingredient2: String, ingredient3: String,
-                                               ingredient4: String, ingredient5: String, ingredient6: String,
-                                               ingredient7: String, ingredient8: String, ingredient9: String,
-                                                preparation1: String) {
-
-        val intent = Intent(this, RecipeTemplateActivity::class.java)
-
-        intent.putExtra("title", getString(R.string.title_omelette_jamon_queso))
-
-        intent.putExtra("img_top_recipe", R.drawable.omelette_jamon_queso)
-
-        intent.putExtra("ingredient_1", ingredient1)
-        intent.putExtra("ingredient_2", ingredient2)
-        intent.putExtra("ingredient_3", ingredient3)
-        intent.putExtra("ingredient_4", ingredient4)
-        intent.putExtra("ingredient_5", ingredient5)
-        intent.putExtra("ingredient_6", ingredient6)
-        intent.putExtra("ingredient_7", ingredient7)
-        intent.putExtra("ingredient_8", ingredient8)
-        intent.putExtra("ingredient_9", ingredient9)
-
-
-        intent.putExtra("preparation1", preparation1)
-
+        intent.putExtra("title", title)
+        intent.putExtra("img_top_recipe", image)
+        intent.putExtra("ingredientsList", ingredientList )
+        intent.putExtra("substitutesList", substitutesList)
+        intent.putExtra("optionList", optionsList )
+        intent.putExtra("preparation", preparation)
         startActivity(intent)
     }
 
