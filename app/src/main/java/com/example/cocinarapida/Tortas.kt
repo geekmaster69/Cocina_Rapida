@@ -40,7 +40,7 @@ class Tortas : AppCompatActivity() {
 
         }
     }
-    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: Array<String>,
+    fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: Array<String>,
                                            substitutesList: Array<String>, optionsList: Array<String>,
                                            preparation: String) {
 
