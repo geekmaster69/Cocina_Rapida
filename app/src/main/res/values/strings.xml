@@ -19,7 +19,7 @@
     <string name="taza_leche">- 1 Taza de leche</string>
     <string name="pure_papa_des">- Puré de papa deshidratado</string>
     <string name="lata_champinones_rev">- 2 Latas de champiñones rebanados\n</string>
-    <string name="prep_crema_champinones">1 - Pon a cocer las papas (ir básicos de la cocina)\n\n 2 - En una olla pon la mantequilla junto con la mitad de los champiñones (125g o bien una lata de champiñones rebanados) y saltea a fuego bajo.\n\n 3 - Corta las papas en cubos, agrega la leche evaporada, y 2 tazas de agua, licua y agrega a la olla donde están los champiñones con la mantequilla.\n\n 4 - En la misma licuadora ahora agrega las dos tazas de agua restantes, la taza de leche y la otra mitad de los champiñones (125g o una lata de champiñones rebanados)\n\n 5 - Agrega a la olla y mezcla todo hasta que tenga un color uniforme y apagar cuando empiece a hervir.\n\n 6 - Sirve.\n\n</string>
+    <string name="crema_champinones_preparation">1 - Pon a cocer las papas (ir básicos de la cocina)\n\n 2 - En una olla pon la mantequilla junto con la mitad de los champiñones (125g o bien una lata de champiñones rebanados) y saltea a fuego bajo.\n\n 3 - Corta las papas en cubos, agrega la leche evaporada, y 2 tazas de agua, licua y agrega a la olla donde están los champiñones con la mantequilla.\n\n 4 - En la misma licuadora ahora agrega las dos tazas de agua restantes, la taza de leche y la otra mitad de los champiñones (125g o una lata de champiñones rebanados)\n\n 5 - Agrega a la olla y mezcla todo hasta que tenga un color uniforme y apagar cuando empiece a hervir.\n\n 6 - Sirve.\n\n</string>
 
     //Sopa de Fideos
     <string name="sal_gusto">- Sal al gusto</string>
@@ -121,8 +121,8 @@
     <string name="queso_panela">Queso Panela</string>
     <string name="aguacate">Aguacate</string>
     <string name="huevos_2">- 2 Huevos</string>
-    <string name="rebanada_pechuga_pollo_rostizada">- 2 Rebanadasde pechuga de pollo rostizada</string>
-    <string name="queso_manchego_2">- 2 Renanadas de queso manchego</string>
+    <string name="rebanada_pechuga_pollo_rostizada">- 2 Rebanadas de pechuga de pollo rostizada</string>
+    <string name="queso_manchego_2">- 2 Rebanadas de queso manchego</string>
     <string name="rebanada_jitomate_bola_3">- 3 Rebanadas delgadas de jitomate bola</string>
     <string name="rebanada_aguacate_3">- 3 Rebanadas de aguacate</string>
     <string name="sal_grano_cda_1_2">- ½ Cucharada de sal de grano\\</string>
@@ -445,7 +445,7 @@
     <string name="te_verde_polvo_1cda">"- 1 cucharada de té verde en polvo  "</string>
     <string name="agua_caliente_1_4tz">"-  ¼ de taza de agua caliente  "</string>
     <string name="fresas_frescas">"- fresas frescas  "</string>
-    <string name="latte_fresa_te_verde_preparation">"1- Poner las fresas a descongelar en un microondas, cuando estén un poco descongeladas  y aplastarlas  un poco.\n\n 2- Coloca las fresas junto con el jugo en el fondo del vaso de tu bebida.\n\n 3- Agrega la cantidad de hielo de tu preferencia. \n\n 4- Agrega ¾ de la taza de leche. \n\n 5- En el ¼ de taza de leche restante diluye la cucharada de té verde en polvo. \n\n 6- Agrega el té verde sobre la leche. \n\n 7- Puedes decorar con fresas frescas y hojas de menta. "</string>
+    <string name="latte_fresa_te_verde_preparation">"1- Poner las fresas a descongelar en un microondas, cuando estén un poco descongeladas aplastarlas un poco.\n\n 2- Coloca las fresas junto con el jugo en el fondo del vaso de tu bebida.\n\n 3- Agrega la cantidad de hielo de tu preferencia. \n\n 4- Agrega ¾ de la taza de leche. \n\n 5- En el ¼ de taza de leche restante diluye la cucharada de té verde en polvo. \n\n 6- Agrega el té verde sobre la leche. \n\n 7- Puedes decorar con fresas frescas y hojas de menta. "</string>
     <string name="title_latte_cafe_baileys">Latte de Cafe con Baileys</string>
     <string name="licor_cafe">"- licor de café  "</string>
     <string name="licor_cafe_30ml">"- 30 ml de licor de café  "</string>

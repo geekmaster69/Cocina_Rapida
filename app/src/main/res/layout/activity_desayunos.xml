@@ -119,17 +119,6 @@
             android:layout_marginBottom="8dp"
             android:text="@string/title_enfrijoladas"/>
 
-        <TextView
-            android:id="@+id/bt_panque_avena"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="32sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:background="@drawable/madera_boton"
-            android:fontFamily="@font/dancin_script_regular"
-            android:layout_marginBottom="8dp"
-            android:text="@string/title_panque_avena"/>
 
         <TextView
             android:id="@+id/bt_avocado_toas"

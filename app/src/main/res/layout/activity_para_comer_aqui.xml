@@ -53,7 +53,7 @@
             android:textSize="40sp"
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
-            android:text="Sopas" />
+            android:text="Sopas y Cremas" />
 
         <TextView
             android:id="@+id/btPostres"
