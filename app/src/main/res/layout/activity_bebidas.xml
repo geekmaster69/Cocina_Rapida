@@ -68,6 +68,66 @@
             android:background="@drawable/madera_boton"
             android:text="@string/title_latte_cafe_baileys"/>
 
+        <TextView
+            android:id="@+id/btLicuadoMangoCremaCoco"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_licuado_mango_crema_coco"/>
+
+        <TextView
+            android:id="@+id/btLicuadoPinaPlatanoCoco"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_licuado_pina_platano_coco"/>
+
+        <TextView
+            android:id="@+id/btLicuadoGalletaOreoChocolate"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_licuado_oreo_chocolate"/>
+
+        <TextView
+            android:id="@+id/btLicuadoDuraznoFresaPlatano"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_licuado_duraazno_fresa_platano"/>
+
+        <TextView
+            android:id="@+id/btLicuadoMameyNuez"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/dancin_script_regular"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_licuado_mamey_nuez"/>
+
 
     </LinearLayout>
 

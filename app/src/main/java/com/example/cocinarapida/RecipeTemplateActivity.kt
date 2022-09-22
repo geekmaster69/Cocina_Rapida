@@ -27,16 +27,15 @@ class RecipeTemplateActivity : AppCompatActivity() {
             it.title = intent.extras?.getString("title")
         }
 
-        val imagenReceta = intent?.getIntExtra("img_top_recipe", 0)
-        val imagenFinal = imagenReceta?.let { resources.getDrawable(it) }
-        binding.imgRecipe.setImageDrawable(imagenFinal)
-
         binding.basicosIcon.setOnClickListener {
             startActivity(Intent(this, BasicosActivity::class.java))
         }
         binding.shopingListIcon.setOnClickListener {
             startActivity(Intent(this, ShoppingListActivity::class.java))
         }
+
+        val imgRecipe = intent?.getIntExtra("img_top_recipe", 0)
+        binding.imgRecipe.setImageResource(imgRecipe!!)
 
         val ingredientsList = intent.extras?.getStringArray("ingredientsList")
         val substitutesList = intent.extras?.getStringArray("substitutesList")

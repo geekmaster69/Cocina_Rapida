@@ -107,7 +107,128 @@ class BebidasActivity : AppCompatActivity() {
 
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
                 preparation)
+        }
 
+        binding.btLicuadoMangoCremaCoco.setOnClickListener {
+
+            val title = getString(R.string.title_licuado_mango_crema_coco)
+
+            val image = R.drawable.licuado_mango_crema_coco
+
+            val ingredientList = arrayOf(
+                getString(R.string.mango_1tz),
+                getString(R.string.crema_coco_1tz),
+                getString(R.string.yogurt_natural_1tz),
+                getString(R.string.hielo),
+                getString(R.string.chichitos_colores_1_2tz),
+                getString(R.string.azucar_glas),
+                getString(R.string.agua_1cda))
+
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+
+            val optionsList = arrayOf(getString(R.string.no_optios))
+
+            val preparation: String = getString(R.string.licuado_mango_crema_coco_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
+        }
+
+        binding.btLicuadoPinaPlatanoCoco.setOnClickListener {
+
+            val title = getString(R.string.title_licuado_pina_platano_coco)
+
+            val image = R.drawable.licuado_mango_crema_coco
+
+            val ingredientList = arrayOf(
+                getString(R.string.ralladura_coco_1_2tz),
+                getString(R.string.leche_coco_1_2tz),
+                getString(R.string.pina_pelada_1_2tz),
+                getString(R.string.platano_1),
+                getString(R.string.azucar_4cda),
+                getString(R.string.leche_1tz),
+                getString(R.string.canela_molida_1cda))
+
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+
+            val optionsList = arrayOf(getString(R.string.no_optios))
+
+            val preparation: String = getString(R.string.licuado_pina_platano_coco_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
+        }
+
+        binding.btLicuadoGalletaOreoChocolate.setOnClickListener {
+
+            val title = getString(R.string.title_licuado_oreo_chocolate)
+
+            val image = R.drawable.licuado_mango_crema_coco
+
+            val ingredientList = arrayOf(
+                getString(R.string.agua_1tz),
+                getString(R.string.azucar_1_2tz),
+                getString(R.string.chocolate_polvo_3_4tz),
+                getString(R.string.chocolate_amargo_50g),
+                getString(R.string.galletas_chocolate_6pz),
+                getString(R.string.leche_1_1_2tz),
+                getString(R.string.helado_vainilla_1tz))
+
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+
+            val optionsList = arrayOf(getString(R.string.no_optios))
+
+            val preparation: String = getString(R.string.licuado_ore_chocolate_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
+        }
+
+        binding.btLicuadoDuraznoFresaPlatano.setOnClickListener {
+
+            val title = getString(R.string.title_licuado_duraazno_fresa_platano)
+
+            val image = R.drawable.licuado_mango_crema_coco
+
+            val ingredientList = arrayOf(
+                getString(R.string.leche_2tz),
+                getString(R.string.fresa_125g),
+                getString(R.string.durazno_100g),
+                getString(R.string.platano_1),
+                getString(R.string.azucar_2cda),
+                getString(R.string.naranja_jugo_1_2pz))
+
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+
+            val optionsList = arrayOf(getString(R.string.no_optios))
+
+            val preparation: String = getString(R.string.licuado_durazno_fresa_platano_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
+        }
+
+        binding.btLicuadoMameyNuez.setOnClickListener {
+
+            val title = getString(R.string.title_licuado_mamey_nuez)
+
+            val image = R.drawable.licuado_mango_crema_coco
+
+            val ingredientList = arrayOf(
+                getString(R.string.mamey_1_2pz),
+                getString(R.string.leche_2tz),
+                getString(R.string.azucar_3cds),
+                getString(R.string.nueces_1_4_tza),
+                getString(R.string.canela_molida_1_2cda))
+
+            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+
+            val optionsList = arrayOf(getString(R.string.no_optios))
+
+            val preparation: String = getString(R.string.licuado_mamey_nuez_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
         }
     }
 
