@@ -23,7 +23,7 @@ class PastasMenu : AppCompatActivity() {
             val ingredientList = arrayOf(
                 getString(R.string.camarones_precosidos_300grs),
                 getString(R.string.sal_pimineta_gusto),
-                getString(R.string.ajo_1),
+                getString(R.string.ajo_cabeza_1),
                 getString(R.string.mantequilla),
                 getString(R.string.crema),
                 getString(R.string.agua),
@@ -32,7 +32,8 @@ class PastasMenu : AppCompatActivity() {
                 getString(R.string.perejil))
 
             val substitutesList = arrayOf(
-                getString(R.string.no_subtitutes))
+                getString(R.string.ajos_picados_frasco),
+                getString(R.string.perejil_seco))
 
             val optionsList = arrayOf(
                 getString(R.string.no_optios))

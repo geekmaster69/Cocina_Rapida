@@ -130,7 +130,7 @@
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
             android:layout_marginBottom="8dp"
-            android:text="@string/title_avocado_toas"/>
+            android:text="@string/title_avocado_toast"/>
 
         <TextView
             android:id="@+id/bt_omurice"
