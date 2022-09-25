@@ -28,11 +28,11 @@
 
     //Sopa de Fideos
     <string name="sal_gusto">Sal al gusto</string>
-    <string name="bolsa_sop_fideos">1 Bolsa de sopa de Fideos</string>
-    <string name="aceite">Aceite</string>
+    <string name="bolsa_sop_fideos">1 bolsa de sopa de fideos</string>
+    <string name="aceite">aceite</string>
     <string name="pure_sazonado_tetrapack">500ml de pure sazonado en tetrapack</string>
-    <string name="caldo_pollo">Caldo de pollo</string>
-    <string name="caldo_pollo_tp">Caldo de pollo en Tetapack</string>
+    <string name="caldo_pollo">caldo de pollo</string>
+    <string name="caldo_pollo_tp">caldo de pollo en Tetapack</string>
     <string name="prep_sop_fideos">
         1- En una olla calienta el aceite a fuego medio y agrega los fideos.\n\n
         2- Mueve los fideos con una pala hasta que logren un color tostado uniforme (si dejas de mover se pueden quemar).\n\n
@@ -41,19 +41,18 @@
         5- Sirve</string>
 
     //Caldo de pollo
-    <string name="piernas_pollo_4">- 4 Piernas de pollo</string>
-    <string name="muslos_pollo_4">- 4 Muslos de pollo</string>
-    <string name="zanahorias_4">- 4 Zanahorias</string>
-    <string name="chayotes_2">- 2 Chayotes</string>
-    <string name="papas_2">- 2 Papas grandes</string>
-    <string name="brocoli">- 1 Brócoli</string>
-    <string name="calabazas_4">- 4 calabazas</string>
-    <string name="cebolla">- 1 Cebolla</string>
-    <string name="dientes_ajo_2">- 2 Dientes de ajo</string>
-    <string name="manojo_cilantro">- Un manojo de cilantro</string>
-    <string name="sal_grano">- sal de grano</string>
+    <string name="piernas_pollo_4">4 piernas de pollo</string>
+    <string name="muslos_pollo_4">4 muslos de pollo</string>
+    <string name="zanahorias_4">4 zanahorias</string>
+    <string name="chayotes_2">2 chayotes</string>
+    <string name="papas_2">2 papas grandes</string>
+    <string name="brocoli">1 brócoli</string>
+    <string name="calabazas_4">4 calabazas</string>
+    <string name="cebolla">1 cebolla</string>
+    <string name="dientes_ajo_2">2 dientes de ajo</string>
+    <string name="manojo_cilantro">un manojo de cilantro</string>
+    <string name="sal_grano">sal de grano</string>
     <string name="optional">Opcionales</string>
-    <string name="optional_caldo_pollo">- Aguacate\n - Salsa de tu Preferencia\n -Queso Panela\n -Tortillas</string>
     <string name="vegetales_congelados">- Bolsa de vegetales congelados</string>
     <string name="caldo_pollo_preparation">
         1- En una olla grande agrega el pollo con los dientes de ajo, media cebolla, manojo de cilantro y unas dos cucharadas de sal de grano, zanahorias en trozos,papas en trozos, brócoli en trozos y chayote en trozos.\n\n
@@ -62,14 +61,14 @@
         4- Sirve.</string>
 
     //Sopa de verdolagas
-    <string name="cucharadas_aceite_2">- 2 Cucharadas de aceite</string>
-    <string name="cebolla_1_4">- ¼ de cebolla</string>
-    <string name="ajos_2">- 2 Ajos</string>
-    <string name="verdolagas">- Verdolagas</string>
-    <string name="jitomates_3">- 3 Jitomates</string>
-    <string name="tazas_caldo_pollo">- 4 Tazas de caldo de pollo (Natural o Tetrapack)</string>
-    <string name="chile_guajillo_1">- 1 Chile guajillo</string>
-    <string name="pure_tomate_tp">- 1 Litro de pure de tomate condimentado</string>
+    <string name="cucharadas_aceite_2">2 cucharadas de aceite</string>
+    <string name="cebolla_1_4">¼ de cebolla</string>
+    <string name="ajos_2">2 ajos</string>
+    <string name="verdolagas">verdolagas</string>
+    <string name="jitomates_3">3 jitomates</string>
+    <string name="tazas_caldo_pollo">4 Tazas de caldo de pollo (Natural o Tetrapack)</string>
+    <string name="chile_guajillo_1">1 chile guajillo</string>
+    <string name="pure_tomate_tp">1 litro de pure de tomate condimentado</string>
     <string name="sopa_verdeolagas_preparation">
         1- Calienta el aceite en una olla a fuego medio, fríe la cebolla hasta que quede transparente, añade el ajo, las verdolagas lavadas y desinfectadas ( ir a básicos) y las papas.\n\n
         2- Cocina hasta que veas las papas doraditas por fuera.\n\n 3 - Licua los tomates (o una taza de puré de tomate con el chile guajillo.\n\n
@@ -78,15 +77,15 @@
         6- Sirve caliente (puedes poner un chile chipotle para agregar sabor a tu plato)</string>
 
     //Sopa de col
-    <string name="cebolla_blanca_picada_1">- 1 Cebolla blanca picada</string>
-    <string name="cucharada_tomillo_seco_1_2">- ½ cucharada de tomillo seco</string>
-    <string name="oregano">- Orégano</string>
-    <string name="pure_tomate_2_tazas">- 2 tazas de puré de tomate</string>
-    <string name="caldo_pollo_4_tazas">- 4 Tazas de caldo de pollo (Natural o Tetrapack)</string>
-    <string name="col_picada_4_tazas">- 4 Tazas de col picada</string>
-    <string name="vara_apio_1">- 1 Vara de apio</string>
-    <string name="zanahoria_pelada_1">- 1 Zanahoria pelada</string>
-    <string name="sal_pimineta_gusto">- sal y pimienta al gusto</string>
+    <string name="cebolla_blanca_picada_1">1 cebolla blanca picada</string>
+    <string name="cucharada_tomillo_seco_1_2">½ cucharada de tomillo seco</string>
+    <string name="oregano">orégano</string>
+    <string name="pure_tomate_2_tazas">2 tazas de puré de tomate</string>
+    <string name="caldo_pollo_4_tazas">4 tazas de caldo de pollo (Natural o Tetrapack)</string>
+    <string name="col_picada_4_tazas">4 tazas de col picada</string>
+    <string name="vara_apio_1">1 vara de apio</string>
+    <string name="zanahoria_pelada_1">1 zanahoria pelada</string>
+    <string name="sal_pimineta_gusto">sal y pimienta al gusto</string>
     <string name="sopa_col_preparation">
         1- En una olla a fuego medio coloca un chorrito de aceite y saltea el ajo y la cebolla.\n\n
         2- Después de 3 min agrega la zanahoria y el apio picado en trozos pequeños.\n\n
@@ -94,13 +93,13 @@
         4- Agrega el puré de tomate, la col y el caldo de verduras o pollo y espera a que empiece a hervir.\n\n</string>
 
     //crema de Habas
-    <string name="habas_400g">- 400g De Habas</string>
-    <string name="papa_mediana_3">- 3 Papas medianas</string>
-    <string name="zanahorias_2">- 2 Zanahorias</string>
-    <string name="cebolla_1">- 1 Cebolla</string>
-    <string name="agua_1l">- 1 Litro de agua</string>
-    <string name="caldo_pollo_polvo_1cda">- 1 Cucharada de caldo de pollo en polvo</string>
-    <string name="pure_papa_dht">- Puré de papa deshidratado</string>
+    <string name="habas_400g">400g de habas</string>
+    <string name="papa_mediana_3">3 papas medianas</string>
+    <string name="zanahorias_2">2 zanahorias</string>
+    <string name="cebolla_1">1 cebolla</string>
+    <string name="agua_1l">1 litro de agua</string>
+    <string name="caldo_pollo_polvo_1cda">1 cucharada de caldo de pollo en polvo</string>
+    <string name="pure_papa_dht">puré de papa deshidratado</string>
     <string name="crema_habas_preparation">
         1– Rebanar las zanahorias, las papas y la cebolla en trozos medianos.\n\n 2- En una cacerola con un poco de aceite,sofreímos la cebolla y las zanahorias.\n\n
         3- Cuando la cebolla esté transparente agregamos las papas.\n\n
@@ -108,31 +107,29 @@
         5- Dejamos que hierba unos 20- 25 min hasta que las habas cambian de verde brillante a un verde opaco.\n\n
         6- Ahora agregamos todo a la licuadora con una cucharada o un cubo de caldo de pollo.\n\n
         7- Sirve, puedes acompañar con jamón, crutones.</string>
-    <string name="crema_habas_options">- Puedes acompañar con rebanadas de pan tostado o con crutones.</string>
 
     //Sopa de Poro
-    <string name="papas_medianas_3">- 3 Papas medianas</string>
-    <string name="aceite_oliva_cda">- 1 Cucharada de aceite de oliva</string>
-    <string name="poro_rodajas_1">- 1 Poro en rodajas finas</string>
-    <string name="jitomates_2">- 2 Jitomates</string>
-    <string name="ajo_1">- 1 diente de ajo</string>
-    <string name="caldo_pollo_1_1_2">- 1 ½ Litros de caldo de pollo</string>
+    <string name="papas_medianas_3">3 papas medianas</string>
+    <string name="aceite_oliva_cda">1 cucharada de aceite de oliva</string>
+    <string name="poro_rodajas_1">1 poro en rodajas finas</string>
+    <string name="jitomates_2">2 jitomates</string>
+    <string name="ajo_1">1 diente de ajo</string>
+    <string name="caldo_pollo_1_1_2">1 ½ litros de caldo de pollo</string>
     <string name="sopa_poro_preparation">
         1- Calienta el aceite a fuego medio en una olla y sofríe el poro por dos minutos, no dejes de moverlo.\n\n
         2- Licua el jitomate con el ajo, ½ litro de caldo de pollo (básicos de la cocina) y sal, cuando esté todo homogéneo viértelo en la olla.\n\n
         3- Cuando empiece a hervir agrega las papas en cubos pequeños y el resto del caldo de pollo.\n\n
         4- Cuando empiece a hervir de nuevo, deja cocinar a fuego bajo hasta que las papas estén suaves, agrega la pimienta y sirve caliente.</string>
-    <string name="sopa_poro_options">- Puedes acompañar con rebanadas de pan tostado o con crutones.</string>
     <string name="ejemplo_1">Sustitutos</string>
 
     //Crema de Espinacas
-    <string name="manojo_espinacas">- Un manojo de espinacas</string>
-    <string name="leche_evaporada_250ml">- 250ml de leche evaporada</string>
-    <string name="taza_leche_1">- 1 Taza de leche</string>
-    <string name="caldo_pollo_1_2l">- ½ Litro de caldo de pollo</string>
-    <string name="mantequilla_2_cda">- 2 Cucharadas de mantequilla</string>
-    <string name="caldo_pollo_polvo_1_2_cda">- ½ Cucharada de caldo de pollo en polvo</string>
-    <string name="espinacas_bolsa">- espinacas en bolsa</string>
+    <string name="manojo_espinacas">un manojo de espinacas</string>
+    <string name="leche_evaporada_250ml">250ml de leche evaporada</string>
+    <string name="taza_leche_1">1 taza de leche</string>
+    <string name="caldo_pollo_1_2l">½ litro de caldo de pollo</string>
+    <string name="mantequilla_2_cda">2 cucharadas de mantequilla</string>
+    <string name="caldo_pollo_polvo_1_2_cda">½ cucharada de caldo de pollo en polvo</string>
+    <string name="espinacas_bolsa">espinacas en bolsa</string>
     <string name="crema_espinacas_preparation">
         1- Desinfectar las espinacas (ir básicos de cocina) si tienes espinacas en bolsa puedes saltarte este paso.\n\n
         2- En una olla ponemos a derretir la mantequilla.\n\n
@@ -141,38 +138,49 @@
         5- Mezclamos hasta que tengamos un color homogéneo.\n\n
         6- Dejamos hervir a fuego medio 15 minutos.\n\n
         7- Servir.</string>
-    <string name="mezcla_verduras_500g">- 500g Mezcla de verduras de tu elección</string>
-    <string name="mezcla_verduras_congeladas">- Mezcla de verduras congeladas(Sustituye verduras)</string>
-    <string name="ajos_picados_frasco">- Ajos picados en frasco (Sustituye ajos)</string>
+
+    <string name="mezcla_verduras_500g">500g mezcla de verduras de tu elección</string>
+    <string name="mezcla_verduras_congeladas">mezcla de verduras congeladas</string>
+    <string name="ajos_picados_frasco">ajos picados en frasco</string>
     <string name="crema_verduras_preparation">
+
         1- En una olla a fuego medio agrega el caldo de pollo con la cebolla y el ajo y deja hervir.\n\n
         2- Cuando empiece a hervir el caldo de pollo agregamos las verduras de nuestra preferencia (si ya tienes las verduras cocidas puedes saltarte éste paso)\n\n
         3- En la licuadora mezclamos el caldo de pollo (con ajo y cebolla), las papas, la leche evaporada y las verduras (si no cabe todo en el vaso de la licuadora podemos licuar por partes)\n\n
         4- Vacía en la olla, mezcla hasta que sea de un color homogéneo.\n\n
         5- Cuando empiece a hervir, apaga y sirve.</string>
-    <string name="piernas_pollo_sin_piel_2">- 2 Piernas de pollo sin piel</string>
-    <string name="muslos_pollo_sin_piel_2">- 2 Muslos de pollo sin piel</string>
-    <string name="pechuga_pollo_sin_piel">- 1 Pechuga sin piel</string>
-    <string name="agua_2l">- 2L De agua</string>
-    <string name="chile_chipotle_lata_1">- 1 Lata de chile chipotle</string>
-    <string name="chile_huajillo_remojado_2">- 2 Chiles guajillo remojados en agua caliente</string>
-    <string name="manojo_epazote">Manojo de Epazote</string>
-    <string name="ejotes_cocidos_250g">- 250g de ejotes cocidos y en trozos pequeños</string>
-    <string name="garbanzos_cocidos_250g">- 250g de Garbanzos cocidos</string>
-    <string name="caldo_tlalpeño_preparation">1 - En una olla a fuego medio agrega las piernas de pollo, muslos de pollo, pechuga de pollo, ajo, cebolla, garbanzos, sal en grano y los 2L de agua, deja hervir.\n\n 2 - Mientras hierve el caldo, en la licuadora agregamos el chipotle, el puré de tomate y los chiles.\n\n 3 - Cuando el caldo empiece a hervir vertemos la salsa de la licuadora, y la rama de epazote en el caldo de pollo y bajamos la llama a fuego bajo.\n\n 4 - Dejamos hervir 20 min, y agregamos las zanahorias y las papas.\n\n 5 - Sirve caliente con una rebanada de aguacate, puedes acompañar con un poco de limón, tortillas, queso panela y más chipotle.\n\n</string>
-    <string name="garbanzos_lata">- 2 latas de garbanzos</string>
-    <string name="zanahorias_papas_lata">- 2 latas de zanahoria y papas en trozos</string>
-    <string name="tortillas">- tortillas</string>
-    <string name="queso_panela">- queso panela</string>
-    <string name="aguacate">- 1  aguacate mediano</string>
-    <string name="huevos_2">- 2 huevos</string>
-    <string name="rebanada_pechuga_pollo_rostizada">- 2 rebanadas pechuga de pollo rostizada</string>
-    <string name="queso_manchego_2">- 2 rebanadas de queso manchego</string>
-    <string name="rebanada_jitomate_bola_3">- 3 rebanadas de jitomate bola</string>
-    <string name="rebanada_aguacate_3">- 3 rebanadas de aguacate</string>
-    <string name="sal_grano_cda_1_2">- ½ cucharada de sal de grano</string>
-    <string name="aceite_canola_cda">- 1 cucharada de aceite de canola</string>
-    <string name="mantequilla_cda_1_2">- ½ cucharada de mantequilla</string>
+
+    //Caldo tlalpeño
+
+    <string name="piernas_pollo_sin_piel_2">2 piernas de pollo sin piel</string>
+    <string name="muslos_pollo_sin_piel_2">2 muslos de pollo sin piel</string>
+    <string name="pechuga_pollo_sin_piel">1 pechuga sin piel</string>
+    <string name="agua_2l">2L de agua</string>
+    <string name="chile_chipotle_lata_1">1 lata de chile chipotle</string>
+    <string name="chile_huajillo_remojado_2">2 chiles guajillo remojados en agua caliente</string>
+    <string name="manojo_epazote">manojo de epazote</string>
+    <string name="ejotes_cocidos_250g">250g de ejotes cocidos y en trozos pequeños</string>
+    <string name="garbanzos_cocidos_250g">250g de garbanzos cocidos</string>
+    <string name="caldo_tlalpeño_preparation">
+        1- En una olla a fuego medio agrega las piernas de pollo, muslos de pollo, pechuga de pollo, ajo, cebolla, garbanzos, sal en grano y los 2L de agua, deja hervir.\n\n
+        2- Mientras hierve el caldo, en la licuadora agregamos el chipotle, el puré de tomate y los chiles.\n\n
+        3- Cuando el caldo empiece a hervir vertemos la salsa de la licuadora, y la rama de epazote en el caldo de pollo y bajamos la llama a fuego bajo.\n\n
+        4- Dejamos hervir 20 min, y agregamos las zanahorias y las papas.\n\n
+        5- Sirve caliente con una rebanada de aguacate, puedes acompañar con un poco de limón, tortillas, queso panela y más chipotle.</string>
+
+    <string name="garbanzos_lata">2 latas de garbanzos</string>
+    <string name="zanahorias_papas_lata">2 latas de zanahoria y papas en trozos</string>
+    <string name="tortillas">tortillas</string>
+    <string name="queso_panela">queso panela</string>
+    <string name="aguacate">1 aguacate mediano</string>
+    <string name="huevos_2">2 huevos</string>
+    <string name="rebanada_pechuga_pollo_rostizada">2 rebanadas pechuga de pollo rostizada</string>
+    <string name="queso_manchego_2">2 rebanadas de queso manchego</string>
+    <string name="rebanada_jitomate_bola_3">3 rebanadas de jitomate bola</string>
+    <string name="rebanada_aguacate_3">3 rebanadas de aguacate</string>
+    <string name="sal_grano_cda_1_2">½ cucharada de sal de grano</string>
+    <string name="aceite_canola_cda">1 cucharada de aceite de canola</string>
+    <string name="mantequilla_cda_1_2">½ cucharada de mantequilla</string>
     <string name="omelette_jamon_queso_preparation">
         1- Romper los huevos en el cazo y añadirle la ½ cucharada de sal de grano y batir para agregar aire. Si se puede dejarlo descansar por 5 minutos.\n\n
         2- Calentar el sartén con el aceite y la mantequilla\n\n
@@ -182,8 +190,9 @@
         6- Después de un par de minutos deslizar el huevo a un plato con ayuda de la espátula.\n\n
         7- poner encima del huevo las rebanadas de jitomate, de tal forma que cubran la superficie del huevo y encima de estas colocar el aguacate.\n\n
         8- Sazonar con sal y pimienta al gusto.</string>
-    <string name="rebanas_pan_caja_2">- 2 rebanadas de pan de caja</string>
-    <string name="mantequilla">- mantequilla</string>
+
+    <string name="rebanas_pan_caja_2">2 rebanadas de pan de caja</string>
+    <string name="mantequilla">mantequilla</string>
     <string name="miel_abeja">miel de abeja</string>
     <string name="huevos_amelia_preparation">
         1- Tostar las rebanadas de pan, tostarlas de ligero a medio\n\n
@@ -194,47 +203,101 @@
         7- Esperar el cocimiento del huevo al gusto, si se quiere bastante cocido poner una tapa al sartén\n\n
         8- sacar la rebanada de pan con el huevo a un plato, adicionar, pimienta, sal y miel a cada rebanada\n\n
         9- Disfrutar.</string>
-    <string name="huevos_4">- 4 huevos</string>
-    <string name="jitomate_picado_cubos_1">- 1 jitomate cortado en cubos</string>
-    <string name="papa_cortada_cubos_1">- 1 papa cortada en cubos pequeños</string>
-    <string name="rebanadas_jamon_triangulos_2">- 2 rebanadas de jamon cortada en triángulos</string>
-    <string name="queso_oaxaca_20g">- 20grs de queso oaxaca</string>
-    <string name="aceite_cda_5">- 5 cuacharadas de aceite</string>
-    <string name="huevos_kuego_lopez_preparation">1- La papa se pone a freír en aceite. Estará lista cuando los cubos se doren.\n\n 2- Se calienta un sartén con una cucharada de aceite.\n\n 3- Se sofríe la cebolla hasta que este transparente.\n\n 4- Se adiciona al sartén el jitomate, la papa frita, el jamón.\n\n 5- Cuando el jitomate este semi suave, se adicionan los huevos y se sazonan con sal y pimienta.\n\n 6- Cuando el huevo este cocido se adiciona el queso y se combina.\n\n 7- Se sirven cuando el queso este derretido.</string>
-    <string name="jitomates_cortados_4_3">- 3 Jitomates cortados en 4</string>
-    <string name="manojo_cilantro_1_8">- 1/8 Manojo de cilantro (Solo las hojas)</string>
-    <string name="agua_50ml">- 50ml de Agua</string>
-    <string name="huevos_salsa_jitomate_preparation">1- Poner en una licuadora el jitomate, la cebolla, el ajo, el cilantro con el agua y licuar por 3 minutos.\n\n 2- En un sartén poner la mantequilla a calentar.\n\n 3- Batir los huevos añadirles la sal y la pimienta.\n\n 4- Verter en el sartén y moviendo cocerlos hasta que estén firmes.\n\n 5- En una pequeña olla poner el aceite a calentar. Cuando el aceite este caliente verter la salsa de la licuadora, debe chisporrotear la salsa, mover y dejar cocer, sazonar con sal y pimienta y adicionar el secreto de la familia rallado solo un poco.\n\n 6- Cuando la salsa este cocida y espesa adicionar el huevo.\n\n 7- Servir</string>
-    <string name="chiles_serranos_2">- 2 Chiles serranos</string>
-    <string name="totopos_500gr">- 500grs de totopos de maiz</string>
-    <string name="tomate_verde_1kg">- 1Kg de tomate verde limpio pelado</string>
-    <string name="queso_panela_manchego_100gr">- 100grs de queso fresco panela, cotija o manchego</string>
-    <string name="chilaquiles_preparation">1- En una olla poner los tomates y los chiles a cocer con suficiente agua Los tomates y chiles estarán cocidos cuando el color de ambos cambie a un color verde sin brillo y apagado. No se debe tirar el agua donde se cocieron los tomates ya que se va a utilizar.\n\n 2- Poner en la licuadora los tomates, lo chiles, la cebolla, cilantro, ajo, sal, pimienta y licuar. 3- En una olla mediana poner el aceite y calentar, ya caliente poner la salsa de la licuadora en la olla y debe chisporrotear. Mover y poner agua de la olla de cocimiento de los tomates no debe quedar muy aguada ni muy espesa.\n\n 4- Cuando se vaya a emplatar colocar los totopos para una porción en un bol tibio de vidrio o de aluminio. Verterles salsa suficiente y emplatarlos.\n\n 5- Espolvorear los chilaquiles con queso y una cucharada de crema.\n\n 6- Opcionalmente poner cebolla poner en la mesa la cebolla fileteada.</string>
-    <string name="chile_cuaresmeno_jilianas_1">- 1 Chile cuaresmeño fileteado en julianas</string>
-    <string name="bolsa_frijoles_refritos_1">- 1 Bolsa de frojoles negros refritos</string>
-    <string name="longaniza_100gr">- 100grs de longaniza</string>
-    <string name="crema">- crema</string>
-    <string name="agua">- agua</string>
-    <string name="enfrijoladas_preparation">1- En un Bowl batir los huevos con sal y pimienta.\n\n 2- Calentar un sartén con la mantequilla, ya caliente adicionar ½ de la cebolla y un jitomate picados. Cuando la cebolla este translucida adicionar el huevo y mover hasta que el huevo este cocido, reservar.\n\n 3- Pone en la licuadora el resto de la cebolla, la mitad del jitomate restante, el cilantro, el ajo y los frijoles negros con 50 ml de agua para que todo se licue en forma uniforme.\n\n 4- En un sartén con una cucharada de aceite, dorar la longaniza y las julianas de chile cuaresmeño y reservar ambos.\n\n 5- En el sartén con la grasa de la longaniza caliente, verter la salsa de frijol, debe chisporrotear, mover hasta que la salsa se cueza, añadir sal y pimienta para rectificar la sazón.\n\n 6- Calentar las tortillas de preferencia en un horno de microondas, yo no frío las tortillas, pero es al gusto. Con las tortillas calientes rellenarlas con huevo y enrollarla. Repetir esto con dos más y ponerlas en un plato tibio.\n\n 7- Verter sobre los tacos salsa de frijol hasta cubrirlos. Con una cuchara verter sobre ellos un poco de crema, un poco de longaniza y unas rajas de cuaresmeño.</string>
-    <string name="platano_1">- 1 plátano</string>
-    <string name="huevo_1">- 1 huevo</string>
-    <string name="yogurt_griego_1_3_tz">- ⅓ taza de yogurt griego sin azúcar</string>
-    <string name="vainilla_cda_1">- 1 cucharada de vainilla</string>
-    <string name="miel_cda">- 1 cucharada de miel</string>
-    <string name="avena_1_3_tza">- ⅓ taza de avena en hojuela</string>
-    <string name="chispas_chocolate_50grs">- 50 g de chispas de chocolate</string>
-    <string name="panque_avena_preparation">1- Con un tenedor machacamos el plátano hasta hacer puré.\n\n 2 - Añadimos el huevo, el yogurt, la vainilla, la miel, la avena y el chocolate.\n\n 3 - Mezclamos todo hasta hacer una mezcla homogénea.\n\n 4 - Metemos al horno o a la freidora de aire 8 min a 160°C.\n\n 5 - Sirve, puedes acompañar con un topping de yogurt, nueces y cajeta.</string>
-    <string name="limon">- 1 limón</string>
-    <string name="avocado_toas_preparation">1 - Ponemos el pan a tostar en comal o en tostadora:\n\n * En comal: la llama baja y pon las rebanadas de pan alejadas del centro del comal, pon 5 min por cada lado, o hasta que tomen un color café claro\n\n * En tostadora: poner el pan a 250°C por 3 minutos, si no consigues el color tostado vuelve a meter el pan 1 min más a la misma temperatura hasta que se torne color café claro.\n\n 2 - Mientras, calentamos un sartén a fuego medio con un poco de aceite bien esparcido y cuando esté caliente ponemos el huevo estrellado, pon un poco de sal y pimienta en la yema.\n\n 3 - En un bowl aplasta el aguacate y mezcla con la mitad del limón, sal y pimienta y úntalo sobre las dos rebanadas de pan.\n\n 4 - Pon el huevo estrellado sobre una rebanada de pan y en la otra ponemos rodajas de jitomate con mezcla de hierbas para ensalada o el aderezo de tu preferencia.</string>
-    <string name="jitomate_1">- 1 Jitomate</string>
-    <string name="cebolla_cambray_1">- 1 cebollín o cebolla cambray</string>
-    <string name="mantequilla_cda_1">- 1 cuadro de mantequilla</string>
-    <string name="taza_arroz_vapor_1_2">- ½ taza de arroz al vapor</string>
-    <string name="catsup">- Catsup</string>
-    <string name="omurice_preparation">1 - En un sartén mediano ponemos la mantequilla a derretir a fuego bajo.\n\n 2- Mientras rebanamos todo el cebollín, separamos los trozos picados de la cabeza y los trozos de la cola.\n\n 3- En un bowl batimos los huevos con sal, pimienta y los trozos que picamos de la cabeza del cebollín.\n\n 4- Ya con la mantequilla derretida, la esparcimos por todo el sartén y vaciamos el huevo batido por todo el sartén y tapamos.\n\n 5- Calentamos el arroz preparado que escogimos en un sartén con 10ml de agua a fuego medio por 10 min o por 2min 30seg, en el microondas.\n\n 6- Ya que el huevo esté completamente cocido, en un extremo ponemos el arroz y doblamos la tortilla de huevo (si te sientes más seguro puedes intentar enrollar la tortilla y que el arroz quede en medio).\n\n 7- Retiramos de la sartén ponemos la cola picada del cebollín sobre el huevo y una línea en zig zag de catsup.\n\n 8- Sirve.</string>
-    <string name="leche_10ml">- 10 ml de leche</string>
-    <string name="queso_manchego_cabra">- Queso manchego o de cabra</string>
-    <string name="jamon">- jamón de tu preferencia</string>
+
+    <string name="huevos_4">4 huevos</string>
+    <string name="jitomate_picado_cubos_1">1 jitomate cortado en cubos</string>
+    <string name="papa_cortada_cubos_1">1 papa cortada en cubos pequeños</string>
+    <string name="rebanadas_jamon_triangulos_2">2 rebanadas de jamon cortada en triángulos</string>
+    <string name="queso_oaxaca_20g">20grs de queso oaxaca</string>
+    <string name="aceite_cda_5">5 cuacharadas de aceite</string>
+    <string name="huevos_kuego_lopez_preparation">
+        1- La papa se pone a freír en aceite. Estará lista cuando los cubos se doren.\n\n
+        2- Se calienta un sartén con una cucharada de aceite.\n\n
+        3- Se sofríe la cebolla hasta que este transparente.\n\n
+        4- Se adiciona al sartén el jitomate, la papa frita, el jamón.\n\n
+        5- Cuando el jitomate este semi suave, se adicionan los huevos y se sazonan con sal y pimienta.\n\n
+        6- Cuando el huevo este cocido se adiciona el queso y se combina.\n\n
+        7- Se sirven cuando el queso este derretido.</string>
+
+    <string name="jitomates_cortados_4_3">3 Jitomates cortados en 4</string>
+    <string name="manojo_cilantro_1_8">1/8 Manojo de cilantro (Solo las hojas)</string>
+    <string name="agua_50ml">50ml de Agua</string>
+    <string name="huevos_salsa_jitomate_preparation">
+        1- Poner en una licuadora el jitomate, la cebolla, el ajo, el cilantro con el agua y licuar por 3 minutos.\n\n
+        2- En un sartén poner la mantequilla a calentar.\n\n
+        3- Batir los huevos añadirles la sal y la pimienta.\n\n
+        4- Verter en el sartén y moviendo cocerlos hasta que estén firmes.\n\n
+        5- En una pequeña olla poner el aceite a calentar. Cuando el aceite este caliente verter la salsa de la licuadora, debe chisporrotear la salsa, mover y dejar cocer, sazonar con sal y pimienta y adicionar el secreto de la familia rallado solo un poco.\n\n
+        6- Cuando la salsa este cocida y espesa adicionar el huevo.\n\n
+        7- Servir</string>
+
+    <string name="chiles_serranos_2">2 Chiles serranos</string>
+    <string name="totopos_500gr">500grs de totopos de maiz</string>
+    <string name="tomate_verde_1kg">1Kg de tomate verde limpio pelado</string>
+    <string name="queso_panela_manchego_100gr">100grs de queso fresco panela, cotija o manchego</string>
+    <string name="chilaquiles_preparation">
+        1- En una olla poner los tomates y los chiles a cocer con suficiente agua Los tomates y chiles estarán cocidos cuando el color de ambos cambie a un color verde sin brillo y apagado. No se debe tirar el agua donde se cocieron los tomates ya que se va a utilizar.\n\n
+        2- Poner en la licuadora los tomates, lo chiles, la cebolla, cilantro, ajo, sal, pimienta y licuar.\n\n
+        3- En una olla mediana poner el aceite y calentar, ya caliente poner la salsa de la licuadora en la olla y debe chisporrotear. Mover y poner agua de la olla de cocimiento de los tomates no debe quedar muy aguada ni muy espesa.\n\n
+        4- Cuando se vaya a emplatar colocar los totopos para una porción en un bol tibio de vidrio o de aluminio. Verterles salsa suficiente y emplatarlos.\n\n
+        5- Espolvorear los chilaquiles con queso y una cucharada de crema.\n\n
+        6- Opcionalmente poner cebolla poner en la mesa la cebolla fileteada.</string>
+
+    <string name="chile_cuaresmeno_jilianas_1">1 chile cuaresmeño fileteado en julianas</string>
+    <string name="bolsa_frijoles_refritos_1">1 bolsa de frojoles negros refritos</string>
+    <string name="longaniza_100gr">100grs de longaniza</string>
+    <string name="crema">crema</string>
+    <string name="agua">agua</string>
+    <string name="enfrijoladas_preparation">
+        1- En un Bowl batir los huevos con sal y pimienta.\n\n
+        2- Calentar un sartén con la mantequilla, ya caliente adicionar ½ de la cebolla y un jitomate picados. Cuando la cebolla este translucida adicionar el huevo y mover hasta que el huevo este cocido, reservar.\n\n
+        3- Pone en la licuadora el resto de la cebolla, la mitad del jitomate restante, el cilantro, el ajo y los frijoles negros con 50 ml de agua para que todo se licue en forma uniforme.\n\n
+        4- En un sartén con una cucharada de aceite, dorar la longaniza y las julianas de chile cuaresmeño y reservar ambos.\n\n
+        5- En el sartén con la grasa de la longaniza caliente, verter la salsa de frijol, debe chisporrotear, mover hasta que la salsa se cueza, añadir sal y pimienta para rectificar la sazón.\n\n
+        6- Calentar las tortillas de preferencia en un horno de microondas, yo no frío las tortillas, pero es al gusto. Con las tortillas calientes rellenarlas con huevo y enrollarla. Repetir esto con dos más y ponerlas en un plato tibio.\n\n
+        7- Verter sobre los tacos salsa de frijol hasta cubrirlos. Con una cuchara verter sobre ellos un poco de crema, un poco de longaniza y unas rajas de cuaresmeño.</string>
+
+    <string name="platano_1">1 plátano</string>
+    <string name="huevo_1">1 huevo</string>
+    <string name="yogurt_griego_1_3_tz">-⅓ taza de yogurt griego sin azúcar</string>
+    <string name="vainilla_cda_1">1 cucharada de vainilla</string>
+    <string name="miel_cda">1 cucharada de miel</string>
+    <string name="avena_1_3_tza">⅓ taza de avena en hojuela</string>
+    <string name="chispas_chocolate_50grs">50 g de chispas de chocolate</string>
+    <string name="panque_avena_preparation">
+        1- Con un tenedor machacamos el plátano hasta hacer puré.\n\n
+        2- Añadimos el huevo, el yogurt, la vainilla, la miel, la avena y el chocolate.\n\n
+        3- Mezclamos todo hasta hacer una mezcla homogénea.\n\n
+        4- Metemos al horno o a la freidora de aire 8 min a 160°C.\n\n
+        5- Sirve, puedes acompañar con un topping de yogurt, nueces y cajeta.</string>
+
+    <string name="limon">1 limón</string>
+    <string name="avocado_toas_preparation">
+        1- Ponemos el pan a tostar en comal o en tostadora:\n\n
+        * En comal: la llama baja y pon las rebanadas de pan alejadas del centro del comal, pon 5 min por cada lado, o hasta que tomen un color café claro\n\n
+        * En tostadora: poner el pan a 250°C por 3 minutos, si no consigues el color tostado vuelve a meter el pan 1 min más a la misma temperatura hasta que se torne color café claro.\n\n
+        2- Mientras, calentamos un sartén a fuego medio con un poco de aceite bien esparcido y cuando esté caliente ponemos el huevo estrellado, pon un poco de sal y pimienta en la yema.\n\n
+        3- En un bowl aplasta el aguacate y mezcla con la mitad del limón, sal y pimienta y úntalo sobre las dos rebanadas de pan.\n\n
+        4- Pon el huevo estrellado sobre una rebanada de pan y en la otra ponemos rodajas de jitomate con mezcla de hierbas para ensalada o el aderezo de tu preferencia.</string>
+
+    <string name="jitomate_1">1 itomate</string>
+    <string name="cebolla_cambray_1">1 cebollín o cebolla cambray</string>
+    <string name="mantequilla_cda_1">1 cuadro de mantequilla</string>
+    <string name="taza_arroz_vapor_1_2">½ taza de arroz al vapor</string>
+    <string name="catsup">catsup</string>
+    <string name="omurice_preparation">
+        1- En un sartén mediano ponemos la mantequilla a derretir a fuego bajo.\n\n
+        2- Mientras rebanamos todo el cebollín, separamos los trozos picados de la cabeza y los trozos de la cola.\n\n
+        3- En un bowl batimos los huevos con sal, pimienta y los trozos que picamos de la cabeza del cebollín.\n\n
+        4- Ya con la mantequilla derretida, la esparcimos por todo el sartén y vaciamos el huevo batido por todo el sartén y tapamos.\n\n
+        5- Calentamos el arroz preparado que escogimos en un sartén con 10ml de agua a fuego medio por 10 min o por 2min 30seg, en el microondas.\n\n
+        6- Ya que el huevo esté completamente cocido, en un extremo ponemos el arroz y doblamos la tortilla de huevo (si te sientes más seguro puedes intentar enrollar la tortilla y que el arroz quede en medio).\n\n
+        7- Retiramos de la sartén ponemos la cola picada del cebollín sobre el huevo y una línea en zig zag de catsup.\n\n
+        8- Sirve.</string>
+
+    <string name="leche_10ml">10 ml de leche</string>
+    <string name="queso_manchego_cabra">queso manchego o de cabra</string>
+    <string name="jamon">jamón de tu preferencia</string>
     <string name="omelette_espinacas_preparation">
         1- En un sartén mediano a fuego medio ponemos a derretir la mantequilla, ya derretida nos aseguramos que cubra todo el sartén.\n\n
         2- En un bowl batimos los huevos con la leche, sal y pimienta.\n\n
@@ -242,8 +305,9 @@
         4- Cuando la tortilla de huevo esté bien cocida, ponemos el queso en toda la tortilla, el jamón lo ponemos sólo en la mitad al igual que las espinacas.\n\n
         5- Doblamos la tortilla, tapamos,bajamos a fuego bajo y esperamos 5 min a que se cocinen un poco las espinacas.\n\n
         6- Destapa y sirve. puedes acompañar con la salsa de tu preferencia.</string>
-    <string name="champiñones_taza_1">- 1 taza de champiñones rebanados desinfectados</string>
-    <string name="cebolla_picada_1_4">- ¼ de cebolla picada</string>
+
+    <string name="champiñones_taza_1">1 taza de champiñones rebanados desinfectados</string>
+    <string name="cebolla_picada_1_4">¼ de cebolla picada</string>
     <string name="omelette_champinones_preparation">
         1- Ponemos a derretir la mantequilla en un sartén mediano a fuego bajo.\n\n
         2- En un bowl batimos los dos huevos con la leche, la sal y la pimienta.\n\n
@@ -251,58 +315,89 @@
         4- Cuando la tortilla de huevo esté lista ponemos el queso en toda la tortilla y los champiñones en la mitad de la tortilla.\n\n
         5- Doblamos, y esperamos a que el queso se derrita.\n\n
         6- Sirve, puedes acompañar con la salsa de tu preferencia.</string>
-    <string name="salchichas_2">- 2 salchichas de tu preferencia</string>
-    <string name="huevos_salchicha_preparation">1 - En un sartén mediano a fuego medio ponemos 1 cuadro de mantequilla.\n\n 2 - Mientras cortamos las salchichas en rebanadas circulares, no muy gruesas y las agregamos a la sartén.\n\n 3 - Mientras, en un bowl batimos los huevos con sal, pimienta y leche.\n\n 4 - Cuando las salchichas ya se vean un poco fritas las movemos un poco y agregamos el huevo.\n\n 5 - Movemos el huevo hasta que esté bien cocido.\n\n 6 - Sirve, puedes acompañar con catsup, salsa, tortillas o pan.</string>
-    <string name="camarones_precosidos_300grs">- 300g de Camarones precocidos</string>
-    <string name="pasta_espagueti">- pasta espagueti No.5 o No.7</string>
-    <string name="queso_parmesano">- queso parmesano</string>
-    <string name="perejil">- perejil</string>
+
+    <string name="salchichas_2">2 salchichas de tu preferencia</string>
+    <string name="huevos_salchicha_preparation">
+        1- En un sartén mediano a fuego medio ponemos 1 cuadro de mantequilla.\n\n
+        2- Mientras cortamos las salchichas en rebanadas circulares, no muy gruesas y las agregamos a la sartén.\n\n
+        3- Mientras, en un bowl batimos los huevos con sal, pimienta y leche.\n\n
+        4- Cuando las salchichas ya se vean un poco fritas las movemos un poco y agregamos el huevo.\n\n
+        5- Movemos el huevo hasta que esté bien cocido.\n\n
+        6- Sirve, puedes acompañar con catsup, salsa, tortillas o pan.</string>
+
+    <string name="camarones_precosidos_300grs">300g de Camarones precocidos</string>
+    <string name="pasta_espagueti">pasta espagueti No.5 o No.7</string>
+    <string name="queso_parmesano">queso parmesano</string>
+    <string name="perejil">perejil</string>
     <string name="pasta_camarones_preparation">
         1- Cocer la pasta (basicos de cocina).\n\n
         2- Saltear en el sartén 300g de camarones con sal, pimienta y 4 dientes de ajo picados (o bien puedes usar sal de ajo y sólo agregas pimienta)\n\n
         3- cuando estén rosados los camarones, los retiras de la sartén. En esa misma sartén agrega ¼ de mantequilla, 1 taza de crema, 1 taza de agua de la pasta, ¼ de cucharada de sal y 2 dientes de ajo picados (o bien 2 cucharadas de ajo picado).\n\n
-        4 - Dejar hervir.\n\n
-        5 - agrega ¼ de taza, queso parmesano y 1 cucharada de perejil.\n\n
-        6 - Agregar la pasta, los camarones y mezclar.\n\n
-        7 - Sirve, puedes agregar mas parmesano y perejil para decorar.</string>
-    <string name="jitomate_bola_3">- 3 jitomates bola</string>
-    <string name="manojo_albahaca_1">- 1 manojo de albahaca</string>
-    <string name="ajos_picados_4">- 4 dientes de ajo picado</string>
-    <string name="pimienta">- pimienta</string>
-    <string name="substitute_pasta_albahaca_1">- 2 cuadros de 350g de tomate machacado</string>
-    <string name="pasta_albahaca_substitute_1">- frasco de salsa de tomate para spaguetti </string>
-    <string name="pasta_albahaca_subtitute_3">- frasco de ajo picado</string>
+        4- Dejar hervir.\n\n
+        5- agrega ¼ de taza, queso parmesano y 1 cucharada de perejil.\n\n
+        6- Agregar la pasta, los camarones y mezclar.\n\n
+        7- Sirve, puedes agregar mas parmesano y perejil para decorar.</string>
+
+    <string name="jitomate_bola_3">3 jitomates bola</string>
+    <string name="manojo_albahaca_1">1 manojo de albahaca</string>
+    <string name="ajos_picados_4">4 dientes de ajo picado</string>
+    <string name="pimienta">pimienta</string>
+    <string name="substitute_pasta_albahaca_1">2 cuadros de 350g de tomate machacado</string>
+    <string name="pasta_albahaca_substitute_1">frasco de salsa de tomate para spaguetti </string>
+    <string name="pasta_albahaca_subtitute_3">frasco de ajo picado</string>
     <string name="pasta_albahaca_preparation">
         1- Cocer la pasta\n\n
         2- Poner en una olla a fuego medio el tomate picado (o los dos cuadros de puré), los 4 dientes de ajo (o dos cucharadas), 1 cucharada de sal en grano. Dejar hervir\n\n
         3- Cuando la salsa empiece a hervir agrega medio manojode hojas de albahaca y apaga el quemador.\n\n
         4- Servir la pasta primero luego salsa y queso parmesano al gusto.</string>
-    <string name="queso_parmesano_cda">- 1 Cucharada de queso parmesano</string>
-    <string name="aceite_oliva_1_2_tza">- ½ Taza aceite de oliva</string>
-    <string name="nueces_1_4_tza">- ¼ de taza de nueces</string>
-    <string name="spaghetti_500g">- 500g de spaghetti</string>
-    <string name="spaghetti_pesto_preparation">1 - Cocer pasta (ir a básicos de la cocina)\n\n 2 - Licuar todos los ingredientes (menos la pasta) hasta que tenga consistencia de puré y color uniforme\n\n 3 - Servir con queso parmesano</string>
-    <string name="spaghetti_pesto_substitute">- Salsa pesto en frasco (Sustitulle todos los ingredientes)</string>
-    <string name="pan_con_mantequilla">- Pan con mantequilla</string>
-    <string name="ensalada_campesina">- Ensalada Campesina</string>
-    <string name="cacahuates_1_3_tza">- ⅓ taza de cacahuates (pueden ser naturales o con sal y limón)</string>
-    <string name="mente_fresca_tza_1">- 1 taza de menta fresca</string>
-    <string name="perejil_1_2_tza">- ½ taza de perejil</string>
-    <string name="cilantro_1_2_tza">- ½ taza de cilantro</string>
-    <string name="limones_3">- 3 limones verdes</string>
-    <string name="aguacates_grandes_1_1_2">- 1 ½ tguacates grandes</string>
-    <string name="aceite_oliva_1_4_tza">- ¼ Taza aceite de oliva</string>
-    <string name="agua_coccion_pasta">- 1 Taza de agua de la cocción de la pasta</string>
-    <string name="spaghetti_crema_aguacate_preparation">1 - Cocer la pasta( ir a básicos de la cocina)\n\n 2 - En la licuadora ponemos todo el aguacate, los cacahuates, la menta, perejil, cilantro, ajo, el jugo del limón, agua de la cocción de la pasta, el aceite de oliva y sal y pimienta al gusto.\n\n 3 - Agrega la mezcla a la pasta y envuelve suavemente hasta que toda la pasta esté perfectamente mezclada con la salsa.\n\n 4 - Sirve.</string>
-    <string name="pechuga_asada">- Pechuga asada</string>
-    <string name="lata_chile_morron_1">- 1 Lata de chile morrón</string>
-    <string name="cubo_caldo_pollo_1">- 1 cubito de caldo de pollo</string>
-    <string name="lata_media_crema_1">- 1 lata de media crema</string>
-    <string name="spaghetti_pimiento_cremoso_preparation">1 - Cocer la pasta( ir a básicos de la cocina )\n\n 2 - En la licuadora mezclar chile morrón, cubito de caldo de pollo, ¼ de crema, ¼ de taza de leche.\n\n 3 - Mezcla la salsa en la pasta caliente y agrega la mantequilla.\n\n 4 - Mezcla hasta que la mantequilla se derrita por completo.\n\n 5 - Sirve. puedes acompañar con pechuga de pollo y una ensalada.\n\n</string>
-    <string name="jitomate_rebanado_sin_semilla_6">- 6 Piezas de jitomate,rebanados en cuadros y sin semillas</string>
-    <string name="hierbas_finas_cda_1">- 1 Cucharadita de hierbas finas</string>
-    <string name="pimienta_negra_molida_1_4_cda">- ¼ De cucharadita de pimienta negra molida</string>
-    <string name="spaghetti_rojo_cremoso_preparation">1 - cocer la pasta (ir a básicos de la cocina)\n\n 2 - en la licuadora mezclamos los jitomates, cucharadas de acite de oliva, hierbas finas, pimienta, leche evaporada, cubo de caldo de pollo y sal.\n\n 3 - ponemos a calentar la salsa en una olla aparte, cuando empiece a hervir retiramos del fuego y vaciamos la salsa sobre el espagueti.\n\n 4 - mezcla el espagueti suavemente hasta que toda la pasta tenga el color de la salsa.\n\n 5 - sirve caliente.</string>
+
+    <string name="queso_parmesano_cda">1 Cucharada de queso parmesano</string>
+    <string name="aceite_oliva_1_2_tza">½ Taza aceite de oliva</string>
+    <string name="nueces_1_4_tza">¼ de taza de nueces</string>
+    <string name="spaghetti_500g">500g de spaghetti</string>
+    <string name="spaghetti_pesto_preparation">
+        1- Cocer pasta (ir a básicos de la cocina)\n\n
+        2- Licuar todos los ingredientes (menos la pasta) hasta que tenga consistencia de puré y color uniforme\n\n
+        3- Servir con queso parmesano</string>
+
+    <string name="spaghetti_pesto_substitute">- Salsa pesto en frasco</string>
+    <string name="pan_con_mantequilla">pan con mantequilla</string>
+    <string name="ensalada_campesina">-ensalada Campesina</string>
+    <string name="cacahuates_1_3_tza">⅓ taza de cacahuates (pueden ser naturales o con sal y limón)</string>
+    <string name="mente_fresca_tza_1">1 taza de menta fresca</string>
+    <string name="perejil_1_2_tza">½ taza de perejil</string>
+    <string name="cilantro_1_2_tza">½ taza de cilantro</string>
+    <string name="limones_3">3 limones verdes</string>
+    <string name="aguacates_grandes_1_1_2">1 ½ tguacates grandes</string>
+    <string name="aceite_oliva_1_4_tza">¼ taza aceite de oliva</string>
+    <string name="agua_coccion_pasta">1 taza de agua de la cocción de la pasta</string>
+    <string name="spaghetti_crema_aguacate_preparation">
+        1- Cocer la pasta( ir a básicos de la cocina)\n\n
+        2- En la licuadora ponemos todo el aguacate, los cacahuates, la menta, perejil, cilantro, ajo, el jugo del limón, agua de la cocción de la pasta, el aceite de oliva y sal y pimienta al gusto.\n\n
+        3- Agrega la mezcla a la pasta y envuelve suavemente hasta que toda la pasta esté perfectamente mezclada con la salsa.\n\n
+        4- Sirve.</string>
+
+    <string name="pechuga_asada">pechuga asada</string>
+    <string name="lata_chile_morron_1">1 lata de chile morrón</string>
+    <string name="cubo_caldo_pollo_1">1 cubito de caldo de pollo</string>
+    <string name="lata_media_crema_1">1 lata de media crema</string>
+    <string name="spaghetti_pimiento_cremoso_preparation">
+        1- Cocer la pasta( ir a básicos de la cocina )\n\n
+        2- En la licuadora mezclar chile morrón, cubito de caldo de pollo, ¼ de crema, ¼ de taza de leche.\n\n
+        3- Mezcla la salsa en la pasta caliente y agrega la mantequilla.\n\n
+        4- Mezcla hasta que la mantequilla se derrita por completo.\n\n
+        5- Sirve. Puedes acompañar con pechuga de pollo y una ensalada.</string>
+
+    <string name="jitomate_rebanado_sin_semilla_6">6 piezas de jitomate,rebanados en cuadros y sin semillas</string>
+    <string name="hierbas_finas_cda_1">1 cucharadita de hierbas finas</string>
+    <string name="pimienta_negra_molida_1_4_cda">¼ de cucharadita de pimienta negra molida</string>
+    <string name="spaghetti_rojo_cremoso_preparation">
+        1- cocer la pasta (ir a básicos de la cocina)\n\n
+        2- en la licuadora mezclamos los jitomates, cucharadas de acite de oliva, hierbas finas, pimienta, leche evaporada, cubo de caldo de pollo y sal.\n\n
+        3- ponemos a calentar la salsa en una olla aparte, cuando empiece a hervir retiramos del fuego y vaciamos la salsa sobre el espagueti.\n\n
+        4- mezcla el espagueti suavemente hasta que toda la pasta tenga el color de la salsa.\n\n
+        5- sirve caliente.</string>
+
     <string name="albondigas">- Albondigas</string>
     <string name="para_comer_aqui">Para Comer Aqui</string>
     <string name="lista_compras">Lista de Compras</string>
@@ -314,6 +409,7 @@
     <string name="para_ir_comiendo">Para Ir Comiendo</string>
     <string name="para_llevar">Para llevar</string>
     <string name="sopas">Sopas</string>
+
     <string name="title_spaghetti_camarones_salsa_blanca">Spaghetti con Camarones en Salsa Blanca</string>
     <string name="title_spaghetti_salsa_tomate_albahaca">Spaghetti con Salsa de Tomate y Albahaca</string>
     <string name="title_spaghetti_salsa_pesto">Spaghetti con Salsa Pesto</string>
@@ -359,224 +455,377 @@
     <string name="message_write_database_error">Error al modificar base de datos</string>
     <string name="notes_pending">Pendientes:</string>
     <string name="notes_finished">Terminadas:</string>
+
     <string name="shoppinglist_instructions">Manten precionado un ingrediente de tu receta para agregar a la lista de compras</string>
+
     <string name="title_bento_cerdo_agridulce">Cerdo Agridulce</string>
-    <string name="fiele_cerdo_1kg">- 1Kg de filete de cerdo</string>
-    <string name="salsa_soya_2cds">- 2 cucharadas de salsa de soja</string>
-    <string name="harina_trigo">- harina de trigo</string>
-    <string name="jengibre_picado_1cda">- 1 cucharada de jengibre picado</string>
-    <string name="jugo_naranja_1tz">- 1 taza de jugo de naranja natural</string>
-    <string name="azucar_3cds">"- 3 cucharadas de azúcar "</string>
-    <string name="vinagre_blanco_2cds">- 2 cucharadas de vinagre blanco</string>
-    <string name="pure_tomate_2cds">- 2 cucharadas de puré de tomate</string>
-    <string name="agua_2cds">- 2 cucharadas de agua</string>
-    <string name="maizena_2cds">- 2 cucharaditas de maizena</string>
-    <string name="jugo_naranja_tetrapack">- jugo de naranja en tetrapack (sustituye jugo de naranja natural)</string>
-    <string name="stevia">"- stevia (sustituye azúcar) "</string>
-    <string name="ketchup">"- ketchup (sustituye puré de tomate) "</string>
-    <string name="cebollin">- cebollin</string>
-    <string name="semillas_sesamo">- semillas de sésamo</string>
-    <string name="cerdo_agridulce_preparation">"1- Cortamos el filete de cerdo en cubos y lo pasamos a un bowl , le agregamos la salsa de soya, la pimienta y el huevo  y mezclamos hasta que toda la carne esté cubierta por una mezcla homogénea. \n\n 2- En un plato a parte colocamos la harina de trigo y agregamos los cubos sin exceso de mezcla y los empanizamos con ayuda de un tenedor o unos palillos. \n\n 3- Cuando todos los cubos estén empanizados, los agregamos al aceite caliente. (para esto tienes que tener el aceite previamente calentado. o bien rocias los cubos empanizados por ambos lados con  aceite en aerosol y los metes a la freidora de aire por 20 min aprox (este tiempo dependerá del tamaño de los cubos, revísalos cada 10 min), el empanizado tiene que tomar un color dorado.\n\n 4- En un sartén aparte colocas un poco de aceite, el ajo, el jengibre, el jugo de naranja, el azúcar o el stevia, vinagre, puré de tomate o ketchup y salsa de soya, mezclamos todo y cuando la mezcla esté homogénea agregamos la maizena disuelta en el agua. volvemos a mezclar. \n\n 5- Cuando la salsa comience a hervir agregamos el cerdo, mezclamos por un minuto y retiramos del fuego. \n\n 6- Coloca en el tupper o caja bento de tu preferencia, puedes decorar con cebollín y semillas de sésamo."</string>
+    <string name="fiele_cerdo_1kg">1Kg de filete de cerdo</string>
+    <string name="salsa_soya_2cds">2 cucharadas de salsa de soja</string>
+    <string name="harina_trigo">harina de trigo</string>
+    <string name="jengibre_picado_1cda">1 cucharada de jengibre picado</string>
+    <string name="jugo_naranja_1tz">1 taza de jugo de naranja natural</string>
+    <string name="azucar_3cds">"3 cucharadas de azúcar "</string>
+    <string name="vinagre_blanco_2cds">2 cucharadas de vinagre blanco</string>
+    <string name="pure_tomate_2cds">2 cucharadas de puré de tomate</string>
+    <string name="agua_2cds">2 cucharadas de agua</string>
+    <string name="maizena_2cds">2 cucharaditas de maizena</string>
+    <string name="jugo_naranja_tetrapack">-jugo de naranja en tetrapack</string>
+    <string name="stevia">"stevia (sustituye azúcar) "</string>
+    <string name="ketchup">"ketchup (sustituye puré de tomate) "</string>
+    <string name="cebollin">cebollin</string>
+    <string name="semillas_sesamo">semillas de sésamo</string>
+    <string name="cerdo_agridulce_preparation">"
+        1- Cortamos el filete de cerdo en cubos y lo pasamos a un bowl , le agregamos la salsa de soya, la pimienta y el huevo  y mezclamos hasta que toda la carne esté cubierta por una mezcla homogénea.\n\n
+        2- En un plato a parte colocamos la harina de trigo y agregamos los cubos sin exceso de mezcla y los empanizamos con ayuda de un tenedor o unos palillos.\n\n
+        3- Cuando todos los cubos estén empanizados, los agregamos al aceite caliente. (para esto tienes que tener el aceite previamente calentado. o bien rocias los cubos empanizados por ambos lados con  aceite en aerosol y los metes a la freidora de aire por 20 min aprox (este tiempo dependerá del tamaño de los cubos, revísalos cada 10 min), el empanizado tiene que tomar un color dorado.\n\n
+        4- En un sartén aparte colocas un poco de aceite, el ajo, el jengibre, el jugo de naranja, el azúcar o el stevia, vinagre, puré de tomate o ketchup y salsa de soya, mezclamos todo y cuando la mezcla esté homogénea agregamos la maizena disuelta en el agua. volvemos a mezclar.\n\n
+        5- Cuando la salsa comience a hervir agregamos el cerdo, mezclamos por un minuto y retiramos del fuego.\n\n
+        6- Coloca en el tupper o caja bento de tu preferencia, puedes decorar con cebollín y semillas de sésamo."</string>
+
     <string name="title_torta_carne_cerdo">Torta de Pulled Pork</string>
-    <string name="espaldilla_cerdo_pierna_sin_hueso_1kg">- 1 kg de espaldilla de cerdo o pierna sin hueso</string>
-    <string name="ajo_polvo_1_2cda">- ½ cucharada de ajo en polvo</string>
-    <string name="cebolla_polvo_1_2cda">- ½ cucharada de cebolla en polvo</string>
-    <string name="salsa_bbq_1tz">- 1 taza de salsa BBQ</string>
+    <string name="espaldilla_cerdo_pierna_sin_hueso_1kg">1 kg de espaldilla de cerdo o pierna sin hueso</string>
+    <string name="ajo_polvo_1_2cda">½ cucharada de ajo en polvo</string>
+    <string name="cebolla_polvo_1_2cda">½ cucharada de cebolla en polvo</string>
+    <string name="salsa_bbq_1tz">1 taza de salsa BBQ</string>
     <string name="cayena_polvo_1_2cda">"½ cucharada de cayena en polvo "</string>
-    <string name="paprika_1cda">"- 1 cucharadita de paprika "</string>
-    <string name="torta_carne_cerdo_preparation">"1- Mezclamos en un tazón pequeño la paprika, la sal, el ajo en polvo, la cebolla en polvo, la cayena en polvo. \n\n 2- Colocamos el cerdo en un recipiente más grande y lo cubrimos con la mezcla de especias, nos aseguramos que quede todo cubierto. \n\n 3- En una olla de presión multiusos colocamos el aceite de oliva y cuando esté caliente agregamos la carne.  \n\n 4- Sólo cocinamos la carne por fuera, cuando esté cocida por fuera  y agregamos 2  tazas de agua, ponemos la tapa y programamos olla de presión por 20 min. si deseas hacerlo en una olla normal agrega 3 tazas de agua y cocina por 2 horas).  5- Sacamos la carne de la olla, si hay mucho caldo lo separamos. \n\n 6- Regresa la carne a la olla ya sin el caldo y  desmenuzar, cuando esté bien desmenuzada agrega la salsa BBQ y mezcla. \n\n 7- Abre un bolillo por la mitad, agrega la carne preparada, con pico de gallo y disfruta en el camino.      "</string>
+    <string name="paprika_1cda">"1 cucharadita de paprika "</string>
+    <string name="torta_carne_cerdo_preparation">"
+        1- Mezclamos en un tazón pequeño la paprika, la sal, el ajo en polvo, la cebolla en polvo, la cayena en polvo. \n\n
+        2- Colocamos el cerdo en un recipiente más grande y lo cubrimos con la mezcla de especias, nos aseguramos que quede todo cubierto. \n\n
+        3- En una olla de presión multiusos colocamos el aceite de oliva y cuando esté caliente agregamos la carne.  \n\n
+        4- Sólo cocinamos la carne por fuera, cuando esté cocida por fuera  y agregamos 2  tazas de agua, ponemos la tapa y programamos olla de presión por 20 min. si deseas hacerlo en una olla normal agrega 3 tazas de agua y cocina por 2 horas).\n\n
+        5- Sacamos la carne de la olla, si hay mucho caldo lo separamos.\n\n
+        6- Regresa la carne a la olla ya sin el caldo y  desmenuzar, cuando esté bien desmenuzada agrega la salsa BBQ y mezcla.\n\n
+        7- Abre un bolillo por la mitad, agrega la carne preparada, con pico de gallo y disfruta en el camino."</string>
+
     <string name="title_panque_platano_taza">Panque de platano en taza</string>
-    <string name="platano_1pza">"- 1 plátano "</string>
-    <string name="leche_3cds">"- 3 cucharadas de leche  "</string>
-    <string name="esencia_vainilla_1cda">"- 1 cucharada de esencia de vainilla  "</string>
-    <string name="miel_2cda">"- 2 cucharadas de miel  "</string>
-    <string name="harina_65g">"- 65g de harina  "</string>
-    <string name="polvo_hornear_1cda">"- 1 cucharada de polvo para hornear  "</string>
-    <string name="mezcla_para_panque_taza">"- mezcla para panqué en taza  "</string>
-    <string name="azucar_glas">"- azúcar glass "</string>
-    <string name="cajeta">- Cajeta</string>
-    <string name="dulce_leche">- Dulce de leche</string>
-    <string name="crema_batida">- Crema Batida</string>
-    <string name="chocolate_liquido">- Chocolate liquido</string>
-    <string name="panque_platano_taza_preparation">"1- En un bowl ponemos el plátano sin cáscara y lo aplastamos hasta hacer puré. \n\n 2- Agregamos el huevo (sin cáscara también), la leche, el aceite, la esencia de vainilla, la miel, la harina, el polvo para hornear y las chispas de chocolate. \n\n 3- Con un globo mezclamos todo.\n\n 4- En una taza de cerámica, cubrimos los bordes de la taza con aceite o mantequilla, ya que está todo el interior de la taza cubierto ponemos mezcla hasta la mitad de la taza. \n\n 5- Ponemos 7 minutos en el microondas (puedes meter hasta cuatro tazas a la vez para que se aproveche el espacio y la energía en el microondas). \n\n 6- Disfruta. \n\n 7- Puedes decorar con azúcar glass, crema batida, chocolate líquido o el topping que más te guste.  "</string>
+    <string name="platano_1pza">"1 plátano "</string>
+    <string name="leche_3cds">"3 cucharadas de leche  "</string>
+    <string name="esencia_vainilla_1cda">"1 cucharada de esencia de vainilla  "</string>
+    <string name="miel_2cda">"2 cucharadas de miel  "</string>
+    <string name="harina_65g">"65g de harina  "</string>
+    <string name="polvo_hornear_1cda">"1 cucharada de polvo para hornear  "</string>
+    <string name="mezcla_para_panque_taza">"mezcla para panqué en taza  "</string>
+    <string name="azucar_glas">"azúcar glass "</string>
+    <string name="cajeta">cajeta</string>
+    <string name="dulce_leche">dulce de leche</string>
+    <string name="crema_batida">crema Batida</string>
+    <string name="chocolate_liquido">chocolate liquido</string>
+    <string name="panque_platano_taza_preparation">"
+        1- En un bowl ponemos el plátano sin cáscara y lo aplastamos hasta hacer puré. \n\n
+        2- Agregamos el huevo (sin cáscara también), la leche, el aceite, la esencia de vainilla, la miel, la harina, el polvo para hornear y las chispas de chocolate. \n\n
+        3- Con un globo mezclamos todo.\n\n
+        4- En una taza de cerámica, cubrimos los bordes de la taza con aceite o mantequilla, ya que está todo el interior de la taza cubierto ponemos mezcla hasta la mitad de la taza. \n\n
+        5- Ponemos 7 minutos en el microondas (puedes meter hasta cuatro tazas a la vez para que se aproveche el espacio y la energía en el microondas). \n\n
+        6- Disfruta. \n\n 7- Puedes decorar con azúcar glass, crema batida, chocolate líquido o el topping que más te guste."</string>
+
     <string name="title_cheesecake_frutos_rojos">Cheesecake de frutops rojos</string>
-    <string name="galletas_mariaMolidas_2tzs">"- 2 tazas de galletas maría molidas  "</string>
-    <string name="azucar_1_3tzs">"- ⅓ taza de azúcar  "</string>
-    <string name="mantequilla_3_4tz">"- ¾ de taza de mantequilla  "</string>
-    <string name="queso_crema_900g">"- 900 g de queso crema  "</string>
-    <string name="azucar_2tz">"- 2 tazas de azúcar  "</string>
-    <string name="leche_1_4tz">"- ¼ de taza de leche  "</string>
-    <string name="esencia_vainilla_2cda">"- 2 cucharadas de esencia de vainilla  "</string>
-    <string name="grenetina_14g">"- 14 g de grenetina (o gelatina de fresa o arándanos)  "</string>
-    <string name="mezcla_frutos_rojos_400g">"- 400 g de mezcla de frutos rojos  "</string>
-    <string name="azucar_1tz">"- 1 taza de azúcar  "</string>
-    <string name="almidon_maiz_2cda">"- 2 cucharadas de almidón de maíz diluido en ¼ de taza de agua  "</string>
-    <string name="jugo_limon_1_4tz">"- ¼ taza de jugo de limón  "</string>
-    <string name="fresas_400g">"- 400g de fresas.  "</string>
-    <string name="mermelada_fresa">"- mermelada de fresa  (sustituye mermelada de frutos rojos)  "</string>
-    <string name="cheesecake_frutos_rojos_preparation">"1- Si quieres intentar hacer la corteza de tu cheesecake: Para la corteza: agregamos la galleta molida, el azúcar y la mantequilla derretida y mezclamos hasta tener una mezcla homogénea. \n\n 2- En un molde o refractario colocamos la mezcla de galleta y aplastamos con los dedos hasta que quede cubierto y bien apelmazado todo el fondo del molde. \n\n 3- Metemos a refrigerar por 1 hora. \n\n 4- Mezcla de cheesecake: en un bowl agregamos el queso crema, el azúcar, la leche y la esencia de vainilla y batimos hasta crear una mezcla homogénea. \n\n 5- Agregamos la grenetina (o gelatina) derretida y volvemos a mezclar hasta que tengamos una mezcla homogénea. \n\n 6- Agregamos poco a poco la mezcla al molde con la corteza cuidando de no dejar espacios, ayúdate de una espátula de goma. refrigera por 2 horas. \n\n 7- Si quieres hacer la mermelada por tu cuenta: Mermelada: en una olla a fuego medio agregamos 200 g de fresas y 200 g de arándanos (blueberries) y el azúcar. movemos hasta que el azúcar se haya derretido por completo y dejamos hervir por 10 min. \n\n 8- Agregamos el jugo de limón y el almidón de maíz diluido, volvemos a mezclar hasta que sea homogéneo. \n\n 9- Cuando esté a temperatura ambiente la colocamos sobre nuestro cheesecake ya desmoldado. "</string>
-    <string name="base_galleta">"- base de galleta para pay (sustituye corteza)  "</string>
+    <string name="galletas_mariaMolidas_2tzs">"2 tazas de galletas maría molidas  "</string>
+    <string name="azucar_1_3tzs">"⅓ taza de azúcar  "</string>
+    <string name="mantequilla_3_4tz">"¾ de taza de mantequilla  "</string>
+    <string name="queso_crema_900g">"900 g de queso crema  "</string>
+    <string name="azucar_2tz">"2 tazas de azúcar  "</string>
+    <string name="leche_1_4tz">"¼ de taza de leche  "</string>
+    <string name="esencia_vainilla_2cda">"2 cucharadas de esencia de vainilla  "</string>
+    <string name="grenetina_14g">"14 g de grenetina (o gelatina de fresa o arándanos)  "</string>
+    <string name="mezcla_frutos_rojos_400g">"400 g de mezcla de frutos rojos  "</string>
+    <string name="azucar_1tz">"1 taza de azúcar  "</string>
+    <string name="almidon_maiz_2cda">"2 cucharadas de almidón de maíz diluido en ¼ de taza de agua  "</string>
+    <string name="jugo_limon_1_4tz">"¼ taza de jugo de limón  "</string>
+    <string name="fresas_400g">"400g de fresas.  "</string>
+    <string name="mermelada_fresa">"mermelada de fresa"</string>
+    <string name="cheesecake_frutos_rojos_preparation">"
+        1- Si quieres intentar hacer la corteza de tu cheesecake: Para la corteza: agregamos la galleta molida, el azúcar y la mantequilla derretida y mezclamos hasta tener una mezcla homogénea. \n\n
+        2- En un molde o refractario colocamos la mezcla de galleta y aplastamos con los dedos hasta que quede cubierto y bien apelmazado todo el fondo del molde. \n\n
+        3- Metemos a refrigerar por 1 hora. \n\n
+        4- Mezcla de cheesecake: en un bowl agregamos el queso crema, el azúcar, la leche y la esencia de vainilla y batimos hasta crear una mezcla homogénea. \n\n
+        5- Agregamos la grenetina (o gelatina) derretida y volvemos a mezclar hasta que tengamos una mezcla homogénea. \n\n
+        6- Agregamos poco a poco la mezcla al molde con la corteza cuidando de no dejar espacios, ayúdate de una espátula de goma. refrigera por 2 horas. \n\n
+        7- Si quieres hacer la mermelada por tu cuenta: Mermelada: en una olla a fuego medio agregamos 200 g de fresas y 200 g de arándanos (blueberries) y el azúcar. movemos hasta que el azúcar se haya derretido por completo y dejamos hervir por 10 min. \n\n
+        8- Agregamos el jugo de limón y el almidón de maíz diluido, volvemos a mezclar hasta que sea homogéneo.\n\n
+        9- Cuando esté a temperatura ambiente la colocamos sobre nuestro cheesecake ya desmoldado. "</string>
+
+    <string name="base_galleta">"- base de galleta para pay"</string>
+
     <string name="title_tarta_queso_microondas">Tarta de queso para microondas</string>
-    <string name="queso_crema_4cda">"- 4 cucharadas de queso crema  "</string>
-    <string name="yogurt_natural_2cda">"- 2 cucharadas de yogurt natural  "</string>
-    <string name="azucar_2_1_2tz">"- 2 y ½ cucharadas de azúcar  "</string>
-    <string name="galletas_trituradas_4cda">"- 4 cucharadas de galletas trituradas "</string>
-    <string name="mantequilla_engrasar">"- un poco más de mantequilla para engrasar  "</string>
-    <string name="tarta_queso_microondas_preparation">"1- Engrasar con mantequilla el interior de la taza. \n\n 2- Tritura las galletas y mezclala con la cucharada de mantequilla, cuando la mezcla esté homogénea vaciala en la taza y apelmaza  bien en todo el fondo. \n\n  3- En un bowl mezcla el huevo, el queso, el yogurt, el azúcar y la vainilla, mezcla bien hasta tener una mezcla homogénea sin grumos. \n\n 4- Vierte la mezcla en la taza. \n\n 5- Tapa la taza con una toalla de papel o servilleta e introduce al microondas durante 20 seg abre el microondas, otros 20 seg y abre el microondas y otros 20 seg y abre el microondas. \n\n 6- Se puede comer de la taza o desmoldarlo, dejarlo enfriar e introducir al refrigerador durante 1 hora. \n\n 7- Puedes decorar con fruta y mermelada. "</string>
+    <string name="queso_crema_4cda">"4 cucharadas de queso crema  "</string>
+    <string name="yogurt_natural_2cda">"2 cucharadas de yogurt natural  "</string>
+    <string name="azucar_2_1_2tz">"2 y ½ cucharadas de azúcar  "</string>
+    <string name="galletas_trituradas_4cda">"4 cucharadas de galletas trituradas "</string>
+    <string name="mantequilla_engrasar">"un poco más de mantequilla para engrasar  "</string>
+    <string name="tarta_queso_microondas_preparation">"
+        1- Engrasar con mantequilla el interior de la taza. \n\n
+        2- Tritura las galletas y mezclala con la cucharada de mantequilla, cuando la mezcla esté homogénea vaciala en la taza y apelmaza  bien en todo el fondo. \n\n
+        3- En un bowl mezcla el huevo, el queso, el yogurt, el azúcar y la vainilla, mezcla bien hasta tener una mezcla homogénea sin grumos. \n\n
+        4- Vierte la mezcla en la taza. \n\n
+        5- Tapa la taza con una toalla de papel o servilleta e introduce al microondas durante 20 seg abre el microondas, otros 20 seg y abre el microondas y otros 20 seg y abre el microondas. \n\n
+        6- Se puede comer de la taza o desmoldarlo, dejarlo enfriar e introducir al refrigerador durante 1 hora. \n\n
+        7- Puedes decorar con fruta y mermelada. "</string>
+
     <string name="title_carlota_limon">Carlota de limon</string>
-    <string name="galletas_maria">"- galletas maría  "</string>
-    <string name="yogurt_griego_1tz">"- 1 taza yogurt griego sin azúcar  "</string>
-    <string name="endulzante">"- azúcar, stevia o edulcorante.  "</string>
-    <string name="carlota_limon_preparation">"1- Mezclamos el yogurt griego con el azúcar y el jugo del limón y batimos hasta que la mezcla sea homogénea. \n\n 2- En un mason jar colocamos una galleta maría seguida de tres cucharadas de yogurt, ésto lo repetimos hasta que se cubra el frasco y terminamos con una capa de yogurt.\n\n  3- Puedes decorar con ralladura de limón, dos rodajas delgadas de limón y media galleta puesta verticalmente.  "</string>
+    <string name="galletas_maria">"galletas maría  "</string>
+    <string name="yogurt_griego_1tz">"1 taza yogurt griego sin azúcar  "</string>
+    <string name="endulzante">"azúcar, stevia o edulcorante.  "</string>
+    <string name="carlota_limon_preparation">"
+        1- Mezclamos el yogurt griego con el azúcar y el jugo del limón y batimos hasta que la mezcla sea homogénea. \n\n
+        2- En un mason jar colocamos una galleta maría seguida de tres cucharadas de yogurt, ésto lo repetimos hasta que se cubra el frasco y terminamos con una capa de yogurt.\n\n
+        3- Puedes decorar con ralladura de limón, dos rodajas delgadas de limón y media galleta puesta verticalmente.  "</string>
+
     <string name="title_cheesecake_mango_taza">Cheesecake de mango en Taza</string>
-    <string name="media_crema_4cda">"- 4 cucharadas de crema de leche (media crema)  "</string>
-    <string name="azucar">- azucar</string>
-    <string name="esencia_vainilla">"- esencia de vainilla  "</string>
-    <string name="mango_manila">"- mango manila maduro "</string>
-    <string name="galettas_vainilla">"- galletas de vainilla "</string>
-    <string name="mermelada_mango">"- mermelada de mango  "</string>
-    <string name="cheesecake_mango_taza_preparation">"1- Mezclar queso crema, crema de leche, azúcar y vainilla hasta que quede homogéneo. \n\n 2- Triturar las galletas y mezclar con mantequilla hasta que quede homogéneo.\n\n  3- En un vaso de postres colocamos la galleta con mantequilla en el fondo, aplanamos un poco, agregamos la mezcla y hasta arriba colocamos rebanadas delgadas de mango o medio centímetro de mermelada, dejamos enfriar y listo para servir.\n\n "</string>
+    <string name="media_crema_4cda">"4 cucharadas de crema de leche (media crema)  "</string>
+    <string name="azucar">azucar</string>
+    <string name="esencia_vainilla">"esencia de vainilla  "</string>
+    <string name="mango_manila">"mango manila maduro "</string>
+    <string name="galettas_vainilla">"galletas de vainilla "</string>
+    <string name="mermelada_mango">"mermelada de mango  "</string>
+    <string name="cheesecake_mango_taza_preparation">"
+        1- Mezclar queso crema, crema de leche, azúcar y vainilla hasta que quede homogéneo. \n\n
+        2- Triturar las galletas y mezclar con mantequilla hasta que quede homogéneo.\n\n
+        3- En un vaso de postres colocamos la galleta con mantequilla en el fondo, aplanamos un poco, agregamos la mezcla y hasta arriba colocamos rebanadas delgadas de mango o medio centímetro de mermelada, dejamos enfriar y listo para servir."</string>
+
     <string name="title_arroz_leche">Arroz con Leche</string>
-    <string name="raja_canela">"- 1 raja de canela  "</string>
-    <string name="arroz_1tz">"- 1 taza de arroz  "</string>
-    <string name="leche_condensada_1lata">"- 1 lata de leche condensada  "</string>
-    <string name="leche_evaporada_1lata">"- 1 lata de leche evaporada "</string>
+    <string name="raja_canela">"1 raja de canela  "</string>
+    <string name="arroz_1tz">"1 taza de arroz  "</string>
+    <string name="leche_condensada_1lata">"1 lata de leche condensada  "</string>
+    <string name="leche_evaporada_1lata">"1 lata de leche evaporada "</string>
     <string name="canela_molida_1_2cda">"½ cucharada de canela molida  "</string>
     <string name="pasas_1_2tz">"½ taza de pasas.  "</string>
-    <string name="arroz_leche_preparation">"1- En una olla calienta el agua con la canela a fuego medio , cuando empiece a hervir agrega el arroz, deja durante 15 min. \n\n 2- Agrega la leche condensada, la leche evaporada y si quieres las pasas, y bajas a fuego bajo, mueve de 20 a 25 min hasta que empiece a espesar. \n\n 3- Sirve y espolvorea la canela encima.  "</string>
+    <string name="arroz_leche_preparation">"
+        1- En una olla calienta el agua con la canela a fuego medio , cuando empiece a hervir agrega el arroz, deja durante 15 min. \n\n
+        2- Agrega la leche condensada, la leche evaporada y si quieres las pasas, y bajas a fuego bajo, mueve de 20 a 25 min hasta que empiece a espesar. \n\n
+        3- Sirve y espolvorea la canela encima.  "</string>
     <string name="postres">Postres</string>
     <string name="tortas">Tortas</string>
     <string name="bento">Bento</string>
-    <string name="title_budin_pan">Bunin de Pan</string>
-    <string name="pan_300g">"- 300 g de pan  "</string>
-    <string name="huevos_3pz">"- 3 huevos "</string>
-    <string name="leche_500ml">"- 500 ml de leche  "</string>
-    <string name="azucar_125g">"- 125g de azúcar  "</string>
-    <string name="chocolate_100g">"- 100g de chocolate  "</string>
-    <string name="caramelo_liquido">"- caramelo líquido "</string>
-    <string name="mantequilla_3cda">"- 3 cucharadas de mantequilla  "</string>
-    <string name="budin_pan_preparation">"1- Cortamos el pan duro en cubos pequeños y los colocamos en un bowl con la leche. \n\n 2- Aplastamos el pan con un tenedor y revolvemos hasta tener una mezcla homogénea. \n\n 3- Agregamos el azúcar, los huevos, la vainilla, la mantequilla derretida y volvemos a mezclar hasta que esté todo homogéneo.\n\n 4- Ahora agregamos el chocolate y volvemos a mezclar.\n\n 5- En un molde de pastel o panqué para microondas colocamos el caramelo en el fondo del molde, cuidando que cubra todo el fondo y agregamos la mezcla. \n\n 6- Metemos al microondas por unos 13 min (dividirlo en sesiones de 4 minutos con 30 seg para evitar que brinque) o bien de la forma tradicional,  lo cubrimos con papel aluminio y lo ponemos sobre otra charola con agua y hornear a 180°C durante 1 hora.\n\n 7- Sacamos del horno de microondas o el horno convencional y , lo dejamos enfriar  despegamos los bordes con un cuchillo (no será necesario si el molde es de silicón) ponemos un plato sobre el molde y volteamos. "</string>
+    <string name="title_budin_pan">Budin de Pan</string>
+    <string name="pan_300g">"300 g de pan  "</string>
+    <string name="huevos_3pz">"3 huevos "</string>
+    <string name="leche_500ml">"500 ml de leche  "</string>
+    <string name="azucar_125g">"125g de azúcar  "</string>
+    <string name="chocolate_100g">"100g de chocolate  "</string>
+    <string name="caramelo_liquido">"caramelo líquido "</string>
+    <string name="mantequilla_3cda">"3 cucharadas de mantequilla  "</string>
+    <string name="budin_pan_preparation">"
+        1- Cortamos el pan duro en cubos pequeños y los colocamos en un bowl con la leche.\n\n
+        2- Aplastamos el pan con un tenedor y revolvemos hasta tener una mezcla homogénea. \n\n
+        3- Agregamos el azúcar, los huevos, la vainilla, la mantequilla derretida y volvemos a mezclar hasta que esté todo homogéneo.\n\n
+        4- Ahora agregamos el chocolate y volvemos a mezclar.\n\n
+        5- En un molde de pastel o panqué para microondas colocamos el caramelo en el fondo del molde, cuidando que cubra todo el fondo y agregamos la mezcla. \n\n
+        6- Metemos al microondas por unos 13 min (dividirlo en sesiones de 4 minutos con 30 seg para evitar que brinque) o bien de la forma tradicional,  lo cubrimos con papel aluminio y lo ponemos sobre otra charola con agua y hornear a 180°C durante 1 hora.\n\n
+        7- Sacamos del horno de microondas o el horno convencional y , lo dejamos enfriar  despegamos los bordes con un cuchillo (no será necesario si el molde es de silicón) ponemos un plato sobre el molde y volteamos. "</string>
+
     <string name="title_panque_zanahoria_taza">Panque de Zanahoria en Taza</string>
-    <string name="harina_1_4tz">"- ¼ de taza de harina de trigo "</string>
-    <string name="canela_molida_1cda">"- 1 cucharada de canela en polvo  "</string>
-    <string name="zanahoria_grande">"- 1 zanahoria grande "</string>
-    <string name="yogurt_natural_1cda">"- 1 cucharada de yogurt griego sin azúcar  "</string>
-    <string name="polvo_hornear_1_2cda">"- ½ cucharadita de polvo para hornear "</string>
-    <string name="sustituto_azucar">"- sustituto de azúcar  "</string>
-    <string name="glaseado">"- glaseado  "</string>
-    <string name="nueces_trozo">"- nueces en trozo  "</string>
-    <string name="panque_zanahoria_taza_preparation">"1- Lavamos perfectamente la zanahoria y la rallamos en tiras finas. \n\n 2- En una taza o un recipiente apto para microondas agrega la zanahoria, la harina, el huevo, la canela, la vainilla, el yogurt y el polvo para hornear. mezcla hasta que tengas una mezcla homogénea. \n\n 3- Metemos al microondas y calentamos por 2 min. \n\n 4- Saca y deja enfriar el recipiente, puedes decorar con glaseado o crema batida y nueces en trozos.  "</string>
+    <string name="harina_1_4tz">"¼ de taza de harina de trigo "</string>
+    <string name="canela_molida_1cda">"1 cucharada de canela en polvo  "</string>
+    <string name="zanahoria_grande">"1 zanahoria grande "</string>
+    <string name="yogurt_natural_1cda">"1 cucharada de yogurt griego sin azúcar  "</string>
+    <string name="polvo_hornear_1_2cda">"½ cucharadita de polvo para hornear "</string>
+    <string name="sustituto_azucar">"sustituto de azúcar  "</string>
+    <string name="glaseado">"glaseado  "</string>
+    <string name="nueces_trozo">"nueces en trozo  "</string>
+    <string name="panque_zanahoria_taza_preparation">"
+        1- Lavamos perfectamente la zanahoria y la rallamos en tiras finas. \n\n
+        2- En una taza o un recipiente apto para microondas agrega la zanahoria, la harina, el huevo, la canela, la vainilla, el yogurt y el polvo para hornear. mezcla hasta que tengas una mezcla homogénea. \n\n
+        3- Metemos al microondas y calentamos por 2 min. \n\n
+        4- Saca y deja enfriar el recipiente, puedes decorar con glaseado o crema batida y nueces en trozos.  "</string>
     <string name="title_rol_canela_taza">Rol de Canela en Taza</string>
-    <string name="azucar_1_4tz">"- ¼ de taza de azúcar  "</string>
-    <string name="pan_blanco_4pz">"- 4 rebanadas de pan blanco "</string>
-    <string name="leche_1_3tz">"-  ⅓ de taza de leche  "</string>
-    <string name="rol_canela_taza_preparation">"1- Corta las orillas de las rebanadas de pan. \n\n 2- Mientras mezclamos la mantequilla el azúcar y la canela y con ayuda de un cuchillo de mantequilla unta las rebanadas de pan por ambos lados.\n\n 3- Sobreponer una esquina de pan con otra esquina de pan y aplastarlas para que se peguen. \n\n 4- Agrega la nuez a lo largo de toda la tira  enrolla y corta el rola a la mitad de tal forma que te queden dos rollos de canela.  "</string>
+    <string name="azucar_1_4tz">"¼ de taza de azúcar  "</string>
+    <string name="pan_blanco_4pz">"4 rebanadas de pan blanco "</string>
+    <string name="leche_1_3tz">"⅓ de taza de leche  "</string>
+    <string name="rol_canela_taza_preparation">"
+        1- Corta las orillas de las rebanadas de pan. \n\n
+        2- Mientras mezclamos la mantequilla el azúcar y la canela y con ayuda de un cuchillo de mantequilla unta las rebanadas de pan por ambos lados.\n\n
+        3- Sobreponer una esquina de pan con otra esquina de pan y aplastarlas para que se peguen. \n\n
+        4- Agrega la nuez a lo largo de toda la tira  enrolla y corta el rola a la mitad de tal forma que te queden dos rollos de canela.  "</string>
     <string name="title_crumble_manzana_taza">Crumble de Manzana en Taza</string>
-    <string name="manzana_1pza">"- 1 manzana  "</string>
-    <string name="jugo_limon_1_2cda">"- ½ cucharada de jugo de limón. "</string>
-    <string name="vainilla_1_4cda">"- ¼ de cucharada de esencia de vainilla.  "</string>
+    <string name="manzana_1pza">"1 manzana  "</string>
+    <string name="jugo_limon_1_2cda">"½ cucharada de jugo de limón. "</string>
+    <string name="vainilla_1_4cda">"¼ de cucharada de esencia de vainilla.  "</string>
     <string name="para_masa">PARA LA MASA</string>
-    <string name="harina_2cda">"- 2 cucharadas de harina  "</string>
-    <string name="azucar_1cda">"- 1 cucharada de azúcar "</string>
-    <string name="masa_hojaldre">"- masa de hojaldre refrigerada.  "</string>
-    <string name="helado_vainilla">"- helado de vainilla.  "</string>
-    <string name="crumble_manzana_taza_preparation">"“Para el relleno”\n 1- Pelamos y desorazonamos la manzana (básicos de cocina), una vez listas cortamos en cubos pequeños y agregamos la taza de azúcar, el jugo de limón, la esencia de vainilla y la canela. \n\n 2- Machaca ligeramente con la ayuda de un tenedor para formar un puré suave con trozos de fruta. \n\n 3- Reserva. \n\n “Para la masa”\n 1-  En otro recipiente, mezclamos con una cuchara  la harina, la mantequilla fría y el azúcar,  hasta lograr una mezcla homogénea y arenosa.\n\n  “Unimos” \n 1- Ahora en una taza agregamos el puré de manzana en el fondo y la masa la  ponemos sobre el puré. \n\n 2- Llevamos al microondas y ponemos 2 min, cuando termine abrimos la puerta, volvemos a cerrar y agregamos un minuto más.\n\n  3-  Deja enfriar un poco y disfruta. Puedes agregar una bola de helado de vainilla y acompañar con la bebida de tu preferencia.  "</string>
+    <string name="harina_2cda">"2 cucharadas de harina  "</string>
+    <string name="azucar_1cda">"1 cucharada de azúcar "</string>
+    <string name="masa_hojaldre">"masa de hojaldre refrigerada.  "</string>
+    <string name="helado_vainilla">"helado de vainilla.  "</string>
+    <string name="crumble_manzana_taza_preparation">"
+        “Para el relleno”\n 1- Pelamos y desorazonamos la manzana (básicos de cocina), una vez listas cortamos en cubos pequeños y agregamos la taza de azúcar, el jugo de limón, la esencia de vainilla y la canela. \n\n
+        2- Machaca ligeramente con la ayuda de un tenedor para formar un puré suave con trozos de fruta. \n\n
+        3- Reserva. \n\n “Para la masa”\n
+        1-  En otro recipiente, mezclamos con una cuchara  la harina, la mantequilla fría y el azúcar,  hasta lograr una mezcla homogénea y arenosa.\n\n
+        “Unimos” \n 1- Ahora en una taza agregamos el puré de manzana en el fondo y la masa la  ponemos sobre el puré. \n\n
+        2- Llevamos al microondas y ponemos 2 min, cuando termine abrimos la puerta, volvemos a cerrar y agregamos un minuto más.\n\n
+        3-  Deja enfriar un poco y disfruta. Puedes agregar una bola de helado de vainilla y acompañar con la bebida de tu preferencia.  "</string>
+
     <string name="title_pastel_tres_leches_taza">Pastel de Tres Leches en Taza</string>
-    <string name="azuca_2cda">"- 2 cucharadas de azúcar "</string>
-    <string name="leche_1cda">"- 1 cucharada de leche  "</string>
-    <string name="harina_4cda">"- 4 cucharadas de harina  "</string>
-    <string name="leche_evaporada_1_4tz">"- ¼ de leche evaporada "</string>
-    <string name="leche_condensada_1_4tz">"- ¼ de leche condensada  "</string>
-    <string name="fresas_1_2tz">"- ½ taza de fresas "</string>
+    <string name="azuca_2cda">"2 cucharadas de azúcar "</string>
+    <string name="leche_1cda">"1 cucharada de leche  "</string>
+    <string name="harina_4cda">"4 cucharadas de harina  "</string>
+    <string name="leche_evaporada_1_4tz">"¼ de leche evaporada "</string>
+    <string name="leche_condensada_1_4tz">"¼ de leche condensada  "</string>
+    <string name="fresas_1_2tz">"½ taza de fresas "</string>
     <string name="title_galletas_microondas">Galletas de Microondas</string>
-    <string name="azucar_mascabada_4cda">"- 4 cucharadas de azúcar mascabado "</string>
-    <string name="sal_pizca">"- 1 pizca de sal "</string>
-    <string name="mantequilla_sin_sal_1_2barra">"- ½ barra de mantequilla sin sal a temperatura ambiente  "</string>
-    <string name="harina_10cda">"- 10 cucharadas de harina de trigo   "</string>
-    <string name="chispas_chocolate_1_4tz">"- ¼ de chispas de chocolate "</string>
-    <string name="nues_picada">"- nuez picada "</string>
-    <string name="pastel_tres_leches_taza_preparation">"1- Mezclamos en una taza el huevo, la mantequilla derretida, la vainilla, el azúcar, la leche, la harina y el polvo para hornear, revuelve todo hasta tener una mezcla homogénea. \n\n 2- Metemos al microondas por 2 minutos, dejamos que enfríe y con un palillo le hacemos varios orificios en la superficie. \n\n 3- En un bol aparte mezclamos la leche, leche condensada y la leche evaporada y vertemos la mezcla al pastel en taza.\n\n 4- Agregamos las fresas picadas en la superficie y terminamos con un poco de crema batida.\n\n 5- Sirve. puedes acompañarlo con la bebida de tu preferencia, y si lo prefieres frío puedes refrigerar por 30 min.  "</string>
-    <string name="chispas_colores">"- chispas de colores "</string>
-    <string name="galletas_microondas_preparation">"1- En un bowl ponemos el azúcar, la sal. la esencia de vainilla, la mitad del huevo (batido) la mantequilla, las chispas de chocolate  y la harina. \n\n 2- Mezclamos perfectamente hasta tener una masa. \n\n 3- Engrasamos el plato para microondas . \n\n 4- Formamos bolitas con la masa (que no sean muy grandes). \n\n 5- Metemos al microondas por 1 minutos, abrimos la puerta, dejamos ventilar y agregamos otros 30 seg. \n\n 6- Sacamos del microondas, dejamos enfriar y sirve. \n\n 7- Puedes acompañar con la bebida de tu preferencia.  "</string>
+    <string name="azucar_mascabada_4cda">"4 cucharadas de azúcar mascabado "</string>
+    <string name="sal_pizca">"1 pizca de sal "</string>
+    <string name="mantequilla_sin_sal_1_2barra">"½ barra de mantequilla sin sal a temperatura ambiente  "</string>
+    <string name="harina_10cda">"10 cucharadas de harina de trigo   "</string>
+    <string name="chispas_chocolate_1_4tz">"¼ de chispas de chocolate "</string>
+    <string name="nues_picada">"nuez picada "</string>
+    <string name="pastel_tres_leches_taza_preparation">"
+        1- Mezclamos en una taza el huevo, la mantequilla derretida, la vainilla, el azúcar, la leche, la harina y el polvo para hornear, revuelve todo hasta tener una mezcla homogénea. \n\n
+        2- Metemos al microondas por 2 minutos, dejamos que enfríe y con un palillo le hacemos varios orificios en la superficie. \n\n
+        3- En un bol aparte mezclamos la leche, leche condensada y la leche evaporada y vertemos la mezcla al pastel en taza.\n\n
+        4- Agregamos las fresas picadas en la superficie y terminamos con un poco de crema batida.\n\n
+        5- Sirve. puedes acompañarlo con la bebida de tu preferencia, y si lo prefieres frío puedes refrigerar por 30 min.  "</string>
+
+    <string name="chispas_colores">"-chispas de colores "</string>
+    <string name="galletas_microondas_preparation">"
+        1- En un bowl ponemos el azúcar, la sal. la esencia de vainilla, la mitad del huevo (batido) la mantequilla, las chispas de chocolate  y la harina. \n\n
+        2- Mezclamos perfectamente hasta tener una masa. \n\n 3- Engrasamos el plato para microondas . \n\n
+        4- Formamos bolitas con la masa (que no sean muy grandes). \n\n
+        5- Metemos al microondas por 1 minutos, abrimos la puerta, dejamos ventilar y agregamos otros 30 seg. \n\n
+        6- Sacamos del microondas, dejamos enfriar y sirve. \n\n
+        7- Puedes acompañar con la bebida de tu preferencia.  "</string>
+
     <string name="title_wrap_sushi">Wrap de Sushi</string>
-    <string name="hoja_nori">"- 1 hoja de nori  "</string>
-    <string name="pepino">- 1 pepino</string>
-    <string name="aguacate_1_2">- medio aguacate</string>
-    <string name="barra_surimi_2">"- 2 barras de surimi  "</string>
+    <string name="hoja_nori">"1 hoja de nori  "</string>
+    <string name="pepino">1 pepino</string>
+    <string name="aguacate_1_2">medio aguacate</string>
+    <string name="barra_surimi_2">"2 barras de surimi  "</string>
     <string name="queso_crema">- queso crema</string>
-    <string name="wrap_sushi_preparation">"1- Imaginariamente vamos a trazar dos líneas que dividan en cuatro cuadros  la hoja de nori y vamos a cortar un lado de uno de los cuadros hacia el centro. \n\n 2- En un cuadro vamos a poner una capa de arroz al vapor  presionando el arroz hasta que cubra todo el espacio de ese cuadro. \n\n 3- En el siguiente cuadro vamos a poner el surimi calientito (ir básicos de la cocina) y rebanamos la barra a lo largo y a lo ancho de forma que cubra el segundo cuadro  4- En el tercer cuadro ponemos rebanadas en medias lunas delgadas de aguacate hasta que se cubra todo el cuadro. \n\n 5- En el último cuadro ponemos una capa delgada de queso crema y rebanadas delgadas en ángulo del pepino (con cáscara o sin cáscara). \n\n  6- Ahora doblamos, el cuadro con el corte en un lado sobre el segundo cuadro, luego el tercero y el cuarto. \n\n 7- Obtendremos un “sándwich” , puedes partir en triángulo con un cuchillo de cierra  o llevártelo en sandwich.  "</string>
+    <string name="wrap_sushi_preparation">"
+        1- Imaginariamente vamos a trazar dos líneas que dividan en cuatro cuadros  la hoja de nori y vamos a cortar un lado de uno de los cuadros hacia el centro. \n\n
+        2- En un cuadro vamos a poner una capa de arroz al vapor  presionando el arroz hasta que cubra todo el espacio de ese cuadro. \n\n
+        3- En el siguiente cuadro vamos a poner el surimi calientito (ir básicos de la cocina) y rebanamos la barra a lo largo y a lo ancho de forma que cubra el segundo cuadro.\n\n
+        4- En el tercer cuadro ponemos rebanadas en medias lunas delgadas de aguacate hasta que se cubra todo el cuadro. \n\n
+        5- En el último cuadro ponemos una capa delgada de queso crema y rebanadas delgadas en ángulo del pepino (con cáscara o sin cáscara). \n\n
+        6- Ahora doblamos, el cuadro con el corte en un lado sobre el segundo cuadro, luego el tercero y el cuarto. \n\n
+        7- Obtendremos un “sándwich” , puedes partir en triángulo con un cuchillo de cierra  o llevártelo en sandwich.  "</string>
+
     <string name="title_wrap_jitomate_espinaca">Wrap de Jitomate y Espinaca</string>
-    <string name="mezcla_quesos_1tz">"- 1 Puño mezcla de quesos  "</string>
-    <string name="espinacas_desinfectadas_1tz">"- 1 Puño de espinacas desinfectadas (ir básicos de la cocina)  "</string>
-    <string name="tortilla_wrap_1">- 1 Tortilla de harina para burrito XL  (Para wraps)</string>
-    <string name="wrap_jitomate_espinaca_preparation">"1- En un sartén mediano  a fuego bajo ponemos a derretir la mantequilla y aseguramos que cubra todo el sartén.\n\n 2- Rebanamos el  jitomate en rebanadas  delgadas, y los  ponemos en el sartén caliente, acomodarlos  de tal forma que las rebanadas cubran el fondo del sartén sin que esté una rebanada  encima de otra. \n\n 3- Mientras  en un bowl batimos el huevo con sal y pimienta. \n\n 4- Después de un minuto le damos la vuelta a los jitomates y agregamos el huevo batido. \n\n 5- Cuando el huevo esté medio cocido agregamos una capa delgada  de espinaca, y después una capa delgada de queso. \n\n 6- Cuando el queso esté derretido ponemos la tortilla de harina encima del queso   y le damos la vuelta al wrap para que la tortilla esté en contacto con la sartén. \n\n 7- Calentamos la tortilla por un minuto, doblamos a la mitad.  "</string>
+    <string name="mezcla_quesos_1tz">"1 puño mezcla de quesos  "</string>
+    <string name="espinacas_desinfectadas_1tz">"1 puño de espinacas desinfectadas (ir básicos de la cocina)  "</string>
+    <string name="tortilla_wrap_1">1 tortilla de harina para burrito XL  (Para wraps)</string>
+    <string name="wrap_jitomate_espinaca_preparation">"
+        1- En un sartén mediano  a fuego bajo ponemos a derretir la mantequilla y aseguramos que cubra todo el sartén.\n\n
+        2- Rebanamos el  jitomate en rebanadas  delgadas, y los  ponemos en el sartén caliente, acomodarlos  de tal forma que las rebanadas cubran el fondo del sartén sin que esté una rebanada  encima de otra. \n\n
+        3- Mientras  en un bowl batimos el huevo con sal y pimienta. \n\n
+        4- Después de un minuto le damos la vuelta a los jitomates y agregamos el huevo batido. \n\n
+        5- Cuando el huevo esté medio cocido agregamos una capa delgada  de espinaca, y después una capa delgada de queso. \n\n
+        6- Cuando el queso esté derretido ponemos la tortilla de harina encima del queso y le damos la vuelta al wrap para que la tortilla esté en contacto con la sartén. \n\n
+        7- Calentamos la tortilla por un minuto, doblamos a la mitad.  "</string>
+
     <string name="title_agua_jamaica_natural">Agua de Jamaica Natural</string>
-    <string name="flor_jamaica_1tz">"- 1 taza de flor de jamaica  "</string>
-    <string name="agua_12tz">"- 12 tazas de agua  "</string>
-    <string name="azucar_stevia_al_gusto">"- ½ taza de azúcar o stevia al gusto  "</string>
-    <string name="hielo">- hielo</string>
-    <string name="agua_jamaica_natural_preparation">"1- En una olla pon dos tazas de agua a hervir. cuando hierva agrega la flor de jamaica y deja hervir por otros 10 min. \n\n 2- Apaga y con un colador fino, cuela la flor de jamaica (las puedes guardar para hacer otros platillos) en una jarra. \n\n 3- Agrega las tazas de agua restantes a la jarra y agrega el azúcar o la stevia. \n\n 4- Mueve hasta que el azúcar se haya disuelto por completo. \n\n 5- Agrega los hielos y si la necesitas más fría mete al refri por una hora. "</string>
+    <string name="flor_jamaica_1tz">"1 taza de flor de jamaica  "</string>
+    <string name="agua_12tz">"12 tazas de agua  "</string>
+    <string name="azucar_stevia_al_gusto">"½ taza de azúcar o stevia al gusto  "</string>
+    <string name="hielo">hielo</string>
+    <string name="agua_jamaica_natural_preparation">"
+        1- En una olla pon dos tazas de agua a hervir. cuando hierva agrega la flor de jamaica y deja hervir por otros 10 min. \n\n
+        2- Apaga y con un colador fino, cuela la flor de jamaica (las puedes guardar para hacer otros platillos) en una jarra. \n\n
+        3- Agrega las tazas de agua restantes a la jarra y agrega el azúcar o la stevia. \n\n 4- Mueve hasta que el azúcar se haya disuelto por completo. \n\n
+        5- Agrega los hielos y si la necesitas más fría mete al refri por una hora. "</string>
+
     <string name="title_limonada_frutos_rojos">Limonada de Frutos Rojos</string>
-    <string name="frutos_rojos_congelados_1tz">- 1 taza de frutos rojos congelados</string>
-    <string name="jugo_linos_1_4tz">"- ¼ de taza de jugo de limón "</string>
-    <string name="jarabe_natural_1cda">- 1 cucharada de ajrabe natural</string>
-    <string name="agua_agua_mineral_1tz">"- 1 taza de agua o agua mineral  "</string>
-    <string name="consentrado_jugo_limon">"- concentrado de jugo de limón, sustituye al jugo de limón. "</string>
-    <string name="hojas_menta">"- hojas frescas de menta.  "</string>
-    <string name="limonada_frutos_rojos_preparation">"En un microondas descongela el puño de frutos rojos. \n\n Cuando estén derretidos triturarlos en el fondo del vaso que usarás para tu limonada. \n\n Agrega el jugo de limón y el jarabe natural.\n\n Agrega la cantidad de hielo que gustes. \n\n Llena el vaso con agua o agua mineral.\n\n Puedes decorar con rodajas de limón y agregar hojas frescas de menta. "</string>
+    <string name="frutos_rojos_congelados_1tz">1 taza de frutos rojos congelados</string>
+    <string name="jugo_linos_1_4tz">"¼ de taza de jugo de limón "</string>
+    <string name="jarabe_natural_1cda">1 cucharada de ajrabe natural</string>
+    <string name="agua_agua_mineral_1tz">"1 taza de agua o agua mineral  "</string>
+    <string name="consentrado_jugo_limon">"concentrado de jugo de limón, sustituye al jugo de limón. "</string>
+    <string name="hojas_menta">"hojas frescas de menta.  "</string>
+    <string name="limonada_frutos_rojos_preparation">"
+        1- En un microondas descongela el puño de frutos rojos. \n\n
+        2- Cuando estén derretidos triturarlos en el fondo del vaso que usarás para tu limonada. \n\n
+        3- Agrega el jugo de limón y el jarabe natural.\n\n Agrega la cantidad de hielo que gustes. \n\n
+        4- Llena el vaso con agua o agua mineral.\n\n
+        5- Puedes decorar con rodajas de limón y agregar hojas frescas de menta. "</string>
+
     <string name="title_latte_fresa_te_verde">Latte de Fresa y Te Verde</string>
-    <string name="fresas_congeladas_6pz">"- 6 fresas congeladas  "</string>
-    <string name="te_verde_polvo_1cda">"- 1 cucharada de té verde en polvo  "</string>
-    <string name="agua_caliente_1_4tz">"-  ¼ de taza de agua caliente  "</string>
-    <string name="fresas_frescas">"- fresas frescas  "</string>
-    <string name="latte_fresa_te_verde_preparation">"1- Poner las fresas a descongelar en un microondas, cuando estén un poco descongeladas aplastarlas un poco.\n\n 2- Coloca las fresas junto con el jugo en el fondo del vaso de tu bebida.\n\n 3- Agrega la cantidad de hielo de tu preferencia. \n\n 4- Agrega ¾ de la taza de leche. \n\n 5- En el ¼ de taza de leche restante diluye la cucharada de té verde en polvo. \n\n 6- Agrega el té verde sobre la leche. \n\n 7- Puedes decorar con fresas frescas y hojas de menta. "</string>
+    <string name="fresas_congeladas_6pz">"6 fresas congeladas  "</string>
+    <string name="te_verde_polvo_1cda">"1 cucharada de té verde en polvo  "</string>
+    <string name="agua_caliente_1_4tz">"¼ de taza de agua caliente  "</string>
+    <string name="fresas_frescas">"fresas frescas  "</string>
+    <string name="latte_fresa_te_verde_preparation">"
+        1- Poner las fresas a descongelar en un microondas, cuando estén un poco descongeladas aplastarlas un poco.\n\n
+        2- Coloca las fresas junto con el jugo en el fondo del vaso de tu bebida.\n\n
+        3- Agrega la cantidad de hielo de tu preferencia. \n\n
+        4- Agrega ¾ de la taza de leche. \n\n
+        5- En el ¼ de taza de leche restante diluye la cucharada de té verde en polvo. \n\n
+        6- Agrega el té verde sobre la leche. \n\n
+        7- Puedes decorar con fresas frescas y hojas de menta. "</string>
+
     <string name="title_latte_cafe_baileys">Latte de Cafe con Baileys</string>
-    <string name="licor_cafe">"- licor de café  "</string>
-    <string name="licor_cafe_30ml">"- 30 ml de licor de café  "</string>
-    <string name="baileys_30ml">"- 30 ml de Baileys "</string>
-    <string name="crema_leche_30ml">"- 30ml de crema de leche  "</string>
-    <string name="nuez_moscada_polvo">"- nuez moscada en polvo "</string>
-    <string name="latte_cafe_baileys_preparation">"1- Agrega el hielo hasta ¾ del vaso. \n\n 2- Sobre los hielos, agregar el licor de café, el baileys,y la crema de leche y el café frío. \n\n 3- Revuelve hasta que la mezcla sea homogénea. \n\n 4- Puedes decorar con crema batida y espolvorear un poco de nuez moscada. "</string>
+    <string name="licor_cafe">licor de café</string>
+    <string name="licor_cafe_30ml">30 ml de licor de café</string>
+    <string name="baileys_30ml">30 ml de Baileys</string>
+    <string name="crema_leche_30ml">30ml de crema de leche</string>
+    <string name="nuez_moscada_polvo">nuez moscada en polvo</string>
+    <string name="latte_cafe_baileys_preparation">"
+        1- Agrega el hielo hasta ¾ del vaso. \n\n
+        2- Sobre los hielos, agregar el licor de café, el baileys,y la crema de leche y el café frío. \n\n
+        3- Revuelve hasta que la mezcla sea homogénea. \n\n
+        4- Puedes decorar con crema batida y espolvorear un poco de nuez moscada. "</string>
+
     <string name="title_oniguirazu_atun">Oniguirazu de Atun</string>
     <string name="no_subtitutes">No hay sustitutos disponibles</string>
     <string name="no_optios">No hay opciones disponibles</string>
     <string name="title_licuado_mango_crema_coco">Licuado de mango con Crema de Coco</string>
-    <string name="mango_1tz">- 1 taza de mango</string>
-    <string name="crema_coco_1tz">- 1 taza de crema de coco</string>
-    <string name="yogurt_natural_1tz">- 1 taza de yogurt natural</string>
-    <string name="chichitos_colores_1_2tz">- 1/2 taza de chochitos de colores</string>
-    <string name="agua_1cda">- 1 cucharada de agua</string>
-    <string name="licuado_mango_crema_coco_preparation">"1- Coloca el mango, la crema de coco, el yogur y el hielo en la licuadora. Bate perfectamente hasta que logres una mezcla espumosa. \n\n 2- Para escarchar el vaso, combina el azúcar con el agua hasta disolver todos los grumos; si te hace falta agua, agrégala poco a poco. \n\n 3- Coloca el vaso boca abajo sobre la mezcla de azúcar diluida y luego pásalo sobre los chochitos para que se peguen al vaso.\n\n 4- Sirve el licuado y disfruta. "</string>
+    <string name="mango_1tz">1 taza de mango</string>
+    <string name="crema_coco_1tz">1 taza de crema de coco</string>
+    <string name="yogurt_natural_1tz">1 taza de yogurt natural</string>
+    <string name="chichitos_colores_1_2tz">½ taza de chochitos de colores</string>
+    <string name="agua_1cda">1 cucharada de agua</string>
+    <string name="licuado_mango_crema_coco_preparation">"
+        1- Coloca el mango, la crema de coco, el yogur y el hielo en la licuadora. Bate perfectamente hasta que logres una mezcla espumosa. \n\n
+        2- Para escarchar el vaso, combina el azúcar con el agua hasta disolver todos los grumos; si te hace falta agua, agrégala poco a poco. \n\n
+        3- Coloca el vaso boca abajo sobre la mezcla de azúcar diluida y luego pásalo sobre los chochitos para que se peguen al vaso.\n\n
+        4- Sirve el licuado y disfruta. "</string>
+
     <string name="title_licuado_pina_platano_coco">Licuado de Piña, Plátano y Coco</string>
-    <string name="ralladura_coco_1_2tz">- 1/2 taza de ralladura de coco</string>
-    <string name="leche_coco_1_2tz">- 1/2 taza de leche de coco</string>
-    <string name="pina_pelada_1_2tz">-- 1/2 taza de piña pelada</string>
-    <string name="azucar_4cda">- 4 cucharadas de azúcar</string>
-    <string name="leche_1tz">- 1 taza de leche</string>
-    <string name="licuado_pina_platano_coco_preparation">"1- Coloca en la licuadora la ralladura de coco, la leche de coco, la piña, el plátano, el azúcar y la leche en la licuadora. Bate hasta que todos los ingredientes se incorporen.\n\n 2- Sirve en el vaso de tu preferencia, agrega más ralladura y espolvorea con la canela en polvo. "</string>
+    <string name="ralladura_coco_1_2tz">½ taza de ralladura de coco</string>
+    <string name="leche_coco_1_2tz">- ½ taza de leche de coco</string>
+    <string name="pina_pelada_1_2tz">½ taza de piña pelada</string>
+    <string name="azucar_4cda">4 cucharadas de azúcar</string>
+    <string name="leche_1tz">1 taza de leche</string>
+    <string name="licuado_pina_platano_coco_preparation">"
+        1- Coloca en la licuadora la ralladura de coco, la leche de coco, la piña, el plátano, el azúcar y la leche en la licuadora. Bate hasta que todos los ingredientes se incorporen.\n\n
+        2- Sirve en el vaso de tu preferencia, agrega más ralladura y espolvorea con la canela en polvo. "</string>
+
     <string name="title_licuado_oreo_chocolate">Licuado de Oreo y Chocolate</string>
-    <string name="agua_1tz">- 1 taza de agua</string>
-    <string name="azucar_1_2tz">- 1/2 taza de azúcar</string>
-    <string name="chocolate_polvo_3_4tz">- 3/4 de taza de chocolate en polvo</string>
-    <string name="chocolate_amargo_50g">- 50 g de chocolate amargo picado</string>
-    <string name="galletas_chocolate_6pz">- 6 galletas de chocolate</string>
-    <string name="leche_1_1_2tz">- 1 1/2 tazas de leche</string>
-    <string name="helado_vainilla_1tz">- 1 taza de helado de vainilla</string>
-    <string name="licuado_ore_chocolate_preparation">"1- Combina el agua, el azúcar y el chocolate en polvo. Viértelo en una olla y calienta hasta que hierva, apaga. Incorpora el chocolate picado, mezcla hasta que notes que se derrite. Enfría y refrigera por 20 minutos.\n\n 2- Coloca en la licuadora las galletas, la leche y el helado. Procesa hasta que se combine bien y esté espumoso.\n\n 3- Retira la mezcla del refrigerador y sírvela en los vasos, girándolos para que se cubran solo las paredes. Vierte el licuado en los vasos y sirve. "</string>
+    <string name="agua_1tz">1 taza de agua</string>
+    <string name="azucar_1_2tz">½ taza de azúcar</string>
+    <string name="chocolate_polvo_3_4tz">¾ de taza de chocolate en polvo</string>
+    <string name="chocolate_amargo_50g">50 g de chocolate amargo picado</string>
+    <string name="galletas_chocolate_6pz">6 galletas de chocolate</string>
+    <string name="leche_1_1_2tz">1 ½ tazas de leche</string>
+    <string name="helado_vainilla_1tz">1 taza de helado de vainilla</string>
+    <string name="licuado_ore_chocolate_preparation">"
+        1- Combina el agua, el azúcar y el chocolate en polvo. Viértelo en una olla y calienta hasta que hierva, apaga. Incorpora el chocolate picado, mezcla hasta que notes que se derrite. Enfría y refrigera por 20 minutos.\n\n
+        2- Coloca en la licuadora las galletas, la leche y el helado. Procesa hasta que se combine bien y esté espumoso.\n\n
+        3- Retira la mezcla del refrigerador y sírvela en los vasos, girándolos para que se cubran solo las paredes. Vierte el licuado en los vasos y sirve. "</string>
+
     <string name="title_licuado_duraazno_fresa_platano">Licuado de Durazno, Fresa y Plátano</string>
-    <string name="leche_2tz">- 2 tazas de leche</string>
-    <string name="fresa_125g">- 125g de fresa</string>
-    <string name="durazno_100g">- 100g de durazno</string>
-    <string name="azucar_2cda">- 2 cucharadas de azucar</string>
-    <string name="naranja_jugo_1_2pz">- el jugo de 1/2 naranja</string>
-    <string name="licuado_durazno_fresa_platano_preparation">"1- Corta todas las frutas en trozos pequeños y agrégalas a la licuadora junto con la leche, el jugo de naranja y el azúcar. \n\n 2- Si el licuado se espesa demasiado, incorpora un poco más de leche o jugo de naranja. Sirve al momento. "</string>
+    <string name="leche_2tz">2 tazas de leche</string>
+    <string name="fresa_125g">125g de fresa</string>
+    <string name="durazno_100g">100g de durazno</string>
+    <string name="azucar_2cda">2 cucharadas de azucar</string>
+    <string name="naranja_jugo_1_2pz">el jugo de ½ naranja</string>
+    <string name="licuado_durazno_fresa_platano_preparation">"
+        1- Corta todas las frutas en trozos pequeños y agrégalas a la licuadora junto con la leche, el jugo de naranja y el azúcar. \n\n
+        2- Si el licuado se espesa demasiado, incorpora un poco más de leche o jugo de naranja. Sirve al instante. "</string>
+
     <string name="title_licuado_mamey_nuez">Licuado de Mamey y Nuez</string>
-    <string name="mamey_1_2pz">- 1/2 pieza de mamey</string>
-    <string name="licuado_mamey_nuez_preparation">"1- Pela el mamey y córtalo en cuadritos. \n\n 2- Agrégalo al vaso de la licuadora junto con la leche, el azúcar, las nueces y la canela. Licúa perfectamente por aproximadamente un minuto. \n\n 3- Sirve y disfruta. "</string>
+    <string name="mamey_1_2pz">½ pieza de mamey</string>
+    <string name="licuado_mamey_nuez_preparation">"
+        1- Pela el mamey y córtalo en cuadritos. \n\n
+        2- Agrégalo al vaso de la licuadora junto con la leche, el azúcar, las nueces y la canela. Licúa perfectamente por aproximadamente un minuto. \n\n
+        3- Sirve y disfruta. "</string>
+
     <string name="blanco_integral_centeno">(blanco integral o centeno)</string>
     <string name="preferencia">(el de tu preferencia)</string>
     <string name="lata_champinones_rev">"1 lata de champiñones"</string>
-    <string name="ajo_cabeza_1">- 1 cabeza de ajo</string>
-    <string name="perejil_seco">- perejil seco</string>
+    <string name="ajo_cabeza_1">1 cabeza de ajo</string>
+    <string name="perejil_seco">perejil seco</string>
+    <string name="aguacate_1">1 aguacate</string>
+    <string name="salsa_fav">salsa de tu preferencia</string>
+    <string name="pan_tostadas_crutones">pan, tostadas o crutones</string>
 
 </resources>

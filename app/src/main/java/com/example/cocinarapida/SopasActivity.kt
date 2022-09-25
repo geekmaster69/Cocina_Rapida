@@ -60,7 +60,11 @@ class SopasActivity : AppCompatActivity() {
 
             val substitutesList = arrayOf(getString(R.string.vegetales_congelados))
 
-            val optionsList = arrayOf(getString(R.string.optional_caldo_pollo))
+            val optionsList = arrayOf(
+                getString(R.string.aguacate_1),
+                getString(R.string.salsa_fav),
+                getString(R.string.queso_panela),
+                getString(R.string.tortillas))
 
             val preparation = getString(R.string.caldo_pollo_preparation)
 
@@ -175,7 +179,7 @@ class SopasActivity : AppCompatActivity() {
             val substitutesList = arrayOf(
                 getString(R.string.pure_papa_des))
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val optionsList = arrayOf(getString(R.string.pan_tostadas_crutones))
 
             val preparation = getString(R.string.crema_habas_preparation)
 
@@ -200,7 +204,7 @@ class SopasActivity : AppCompatActivity() {
                 getString(R.string.caldo_pollo_tp),
                 getString(R.string.pure_tomate_tp))
 
-            val optionsList = arrayOf(getString(R.string.sopa_poro_options))
+            val optionsList = arrayOf(getString(R.string.pan_tostadas_crutones))
 
             val preparation = getString(R.string.sopa_poro_preparation)
 
