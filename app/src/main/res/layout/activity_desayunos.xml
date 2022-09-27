@@ -8,9 +8,6 @@
     android:background="@drawable/fondo_mantel"
     tools:context=".DesayunosActivity">
 
-
-
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -36,18 +33,6 @@
             android:text="@string/title_huevos_estilo_amelia"/>
 
         <TextView
-            android:id="@+id/bt_huevo_norma"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="32sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/madera_boton"
-            android:fontFamily="@font/dancin_script_regular"
-            android:text="@string/title_huevos_norma"/>
-
-        <TextView
             android:id="@+id/bt_omelette_jamon_queso"
             android:layout_width="match_parent"
             android:layout_height="64dp"
@@ -58,18 +43,6 @@
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
             android:text="@string/title_omelette_jamon_queso"/>
-
-        <TextView
-            android:id="@+id/bt_huevo_tortilla_jalapeño"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="32sp"
-            android:gravity="center"
-            android:layout_marginBottom="8dp"
-            android:textColor="@color/white"
-            android:background="@drawable/madera_boton"
-            android:fontFamily="@font/dancin_script_regular"
-            android:text="@string/title_huevo_tortilla_jalapenos"/>
 
         <TextView
             android:id="@+id/bt_huevo_lugo_lopez"

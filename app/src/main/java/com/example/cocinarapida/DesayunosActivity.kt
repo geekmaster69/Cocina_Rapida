@@ -48,8 +48,12 @@ class DesayunosActivity : AppCompatActivity() {
 
             val image = R.drawable.huevos_amelia
 
-            val ingredientList = arrayOf(getString(R.string.huevos_2),getString(R.string.rebanas_pan_caja_2),
-                getString(R.string.sal_pimineta_gusto),getString(R.string.mantequilla),getString(R.string.miel_abeja))
+            val ingredientList = arrayOf(
+                getString(R.string.huevos_2),
+                getString(R.string.rebanas_pan_caja_2),
+                getString(R.string.sal_pimineta_gusto),
+                getString(R.string.mantequilla),
+                getString(R.string.miel_abeja))
 
             val substitutesList = arrayOf(getString(R.string.no_subtitutes))
 
@@ -63,12 +67,6 @@ class DesayunosActivity : AppCompatActivity() {
                 preparation)
         }
 
-        binding.btHuevoNorma.setOnClickListener {
-
-        }
-        binding.btHuevoTortillaJalapeO.setOnClickListener {
-
-        }
         binding.btHuevoLugoLopez.setOnClickListener {
 
             val title = getString(R.string.title_huevos_lugo_lopez)
@@ -100,7 +98,7 @@ class DesayunosActivity : AppCompatActivity() {
                 getString(R.string.cebolla_1_4),getString(R.string.ajo_1),getString(R.string.manojo_cilantro_1_8),
                 getString(R.string.cucharadas_aceite_2),getString(R.string.agua_50ml),getString(R.string.mantequilla_2_cda))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayOf(getString(R.string.pure_tomate_tp))
 
             val optionsList = arrayOf(getString(R.string.chiles_serranos_2))
 
@@ -116,10 +114,17 @@ class DesayunosActivity : AppCompatActivity() {
 
             val image = R.drawable.chilaquiles
 
-            val ingredientList = arrayOf(getString(R.string.totopos_500gr),getString(R.string.tomate_verde_1kg),
-                getString(R.string.cebolla),getString(R.string.chiles_serranos_2),getString(R.string.manojo_cilantro_1_8),
-                getString(R.string.cebolla_blanca_picada_1),getString(R.string.queso_panela_manchego_100gr),
-                getString(R.string.cucharadas_aceite_2),getString(R.string.sal_pimineta_gusto),getString(R.string.ajo_1))
+            val ingredientList = arrayOf(
+                getString(R.string.totopos_500gr),
+                getString(R.string.tomate_verde_1kg),
+                getString(R.string.cebolla),
+                getString(R.string.chiles_serranos_2),
+                getString(R.string.manojo_cilantro_1_8),
+                getString(R.string.cebolla_blanca_picada_1),
+                getString(R.string.queso_panela_manchego_100gr),
+                getString(R.string.cucharadas_aceite_2),
+                getString(R.string.sal_pimineta_gusto),
+                getString(R.string.ajo_1))
 
             val substitutesList = arrayOf(getString(R.string.no_subtitutes))
 
@@ -137,7 +142,8 @@ class DesayunosActivity : AppCompatActivity() {
 
             val image = R.drawable.enfrijoladas
 
-            val ingredientList = arrayOf(getString(R.string.huevos_4),getString(R.string.jitomate_picado_cubos_1),
+            val ingredientList = arrayOf(
+                getString(R.string.huevos_4),getString(R.string.jitomate_picado_cubos_1),
                 getString(R.string.cebolla_blanca_picada_1),getString(R.string.chile_cuaresmeno_jilianas_1),
                 getString(R.string.bolsa_frijoles_refritos_1),getString(R.string.manojo_cilantro_1_8),
                 getString(R.string.longaniza_100gr),getString(R.string.crema),getString(R.string.cucharadas_aceite_2),
