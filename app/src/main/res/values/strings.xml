@@ -77,7 +77,7 @@
         6- Sirve caliente (puedes poner un chile chipotle para agregar sabor a tu plato)</string>
 
     //Sopa de col
-    <string name="cebolla_blanca_picada_1">1 cebolla blanca picada</string>
+    <string name="cebolla_blanca_picada_1">1 cebolla blanca mediana </string>
     <string name="cucharada_tomillo_seco_1_2">½ cucharada de tomillo seco</string>
     <string name="oregano">orégano</string>
     <string name="pure_tomate_2_tazas">2 tazas de puré de tomate</string>
@@ -250,12 +250,13 @@
     <string name="agua">agua</string>
     <string name="enfrijoladas_preparation">
         1- En un Bowl rompe los huevos y batelos con la sal y la pimienta.\n\n
-        2- En un sartén calienta la mantequilla , ya caliente adicionar ½ de la cebolla y un jitomate picados. Cuando la cebolla este translucida adicionar el huevo y mover hasta que el huevo este cocido, reservar.\n\n
-        3- Pone en la licuadora el resto de la cebolla, la mitad del jitomate restante, el cilantro, el ajo y los frijoles negros con 50 ml de agua para que todo se licue en forma uniforme.\n\n
-        4- En un sartén con una cucharada de aceite, dorar la longaniza y las julianas de chile cuaresmeño y reservar ambos.\n\n
-        5- En el sartén con la grasa de la longaniza caliente, verter la salsa de frijol, debe chisporrotear, mover hasta que la salsa se cueza, añadir sal y pimienta para rectificar la sazón.\n\n
-        6- Calentar las tortillas de preferencia en un horno de microondas, yo no frío las tortillas, pero es al gusto. Con las tortillas calientes rellenarlas con huevo y enrollarla. Repetir esto con dos más y ponerlas en un plato tibio.\n\n
-        7- Verter sobre los tacos salsa de frijol hasta cubrirlos. Con una cuchara verter sobre ellos un poco de crema, un poco de longaniza y unas rajas de cuaresmeño.</string>
+        2- En un sartén calienta la mantequilla, ya caliente adiciona ½ de la cebolla y ½ jitomate picados. Cuando la cebolla este translucida adiciona el huevo y mueve hasta que el huevo este cocido. Reserva.\n\n
+        3- Pon en la licuadora el resto de la cebolla, la mitad del jitomate restante, el cilantro, el ajo y los frijoles negros con 50 ml de agua para que todo se licue en forma uniforme.\n\n
+        4- En un sartén con una cucharada de aceite, dora la longaniza y las julianas de chile cuaresmeño y reserva ambos.\n\n
+        5- En el sartén con la grasa de la longaniza caliente, vierte la salsa de frijol de la licuadora, debe chisporrotear, mueve hasta que la salsa se cueza, añade sal y pimienta para rectificar la sazón.\n\n
+        6- Calienta las tortillas de preferencia en un horno de microondas, (Puedes freir las tortillas, es a tu gusto). Rellena con huevo las tortillas y enrrollalas. Repetir esto con dos más y ponlas en un plato.\n\n
+        7- Vierte sobre los tacos salsa de frijol hasta cubrirlos. Con una cuchara vierte sobre ellos un poco de crema, un poco de longaniza y unas rajas de cuaresmeño.\n\n
+        8- Disfruta.</string>
 
     <string name="platano_1">1 plátano</string>
     <string name="huevo_1">1 huevo</string>
@@ -273,12 +274,13 @@
 
     <string name="limon">1 limón</string>
     <string name="avocado_toas_preparation">
-        1- Ponemos el pan a tostar en comal o en tostadora:\n\n
-        * En comal: la llama baja y pon las rebanadas de pan alejadas del centro del comal, pon 5 min por cada lado, o hasta que tomen un color café claro\n\n
-        * En tostadora: poner el pan a 250°C por 3 minutos, si no consigues el color tostado vuelve a meter el pan 1 min más a la misma temperatura hasta que se torne color café claro.\n\n
-        2- Mientras, calentamos un sartén a fuego medio con un poco de aceite bien esparcido y cuando esté caliente ponemos el huevo estrellado, pon un poco de sal y pimienta en la yema.\n\n
+        1- Pon el pan a tostar en comal o en tostadora:\n\n
+        * En comal: la llama baja y pon las rebanadas de pan alejadas del centro del comal, tuesta hasta que tomen un color café claro\n\n
+        * En tostadora: pon el pan a 250°C por 3 minutos, si no consigues el color tostado vuelve a meter el pan 1 min más a la misma temperatura hasta que se torne color café claro.\n\n
+        2- Mientras, calienta un sartén a fuego medio con un poco de aceite bien esparcido y cuando esté caliente pon el huevo estrellado, pon un poco de sal y pimienta en la yema.\n\n
         3- En un bowl aplasta el aguacate y mezcla con la mitad del limón, sal y pimienta y úntalo sobre las dos rebanadas de pan.\n\n
-        4- Pon el huevo estrellado sobre una rebanada de pan y en la otra ponemos rodajas de jitomate con mezcla de hierbas para ensalada o el aderezo de tu preferencia.</string>
+        4- Pon el huevo estrellado sobre una rebanada de pan y en la otra pon rodajas de jitomate con mezcla de hierbas para ensalada o el aderezo de tu preferencia.\n\n
+        5- Disfruta.</string>
 
     <string name="jitomate_1">1 itomate</string>
     <string name="cebolla_cambray_1">1 cebollín o cebolla cambray</string>
@@ -286,43 +288,43 @@
     <string name="taza_arroz_vapor_1_2">½ taza de arroz al vapor</string>
     <string name="catsup">catsup</string>
     <string name="omurice_preparation">
-        1- En un sartén mediano ponemos la mantequilla a derretir a fuego bajo.\n\n
-        2- Mientras rebanamos todo el cebollín, separamos los trozos picados de la cabeza y los trozos de la cola.\n\n
-        3- En un bowl batimos los huevos con sal, pimienta y los trozos que picamos de la cabeza del cebollín.\n\n
-        4- Ya con la mantequilla derretida, la esparcimos por todo el sartén y vaciamos el huevo batido por todo el sartén y tapamos.\n\n
-        5- Calentamos el arroz preparado que escogimos en un sartén con 10ml de agua a fuego medio por 10 min o por 2min 30seg, en el microondas.\n\n
-        6- Ya que el huevo esté completamente cocido, en un extremo ponemos el arroz y doblamos la tortilla de huevo (si te sientes más seguro puedes intentar enrollar la tortilla y que el arroz quede en medio).\n\n
-        7- Retiramos de la sartén ponemos la cola picada del cebollín sobre el huevo y una línea en zig zag de catsup.\n\n
+        1- En un sartén mediano pon la mantequilla a derretir a fuego bajo.\n\n
+        2- Pica la cabeza del cebollín en cubos finos y el rabo del cebollín en rodajas finas.\n\n
+        3- En un bowl bate los huevos con sal, pimienta y los cubos que picamos de la cabeza del cebollín.\n\n
+        4- Ya con la mantequilla derretida, espárcela por todo el sartén y vacía el huevo batido por todo el sartén y tapa.\n\n
+        5- Calienta el arroz preparado de tu preferencia en un sartén con 10ml de agua a fuego medio por 10 min o por 2min 30seg, en el microondas.\n\n
+        6- Ya que el huevo esté completamente cocido, en un extremo pon el arroz y dobla la tortilla de huevo (si te sientes más seguro puedes intentar enrollar la tortilla y que el arroz quede en medio).\n\n
+        7- Retira de la sartén, ponemos el rabo picado del cebollín sobre el huevo y una línea en zig zag de catsup.\n\n
         8- Sirve.</string>
 
     <string name="leche_10ml">10 ml de leche</string>
     <string name="queso_manchego_cabra">queso manchego o de cabra</string>
     <string name="jamon">jamón de tu preferencia</string>
     <string name="omelette_espinacas_preparation">
-        1- En un sartén mediano a fuego medio ponemos a derretir la mantequilla, ya derretida nos aseguramos que cubra todo el sartén.\n\n
-        2- En un bowl batimos los huevos con la leche, sal y pimienta.\n\n
-        3- Cuando el sartén esté listo vaciamos el bowl y nos aseguramos que el huevo cubra todo el sartén y tapemos.\n\n
-        4- Cuando la tortilla de huevo esté bien cocida, ponemos el queso en toda la tortilla, el jamón lo ponemos sólo en la mitad al igual que las espinacas.\n\n
-        5- Doblamos la tortilla, tapamos,bajamos a fuego bajo y esperamos 5 min a que se cocinen un poco las espinacas.\n\n
+        1- En un sartén a fuego medio pon a derretir la mantequilla, ya derretida espárcela por todo el sartén.\n\n
+        2- En un bowl bate los huevos con la leche, sal y pimienta.\n\n
+        3- Cuando el sartén esté humeando vaciamos el bowl y asegúrate que el huevo cubra todo el sartén y tapa.\n\n
+        4- Cuando la tortilla de huevo esté bien cocida, pon el queso en toda la tortilla, el jamón ponlo sólo en la mitad al igual que las espinacas.\n\n
+        5- Dobla la tortilla, tapa y baja a fuego bajo y espera 5 min a que se cocinen un poco las espinacas.\n\n
         6- Destapa y sirve. puedes acompañar con la salsa de tu preferencia.</string>
 
     <string name="champiñones_taza_1">1 taza de champiñones rebanados desinfectados</string>
     <string name="cebolla_picada_1_4">¼ de cebolla picada</string>
     <string name="omelette_champinones_preparation">
-        1- Ponemos a derretir la mantequilla en un sartén mediano a fuego bajo.\n\n
-        2- En un bowl batimos los dos huevos con la leche, la sal y la pimienta.\n\n
-        3- Cuando la sartén esté lista nos aseguramos de que la mantequilla cubra todo el sartén y vaciamos el huevo, tapamos y subimos a fuego medio.\n\n
-        4- Cuando la tortilla de huevo esté lista ponemos el queso en toda la tortilla y los champiñones en la mitad de la tortilla.\n\n
-        5- Doblamos, y esperamos a que el queso se derrita.\n\n
+        1- Pon a derretir la mantequilla en un sartén a fuego bajo.\n\n
+        2- En un bowl bate los dos huevos con la leche, la sal y la pimienta.\n\n
+        3- Cuando la sartén esté humeando asegurate de que la mantequilla cubra todo el sartén y vacía el huevo, tapa y sube a fuego medio.\n\n
+        4- Cuando la tortilla de huevo esté lista pon el queso en toda la tortilla y los champiñones en la mitad de la tortilla.\n\n
+        5- Dobla y espera a que el queso se derrita.\n\n
         6- Sirve, puedes acompañar con la salsa de tu preferencia.</string>
 
     <string name="salchichas_2">2 salchichas de tu preferencia</string>
     <string name="huevos_salchicha_preparation">
-        1- En un sartén mediano a fuego medio ponemos 1 cuadro de mantequilla.\n\n
-        2- Mientras cortamos las salchichas en rebanadas circulares, no muy gruesas y las agregamos a la sartén.\n\n
-        3- Mientras, en un bowl batimos los huevos con sal, pimienta y leche.\n\n
-        4- Cuando las salchichas ya se vean un poco fritas las movemos un poco y agregamos el huevo.\n\n
-        5- Movemos el huevo hasta que esté bien cocido.\n\n
+        1- En un sartén a fuego medio pon 1 cuadro de mantequilla.\n\n
+        2- Corta las salchichas en rebanadas no muy gruesas y agregalas a la sartén.\n\n
+        3- Mientras, en un bowl bate los huevos con sal, pimienta y leche.\n\n
+        4- Cuando las salchichas ya se vean un poco fritas muevelas un poco y agrega el huevo.\n\n
+        5- Mueve el huevo hasta que esté bien cocido.\n\n
         6- Sirve, puedes acompañar con catsup, salsa, tortillas o pan.</string>
 
     <string name="camarones_precosidos_300grs">300g de Camarones precocidos</string>
