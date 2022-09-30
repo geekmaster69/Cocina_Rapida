@@ -41,24 +41,30 @@ class Bento : AppCompatActivity() {
                 Ingredient(15, "2 cucharadas de maizena"))
 //
 
-//            val substitutesList = arrayListOf(
-//                Ingredient(1, "frasco de ajo picado"),
-//                Ingredient(2, "jugo de naranja en tetrapack"),
-//                Ingredient(3, "stevia"),
-//                Ingredient(4, "ketchup"))
-//
-//            val optionsList = arrayListOf(
-//                Ingredient(1, "cebollín"),
-//                Ingredient(2, "semillas de sésamo"))
+            val substitutesList = arrayListOf(
+                Ingredient(1, "frasco de ajo picado"),
+                Ingredient(2, "jugo de naranja en tetrapack"),
+                Ingredient(3, "stevia"),
+                Ingredient(4, "ketchup"))
+
+            val optionsList = arrayListOf(
+                Ingredient(1, "cebollín"),
+                Ingredient(2, "semillas de sésamo"))
 
 
             val preparation =  getString(R.string.cerdo_agridulce_preparation)
 
-            starRecipeTemplateActivity(title, image, ingredientList, preparation)
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList, preparation)
         }
     }
 
-    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>, preparation: String) {
+    private fun starRecipeTemplateActivity(
+        title: String,
+        image: Int,
+        ingredientList: ArrayList<Ingredient>,
+        substituteList: ArrayList<Ingredient>,
+        optionsList: ArrayList<Ingredient>,
+        preparation: String) {
         val intent = Intent(this, RecipeTemplateActivity::class.java)
         intent.putExtra("title", title)
         intent.putExtra("img_top_recipe", image)
@@ -69,11 +75,11 @@ class Bento : AppCompatActivity() {
 
 
 //
-//        args.putSerializable("SubstituteList", substitutesList as Serializable)
-//        intent.putExtra("SubstituteListBundle", args)
-//
-//        args.putSerializable("OptionalList", optionsList as Serializable)
-//        intent.putExtra("OptionalListBundle", args)
+        args.putSerializable("SubstituteList", substituteList as Serializable)
+        intent.putExtra("SubstituteListBundle", args)
+
+        args.putSerializable("OptionalList", optionsList as Serializable)
+        intent.putExtra("OptionalListBundle", args)
 
         intent.putExtra("preparation", preparation)
 

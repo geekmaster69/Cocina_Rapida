@@ -70,10 +70,10 @@
             android:gravity="center"
             android:text="@string/substitutes"/>
 
-<!--        <androidx.recyclerview.widget.RecyclerView-->
-<!--            android:id="@+id/rvSubstitutes"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"/>-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvSubstitutes"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -83,10 +83,10 @@
             android:gravity="center"
             android:text="@string/optional"/>
 
-<!--        <androidx.recyclerview.widget.RecyclerView-->
-<!--            android:id="@+id/rvOptionals"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="match_parent"/>-->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvOptionals"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
 
         <TextView
             android:layout_width="match_parent"

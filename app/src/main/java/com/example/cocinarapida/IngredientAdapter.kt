@@ -23,11 +23,20 @@ class IngredientAdapter(var ingredientList: ArrayList<Ingredient>, private val l
         val ingredient = ingredientList.get(position)
         holder.binding.tvIngredient.text = ingredient.description
 
+        holder.setListener(ingredient)
+
     }
 
     override fun getItemCount(): Int = ingredientList.size
 
     inner class ViewHolder(view: View):RecyclerView.ViewHolder(view){
         val binding = ItemRecipeListBinding.bind(view)
+
+        fun setListener(ingredient: Ingredient){
+            binding.root.setOnLongClickListener {
+                listener.onLongClick(ingredient)
+                true
+            }
+        }
     }
 }
