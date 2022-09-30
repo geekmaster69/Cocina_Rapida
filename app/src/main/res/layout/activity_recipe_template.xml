@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.core.widget.NestedScrollView
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -55,10 +55,11 @@
             android:gravity="center"
             android:text="@string/tv_ingredients"/>
 
-       <ListView
-           android:id="@+id/lvIngredients"
-           android:layout_width="match_parent"
-           android:layout_height="match_parent"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvIngredient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
 
         <TextView
             android:layout_width="match_parent"
@@ -68,10 +69,10 @@
             android:gravity="center"
             android:text="@string/substitutes"/>
 
-        <ListView
-            android:id="@+id/lvSubstitutes"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/rvSubstitutes"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
 
         <TextView
             android:layout_width="match_parent"
@@ -81,10 +82,10 @@
             android:gravity="center"
             android:text="@string/optional"/>
 
-        <ListView
-            android:id="@+id/lvOptionals"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"/>
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+<!--            android:id="@+id/rvOptionals"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"/>-->
 
         <TextView
             android:layout_width="match_parent"
@@ -102,4 +103,4 @@
             android:textSize="24sp"
             android:layout_marginBottom="8dp"/>
     </LinearLayout>
-</androidx.core.widget.NestedScrollView>
+</ScrollView>

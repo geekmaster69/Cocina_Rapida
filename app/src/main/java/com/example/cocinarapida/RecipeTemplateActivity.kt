@@ -9,12 +9,14 @@ import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.ListView
 import android.widget.Toast
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.cocinarapida.databinding.ActivityRecipeTemplateBinding
 import com.google.android.material.snackbar.Snackbar
 
-class RecipeTemplateActivity : AppCompatActivity() {
+class RecipeTemplateActivity : AppCompatActivity(), OnClickListenerIngredient {
     private lateinit var binding: ActivityRecipeTemplateBinding
     private lateinit var database: DatabaseHelper
+    private lateinit var ingredientAdapter: IngredientAdapter
     lateinit var list: ListView
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -37,36 +39,34 @@ class RecipeTemplateActivity : AppCompatActivity() {
         val imgRecipe = intent?.getIntExtra("img_top_recipe", 0)
         binding.imgRecipe.setImageResource(imgRecipe!!)
 
-        val ingredientsList = intent.extras?.getStringArray("ingredientsList")
-        val substitutesList = intent.extras?.getStringArray("substitutesList")
-        val optionList = intent.extras?.getStringArray("optionList")
+        val args = intent.getBundleExtra("BUNDLE")
+        val serialisableList = args!!.getSerializable("ARRAYLIST") as ArrayList<Ingredient>
 
-        list = binding.lvIngredients
-        list.adapter = ArrayAdapter<String>(this,R.layout.item_ingredient_list, ingredientsList!!)
-        ListHelper.getListViewSize(list)
-        binding.lvIngredients.setOnItemLongClickListener { adapterView, view, i, l ->
-            val ingredientSelect = adapterView.getItemAtPosition(i).toString()
-            addlistaCompras(ingredientSelect)
-            true
-        }
+//        val substituteargs = intent.getBundleExtra("SubstituteListBundle")
+//        val subtitutesList = substituteargs!!.getSerializable("SubstituteList") as ArrayList<Ingredient>
+//
+//        val optionalargs = intent.getBundleExtra("OptionalListBundle")
+//        val optionsList = optionalargs!!.getSerializable("OptionalList") as ArrayList<Ingredient>
+//
 
-        list = binding.lvSubstitutes
-        list.adapter = ArrayAdapter<String>(this,R.layout.item_ingredient_list, substitutesList!!)
-        ListHelper.getListViewSize(list)
-        binding.lvSubstitutes.setOnItemLongClickListener { adapterView, view, i, l ->
-            val ingredientSelect = adapterView.getItemAtPosition(i).toString()
-            addlistaCompras(ingredientSelect)
-            true
-        }
 
-        list = binding.lvOptionals
-        list.adapter = ArrayAdapter<String>(this,R.layout.item_ingredient_list, optionList!!)
-        ListHelper.getListViewSize(list)
-        binding.lvOptionals.setOnItemLongClickListener { adapterView, view, i, l ->
-            val ingredientSelect = adapterView.getItemAtPosition(i).toString()
-            addlistaCompras(ingredientSelect)
-            true
+
+
+        ingredientAdapter = IngredientAdapter(serialisableList, this)
+
+        binding.rvIngredient.apply {
+            layoutManager = LinearLayoutManager(this@RecipeTemplateActivity)
+            adapter = ingredientAdapter
         }
+//        binding.rvSubstitutes.apply {
+//            layoutManager = LinearLayoutManager(this@RecipeTemplateActivity)
+//            adapter = ingredientAdapter
+//        }
+//        binding.rvOptionals.apply {
+//            layoutManager = LinearLayoutManager(this@RecipeTemplateActivity)
+//            adapter = ingredientAdapter
+//        }
+
 
         binding.tvPreparation.text = intent.extras?.getString("preparation")
     }
@@ -82,5 +82,9 @@ class RecipeTemplateActivity : AppCompatActivity() {
             android.R.id.home -> onBackPressed()
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun onLongClick(ingredient: Ingredient) {
+        TODO("Not yet implemented")
     }
 }

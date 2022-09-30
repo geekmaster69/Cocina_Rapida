@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools">
 
     <TextView
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         android:id="@+id/tvIngredient"
-        android:drawableStart="@drawable/ic_arrow_right"
         android:layout_width="match_parent"
         android:textSize="18sp"
         android:textColor="@color/black"
         tools:text="Ingrediente"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        app:drawableStartCompat="@drawable/ic_arrow_right" />
 
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
