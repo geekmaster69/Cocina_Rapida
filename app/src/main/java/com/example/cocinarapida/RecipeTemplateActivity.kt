@@ -35,9 +35,11 @@ class RecipeTemplateActivity : AppCompatActivity(), OnClickListenerIngredient {
         binding.shopingListIcon.setOnClickListener {
             startActivity(Intent(this, ShoppingListActivity::class.java))
         }
-
         val imgRecipe = intent?.getIntExtra("img_top_recipe", 0)
         binding.imgRecipe.setImageResource(imgRecipe!!)
+
+
+
 
         val args = intent.getBundleExtra("BUNDLE")
         val serialisableList = args!!.getSerializable("ARRAYLIST") as ArrayList<Ingredient>
