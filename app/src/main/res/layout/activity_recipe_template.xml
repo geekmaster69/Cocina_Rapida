@@ -97,6 +97,9 @@
             android:text="@string/preparation"/>
 
         <TextView
+            android:layout_gravity="start"
+            tools:text="procedimineto para hacer una receta"
+            android:gravity="start"
             android:id="@+id/tv_preparation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
