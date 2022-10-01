@@ -55,9 +55,8 @@ class NoteAdapter(var noteList: MutableList<Note>, private val listener: OnClick
                 note.isFinished = (it as CheckBox).isChecked
                 listener.onChecked(note)
             }
-            binding.root.setOnLongClickListener {
+            binding.btdelete.setOnClickListener {
                 listener.onLongClick(note, this@NoteAdapter)
-                true
             }
         }
 

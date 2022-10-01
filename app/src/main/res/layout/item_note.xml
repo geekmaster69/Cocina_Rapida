@@ -19,12 +19,20 @@
         android:id="@+id/tvdescription"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textSize="40sp"
         app:layout_constraintStart_toEndOf="@id/cbFinished"
-        app:layout_constraintEnd_toEndOf="parent"
+
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         android:textColor="@color/black"
         tools:text="Ingrediente"/>
+
+    <ImageView
+        android:id="@+id/btdelete"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:src="@drawable/ic_delete"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

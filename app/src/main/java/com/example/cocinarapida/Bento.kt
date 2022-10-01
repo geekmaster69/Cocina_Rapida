@@ -58,13 +58,9 @@ class Bento : AppCompatActivity() {
         }
     }
 
-    private fun starRecipeTemplateActivity(
-        title: String,
-        image: Int,
-        ingredientList: ArrayList<Ingredient>,
-        substituteList: ArrayList<Ingredient>,
-        optionsList: ArrayList<Ingredient>,
-        preparation: String) {
+    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,
+        substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>, preparation: String) {
+
         val intent = Intent(this, RecipeTemplateActivity::class.java)
         intent.putExtra("title", title)
         intent.putExtra("img_top_recipe", image)
@@ -73,8 +69,6 @@ class Bento : AppCompatActivity() {
         args.putSerializable("ARRAYLIST", ingredientList as Serializable)
         intent.putExtra("BUNDLE", args)
 
-
-//
         args.putSerializable("SubstituteList", substituteList as Serializable)
         intent.putExtra("SubstituteListBundle", args)
 
@@ -83,10 +77,7 @@ class Bento : AppCompatActivity() {
 
         intent.putExtra("preparation", preparation)
 
-
         startActivity(intent)
-
-
     }
 
 

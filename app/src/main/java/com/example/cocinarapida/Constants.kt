@@ -13,4 +13,6 @@ object Constants {
 
     const val TRUE = 1
     const val ID_ERROR = -1L
+
+    const val INGREDIENTLIST = "ingredientList"
 }
