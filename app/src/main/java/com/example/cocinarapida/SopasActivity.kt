@@ -210,7 +210,7 @@ class SopasActivity : AppCompatActivity() {
                 Ingredient(getString(R.string.pure_tomate_tp)))
 
             val optionsList = arrayListOf(
-                Ingredient(getString(R.string.pan_tostadas_crutones)))
+                Ingredient(getString(R.string.rebanada_aguacate_3)))
 
             val preparation = getString(R.string.sopa_poro_preparation)
 
