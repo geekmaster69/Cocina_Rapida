@@ -721,11 +721,12 @@
     <string name="agua_12tz">"12 tazas de agua  "</string>
     <string name="azucar_stevia_al_gusto">"½ taza de azúcar o stevia al gusto  "</string>
     <string name="hielo">hielo</string>
-    <string name="agua_jamaica_natural_preparation">"
+    <string name="agua_jamaica_natural_preparation">
         1- En una olla pon dos tazas de agua a hervir. cuando hierva agrega la flor de jamaica y deja hervir por otros 10 min. \n\n
         2- Apaga y con un colador fino, cuela la flor de jamaica (las puedes guardar para hacer otros platillos) en una jarra. \n\n
-        3- Agrega las tazas de agua restantes a la jarra y agrega el azúcar o la stevia. \n\n 4- Mueve hasta que el azúcar se haya disuelto por completo. \n\n
-        5- Agrega los hielos y si la necesitas más fría mete al refri por una hora. "</string>
+        3- Agrega las tazas de agua restantes a la jarra y agrega el azúcar o la stevia. \n\n
+        4- Mueve hasta que el azúcar se haya disuelto por completo. \n\n
+        5- Agrega los hielos y si la necesitas más fría mete al refri por una hora.</string>
 
     <string name="title_limonada_frutos_rojos">Limonada de Frutos Rojos</string>
     <string name="frutos_rojos_congelados_1tz">1 taza de frutos rojos congelados</string>
@@ -734,26 +735,26 @@
     <string name="agua_agua_mineral_1tz">"1 taza de agua o agua mineral  "</string>
     <string name="consentrado_jugo_limon">"concentrado de jugo de limón, sustituye al jugo de limón. "</string>
     <string name="hojas_menta">"hojas frescas de menta.  "</string>
-    <string name="limonada_frutos_rojos_preparation">"
+    <string name="limonada_frutos_rojos_preparation">
         1- En un microondas descongela el puño de frutos rojos. \n\n
         2- Cuando estén derretidos triturarlos en el fondo del vaso que usarás para tu limonada. \n\n
         3- Agrega el jugo de limón y el jarabe natural.\n\n Agrega la cantidad de hielo que gustes. \n\n
         4- Llena el vaso con agua o agua mineral.\n\n
-        5- Puedes decorar con rodajas de limón y agregar hojas frescas de menta. "</string>
+        5- Puedes decorar con rodajas de limón y agregar hojas frescas de menta.</string>
 
     <string name="title_latte_fresa_te_verde">Latte de Fresa y Te Verde</string>
     <string name="fresas_congeladas_6pz">"6 fresas congeladas  "</string>
     <string name="te_verde_polvo_1cda">"1 cucharada de té verde en polvo  "</string>
     <string name="agua_caliente_1_4tz">"¼ de taza de agua caliente  "</string>
     <string name="fresas_frescas">"fresas frescas  "</string>
-    <string name="latte_fresa_te_verde_preparation">"
+    <string name="latte_fresa_te_verde_preparation">
         1- Poner las fresas a descongelar en un microondas, cuando estén un poco descongeladas aplastarlas un poco.\n\n
         2- Coloca las fresas junto con el jugo en el fondo del vaso de tu bebida.\n\n
         3- Agrega la cantidad de hielo de tu preferencia. \n\n
         4- Agrega ¾ de la taza de leche. \n\n
         5- En el ¼ de taza de leche restante diluye la cucharada de té verde en polvo. \n\n
         6- Agrega el té verde sobre la leche. \n\n
-        7- Puedes decorar con fresas frescas y hojas de menta. "</string>
+        7- Puedes decorar con fresas frescas y hojas de menta.</string>
 
     <string name="title_latte_cafe_baileys">Latte de Cafe con Baileys</string>
     <string name="licor_cafe">licor de café</string>
@@ -761,11 +762,11 @@
     <string name="baileys_30ml">30 ml de Baileys</string>
     <string name="crema_leche_30ml">30ml de crema de leche</string>
     <string name="nuez_moscada_polvo">nuez moscada en polvo</string>
-    <string name="latte_cafe_baileys_preparation">"
+    <string name="latte_cafe_baileys_preparation">
         1- Agrega el hielo hasta ¾ del vaso. \n\n
         2- Sobre los hielos, agregar el licor de café, el baileys,y la crema de leche y el café frío. \n\n
         3- Revuelve hasta que la mezcla sea homogénea. \n\n
-        4- Puedes decorar con crema batida y espolvorear un poco de nuez moscada. "</string>
+        4- Puedes decorar con crema batida y espolvorear un poco de nuez moscada.</string>
 
     <string name="title_oniguirazu_atun">Oniguirazu de Atun</string>
     <string name="no_subtitutes">No hay sustitutos disponibles</string>
@@ -776,11 +777,11 @@
     <string name="yogurt_natural_1tz">1 taza de yogurt natural</string>
     <string name="chichitos_colores_1_2tz">½ taza de chochitos de colores</string>
     <string name="agua_1cda">1 cucharada de agua</string>
-    <string name="licuado_mango_crema_coco_preparation">"
+    <string name="licuado_mango_crema_coco_preparation">
         1- Coloca el mango, la crema de coco, el yogur y el hielo en la licuadora. Bate perfectamente hasta que logres una mezcla espumosa. \n\n
         2- Para escarchar el vaso, combina el azúcar con el agua hasta disolver todos los grumos; si te hace falta agua, agrégala poco a poco. \n\n
         3- Coloca el vaso boca abajo sobre la mezcla de azúcar diluida y luego pásalo sobre los chochitos para que se peguen al vaso.\n\n
-        4- Sirve el licuado y disfruta. "</string>
+        4- Sirve el licuado y disfruta.</string>
 
     <string name="title_licuado_pina_platano_coco">Licuado de Piña, Plátano y Coco</string>
     <string name="ralladura_coco_1_2tz">½ taza de ralladura de coco</string>
@@ -788,9 +789,9 @@
     <string name="pina_pelada_1_2tz">½ taza de piña pelada</string>
     <string name="azucar_4cda">4 cucharadas de azúcar</string>
     <string name="leche_1tz">1 taza de leche</string>
-    <string name="licuado_pina_platano_coco_preparation">"
+    <string name="licuado_pina_platano_coco_preparation">
         1- Coloca en la licuadora la ralladura de coco, la leche de coco, la piña, el plátano, el azúcar y la leche en la licuadora. Bate hasta que todos los ingredientes se incorporen.\n\n
-        2- Sirve en el vaso de tu preferencia, agrega más ralladura y espolvorea con la canela en polvo. "</string>
+        2- Sirve en el vaso de tu preferencia, agrega más ralladura y espolvorea con la canela en polvo.</string>
 
     <string name="title_licuado_oreo_chocolate">Licuado de Oreo y Chocolate</string>
     <string name="agua_1tz">1 taza de agua</string>
@@ -800,10 +801,10 @@
     <string name="galletas_chocolate_6pz">6 galletas de chocolate</string>
     <string name="leche_1_1_2tz">1 ½ tazas de leche</string>
     <string name="helado_vainilla_1tz">1 taza de helado de vainilla</string>
-    <string name="licuado_ore_chocolate_preparation">"
+    <string name="licuado_ore_chocolate_preparation">
         1- Combina el agua, el azúcar y el chocolate en polvo. Viértelo en una olla y calienta hasta que hierva, apaga. Incorpora el chocolate picado, mezcla hasta que notes que se derrite. Enfría y refrigera por 20 minutos.\n\n
         2- Coloca en la licuadora las galletas, la leche y el helado. Procesa hasta que se combine bien y esté espumoso.\n\n
-        3- Retira la mezcla del refrigerador y sírvela en los vasos, girándolos para que se cubran solo las paredes. Vierte el licuado en los vasos y sirve. "</string>
+        3- Retira la mezcla del refrigerador y sírvela en los vasos, girándolos para que se cubran solo las paredes. Vierte el licuado en los vasos y sirve.</string>
 
     <string name="title_licuado_duraazno_fresa_platano">Licuado de Durazno, Fresa y Plátano</string>
     <string name="leche_2tz">2 tazas de leche</string>
@@ -811,16 +812,16 @@
     <string name="durazno_100g">100g de durazno</string>
     <string name="azucar_2cda">2 cucharadas de azucar</string>
     <string name="naranja_jugo_1_2pz">el jugo de ½ naranja</string>
-    <string name="licuado_durazno_fresa_platano_preparation">"
+    <string name="licuado_durazno_fresa_platano_preparation">
         1- Corta todas las frutas en trozos pequeños y agrégalas a la licuadora junto con la leche, el jugo de naranja y el azúcar. \n\n
-        2- Si el licuado se espesa demasiado, incorpora un poco más de leche o jugo de naranja. Sirve al instante. "</string>
+        2- Si el licuado se espesa demasiado, incorpora un poco más de leche o jugo de naranja. Sirve al instante.</string>
 
     <string name="title_licuado_mamey_nuez">Licuado de Mamey y Nuez</string>
     <string name="mamey_1_2pz">½ pieza de mamey</string>
-    <string name="licuado_mamey_nuez_preparation">"
+    <string name="licuado_mamey_nuez_preparation">
         1- Pela el mamey y córtalo en cuadritos. \n\n
         2- Agrégalo al vaso de la licuadora junto con la leche, el azúcar, las nueces y la canela. Licúa perfectamente por aproximadamente un minuto. \n\n
-        3- Sirve y disfruta. "</string>
+        3- Sirve y disfruta.</string>
 
     <string name="blanco_integral_centeno">(blanco integral o centeno)</string>
     <string name="preferencia">(el de tu preferencia)</string>

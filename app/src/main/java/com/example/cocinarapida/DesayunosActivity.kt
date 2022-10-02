@@ -21,20 +21,22 @@ class DesayunosActivity : AppCompatActivity() {
 
             val image = R.drawable.omelette_jamon_queso
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.huevos_2)),
+                Ingredient(getString(R.string.rebanada_pechuga_pollo_rostizada)),
+                Ingredient(getString(R.string.queso_manchego_2)),
+                Ingredient(getString(R.string.rebanada_jitomate_bola_3)),
+                Ingredient(getString(R.string.rebanada_aguacate_3)),
+                Ingredient(getString(R.string.sal_grano_cda_1_2)),
+                Ingredient(getString(R.string.aceite_canola_cda)),
+                Ingredient(getString(R.string.mantequilla_cda_1_2)),
+                Ingredient(getString(R.string.sal_pimineta_gusto)))
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val ingredientList = arrayOf(
-                getString(R.string.huevos_2),
-                getString(R.string.rebanada_pechuga_pollo_rostizada),
-                getString(R.string.queso_manchego_2),
-                getString(R.string.rebanada_jitomate_bola_3),
-                getString(R.string.rebanada_aguacate_3),
-                getString(R.string.sal_grano_cda_1_2),
-                getString(R.string.aceite_canola_cda),
-                getString(R.string.mantequilla_cda_1_2),
-                getString(R.string.sal_pimineta_gusto))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation: String = getString(R.string.omelette_jamon_queso_preparation)
 
@@ -48,16 +50,18 @@ class DesayunosActivity : AppCompatActivity() {
 
             val image = R.drawable.huevos_amelia
 
-            val ingredientList = arrayOf(
-                getString(R.string.huevos_2),
-                getString(R.string.rebanas_pan_caja_2),
-                getString(R.string.sal_pimineta_gusto),
-                getString(R.string.mantequilla),
-                getString(R.string.miel_abeja))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.huevos_2)),
+                Ingredient(getString(R.string.rebanas_pan_caja_2)),
+                Ingredient(getString(R.string.sal_pimineta_gusto)),
+                Ingredient(getString(R.string.mantequilla)),
+                Ingredient(getString(R.string.miel_abeja)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
 
             val preparation: String = getString(R.string.huevos_amelia_preparation)
@@ -73,10 +77,15 @@ class DesayunosActivity : AppCompatActivity() {
 
             val image = R.drawable.huevos_lugo_lopez
 
-            val ingredientList = arrayOf(getString(R.string.huevos_4),getString(R.string.cebolla_blanca_picada_1),
-                getString(R.string.jitomate_picado_cubos_1),getString(R.string.papa_cortada_cubos_1),
-                getString(R.string.rebanadas_jamon_triangulos_2),getString(R.string.queso_oaxaca_20g),
-                getString(R.string.aceite_cda_5),getString(R.string.sal_pimineta_gusto))
+            val ingredientList = arrayOf(
+                getString(R.string.huevos_4),
+                getString(R.string.cebolla_blanca_picada_1),
+                getString(R.string.jitomate_picado_cubos_1),
+                getString(R.string.papa_cortada_cubos_1),
+                getString(R.string.rebanadas_jamon_triangulos_2),
+                getString(R.string.queso_oaxaca_20g),
+                getString(R.string.aceite_cda_5),
+                getString(R.string.sal_pimineta_gusto))
 
             val substitutesList = arrayOf(getString(R.string.no_subtitutes))
 

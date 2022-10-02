@@ -59,6 +59,5 @@ class NoteAdapter(var noteList: MutableList<Note>, private val listener: OnClick
                 listener.onLongClick(note, this@NoteAdapter)
             }
         }
-
     }
 }

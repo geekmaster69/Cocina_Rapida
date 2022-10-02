@@ -24,32 +24,32 @@ class Bento : AppCompatActivity() {
             val image = R.drawable.bento_cerdo_agridulce
 
             val ingredientList = arrayListOf(
-                Ingredient(1, "1kg de filete de cerdo"),
-                Ingredient(2, "2 cucharadas de salsa de soya"),
-                Ingredient(3, "1 cucharada de pimienta"),
-                Ingredient(4, "1 huevo"),
-                Ingredient(5, "harina de trigo"),
-                Ingredient(6, "aceite para freír"),
-                Ingredient(7, "1 cuchara de ajo picado"),
-                Ingredient(8, "1 cucharada de jengibre picado"),
-                Ingredient(9, "1 taza de jugo de naranja natural"),
-                Ingredient(10, "3 cucharadas de azúcar"),
-                Ingredient(11, "2 cucharadas de vinagre blanco"),
-                Ingredient(12, "2 cucharadas de puré de tomate"),
-                Ingredient(13, "4 cucharadas de salsa de soya"),
-                Ingredient(14, "2 cucharadas de agua"),
-                Ingredient(15, "2 cucharadas de maizena"))
+                Ingredient("1kg de filete de cerdo"),
+                Ingredient("2 cucharadas de salsa de soya"),
+                Ingredient("1 cucharada de pimienta"),
+                Ingredient("1 huevo"),
+                Ingredient("harina de trigo"),
+                Ingredient("aceite para freír"),
+                Ingredient("1 cuchara de ajo picado"),
+                Ingredient("1 cucharada de jengibre picado"),
+                Ingredient("1 taza de jugo de naranja natural"),
+                Ingredient("3 cucharadas de azúcar"),
+                Ingredient("2 cucharadas de vinagre blanco"),
+                Ingredient("2 cucharadas de puré de tomate"),
+                Ingredient("4 cucharadas de salsa de soya"),
+                Ingredient("2 cucharadas de agua"),
+                Ingredient("2 cucharadas de maizena"))
 //
 
             val substitutesList = arrayListOf(
-                Ingredient(1, "frasco de ajo picado"),
-                Ingredient(2, "jugo de naranja en tetrapack"),
-                Ingredient(3, "stevia"),
-                Ingredient(4, "ketchup"))
+                Ingredient("frasco de ajo picado"),
+                Ingredient("jugo de naranja en tetrapack"),
+                Ingredient("stevia"),
+                Ingredient("ketchup"))
 
             val optionsList = arrayListOf(
-                Ingredient(1, "cebollín"),
-                Ingredient(2, "semillas de sésamo"))
+                Ingredient("cebollín"),
+                Ingredient("semillas de sésamo"))
 
 
             val preparation =  getString(R.string.cerdo_agridulce_preparation)
