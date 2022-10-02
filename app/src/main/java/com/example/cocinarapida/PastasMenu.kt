@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import com.example.cocinarapida.databinding.ActivityPastasMenuBinding
+import java.io.Serializable
+import java.util.ArrayList
 
 class PastasMenu : AppCompatActivity() {
     private lateinit var binding: ActivityPastasMenuBinding
@@ -18,25 +20,26 @@ class PastasMenu : AppCompatActivity() {
         binding.btPastaCamaronBlanco.setOnClickListener {
 
             val title = getString(R.string.title_spaghetti_camarones_salsa_blanca)
+
             val image = R.drawable.spaghetti_camarones
 
-            val ingredientList = arrayOf(
-                getString(R.string.camarones_precosidos_300grs),
-                getString(R.string.sal_pimineta_gusto),
-                getString(R.string.ajo_cabeza_1),
-                getString(R.string.mantequilla),
-                getString(R.string.crema),
-                getString(R.string.agua),
-                getString(R.string.pasta_espagueti),
-                getString(R.string.queso_parmesano),
-                getString(R.string.perejil))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.camarones_precosidos_300grs)),
+                Ingredient(getString(R.string.sal_pimineta_gusto)),
+                Ingredient(getString(R.string.ajo_cabeza_1)),
+                Ingredient(getString(R.string.mantequilla)),
+                Ingredient(getString(R.string.crema)),
+                Ingredient(getString(R.string.agua)),
+                Ingredient(getString(R.string.pasta_espagueti)),
+                Ingredient(getString(R.string.queso_parmesano)),
+                Ingredient(getString(R.string.perejil)))
 
-            val substitutesList = arrayOf(
-                getString(R.string.ajos_picados_frasco),
-                getString(R.string.perejil_seco))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.ajos_picados_frasco)),
+                Ingredient(getString(R.string.perejil_seco)))
 
-            val optionsList = arrayOf(
-                getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation = getString(R.string.pasta_camarones_preparation)
 
@@ -50,20 +53,21 @@ class PastasMenu : AppCompatActivity() {
 
             val image = R.drawable.spaghetti_albahaca
 
-            val ingredientList = arrayOf(
-                getString(R.string.jitomate_bola_3),
-                getString(R.string.manojo_albahaca_1),
-                getString(R.string.ajos_picados_4),
-                getString(R.string.sal_grano),
-                getString(R.string.pimienta),
-                getString(R.string.queso_parmesano))
+            val ingredientList = arrayListOf(
+               Ingredient(getString(R.string.jitomate_bola_3)),
+                Ingredient(getString(R.string.manojo_albahaca_1)),
+                Ingredient(getString(R.string.ajos_picados_4)),
+                Ingredient(getString(R.string.sal_grano)),
+                Ingredient(getString(R.string.pimienta)),
+                Ingredient(getString(R.string.queso_parmesano)))
 
-            val substitutesList = arrayOf(
-                getString(R.string.substitute_pasta_albahaca_1),
-                getString(R.string.pasta_albahaca_substitute_1),
-                getString(R.string.pasta_albahaca_subtitute_3))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.substitute_pasta_albahaca_1)),
+                Ingredient(getString(R.string.pasta_albahaca_substitute_1)),
+                Ingredient(getString(R.string.pasta_albahaca_subtitute_3)))
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation = getString(R.string.pasta_albahaca_preparation)
 
@@ -77,21 +81,21 @@ class PastasMenu : AppCompatActivity() {
 
             val image = R.drawable.spaghetti_pesto
 
-            val ingredientList = arrayOf(
-                getString(R.string.manojo_albahaca_1),
-                getString(R.string.queso_parmesano_cda),
-                getString(R.string.ajo_1),
-                getString(R.string.aceite_oliva_1_2_tza),
-                getString(R.string.nueces_1_4_tza),
-                getString(R.string.sal_gusto),
-                getString(R.string.spaghetti_500g))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.manojo_albahaca_1)),
+                Ingredient(getString(R.string.queso_parmesano_cda)),
+                Ingredient(getString(R.string.ajo_1)),
+                Ingredient(getString(R.string.aceite_oliva_1_2_tza)),
+                Ingredient(getString(R.string.nueces_1_4_tza)),
+                Ingredient(getString(R.string.sal_gusto)),
+                Ingredient(getString(R.string.spaghetti_500g)))
 
-            val substitutesList = arrayOf(
-                getString(R.string.spaghetti_pesto_substitute))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.spaghetti_pesto_substitute)))
 
-            val optionsList = arrayOf(
-                getString(R.string.pan_con_mantequilla),
-                getString(R.string.ensalada_campesina))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.pan_con_mantequilla)),
+                Ingredient(getString(R.string.ensalada_campesina)))
 
             val preparation = getString(R.string.spaghetti_pesto_preparation)
 
@@ -105,23 +109,24 @@ class PastasMenu : AppCompatActivity() {
 
             val image = R.drawable.spaghetti_aguacate
 
-            val ingredientList = arrayOf(
-                getString(R.string.spaghetti_500g),
-                getString(R.string.cacahuates_1_3_tza),
-                getString(R.string.mente_fresca_tza_1),
-                getString(R.string.perejil_1_2_tza),
-                getString(R.string.cilantro_1_2_tza),
-                getString(R.string.ajo_1),
-                getString(R.string.limones_3),
-                getString(R.string.aguacates_grandes_1_1_2),
-                getString(R.string.aceite_oliva_1_4_tza),
-                getString(R.string.agua_coccion_pasta))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.spaghetti_500g)),
+                Ingredient(getString(R.string.cacahuates_1_3_tza)),
+                Ingredient(getString(R.string.mente_fresca_tza_1)),
+                Ingredient(getString(R.string.perejil_1_2_tza)),
+                Ingredient(getString(R.string.cilantro_1_2_tza)),
+                Ingredient(getString(R.string.ajo_1)),
+                Ingredient(getString(R.string.limones_3)),
+                Ingredient(getString(R.string.aguacates_grandes_1_1_2)),
+                Ingredient(getString(R.string.aceite_oliva_1_4_tza)),
+                Ingredient(getString(R.string.agua_coccion_pasta)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(
-                getString(R.string.pechuga_asada),
-                getString(R.string.queso_parmesano))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.pechuga_asada)),
+                Ingredient(getString(R.string.queso_parmesano)))
 
             val preparation = getString(R.string.spaghetti_crema_aguacate_preparation)
 
@@ -135,21 +140,22 @@ class PastasMenu : AppCompatActivity() {
 
             val image = R.drawable.spaghetti_pimiento
 
-            val ingredientList = arrayOf(
-                getString(R.string.spaghetti_500g),
-                getString(R.string.lata_chile_morron_1),
-                getString(R.string.cubo_caldo_pollo_1),
-                getString(R.string.mantequilla_cda_1),
-                getString(R.string.lata_media_crema_1),
-                getString(R.string.leche_10ml),
-                getString(R.string.limones_3))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.spaghetti_500g)),
+                Ingredient(getString(R.string.lata_chile_morron_1)),
+                Ingredient(getString(R.string.cubo_caldo_pollo_1)),
+                Ingredient(getString(R.string.mantequilla_cda_1)),
+                Ingredient(getString(R.string.lata_media_crema_1)),
+                Ingredient(getString(R.string.leche_10ml)),
+                Ingredient(getString(R.string.limones_3)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(
-                getString(R.string.pechuga_asada),
-                getString(R.string.pan_con_mantequilla),
-                getString(R.string.ensalada_campesina))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.pechuga_asada)),
+                Ingredient(getString(R.string.pan_con_mantequilla)),
+                Ingredient(getString(R.string.ensalada_campesina)))
 
             val preparation = getString(R.string.spaghetti_pimiento_cremoso_preparation)
 
@@ -163,22 +169,22 @@ class PastasMenu : AppCompatActivity() {
 
             val image = R.drawable.spaghetti_cremoso
 
-            val ingredientList = arrayOf(
-                getString(R.string.spaghetti_500g),
-                getString(R.string.jitomate_rebanado_sin_semilla_6),
-                getString(R.string.cucharadas_aceite_2),
-                getString(R.string.sal_gusto),
-                getString(R.string.hierbas_finas_cda_1),
-                getString(R.string.pimienta_negra_molida_1_4_cda),
-                getString(R.string.leche_evaporada_250ml),
-                getString(R.string.cubo_caldo_pollo_1))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.spaghetti_500g)),
+                Ingredient(getString(R.string.jitomate_rebanado_sin_semilla_6)),
+                Ingredient(getString(R.string.cucharadas_aceite_2)),
+                Ingredient(getString(R.string.sal_gusto)),
+                Ingredient(getString(R.string.hierbas_finas_cda_1)),
+                Ingredient(getString(R.string.pimienta_negra_molida_1_4_cda)),
+                Ingredient(getString(R.string.leche_evaporada_250ml)),
+                Ingredient(getString(R.string.cubo_caldo_pollo_1)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(
-                getString(R.string.pechuga_asada),
-                getString(R.string.albondigas),
-                getString(R.string.ensalada_campesina))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.pechuga_asada)),
+                Ingredient(getString(R.string.albondigas)),
+                Ingredient(getString(R.string.ensalada_campesina)))
 
             val preparation = getString(R.string.spaghetti_rojo_cremoso_preparation)
 
@@ -187,17 +193,25 @@ class PastasMenu : AppCompatActivity() {
         }
     }
 
-    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: Array<String>,
-                                           substitutesList: Array<String>, optionsList: Array<String>,
-                                           preparation: String) {
+    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,
+                                           substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>, preparation: String) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
         intent.putExtra("title", title)
         intent.putExtra("img_top_recipe", image)
-        intent.putExtra("ingredientsList", ingredientList )
-        intent.putExtra("substitutesList", substitutesList)
-        intent.putExtra("optionList", optionsList )
+
+        val args = Bundle()
+        args.putSerializable("ARRAYLIST", ingredientList as Serializable)
+        intent.putExtra("BUNDLE", args)
+
+        args.putSerializable("SubstituteList", substituteList as Serializable)
+        intent.putExtra("SubstituteListBundle", args)
+
+        args.putSerializable("OptionalList", optionsList as Serializable)
+        intent.putExtra("OptionalListBundle", args)
+
         intent.putExtra("preparation", preparation)
+
         startActivity(intent)
     }
 

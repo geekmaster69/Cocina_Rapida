@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import com.example.cocinarapida.databinding.ActivityWrapsBinding
+import java.io.Serializable
+import java.util.ArrayList
 
 class WrapsActivity : AppCompatActivity() {
     private lateinit var binding: ActivityWrapsBinding
@@ -21,18 +23,19 @@ class WrapsActivity : AppCompatActivity() {
 
             val image = R.drawable.wrap_sushi
 
-            val ingredientList = arrayOf(
-                getString(R.string.hoja_nori),
-                getString(R.string.aguacate_1_2),
-                getString(R.string.pepino),
-                getString(R.string.barra_surimi_2),
-                getString(R.string.taza_arroz_vapor_1_2),
-                getString(R.string.queso_crema))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.hoja_nori)),
+                Ingredient(getString(R.string.aguacate_1_2)),
+                Ingredient(getString(R.string.pepino)),
+                Ingredient(getString(R.string.barra_surimi_2)),
+                Ingredient(getString(R.string.taza_arroz_vapor_1_2)),
+                Ingredient(getString(R.string.queso_crema)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(
-                getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation = getString(R.string.wrap_sushi_preparation)
 
@@ -46,18 +49,19 @@ class WrapsActivity : AppCompatActivity() {
 
             val image = R.drawable.wrap_jitomate_espinaca
 
-            val ingredientList = arrayOf(
-                getString(R.string.jitomate_1),
-                getString(R.string.sal_pimineta_gusto),
-                getString(R.string.mezcla_quesos_1tz),
-                getString(R.string.espinacas_desinfectadas_1tz),
-                getString(R.string.tortilla_wrap_1),
-                getString(R.string.mantequilla_cda_1))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.jitomate_1)),
+                Ingredient(getString(R.string.sal_pimineta_gusto)),
+                Ingredient(getString(R.string.mezcla_quesos_1tz)),
+                Ingredient(getString(R.string.espinacas_desinfectadas_1tz)),
+                Ingredient(getString(R.string.tortilla_wrap_1)),
+                Ingredient(getString(R.string.mantequilla_cda_1)))
 
-            val substitutesList = arrayOf(getString(R.string.espinacas_bolsa))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.espinacas_bolsa)))
 
-            val optionsList = arrayOf(
-                getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation = getString(R.string.wrap_jitomate_espinaca_preparation)
 
@@ -67,17 +71,26 @@ class WrapsActivity : AppCompatActivity() {
 
     }
 
-    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: Array<String>,
-                                           substitutesList: Array<String>, optionsList: Array<String>,
+    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,
+                                           substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>,
                                            preparation: String) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
         intent.putExtra("title", title)
         intent.putExtra("img_top_recipe", image)
-        intent.putExtra("ingredientsList", ingredientList )
-        intent.putExtra("substitutesList", substitutesList)
-        intent.putExtra("optionList", optionsList )
+
+        val args = Bundle()
+        args.putSerializable("ARRAYLIST", ingredientList as Serializable)
+        intent.putExtra("BUNDLE", args)
+
+        args.putSerializable("SubstituteList", substituteList as Serializable)
+        intent.putExtra("SubstituteListBundle", args)
+
+        args.putSerializable("OptionalList", optionsList as Serializable)
+        intent.putExtra("OptionalListBundle", args)
+
         intent.putExtra("preparation", preparation)
+
         startActivity(intent)
     }
 

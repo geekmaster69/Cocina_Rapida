@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import com.example.cocinarapida.databinding.ActivityPostresBinding
+import java.io.Serializable
+import java.util.ArrayList
 
 class Postres : AppCompatActivity() {
     private lateinit var binding: ActivityPostresBinding
@@ -23,26 +25,27 @@ class Postres : AppCompatActivity() {
 
             val image = R.drawable.panque_platano_taza
 
-            val ingredientList = arrayOf(
-                getString(R.string.platano_1pza),
-                getString(R.string.huevo_1),
-                getString(R.string.leche_3cds),
-                getString(R.string.cucharadas_aceite_2),
-                getString(R.string.esencia_vainilla_1cda),
-                getString(R.string.miel_2cda),
-                getString(R.string.harina_65g),
-                getString(R.string.polvo_hornear_1cda),
-                getString(R.string.chispas_chocolate_50grs),
-                getString(R.string.mantequilla))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.platano_1pza)),
+                Ingredient(getString(R.string.huevo_1)),
+                Ingredient(getString(R.string.leche_3cds)),
+                Ingredient(getString(R.string.cucharadas_aceite_2)),
+                Ingredient(getString(R.string.esencia_vainilla_1cda)),
+                Ingredient(getString(R.string.miel_2cda)),
+                Ingredient(getString(R.string.harina_65g)),
+                Ingredient(getString(R.string.polvo_hornear_1cda)),
+                Ingredient(getString(R.string.chispas_chocolate_50grs)),
+                Ingredient(getString(R.string.mantequilla)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(
-                getString(R.string.azucar_glas),
-                getString(R.string.cajeta),
-                getString(R.string.dulce_leche),
-                getString(R.string.crema_batida),
-                getString(R.string.chocolate_liquido))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.azucar_glas)),
+                Ingredient(getString(R.string.cajeta)),
+                Ingredient(getString(R.string.dulce_leche)),
+                Ingredient(getString(R.string.crema_batida)),
+                Ingredient(getString(R.string.chocolate_liquido)))
 
             val preparation = getString(R.string.panque_platano_taza_preparation)
 
@@ -56,18 +59,20 @@ class Postres : AppCompatActivity() {
 
             val image = R.drawable.panke_avena
 
-            val ingredientList = arrayOf(
-                getString(R.string.platano_1),
-                getString(R.string.huevo_1),
-                getString(R.string.yogurt_griego_1_3_tz),
-                getString(R.string.vainilla_cda_1),
-                getString(R.string.miel_cda),
-                getString(R.string.avena_1_3_tza),
-                getString(R.string.chispas_chocolate_50grs))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.platano_1)),
+                Ingredient(getString(R.string.huevo_1)),
+                Ingredient(getString(R.string.yogurt_griego_1_3_tz)),
+                Ingredient(getString(R.string.vainilla_cda_1)),
+                Ingredient(getString(R.string.miel_cda)),
+                Ingredient(getString(R.string.avena_1_3_tza)),
+                Ingredient(getString(R.string.chispas_chocolate_50grs)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation = getString(R.string.panque_avena_preparation)
 
@@ -81,27 +86,28 @@ class Postres : AppCompatActivity() {
 
             val image = R.drawable.cheesecake_frutos_rojos
 
-            val ingredientList = arrayOf(
-                getString(R.string.galletas_mariaMolidas_2tzs),
-                getString(R.string.azucar_1_3tzs),
-                getString(R.string.mantequilla_3_4tz),
-                getString(R.string.queso_crema_900g),
-                getString(R.string.azucar_2tz),
-                getString(R.string.leche_1_4tz),
-                getString(R.string.esencia_vainilla_2cda),
-                getString(R.string.grenetina_14g),
-                getString(R.string.mezcla_frutos_rojos_400g),
-                getString(R.string.azucar_1tz),
-                getString(R.string.grenetina_14g),
-                getString(R.string.almidon_maiz_2cda),
-                getString(R.string.jugo_limon_1_4tz),
-                getString(R.string.fresas_400g))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.galletas_mariaMolidas_2tzs)),
+                Ingredient(getString(R.string.azucar_1_3tzs)),
+                Ingredient(getString(R.string.mantequilla_3_4tz)),
+                Ingredient(getString(R.string.queso_crema_900g)),
+                Ingredient(getString(R.string.azucar_2tz)),
+                Ingredient(getString(R.string.leche_1_4tz)),
+                Ingredient(getString(R.string.esencia_vainilla_2cda)),
+                Ingredient(getString(R.string.grenetina_14g)),
+                Ingredient(getString(R.string.mezcla_frutos_rojos_400g)),
+                Ingredient(getString(R.string.azucar_1tz)),
+                Ingredient(getString(R.string.grenetina_14g)),
+                Ingredient(getString(R.string.almidon_maiz_2cda)),
+                Ingredient(getString(R.string.jugo_limon_1_4tz)),
+                Ingredient(getString(R.string.fresas_400g)))
 
-            val substitutesList = arrayOf(
-                getString(R.string.mermelada_fresa),
-                getString(R.string.base_galleta))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.mermelada_fresa)),
+                Ingredient(getString(R.string.base_galleta)))
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation = getString(R.string.cheesecake_frutos_rojos_preparation)
 
@@ -116,19 +122,21 @@ class Postres : AppCompatActivity() {
 
             val image = R.drawable.tarta_queso_microondas
 
-            val ingredientList = arrayOf(
-                getString(R.string.queso_crema_4cda),
-                getString(R.string.yogurt_natural_2cda),
-                getString(R.string.azucar_2_1_2tz),
-                getString(R.string.huevo_1),
-                getString(R.string.vainilla_cda_1),
-                getString(R.string.galletas_trituradas_4cda),
-                getString(R.string.mantequilla_cda_1),
-                getString(R.string.mantequilla_engrasar))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.queso_crema_4cda)),
+                Ingredient(getString(R.string.yogurt_natural_2cda)),
+                Ingredient(getString(R.string.azucar_2_1_2tz)),
+                Ingredient(getString(R.string.huevo_1)),
+                Ingredient(getString(R.string.vainilla_cda_1)),
+                Ingredient(getString(R.string.galletas_trituradas_4cda)),
+                Ingredient(getString(R.string.mantequilla_cda_1)),
+                Ingredient(getString(R.string.mantequilla_engrasar)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation = getString(R.string.tarta_queso_microondas_preparation)
 
@@ -142,19 +150,19 @@ class Postres : AppCompatActivity() {
 
             val image = R.drawable.carlota_limon
 
-            val ingredientList = arrayOf(
-                getString(R.string.galletas_maria),
-                getString(R.string.yogurt_griego_1tz),
-                getString(R.string.limon),
-                getString(R.string.endulzante),
-                getString(R.string.vainilla_cda_1),
-                getString(R.string.galletas_trituradas_4cda),
-                getString(R.string.mantequilla_cda_1),
-                getString(R.string.mantequilla_engrasar))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.galletas_maria)),
+                Ingredient(getString(R.string.yogurt_griego_1tz)),
+                Ingredient(getString(R.string.limon)),
+                Ingredient(getString(R.string.endulzante)),
+                Ingredient(getString(R.string.vainilla_cda_1)),
+                Ingredient(getString(R.string.galletas_trituradas_4cda)),
+                Ingredient(getString(R.string.mantequilla_cda_1)),
+                Ingredient(getString(R.string.mantequilla_engrasar)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val optionsList = arrayListOf(Ingredient(getString(R.string.no_optios)))
 
             val preparation = getString(R.string.carlota_limon_preparation)
 
@@ -169,18 +177,18 @@ class Postres : AppCompatActivity() {
 
             val image = R.drawable.carlota_limon
 
-            val ingredientList = arrayOf(
-                getString(R.string.queso_crema_4cda),
-                getString(R.string.media_crema_4cda),
-                getString(R.string.azucar),
-                getString(R.string.esencia_vainilla),
-                getString(R.string.mango_manila),
-                getString(R.string.galettas_vainilla),
-                getString(R.string.mantequilla_cda_1))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.queso_crema_4cda)),
+                Ingredient(getString(R.string.media_crema_4cda)),
+                Ingredient(getString(R.string.azucar)),
+                Ingredient(getString(R.string.esencia_vainilla)),
+                Ingredient(getString(R.string.mango_manila)),
+                Ingredient(getString(R.string.galettas_vainilla)),
+                Ingredient(getString(R.string.mantequilla_cda_1)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(getString(R.string.mermelada_mango))
+            val optionsList = arrayListOf(Ingredient(getString(R.string.mermelada_mango)))
 
             val preparation = getString(R.string.cheesecake_mango_taza_preparation)
 
@@ -195,19 +203,19 @@ class Postres : AppCompatActivity() {
 
             val image = R.drawable.arroz_leche
 
-            val ingredientList = arrayOf(
-                getString(R.string.agua_1l),
-                getString(R.string.raja_canela),
-                getString(R.string.arroz_1tz),
-                getString(R.string.leche_condensada_1lata),
-                getString(R.string.leche_evaporada_1lata),
-                getString(R.string.canela_molida_1_2cda))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.agua_1l)),
+                Ingredient(getString(R.string.raja_canela)),
+                Ingredient(getString(R.string.arroz_1tz)),
+                Ingredient(getString(R.string.leche_condensada_1lata)),
+                Ingredient(getString(R.string.leche_evaporada_1lata)),
+                Ingredient(getString(R.string.canela_molida_1_2cda)))
 
-            val substitutesList = arrayOf(
-                getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(
-                getString(R.string.pasas_1_2tz))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.pasas_1_2tz)))
 
             val preparation = getString(R.string.arroz_leche_preparation)
 
@@ -221,20 +229,21 @@ class Postres : AppCompatActivity() {
 
             val image = R.drawable.budin_pan
 
-            val ingredientList = arrayOf(
-                getString(R.string.pan_300g),
-                getString(R.string.huevos_3pz),
-                getString(R.string.leche_500ml),
-                getString(R.string.azucar_125g),
-                getString(R.string.chocolate_100g),
-                getString(R.string.vainilla_cda_1),
-                getString(R.string.caramelo_liquido),
-                getString(R.string.mantequilla_3cda))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.pan_300g)),
+                Ingredient(getString(R.string.huevos_3pz)),
+                Ingredient(getString(R.string.leche_500ml)),
+                Ingredient(getString(R.string.azucar_125g)),
+                Ingredient(getString(R.string.chocolate_100g)),
+                Ingredient(getString(R.string.vainilla_cda_1)),
+                Ingredient(getString(R.string.caramelo_liquido)),
+                Ingredient(getString(R.string.mantequilla_3cda)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(
-                getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation = getString(R.string.budin_pan_preparation)
 
@@ -248,22 +257,23 @@ class Postres : AppCompatActivity() {
 
             val image = R.drawable.panque_zanahoria_taza
 
-            val ingredientList = arrayOf(
-                getString(R.string.harina_1_4tz),
-                getString(R.string.huevo_1),
-                getString(R.string.canela_molida_1cda),
-                getString(R.string.vainilla_cda_1),
-                getString(R.string.nueces_1_4_tza),
-                getString(R.string.zanahoria_grande),
-                getString(R.string.yogurt_natural_1cda),
-                getString(R.string.polvo_hornear_1_2cda))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.harina_1_4tz)),
+                Ingredient(getString(R.string.huevo_1)),
+                Ingredient(getString(R.string.canela_molida_1cda)),
+                Ingredient(getString(R.string.vainilla_cda_1)),
+                Ingredient(getString(R.string.nueces_1_4_tza)),
+                Ingredient(getString(R.string.zanahoria_grande)),
+                Ingredient(getString(R.string.yogurt_natural_1cda)),
+                Ingredient(getString(R.string.polvo_hornear_1_2cda)))
 
-            val substitutesList = arrayOf(getString(R.string.sustituto_azucar))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.sustituto_azucar)))
 
-            val optionsList = arrayOf(
-                getString(R.string.glaseado),
-                getString(R.string.crema_batida),
-                getString(R.string.nueces_trozo))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.glaseado)),
+                Ingredient(getString(R.string.crema_batida)),
+                Ingredient(getString(R.string.nueces_trozo)))
 
             val preparation = getString(R.string.panque_zanahoria_taza_preparation)
 
@@ -277,22 +287,23 @@ class Postres : AppCompatActivity() {
 
             val image = R.drawable.rol_canela_taza
 
-            val ingredientList = arrayOf(
-                getString(R.string.mantequilla_cda_1),
-                getString(R.string.azucar_1_4tz),
-                getString(R.string.canela_molida_1cda),
-                getString(R.string.pan_blanco_4pz),
-                getString(R.string.nueces_1_4_tza),
-                getString(R.string.huevo_1),
-                getString(R.string.leche_1_3tz),
-                getString(R.string.vainilla_cda_1))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.mantequilla_cda_1)),
+                Ingredient(getString(R.string.azucar_1_4tz)),
+                Ingredient(getString(R.string.canela_molida_1cda)),
+                Ingredient(getString(R.string.pan_blanco_4pz)),
+                Ingredient(getString(R.string.nueces_1_4_tza)),
+                Ingredient(getString(R.string.huevo_1)),
+                Ingredient(getString(R.string.leche_1_3tz)),
+                Ingredient(getString(R.string.vainilla_cda_1)))
 
-            val substitutesList = arrayOf(getString(R.string.sustituto_azucar))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.sustituto_azucar)))
 
-            val optionsList = arrayOf(
-                getString(R.string.glaseado),
-                getString(R.string.crema_batida),
-                getString(R.string.nueces_trozo))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.glaseado)),
+                Ingredient(getString(R.string.crema_batida)),
+                Ingredient(getString(R.string.nueces_trozo)))
 
             val preparation = getString(R.string.rol_canela_taza_preparation)
 
@@ -306,19 +317,21 @@ class Postres : AppCompatActivity() {
 
             val image = R.drawable.crumble_manzana_taza
 
-            val ingredientList = arrayOf(
-                getString(R.string.manzana_1pza),
-                getString(R.string.jugo_limon_1_2cda),
-                getString(R.string.canela_molida_1_2cda),
-                getString(R.string.vainilla_1_4cda),
-                getString(R.string.para_masa),
-                getString(R.string.harina_2cda),
-                getString(R.string.mantequilla_2_cda),
-                getString(R.string.azucar_1cda))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.manzana_1pza)),
+                Ingredient(getString(R.string.jugo_limon_1_2cda)),
+                Ingredient(getString(R.string.canela_molida_1_2cda)),
+                Ingredient(getString(R.string.vainilla_1_4cda)),
+                Ingredient(getString(R.string.para_masa)),
+                Ingredient(getString(R.string.harina_2cda)),
+                Ingredient(getString(R.string.mantequilla_2_cda)),
+                Ingredient(getString(R.string.azucar_1cda)))
 
-            val substitutesList = arrayOf(getString(R.string.masa_hojaldre))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.masa_hojaldre)))
 
-            val optionsList = arrayOf(getString(R.string.helado_vainilla))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.helado_vainilla)))
 
             val preparation = getString(R.string.crumble_manzana_taza_preparation)
 
@@ -332,23 +345,25 @@ class Postres : AppCompatActivity() {
 
             val image = R.drawable.pastel_3_lehes_taza
 
-            val ingredientList = arrayOf(
-                getString(R.string.mantequilla_2_cda),
-                getString(R.string.vainilla_cda_1),
-                getString(R.string.huevo_1),
-                getString(R.string.azuca_2cda),
-                getString(R.string.leche_1cda),
-                getString(R.string.harina_4cda),
-                getString(R.string.polvo_hornear_1_2cda),
-                getString(R.string.leche_1_4tz),
-                getString(R.string.leche_evaporada_1_4tz),
-                getString(R.string.leche_condensada_1_4tz),
-                getString(R.string.fresas_1_2tz),
-                getString(R.string.crema_batida))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.mantequilla_2_cda)),
+                Ingredient(getString(R.string.vainilla_cda_1)),
+                Ingredient(getString(R.string.huevo_1)),
+                Ingredient(getString(R.string.azuca_2cda)),
+                Ingredient(getString(R.string.leche_1cda)),
+                Ingredient(getString(R.string.harina_4cda)),
+                Ingredient(getString(R.string.polvo_hornear_1_2cda)),
+                Ingredient(getString(R.string.leche_1_4tz)),
+                Ingredient(getString(R.string.leche_evaporada_1_4tz)),
+                Ingredient(getString(R.string.leche_condensada_1_4tz)),
+                Ingredient(getString(R.string.fresas_1_2tz)),
+                Ingredient(getString(R.string.crema_batida)))
 
-            val substitutesList = arrayOf(getString(R.string.stevia))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.stevia)))
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation = getString(R.string.pastel_tres_leches_taza_preparation)
 
@@ -362,20 +377,21 @@ class Postres : AppCompatActivity() {
 
             val image = R.drawable.galletas_microondas
 
-            val ingredientList = arrayOf(
-                getString(R.string.azucar_mascabada_4cda),
-                getString(R.string.sal_pizca),
-                getString(R.string.vainilla_cda_1),
-                getString(R.string.huevo_1),
-                getString(R.string.mantequilla_sin_sal_1_2barra),
-                getString(R.string.harina_10cda),
-                getString(R.string.chispas_chocolate_1_4tz))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.azucar_mascabada_4cda)),
+                Ingredient(getString(R.string.sal_pizca)),
+                Ingredient(getString(R.string.vainilla_cda_1)),
+                Ingredient(getString(R.string.huevo_1)),
+                Ingredient(getString(R.string.mantequilla_sin_sal_1_2barra)),
+                Ingredient(getString(R.string.harina_10cda)),
+                Ingredient(getString(R.string.chispas_chocolate_1_4tz)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(
-                getString(R.string.nues_picada),
-                getString(R.string.chispas_colores))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.nues_picada)),
+                Ingredient(getString(R.string.chispas_colores)))
 
             val preparation = getString(R.string.galletas_microondas_preparation)
 
@@ -385,17 +401,25 @@ class Postres : AppCompatActivity() {
 
     }
 
-    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: Array<String>,
-                                           substitutesList: Array<String>, optionsList: Array<String>,
-                                           preparation: String) {
+    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,
+                                           substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>, preparation: String) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
         intent.putExtra("title", title)
         intent.putExtra("img_top_recipe", image)
-        intent.putExtra("ingredientsList", ingredientList )
-        intent.putExtra("substitutesList", substitutesList)
-        intent.putExtra("optionList", optionsList )
+
+        val args = Bundle()
+        args.putSerializable("ARRAYLIST", ingredientList as Serializable)
+        intent.putExtra("BUNDLE", args)
+
+        args.putSerializable("SubstituteList", substituteList as Serializable)
+        intent.putExtra("SubstituteListBundle", args)
+
+        args.putSerializable("OptionalList", optionsList as Serializable)
+        intent.putExtra("OptionalListBundle", args)
+
         intent.putExtra("preparation", preparation)
+
         startActivity(intent)
     }
 

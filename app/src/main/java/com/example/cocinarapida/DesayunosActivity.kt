@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
 import com.example.cocinarapida.databinding.ActivityDesayunosBinding
+import java.io.Serializable
+import java.util.ArrayList
 
 class DesayunosActivity : AppCompatActivity() {
     private lateinit var binding: ActivityDesayunosBinding
@@ -77,19 +79,21 @@ class DesayunosActivity : AppCompatActivity() {
 
             val image = R.drawable.huevos_lugo_lopez
 
-            val ingredientList = arrayOf(
-                getString(R.string.huevos_4),
-                getString(R.string.cebolla_blanca_picada_1),
-                getString(R.string.jitomate_picado_cubos_1),
-                getString(R.string.papa_cortada_cubos_1),
-                getString(R.string.rebanadas_jamon_triangulos_2),
-                getString(R.string.queso_oaxaca_20g),
-                getString(R.string.aceite_cda_5),
-                getString(R.string.sal_pimineta_gusto))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.huevos_4)),
+                Ingredient(getString(R.string.cebolla_blanca_picada_1)),
+                Ingredient(getString(R.string.jitomate_picado_cubos_1)),
+                Ingredient(getString(R.string.papa_cortada_cubos_1)),
+                Ingredient(getString(R.string.rebanadas_jamon_triangulos_2)),
+                Ingredient(getString(R.string.queso_oaxaca_20g)),
+                Ingredient(getString(R.string.aceite_cda_5)),
+                Ingredient(getString(R.string.sal_pimineta_gusto)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation: String = getString(R.string.huevos_kuego_lopez_preparation)
 
@@ -103,13 +107,21 @@ class DesayunosActivity : AppCompatActivity() {
 
             val image = R.drawable.huevos_salsa_jitomate
 
-            val ingredientList = arrayOf(getString(R.string.huevos_4),getString(R.string.jitomates_cortados_4_3),
-                getString(R.string.cebolla_1_4),getString(R.string.ajo_1),getString(R.string.manojo_cilantro_1_8),
-                getString(R.string.cucharadas_aceite_2),getString(R.string.agua_50ml),getString(R.string.mantequilla_2_cda))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.huevos_4)),
+                Ingredient(getString(R.string.jitomates_cortados_4_3)),
+                Ingredient(getString(R.string.cebolla_1_4)),
+                Ingredient(getString(R.string.ajo_1)),
+                Ingredient(getString(R.string.manojo_cilantro_1_8)),
+                Ingredient(getString(R.string.cucharadas_aceite_2)),
+                Ingredient(getString(R.string.agua_50ml)),
+                Ingredient(getString(R.string.mantequilla_2_cda)))
 
-            val substitutesList = arrayOf(getString(R.string.pure_tomate_tp))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.pure_tomate_tp)))
 
-            val optionsList = arrayOf(getString(R.string.chiles_serranos_2))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.chiles_serranos_2)))
 
             val preparation: String = getString(R.string.huevos_salsa_jitomate_preparation)
 
@@ -123,21 +135,23 @@ class DesayunosActivity : AppCompatActivity() {
 
             val image = R.drawable.chilaquiles
 
-            val ingredientList = arrayOf(
-                getString(R.string.totopos_500gr),
-                getString(R.string.tomate_verde_1kg),
-                getString(R.string.cebolla),
-                getString(R.string.chiles_serranos_2),
-                getString(R.string.manojo_cilantro_1_8),
-                getString(R.string.cebolla_blanca_picada_1),
-                getString(R.string.queso_panela_manchego_100gr),
-                getString(R.string.cucharadas_aceite_2),
-                getString(R.string.sal_pimineta_gusto),
-                getString(R.string.ajo_1))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.totopos_500gr)),
+                Ingredient(getString(R.string.tomate_verde_1kg)),
+                Ingredient(getString(R.string.cebolla)),
+                Ingredient(getString(R.string.chiles_serranos_2)),
+                Ingredient(getString(R.string.manojo_cilantro_1_8)),
+                Ingredient(getString(R.string.cebolla_blanca_picada_1)),
+                Ingredient(getString(R.string.queso_panela_manchego_100gr)),
+                Ingredient(getString(R.string.cucharadas_aceite_2)),
+                Ingredient(getString(R.string.sal_pimineta_gusto)),
+                Ingredient(getString(R.string.ajo_1)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation: String = getString(R.string.chilaquiles_preparation)
 
@@ -151,22 +165,24 @@ class DesayunosActivity : AppCompatActivity() {
 
             val image = R.drawable.enfrijoladas
 
-            val ingredientList = arrayOf(
-                getString(R.string.huevos_4),
-                getString(R.string.jitomate_picado_cubos_1),
-                getString(R.string.cebolla_blanca_picada_1),
-                getString(R.string.chile_cuaresmeno_jilianas_1),
-                getString(R.string.bolsa_frijoles_refritos_1),
-                getString(R.string.manojo_cilantro_1_8),
-                getString(R.string.longaniza_100gr),
-                getString(R.string.crema),
-                getString(R.string.cucharadas_aceite_2),
-                getString(R.string.agua),
-                getString(R.string.sal_pimineta_gusto))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.huevos_4)),
+                Ingredient(getString(R.string.jitomate_picado_cubos_1)),
+                Ingredient(getString(R.string.cebolla_blanca_picada_1)),
+                Ingredient(getString(R.string.chile_cuaresmeno_jilianas_1)),
+                Ingredient(getString(R.string.bolsa_frijoles_refritos_1)),
+                Ingredient(getString(R.string.manojo_cilantro_1_8)),
+                Ingredient(getString(R.string.longaniza_100gr)),
+                Ingredient(getString(R.string.crema)),
+                Ingredient(getString(R.string.cucharadas_aceite_2)),
+                Ingredient(getString(R.string.agua)),
+                Ingredient(getString(R.string.sal_pimineta_gusto)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation: String = getString(R.string.enfrijoladas_preparation)
 
@@ -180,18 +196,20 @@ class DesayunosActivity : AppCompatActivity() {
 
             val image = R.drawable.avocado_toas
 
-            val ingredientList = arrayOf(
-                getString(R.string.rebanas_pan_caja_2),
-                getString(R.string.blanco_integral_centeno),
-                getString(R.string.aguacate),
-                getString(R.string.huevos_2),
-                getString(R.string.limon),
-                getString(R.string.jitomate_1),
-                getString(R.string.sal_pimineta_gusto))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.rebanas_pan_caja_2)),
+                Ingredient(getString(R.string.blanco_integral_centeno)),
+                Ingredient(getString(R.string.aguacate)),
+                Ingredient(getString(R.string.huevos_2)),
+                Ingredient(getString(R.string.limon)),
+                Ingredient(getString(R.string.jitomate_1)),
+                Ingredient(getString(R.string.sal_pimineta_gusto)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation: String = getString(R.string.avocado_toas_preparation)
 
@@ -205,19 +223,20 @@ class DesayunosActivity : AppCompatActivity() {
 
             val image = R.drawable.omurice
 
-            val ingredientList = arrayOf(
-                getString(R.string.huevos_2),
-                getString(R.string.cebolla_cambray_1),
-                getString(R.string.mantequilla_cda_1),
-                getString(R.string.taza_arroz_vapor_1_2),
-                getString(R.string.preferencia),
-                getString(R.string.agua),
-                getString(R.string.catsup),
-                getString(R.string.sal_pimineta_gusto))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.huevos_2)),
+                Ingredient(getString(R.string.cebolla_cambray_1)),
+                Ingredient(getString(R.string.mantequilla_cda_1)),
+                Ingredient(getString(R.string.taza_arroz_vapor_1_2)),
+                Ingredient(getString(R.string.agua)),
+                Ingredient(getString(R.string.catsup)),
+                Ingredient(getString(R.string.sal_pimineta_gusto)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation: String = getString(R.string.omurice_preparation)
 
@@ -231,20 +250,21 @@ class DesayunosActivity : AppCompatActivity() {
 
             val image = R.drawable.omelette_espinaca
 
-            val ingredientList = arrayOf(
-                getString(R.string.huevos_2),
-                getString(R.string.leche_10ml),
-                getString(R.string.manojo_espinacas),
-                getString(R.string.queso_manchego_cabra),
-                getString(R.string.jamon),
-                getString(R.string.mantequilla_cda_1),
-                getString(R.string.sal_pimineta_gusto))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.huevos_2)),
+                Ingredient(getString(R.string.leche_10ml)),
+                Ingredient(getString(R.string.manojo_espinacas)),
+                Ingredient(getString(R.string.queso_manchego_cabra)),
+                Ingredient(getString(R.string.jamon)),
+                Ingredient(getString(R.string.mantequilla_cda_1)),
+                Ingredient(getString(R.string.sal_pimineta_gusto)))
 
-            val substitutesList = arrayOf(
-                getString(R.string.espinacas_bolsa),
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.espinacas_bolsa)),
             )
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation: String = getString(R.string.omelette_espinacas_preparation)
 
@@ -258,19 +278,21 @@ class DesayunosActivity : AppCompatActivity() {
 
             val image = R.drawable.omelette_champinones
 
-            val ingredientList = arrayOf(
-                getString(R.string.huevos_2),
-                getString(R.string.leche_10ml),
-                getString(R.string.champinones_250),
-                getString(R.string.queso_manchego_2),
-                getString(R.string.cebolla_picada_1_4),
-                getString(R.string.jamon),
-                getString(R.string.mantequilla_cda_1),
-                getString(R.string.sal_pimineta_gusto))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.huevos_2)),
+                Ingredient(getString(R.string.leche_10ml)),
+                Ingredient(getString(R.string.champinones_250)),
+                Ingredient(getString(R.string.queso_manchego_2)),
+                Ingredient(getString(R.string.cebolla_picada_1_4)),
+                Ingredient(getString(R.string.jamon)),
+                Ingredient(getString(R.string.mantequilla_cda_1)),
+                Ingredient(getString(R.string.sal_pimineta_gusto)))
 
-            val substitutesList = arrayOf(getString(R.string.lata_champinones_rev))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.lata_champinones_rev)))
 
-            val optionsList = arrayOf(getString(R.string.no_optios))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
 
             val preparation: String = getString(R.string.omelette_champinones_preparation)
 
@@ -283,18 +305,19 @@ class DesayunosActivity : AppCompatActivity() {
 
             val image = R.drawable.huevo_salchicha
 
-            val ingredientList = arrayOf(
-                getString(R.string.huevos_2),
-                getString(R.string.leche_10ml),
-                getString(R.string.salchichas_2),
-                getString(R.string.mantequilla_cda_1),
-                getString(R.string.sal_pimineta_gusto))
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.huevos_2)),
+                Ingredient(getString(R.string.leche_10ml)),
+                Ingredient(getString(R.string.salchichas_2)),
+                Ingredient(getString(R.string.mantequilla_cda_1)),
+                Ingredient(getString(R.string.sal_pimineta_gusto)))
 
-            val substitutesList = arrayOf(getString(R.string.no_subtitutes))
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
 
-            val optionsList = arrayOf(
-                getString(R.string.catsup),
-                getString(R.string.tortillas))
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.catsup)),
+                Ingredient(getString(R.string.tortillas)))
 
             val preparation: String = getString(R.string.huevos_salchicha_preparation)
 
@@ -303,17 +326,25 @@ class DesayunosActivity : AppCompatActivity() {
         }
     }
 
-    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: Array<String>,
-                                           substitutesList: Array<String>, optionsList: Array<String>,
-                                           preparation: String) {
+    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,
+                                           substitutesList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>, preparation: String) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
         intent.putExtra("title", title)
         intent.putExtra("img_top_recipe", image)
-        intent.putExtra("ingredientsList", ingredientList )
-        intent.putExtra("substitutesList", substitutesList)
-        intent.putExtra("optionList", optionsList )
+
+        val args = Bundle()
+        args.putSerializable("ARRAYLIST", ingredientList as Serializable)
+        intent.putExtra("BUNDLE", args)
+
+        args.putSerializable("SubstituteList", substitutesList as Serializable)
+        intent.putExtra("SubstituteListBundle", args)
+
+        args.putSerializable("OptionalList", optionsList as Serializable)
+        intent.putExtra("OptionalListBundle", args)
+
         intent.putExtra("preparation", preparation)
+
         startActivity(intent)
     }
 
