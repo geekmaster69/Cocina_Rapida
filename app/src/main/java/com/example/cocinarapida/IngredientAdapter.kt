@@ -3,9 +3,7 @@ package com.example.cocinarapida
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.webkit.WebSettings
 import androidx.recyclerview.widget.RecyclerView
-import com.example.cocinarapida.databinding.ItemIngredientListBinding
 import com.example.cocinarapida.databinding.ItemRecipeListBinding
 
 class IngredientAdapter(var ingredientList: ArrayList<Ingredient>, private val listener: OnClickListenerIngredient):
