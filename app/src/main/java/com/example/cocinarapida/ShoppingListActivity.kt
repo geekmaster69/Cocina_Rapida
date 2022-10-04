@@ -19,6 +19,7 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
     private lateinit var notesFinishedAdapter: NoteAdapter
     private lateinit var database: DatabaseHelper
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityShoppingListBinding.inflate(layoutInflater)
@@ -41,13 +42,20 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
 
 //        binding.shareMail.setOnClickListener {
 //
+//            val info = database.getAllNotes()
+//
+//            info.forEach { note ->
+//                val lissend = arrayListOf(note)
+//
+//            }
 //            val intent = Intent(Intent.ACTION_SENDTO).apply {
 //                data = Uri.parse("mailto:")
 //                putExtra(Intent.EXTRA_EMAIL, arrayOf("micorreo@gmail.com"))
 //                putExtra(Intent.EXTRA_SUBJECT, "base de datos")
-//                putExtra(Intent.EXTRA_TEXT, "${notesAdapter.noteList}")
+//                putExtra(Intent.EXTRA_TEXT, lissend.toString())
 //            }
 //            startActivity(intent)
+//
 //        }
 
         binding.etDescription.setOnKeyListener(View.OnKeyListener { v, keyCode, event ->
@@ -99,6 +107,13 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
         }else{
             notesFinishedAdapter.remove(note)
         }
+    }
+
+    fun sendList(note: Note){
+
+
+
+
     }
 
     override fun onLongClick(note: Note, currentAdapter: NoteAdapter) {

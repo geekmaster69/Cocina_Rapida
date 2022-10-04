@@ -17,14 +17,14 @@
     <string name="tazas_agua_4">4 Tazas de agua</string>
     <string name="clado_pollo_cucharada_4">1 Cucharada de caldo de pollo en polvo</string>
     <string name="taza_leche">1 Taza de leche</string>
-    <string name="pure_papa_des">Puré de papa deshidratado</string>
-    <string name="lata_champinones_rev_2pz">2 Latas de champiñones rebanados</string>
-    <string name="crema_champinones_preparation">1- Pon a cocer las papas (ir básicos de la cocina)\n\n
-        2- En una olla pon la mantequilla junto con la mitad de los champiñones (125g o bien una lata de champiñones rebanados) y saltea a fuego bajo.\n\n
-        3- Corta las papas en cubos, agrega la leche evaporada, y 2 tazas de agua, licua y agrega a la olla donde están los champiñones con la mantequilla.\n\n
-        4- En la misma licuadora ahora agrega las dos tazas de agua restantes, la taza de leche y la otra mitad de los champiñones (125g o una lata de champiñones rebanados)\n\n
-        5- Agrega a la olla y mezcla todo hasta que tenga un color uniforme y apagar cuando empiece a hervir.\n\n
-        6- Sirve.</string>
+    <string name="pure_papa_des">puré de papa deshidratado</string>
+    <string name="lata_champinones_rev_2pz">2 latas de champiñones rebanados</string>
+    <string name="crema_champinones_preparation">
+        1- Pon a cocer las papas (ir básicos de la cocina)\n\n
+        2- En una olla pon la mantequilla junto con los champiñones y saltea a fuego bajo.\n\n
+        3- Agrega a la licuadora los champiñones salteados junto con el resto de los ingredientes.\n\n
+        4- Vierte la crema en una olla y calienta a "fuego medio" hasta que hierva. Mueve la crema de vez en cuando para que no se queme \n\n
+        5- Sirve.</string>
 
     //Sopa de Fideos
     <string name="sal_gusto">Sal al gusto</string>
@@ -55,9 +55,9 @@
     <string name="optional">Opcionales</string>
     <string name="vegetales_congelados">- Bolsa de vegetales congelados</string>
     <string name="caldo_pollo_preparation">
-        1- En una olla grande agrega el pollo con los dientes de ajo, media cebolla, manojo de cilantro y unas dos cucharadas de sal de grano, zanahorias en trozos,papas en trozos, brócoli en trozos y chayote en trozos.\n\n
-        2- Llena la olla de agua hasta cubrir el pollo y las verduras , calienta hasta hervir, dejá hervir 20 min (o bien en una olla express electrica deja 12 min y libera la presión.\n\n
-        3- cuando las papas y las zanahorias estén suaves, agrega la calabaza en trozos, mueve (para que la calabaza se sumerja en el caldo hirviendo y deja hervir otros 5 min.\n\n
+        1- En una olla grande agrega el pollo con los dientes de ajo, media cebolla, el manojo de cilantro, dos cucharadas de sal de grano, zanahorias en trozos, papas en trozos, brócoli en trozos y chayote en trozos.\n\n
+        2- Llena la olla de agua hasta cubrir el pollo y las verduras , calienta hasta hervir, dejá hervir 20 min (o bien en una olla express electrica deja 16 min y libera la presión.\n\n
+        3- Cuando las papas y las zanahorias estén suaves, agrega la calabaza en trozos, mueve (para que la calabaza se sumerja en el caldo hirviendo. Deja hervir otros 5 min.\n\n
         4- Sirve.</string>
 
     //Sopa de verdolagas
@@ -90,7 +90,8 @@
         1- En una olla a fuego medio coloca un chorrito de aceite y saltea el ajo y la cebolla.\n\n
         2- Después de 3 min agrega la zanahoria y el apio picado en trozos pequeños.\n\n
         3- Agrega el orégano, el tomillo, la sal y la pimienta y cocina por 8 minutos.\n\n
-        4- Agrega el puré de tomate, la col y el caldo de verduras o pollo y espera a que empiece a hervir.\n\n</string>
+        4- Agrega el puré de tomate, la col y el caldo de verduras o caldo pollo y espera a que empiece a hervir. Deja hervir 10 minutos\n\n
+        5- Sirve</string>
 
     //crema de Habas
     <string name="habas_400g">400g de habas</string>
@@ -106,8 +107,8 @@
         3- Cuando la cebolla esté transparente agrega las papas.\n\n
         4- Ya que las papas se vean un poco blandas agrega el litro de agua y añade las habas, salpimienta al gusto.\n\n
         5- Deja que hierba de 20 á 25 min hasta que las habas cambien de verde brillante a un verde opaco.\n\n
-        6- Ahora agrega todo a la licuadora con una cucharada o un cubo de caldo de pollo.\n\n
-        7- Sirve, puedes acompañar con jamón, crutones.</string>
+        6- Agrega todo a la licuadora con una cucharada o un cubo de caldo de pollo.\n\n
+        7- Sirve, puedes acompañar con jamón o crutones.</string>
 
     //Sopa de Poro
     <string name="papas_medianas_3">3 papas medianas</string>
@@ -117,7 +118,7 @@
     <string name="ajo_1">1 diente de ajo</string>
     <string name="caldo_pollo_1_1_2">1 ½ litros de caldo de pollo</string>
     <string name="sopa_poro_preparation">
-        1- Calienta el aceite a fuego medio en una olla y sofríe el poro por dos minutos, no dejes de moverlo.\n\n
+        1- Calienta el aceite a fuego medio en una olla y sofríe el poro por dos minutos, mueve de vez en cuando.\n\n
         2- Licua el jitomate con el ajo, ½ litro de caldo de pollo (básicos de la cocina) y sal, cuando esté todo homogéneo viértelo en la olla.\n\n
         3- Cuando empiece a hervir agrega las papas en cubos pequeños y el resto del caldo de pollo.\n\n
         4- Cuando empiece a hervir de nuevo, deja cocinar a fuego bajo hasta que las papas estén suaves, agrega la pimienta y sirve caliente.</string>
@@ -359,25 +360,26 @@
     <string name="nueces_1_4_tza">¼ de taza de nueces</string>
     <string name="spaghetti_500g">500g de spaghetti</string>
     <string name="spaghetti_pesto_preparation">
-        1- Cocer pasta (ir a básicos de la cocina)\n\n
-        2- Licuar todos los ingredientes (menos la pasta) hasta que tenga consistencia de puré y color uniforme\n\n
-        3- Servir con queso parmesano</string>
-
+        1- Cuece la pasta (ir a básicos de la cocina)\n\n
+        2- Licua todos los ingredientes (menos la pasta) hasta que tenga consistencia de puré y color uniforme\n\n
+        3- Mezcla la salsa con la pasta (Suavemente para no romper la pasta)
+        4- Sirve con queso parmesano</string>
     <string name="spaghetti_pesto_substitute">- Salsa pesto en frasco</string>
     <string name="pan_con_mantequilla">pan con mantequilla</string>
     <string name="ensalada_campesina">ensalada Campesina</string>
+
     <string name="cacahuates_1_3_tza">⅓ taza de cacahuates (pueden ser naturales o con sal y limón)</string>
     <string name="mente_fresca_tza_1">1 taza de menta fresca</string>
     <string name="perejil_1_2_tza">½ taza de perejil</string>
     <string name="cilantro_1_2_tza">½ taza de cilantro</string>
     <string name="limones_3">3 limones verdes</string>
-    <string name="aguacates_grandes_1_1_2">1 ½ tguacates grandes</string>
+    <string name="aguacates_grandes_1_1_2">1 ½ aguacates grandes</string>
     <string name="aceite_oliva_1_4_tza">¼ taza aceite de oliva</string>
     <string name="agua_coccion_pasta">1 taza de agua de la cocción de la pasta</string>
     <string name="spaghetti_crema_aguacate_preparation">
-        1- Cocer la pasta(ir a básicos de la cocina)\n\n
-        2- En la licuadora ponemos todo el aguacate, los cacahuates, la menta, perejil, cilantro, ajo, el jugo del limón, agua de la cocción de la pasta, el aceite de oliva y sal y pimienta al gusto.\n\n
-        3- Agrega la mezcla a la pasta y envuelve suavemente hasta que toda la pasta esté perfectamente mezclada con la salsa.\n\n
+        1- Cuece la pasta(ir a básicos de la cocina)\n\n
+        2- Licua todos los ingredientes (menos la pasta) hasta que tenga consistencia de puré y color uniforme\n\n
+        3- Mezcla la salsa con la pasta (Suavemente para no romper la pasta)
         4- Sirve.</string>
 
     <string name="pechuga_asada">pechuga asada</string>
@@ -385,8 +387,8 @@
     <string name="cubo_caldo_pollo_1">1 cubito de caldo de pollo</string>
     <string name="lata_media_crema_1">1 lata de media crema</string>
     <string name="spaghetti_pimiento_cremoso_preparation">
-        1- Cocer la pasta( ir a básicos de la cocina )\n\n
-        2- En la licuadora mezclar chile morrón, cubito de caldo de pollo, ¼ de crema, ¼ de taza de leche.\n\n
+        1- Cuece la pasta( ir a básicos de la cocina )\n\n
+        2- Licua todos los ingredientes (menos la pasta y la mantequilla) hasta que tenga consistencia de puré y color uniforme\n\n
         3- Mezcla la salsa en la pasta caliente y agrega la mantequilla.\n\n
         4- Mezcla hasta que la mantequilla se derrita por completo.\n\n
         5- Sirve. Puedes acompañar con pechuga de pollo y una ensalada.</string>
@@ -395,11 +397,11 @@
     <string name="hierbas_finas_cda_1">1 cucharadita de hierbas finas</string>
     <string name="pimienta_negra_molida_1_4_cda">¼ de cucharadita de pimienta negra molida</string>
     <string name="spaghetti_rojo_cremoso_preparation">
-        1- cocer la pasta (ir a básicos de la cocina)\n\n
-        2- en la licuadora mezclamos los jitomates, cucharadas de acite de oliva, hierbas finas, pimienta, leche evaporada, cubo de caldo de pollo y sal.\n\n
-        3- ponemos a calentar la salsa en una olla aparte, cuando empiece a hervir retiramos del fuego y vaciamos la salsa sobre el espagueti.\n\n
-        4- mezcla el espagueti suavemente hasta que toda la pasta tenga el color de la salsa.\n\n
-        5- sirve caliente.</string>
+        1- Cuece la pasta (ir a básicos de la cocina)\n\n
+        2- En la licuadora mezcla los jitomates, el acite de oliva, hierbas finas, pimienta, leche evaporada, cubo de caldo de pollo y sal.\n\n
+        3- Pon a calentar la salsa en una olla aparte, cuando empiece a hervir retira del fuego y vacia la salsa sobre el espagueti.\n\n
+        4- Mezcla el espagueti suavemente hasta que toda la pasta tenga el color de la salsa.\n\n
+        5- Sirve caliente. Puedes acompañar con una pechuga asada y ensalada campesina </string>
 
     <string name="albondigas">Albondigas</string>
     <string name="para_comer_aqui">Para Comer Aqui</string>
@@ -830,6 +832,6 @@
     <string name="perejil_seco">perejil seco</string>
     <string name="aguacate_1">1 aguacate</string>
     <string name="salsa_fav">salsa de tu preferencia</string>
-    <string name="pan_tostadas_crutones">pan, tostadas o crutones</string>
+    <string name="pan_tostadas_crutones">pan tostado o crutones</string>
 
 </resources>
