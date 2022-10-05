@@ -1,406 +1,411 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:background="@drawable/fondo_principal"
     android:padding="8dp"
     tools:context=".EspeciasActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvSpecias"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"/>
 
 
 
-        <ImageView
-            android:id="@+id/canela"
-            app:layout_constraintEnd_toStartOf="@id/comino"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:adjustViewBounds="true"
-            android:layout_marginEnd="8dp"
-            android:src="@drawable/canela_polvo_2" />
-        <TextView
-            android:id="@+id/text_canela"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/canela"
-            app:layout_constraintEnd_toStartOf="@id/text_comino"
-            android:layout_width="0dp"
-            android:text="Canela"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:textColor="@color/white"
-            android:layout_height="wrap_content"/>
-
-        <ImageView
-            android:id="@+id/comino"
-            app:layout_constraintStart_toEndOf="@id/canela"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_width="0dp"
-            android:layout_marginStart="8dp"
-            android:layout_height="wrap_content"
-            android:adjustViewBounds="true"
-            android:src="@drawable/comino" />
-
-        <TextView
-            android:id="@+id/text_comino"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/comino"
-            app:layout_constraintStart_toEndOf="@id/text_canela"
-            android:layout_width="0dp"
-            android:text="Comino"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:layout_height="wrap_content"/>
-
-        <ImageView
-            android:layout_marginTop="16dp"
-            android:id="@+id/albahaca"
-            app:layout_constraintEnd_toStartOf="@id/oregano"
-            app:layout_constraintTop_toBottomOf="@id/text_canela"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:adjustViewBounds="true"
-            android:layout_marginEnd="8dp"
-            android:src="@drawable/albahaca" />
-        <TextView
-            android:id="@+id/text_albahaca"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/albahaca"
-            app:layout_constraintEnd_toStartOf="@id/text_oregano"
-            android:layout_width="0dp"
-            android:text="Albahaca"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:textColor="@color/white"
-            android:layout_height="wrap_content"/>
-
-        <ImageView
-            android:id="@+id/oregano"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:adjustViewBounds="true"
-            android:src="@drawable/oregano"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/albahaca"
-            app:layout_constraintTop_toBottomOf="@id/text_comino" />
-
-        <TextView
-            android:id="@+id/text_oregano"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/oregano"
-            app:layout_constraintStart_toEndOf="@id/text_albahaca"
-            android:layout_width="0dp"
-            android:text="Orégano"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:layout_height="wrap_content"/>
-
-        <ImageView
-            android:layout_marginTop="16dp"
-            android:id="@+id/hierbas_italiana"
-            app:layout_constraintEnd_toStartOf="@id/hierbas_provenzales"
-            app:layout_constraintTop_toBottomOf="@id/text_albahaca"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:adjustViewBounds="true"
-            android:layout_marginEnd="8dp"
-            android:src="@drawable/hierbas_italiana" />
-        <TextView
-            android:id="@+id/text_hierbas_italianas"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/hierbas_italiana"
-            app:layout_constraintEnd_toStartOf="@id/text_hierbas_provenzales"
-            android:layout_width="0dp"
-            android:text="Hierbas a la Italiana"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:textColor="@color/white"
-            android:layout_height="wrap_content"/>
-
-        <ImageView
-            android:id="@+id/hierbas_provenzales"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:adjustViewBounds="true"
-            android:src="@drawable/hierbas_provenzales_2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/hierbas_italiana"
-            app:layout_constraintTop_toBottomOf="@id/text_oregano" />
-
-        <TextView
-            android:id="@+id/text_hierbas_provenzales"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/hierbas_provenzales"
-            app:layout_constraintStart_toEndOf="@id/text_hierbas_italianas"
-            android:layout_width="0dp"
-            android:text="Hierbas Provenzales"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:layout_height="wrap_content"/>
-        <ImageView
-            android:layout_marginTop="16dp"
-            android:id="@+id/pimientas_mixtas"
-            app:layout_constraintEnd_toStartOf="@id/nuez_moscada"
-            app:layout_constraintTop_toBottomOf="@id/text_hierbas_italianas"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:adjustViewBounds="true"
-            android:layout_marginEnd="8dp"
-            android:src="@drawable/pimientas_mixtas" />
-        <TextView
-            android:id="@+id/text_pimientas_mixtas"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/pimientas_mixtas"
-            app:layout_constraintEnd_toStartOf="@id/text_nuez_moscada"
-            android:layout_width="0dp"
-            android:text="Pimientas Mixtas"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:textColor="@color/white"
-            android:layout_height="wrap_content"/>
-
-        <ImageView
-            android:id="@+id/nuez_moscada"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:adjustViewBounds="true"
-            android:src="@drawable/nuez_moscada"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/pimientas_mixtas"
-            app:layout_constraintTop_toBottomOf="@id/text_hierbas_provenzales" />
-
-        <TextView
-            android:id="@+id/text_nuez_moscada"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/nuez_moscada"
-            app:layout_constraintStart_toEndOf="@id/text_pimientas_mixtas"
-            android:layout_width="0dp"
-            android:text="Nuez Moscada"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:layout_height="wrap_content"/>
-        <ImageView
-            android:layout_marginTop="16dp"
-            android:id="@+id/genjibre_polvo"
-            app:layout_constraintEnd_toStartOf="@id/estragon"
-            app:layout_constraintTop_toBottomOf="@id/text_pimientas_mixtas"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:adjustViewBounds="true"
-            android:layout_marginEnd="8dp"
-            android:src="@drawable/jengibre_polvo" />
-        <TextView
-            android:id="@+id/text_genjibre_polvo"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/genjibre_polvo"
-            app:layout_constraintEnd_toStartOf="@id/text_estragon"
-            android:layout_width="0dp"
-            android:text="Jengibre en Polvo"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:textColor="@color/white"
-            android:layout_height="wrap_content"/>
-
-        <ImageView
-            android:id="@+id/estragon"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:adjustViewBounds="true"
-            android:src="@drawable/estragon_2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/genjibre_polvo"
-            app:layout_constraintTop_toBottomOf="@id/text_nuez_moscada" />
-
-        <TextView
-            android:id="@+id/text_estragon"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/estragon"
-            app:layout_constraintStart_toEndOf="@id/text_genjibre_polvo"
-            android:layout_width="0dp"
-            android:text="Estragón"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:layout_height="wrap_content"/>
-        <ImageView
-            android:layout_marginTop="16dp"
-            android:id="@+id/chipotle_polvo"
-            app:layout_constraintEnd_toStartOf="@id/eneldo"
-            app:layout_constraintTop_toBottomOf="@id/text_genjibre_polvo"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:adjustViewBounds="true"
-            android:layout_marginEnd="8dp"
-            android:src="@drawable/chipotle_polvo" />
-        <TextView
-            android:id="@+id/text_chipotle_polvo"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/chipotle_polvo"
-            app:layout_constraintEnd_toStartOf="@id/text_eneldo"
-            android:layout_width="0dp"
-            android:text="Chipotle en Polvo"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:textColor="@color/white"
-            android:layout_height="wrap_content"/>
-
-        <ImageView
-            android:id="@+id/eneldo"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:adjustViewBounds="true"
-            android:src="@drawable/eneldo"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/chipotle_polvo"
-            app:layout_constraintTop_toBottomOf="@id/text_estragon" />
-
-        <TextView
-            android:id="@+id/text_eneldo"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/eneldo"
-            app:layout_constraintStart_toEndOf="@id/text_chipotle_polvo"
-            android:layout_width="0dp"
-            android:text="Eneldo"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:layout_height="wrap_content"/>
-        <ImageView
-            android:layout_marginTop="16dp"
-            android:id="@+id/hojas_laurel"
-            app:layout_constraintEnd_toStartOf="@id/salvia"
-            app:layout_constraintTop_toBottomOf="@id/text_chipotle_polvo"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:adjustViewBounds="true"
-            android:layout_marginEnd="8dp"
-            android:src="@drawable/hojas_laurel" />
-        <TextView
-            android:id="@+id/text_hojas_laure"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/hojas_laurel"
-            app:layout_constraintEnd_toStartOf="@id/text_salvia"
-            android:layout_width="0dp"
-            android:text="Hojas de Lurel"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:textColor="@color/white"
-            android:layout_height="wrap_content"/>
-
-        <ImageView
-            android:id="@+id/salvia"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:adjustViewBounds="true"
-            android:src="@drawable/salvia"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/hojas_laurel"
-            app:layout_constraintTop_toBottomOf="@id/text_eneldo" />
-
-        <TextView
-            android:id="@+id/text_salvia"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/salvia"
-            app:layout_constraintStart_toEndOf="@id/text_hojas_laure"
-            android:layout_width="0dp"
-            android:text="Salvia"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:layout_height="wrap_content"/>
-        <ImageView
-            android:layout_marginTop="16dp"
-            android:id="@+id/achiote"
-            app:layout_constraintEnd_toStartOf="@id/hojuelas_chile"
-            app:layout_constraintTop_toBottomOf="@id/text_hojas_laure"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:adjustViewBounds="true"
-            android:layout_marginEnd="8dp"
-            android:src="@drawable/achiote" />
-        <TextView
-            android:id="@+id/text_achiote"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/achiote"
-            app:layout_constraintEnd_toStartOf="@id/text_hojuelas_chile"
-            android:layout_width="0dp"
-            android:text="Achiote"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:textColor="@color/white"
-            android:layout_height="wrap_content"/>
-
-        <ImageView
-            android:id="@+id/hojuelas_chile"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="16dp"
-            android:adjustViewBounds="true"
-            android:src="@drawable/hojuelas_chile"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@id/achiote"
-            app:layout_constraintTop_toBottomOf="@id/text_salvia" />
-
-        <TextView
-            android:id="@+id/text_hojuelas_chile"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/hojuelas_chile"
-            app:layout_constraintStart_toEndOf="@id/text_achiote"
-            android:layout_width="0dp"
-            android:text="Hojuelas de Chile"
-            android:textAlignment="center"
-            android:textStyle="bold"
-            android:textColor="@color/white"
-            android:textSize="20sp"
-            android:layout_height="wrap_content"/>
 
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>
 
 
-</ScrollView>
+    <!--        <ImageView-->
+    <!--            android:id="@+id/canela"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/comino"-->
+    <!--            app:layout_constraintTop_toTopOf="parent"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:layout_marginEnd="8dp"-->
+    <!--            android:src="@drawable/canela_polvo_2" />-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_canela"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/canela"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/text_comino"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Canela"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:layout_height="wrap_content"/>-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/comino"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/canela"-->
+    <!--            app:layout_constraintTop_toTopOf="parent"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_marginStart="8dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:src="@drawable/comino" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_comino"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/comino"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/text_canela"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Comino"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:layout_height="wrap_content"/>-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:id="@+id/albahaca"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/oregano"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/text_canela"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:layout_marginEnd="8dp"-->
+    <!--            android:src="@drawable/albahaca" />-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_albahaca"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/albahaca"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/text_oregano"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Albahaca"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:layout_height="wrap_content"/>-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/oregano"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="8dp"-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:src="@drawable/oregano"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/albahaca"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/text_comino" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_oregano"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/oregano"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/text_albahaca"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Orégano"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:layout_height="wrap_content"/>-->
+
+    <!--        <ImageView-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:id="@+id/hierbas_italiana"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/hierbas_provenzales"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/text_albahaca"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:layout_marginEnd="8dp"-->
+    <!--            android:src="@drawable/hierbas_italiana" />-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_hierbas_italianas"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/hierbas_italiana"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/text_hierbas_provenzales"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Hierbas a la Italiana"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:layout_height="wrap_content"/>-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/hierbas_provenzales"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="8dp"-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:src="@drawable/hierbas_provenzales_2"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/hierbas_italiana"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/text_oregano" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_hierbas_provenzales"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/hierbas_provenzales"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/text_hierbas_italianas"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Hierbas Provenzales"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:layout_height="wrap_content"/>-->
+    <!--        <ImageView-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:id="@+id/pimientas_mixtas"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/nuez_moscada"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/text_hierbas_italianas"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:layout_marginEnd="8dp"-->
+    <!--            android:src="@drawable/pimientas_mixtas" />-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_pimientas_mixtas"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/pimientas_mixtas"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/text_nuez_moscada"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Pimientas Mixtas"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:layout_height="wrap_content"/>-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/nuez_moscada"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="8dp"-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:src="@drawable/nuez_moscada"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/pimientas_mixtas"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/text_hierbas_provenzales" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_nuez_moscada"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/nuez_moscada"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/text_pimientas_mixtas"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Nuez Moscada"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:layout_height="wrap_content"/>-->
+    <!--        <ImageView-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:id="@+id/genjibre_polvo"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/estragon"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/text_pimientas_mixtas"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:layout_marginEnd="8dp"-->
+    <!--            android:src="@drawable/jengibre_polvo" />-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_genjibre_polvo"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/genjibre_polvo"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/text_estragon"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Jengibre en Polvo"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:layout_height="wrap_content"/>-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/estragon"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="8dp"-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:src="@drawable/estragon_2"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/genjibre_polvo"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/text_nuez_moscada" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_estragon"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/estragon"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/text_genjibre_polvo"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Estragón"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:layout_height="wrap_content"/>-->
+    <!--        <ImageView-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:id="@+id/chipotle_polvo"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/eneldo"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/text_genjibre_polvo"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:layout_marginEnd="8dp"-->
+    <!--            android:src="@drawable/chipotle_polvo" />-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_chipotle_polvo"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/chipotle_polvo"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/text_eneldo"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Chipotle en Polvo"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:layout_height="wrap_content"/>-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/eneldo"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="8dp"-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:src="@drawable/eneldo"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/chipotle_polvo"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/text_estragon" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_eneldo"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/eneldo"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/text_chipotle_polvo"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Eneldo"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:layout_height="wrap_content"/>-->
+    <!--        <ImageView-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:id="@+id/hojas_laurel"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/salvia"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/text_chipotle_polvo"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:layout_marginEnd="8dp"-->
+    <!--            android:src="@drawable/hojas_laurel" />-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_hojas_laure"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/hojas_laurel"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/text_salvia"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Hojas de Lurel"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:layout_height="wrap_content"/>-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/salvia"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="8dp"-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:src="@drawable/salvia"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/hojas_laurel"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/text_eneldo" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_salvia"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/salvia"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/text_hojas_laure"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Salvia"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:layout_height="wrap_content"/>-->
+    <!--        <ImageView-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:id="@+id/achiote"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/hojuelas_chile"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/text_hojas_laure"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:layout_marginEnd="8dp"-->
+    <!--            android:src="@drawable/achiote" />-->
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_achiote"-->
+    <!--            app:layout_constraintStart_toStartOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/achiote"-->
+    <!--            app:layout_constraintEnd_toStartOf="@id/text_hojuelas_chile"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Achiote"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:layout_height="wrap_content"/>-->
+
+    <!--        <ImageView-->
+    <!--            android:id="@+id/hojuelas_chile"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:layout_marginStart="8dp"-->
+    <!--            android:layout_marginTop="16dp"-->
+    <!--            android:adjustViewBounds="true"-->
+    <!--            android:src="@drawable/hojuelas_chile"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/achiote"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/text_salvia" />-->
+
+    <!--        <TextView-->
+    <!--            android:id="@+id/text_hojuelas_chile"-->
+    <!--            app:layout_constraintEnd_toEndOf="parent"-->
+    <!--            app:layout_constraintTop_toBottomOf="@id/hojuelas_chile"-->
+    <!--            app:layout_constraintStart_toEndOf="@id/text_achiote"-->
+    <!--            android:layout_width="0dp"-->
+    <!--            android:text="Hojuelas de Chile"-->
+    <!--            android:textAlignment="center"-->
+    <!--            android:textStyle="bold"-->
+    <!--            android:textColor="@color/white"-->
+    <!--            android:textSize="20sp"-->
+    <!--            android:layout_height="wrap_content"/>-->
+
+
+    <!--    </androidx.constraintlayout.widget.ConstraintLayout>-->

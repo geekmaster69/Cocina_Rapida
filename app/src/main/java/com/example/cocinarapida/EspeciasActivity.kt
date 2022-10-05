@@ -5,10 +5,12 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import androidx.recyclerview.widget.GridLayoutManager
 import com.example.cocinarapida.databinding.ActivityEspeciasBinding
 
-class EspeciasActivity : AppCompatActivity() {
+class EspeciasActivity : AppCompatActivity(), OnClickListenerSpecia {
     private lateinit var binding: ActivityEspeciasBinding
+    private lateinit var speciasListAdapter: SpeciaAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityEspeciasBinding.inflate(layoutInflater)
@@ -16,70 +18,25 @@ class EspeciasActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
+        val speciasList = arrayListOf<Specia>(
+            Specia(R.drawable.canela_polvo_2, "Acciote"),
+            Specia(R.drawable.canela_polvo_2, "Albahaca"),
+            Specia(R.drawable.canela_polvo_2, "Acciote"),
+            Specia(R.drawable.canela_polvo_2, "Albahaca"),
+            Specia(R.drawable.canela_polvo_2, "Acciote"),
+            Specia(R.drawable.canela_polvo_2, "Albahaca"),
 
-        binding.canela.setOnClickListener {
-            busquedaWeb("Canela")
+        )
+
+        speciasListAdapter = SpeciaAdapter(speciasList, this)
+
+        binding.rvSpecias.apply {
+            layoutManager = GridLayoutManager(this@EspeciasActivity, 2)
+            adapter = speciasListAdapter
         }
 
-        binding.comino.setOnClickListener {
-            busquedaWeb("Comino")
-        }
 
-        binding.albahaca.setOnClickListener {
-            busquedaWeb("Albahaca")
-        }
 
-        binding.oregano.setOnClickListener {
-            busquedaWeb("Oregano")
-        }
-
-        binding.hierbasItaliana.setOnClickListener {
-            busquedaWeb("Hierbas a la Italiana")
-        }
-
-        binding.hierbasProvenzales.setOnClickListener {
-            busquedaWeb("Hierbas Porvenzales")
-        }
-
-        binding.pimientasMixtas.setOnClickListener {
-            busquedaWeb("Pimientas Mixtas")
-        }
-
-        binding.nuezMoscada.setOnClickListener {
-            busquedaWeb("Nuez Moscada")
-        }
-
-        binding.genjibrePolvo.setOnClickListener {
-            busquedaWeb("Jengibre en Polvo")
-        }
-
-        binding.estragon.setOnClickListener {
-            busquedaWeb("Estragón")
-        }
-
-        binding.chipotlePolvo.setOnClickListener {
-            busquedaWeb("Chipotle en Polvo")
-        }
-
-        binding.eneldo.setOnClickListener {
-            busquedaWeb("Eneldo")
-        }
-
-        binding.hojasLaurel.setOnClickListener {
-            busquedaWeb("Hojas de Laurel")
-        }
-
-        binding.salvia.setOnClickListener {
-            busquedaWeb("Salvia")
-        }
-
-        binding.achiote.setOnClickListener {
-            busquedaWeb("Achiote")
-        }
-
-        binding.hojuelasChile.setOnClickListener {
-            busquedaWeb("Hojuelas de Chile")
-        }
 
     }
 
@@ -95,6 +52,10 @@ class EspeciasActivity : AppCompatActivity() {
             onBackPressed()
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun onLongClick(specia: Specia) {
+        TODO("Not yet implemented")
     }
 
 }
