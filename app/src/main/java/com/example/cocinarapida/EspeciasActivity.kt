@@ -19,12 +19,15 @@ class EspeciasActivity : AppCompatActivity(), OnClickListenerSpecia {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val speciasList = arrayListOf<Specia>(
-            Specia(R.drawable.canela_polvo_2, "Acciote"),
-            Specia(R.drawable.canela_polvo_2, "Albahaca"),
-            Specia(R.drawable.canela_polvo_2, "Acciote"),
-            Specia(R.drawable.canela_polvo_2, "Albahaca"),
-            Specia(R.drawable.canela_polvo_2, "Acciote"),
-            Specia(R.drawable.canela_polvo_2, "Albahaca"),
+            Specia(R.drawable.canela_polvo_2, "Canela en polvo"),
+            Specia(R.drawable.comino, "Comino"),
+            Specia(R.drawable.albahaca, "Albahaca"),
+            Specia(R.drawable.oregano_2, "Oregano"),
+            Specia(R.drawable.hierbas_italiana, "Hierbas italianas"),
+            Specia(R.drawable.hierbas_provenzales_2, "Hierbas provenzales"),
+            Specia(R.drawable.pimientas_mixtas, "Pimientas mixtas"),
+            Specia(R.drawable.nuez_moscada, "Nuez moscada"),
+            Specia(R.drawable.jengibre_polvo, "jengibre en polvo"),
 
         )
 
