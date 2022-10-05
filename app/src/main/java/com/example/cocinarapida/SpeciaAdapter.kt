@@ -10,8 +10,6 @@ import com.example.cocinarapida.databinding.ItemSpeciaBinding
 class SpeciaAdapter(var speciasList: ArrayList<Specia>, private val listener: OnClickListenerSpecia):
     RecyclerView.Adapter<SpeciaAdapter.ViewHolder>() {
 
-
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context).inflate(R.layout.item_specia, parent, false)
 
@@ -23,10 +21,7 @@ class SpeciaAdapter(var speciasList: ArrayList<Specia>, private val listener: On
         holder.binding.tvSpecia.text = specia.speciaDescription
         holder.binding.imgSpecia.setImageResource(specia.speciaimgDescription)
 
-
-
-
-
+        holder.setListener(specia)
     }
 
     override fun getItemCount(): Int = speciasList.size
@@ -34,9 +29,10 @@ class SpeciaAdapter(var speciasList: ArrayList<Specia>, private val listener: On
     inner class ViewHolder(view: View):RecyclerView.ViewHolder(view){
         val binding = ItemSpeciaBinding.bind(view)
 
-
-
+        fun setListener(specia: Specia) {
+            binding.root.setOnClickListener {
+                listener.onLongClick(specia)
+            }
+        }
     }
-
-
 }

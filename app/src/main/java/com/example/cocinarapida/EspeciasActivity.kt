@@ -27,7 +27,16 @@ class EspeciasActivity : AppCompatActivity(), OnClickListenerSpecia {
             Specia(R.drawable.hierbas_provenzales_2, "Hierbas provenzales"),
             Specia(R.drawable.pimientas_mixtas, "Pimientas mixtas"),
             Specia(R.drawable.nuez_moscada, "Nuez moscada"),
-            Specia(R.drawable.jengibre_polvo, "jengibre en polvo"),
+            Specia(R.drawable.jengibre_polvo, "Jengibre en polvo"),
+            Specia(R.drawable.estragon_2, "Estragon"),
+            Specia(R.drawable.chipotle_polvo, "Chipotle en polvo"),
+            Specia(R.drawable.eneldo, "Eneldo"),
+            Specia(R.drawable.hojas_laurel, "Hojas de laurel"),
+            Specia(R.drawable.salvia, "Salvia"),
+            Specia(R.drawable.hojuelas_chile, "Hojuelas de chile"),
+            Specia(R.drawable.achiote, "Achiote"),
+            Specia(R.drawable.ajo_polvo, "Ajo en polvo"),
+            Specia(R.drawable.cebolla_polvo, "Cebolla en polvo"),
 
         )
 
@@ -38,14 +47,12 @@ class EspeciasActivity : AppCompatActivity(), OnClickListenerSpecia {
             adapter = speciasListAdapter
         }
 
-
-
-
     }
 
-    private fun busquedaWeb(especia: String){
+    private fun busquedaWeb(specia: Specia){
+        val speciaWeb = specia.speciaDescription
         val intent = Intent(Intent.ACTION_WEB_SEARCH).apply {
-            putExtra(SearchManager.QUERY, especia)
+            putExtra(SearchManager.QUERY, speciaWeb)
         }
         startActivity(intent)
     }
@@ -58,7 +65,6 @@ class EspeciasActivity : AppCompatActivity(), OnClickListenerSpecia {
     }
 
     override fun onLongClick(specia: Specia) {
-        TODO("Not yet implemented")
-    }
+             busquedaWeb(specia)    }
 
 }

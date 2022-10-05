@@ -90,5 +90,5 @@ class RecipeTemplateActivity : AppCompatActivity(), OnClickListenerIngredient {
     }
 
     override fun onLongClick(ingredient: Ingredient) {
-addlistaCompras(ingredient)    }
+          addlistaCompras(ingredient)    }
 }
