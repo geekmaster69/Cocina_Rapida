@@ -21,13 +21,7 @@ class BasicosActivity : AppCompatActivity() {
         binding.btEspecias.setOnClickListener {
             openEspeciasActivity()
         }
-        binding.tecnicas.setOnClickListener {
-            openTecnicasActivity()
-        }
-    }
 
-    fun openTecnicasActivity() {
-        startActivity(Intent(this, TecnicasActivity::class.java))
     }
 
     private fun openEspeciasActivity() {

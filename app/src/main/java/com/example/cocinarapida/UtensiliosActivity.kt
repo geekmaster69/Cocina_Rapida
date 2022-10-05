@@ -18,7 +18,12 @@ class UtensiliosActivity : AppCompatActivity(), OnClickListenerSpecia {
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val utenciliosList = arrayListOf(
-            Specia(R.drawable.cebolla_polvo, "Sarten")
+            Specia(R.drawable.sarten_2, "Sarten"),
+            Specia(R.drawable.wok_3, "Wok"),
+            Specia(R.drawable.cucharon_sopa, "Cucharon de sopa"),
+            Specia(R.drawable.cuchara_pasta, "Cuchara para pasta"),
+            Specia(R.drawable.pinzas_cocina, "Pinzas para cocina"),
+            Specia(R.drawable.espatula, "Espatula"),
         )
 
         utenciliosAdapter = SpeciaAdapter(utenciliosList, this)
