@@ -18,7 +18,7 @@ class EspeciasActivity : AppCompatActivity(), OnClickListenerSpecia {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        val speciasList = arrayListOf<Specia>(
+        val speciasList = arrayListOf(
             Specia(R.drawable.canela_polvo_2, "Canela en polvo"),
             Specia(R.drawable.comino, "Comino"),
             Specia(R.drawable.albahaca, "Albahaca"),

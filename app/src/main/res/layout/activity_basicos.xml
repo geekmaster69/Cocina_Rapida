@@ -36,29 +36,6 @@
             android:fontFamily="@font/dancin_script_regular"
             android:layout_marginBottom="16dp"
             android:text="Especias"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:background="@drawable/madera_boton"
-            android:textSize="40sp"
-            android:textColor="@color/white"
-            android:gravity="center"
-            android:fontFamily="@font/dancin_script_regular"
-            android:layout_marginBottom="16dp"
-            android:text="Despensa"/>
-
-        <TextView
-            android:id="@+id/tecnicas"
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginBottom="16dp"
-            android:background="@drawable/madera_boton"
-            android:fontFamily="@font/dancin_script_regular"
-            android:gravity="center"
-            android:text="Tecnicas"
-            android:textColor="@color/white"
-            android:textSize="40sp" />
-
 
     </LinearLayout>
 

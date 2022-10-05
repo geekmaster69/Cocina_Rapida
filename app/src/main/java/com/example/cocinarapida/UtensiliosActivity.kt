@@ -5,44 +5,33 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import androidx.recyclerview.widget.GridLayoutManager
 import com.example.cocinarapida.databinding.ActivityUtensiliosBinding
 
-class UtensiliosActivity : AppCompatActivity() {
+class UtensiliosActivity : AppCompatActivity(), OnClickListenerSpecia {
     private lateinit var binding: ActivityUtensiliosBinding
+    private lateinit var utenciliosAdapter: SpeciaAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityUtensiliosBinding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        binding.sarten.setOnClickListener {
-            busquedaWeb("Sarten")
-        }
+        val utenciliosList = arrayListOf(
+            Specia(R.drawable.cebolla_polvo, "Sarten")
+        )
 
-        binding.wok.setOnClickListener {
-            busquedaWeb("Wok")
-        }
-
-        binding.cucharonSopa.setOnClickListener {
-            busquedaWeb("Cucharon de Sopa")
-        }
-
-        binding.cucharaPasta.setOnClickListener {
-            busquedaWeb("Cuchara de Pasta")
-        }
-
-        binding.espatula.setOnClickListener {
-            busquedaWeb("Espátula")
-        }
-
-        binding.pinzas.setOnClickListener {
-            busquedaWeb("Pinzas para Cocina")
+        utenciliosAdapter = SpeciaAdapter(utenciliosList, this)
+        binding.rvUtencilios.apply {
+            layoutManager = GridLayoutManager(this@UtensiliosActivity, 2)
+            adapter = utenciliosAdapter
         }
     }
 
-    private fun busquedaWeb(especia: String){
+    private fun busquedaWeb(specia: Specia){
+        val utencilioWeb = specia.speciaDescription
         val intent = Intent(Intent.ACTION_WEB_SEARCH).apply {
-            putExtra(SearchManager.QUERY, especia)
+            putExtra(SearchManager.QUERY, utencilioWeb)
         }
         startActivity(intent)
     }
@@ -53,4 +42,7 @@ class UtensiliosActivity : AppCompatActivity() {
         }
         return super.onOptionsItemSelected(item)
     }
+
+    override fun onLongClick(specia: Specia) {
+        busquedaWeb(specia)    }
 }
