@@ -116,33 +116,33 @@ class Postres : AppCompatActivity() {
 
         }
 
-        binding.bttartaQuesoMicroondas.setOnClickListener {
-
-            val title = getString(R.string.title_tarta_queso_microondas)
-
-            val image = R.drawable.tarta_queso_microondas
-
-            val ingredientList = arrayListOf(
-                Ingredient(getString(R.string.queso_crema_4cda)),
-                Ingredient(getString(R.string.yogurt_natural_2cda)),
-                Ingredient(getString(R.string.azucar_2_1_2tz)),
-                Ingredient(getString(R.string.huevo_1)),
-                Ingredient(getString(R.string.vainilla_cda_1)),
-                Ingredient(getString(R.string.galletas_trituradas_4cda)),
-                Ingredient(getString(R.string.mantequilla_cda_1)),
-                Ingredient(getString(R.string.mantequilla_engrasar)))
-
-            val substitutesList = arrayListOf(
-                Ingredient(getString(R.string.no_subtitutes)))
-
-            val optionsList = arrayListOf(
-                Ingredient(getString(R.string.no_optios)))
-
-            val preparation = getString(R.string.tarta_queso_microondas_preparation)
-
-            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
-        }
+//        binding.bttartaQuesoMicroondas.setOnClickListener {
+//
+//            val title = getString(R.string.title_tarta_queso_microondas)
+//
+//            val image = R.drawable.tarta_queso_microondas
+//
+//            val ingredientList = arrayListOf(
+//                Ingredient(getString(R.string.queso_crema_4cda)),
+//                Ingredient(getString(R.string.yogurt_natural_2cda)),
+//                Ingredient(getString(R.string.azucar_2_1_2tz)),
+//                Ingredient(getString(R.string.huevo_1)),
+//                Ingredient(getString(R.string.vainilla_cda_1)),
+//                Ingredient(getString(R.string.galletas_trituradas_4cda)),
+//                Ingredient(getString(R.string.mantequilla_cda_1)),
+//                Ingredient(getString(R.string.mantequilla_engrasar)))
+//
+//            val substitutesList = arrayListOf(
+//                Ingredient(getString(R.string.no_subtitutes)))
+//
+//            val optionsList = arrayListOf(
+//                Ingredient(getString(R.string.no_optios)))
+//
+//            val preparation = getString(R.string.tarta_queso_microondas_preparation)
+//
+//            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+//                preparation)
+//        }
 
         binding.btCarlotaLimon.setOnClickListener {
 

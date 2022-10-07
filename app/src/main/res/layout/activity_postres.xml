@@ -57,17 +57,17 @@
             android:background="@drawable/madera_boton"
             android:text="@string/title_cheesecake_frutos_rojos"/>
 
-        <TextView
-            android:id="@+id/bttartaQuesoMicroondas"
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:textSize="32sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"
-            android:fontFamily="@font/dancin_script_regular"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_tarta_queso_microondas"/>
+<!--        <TextView-->
+<!--            android:id="@+id/bttartaQuesoMicroondas"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="72dp"-->
+<!--            android:textSize="32sp"-->
+<!--            android:gravity="center"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:fontFamily="@font/dancin_script_regular"-->
+<!--            android:background="@drawable/madera_boton"-->
+<!--            android:text="@string/title_tarta_queso_microondas"/>-->
 
         <TextView
             android:id="@+id/btCarlotaLimon"

@@ -146,8 +146,7 @@ class PastasMenu : AppCompatActivity() {
                 Ingredient(getString(R.string.cubo_caldo_pollo_1)),
                 Ingredient(getString(R.string.mantequilla_cda_1)),
                 Ingredient(getString(R.string.lata_media_crema_1)),
-                Ingredient(getString(R.string.leche_10ml)),
-                Ingredient(getString(R.string.limones_3)))
+                Ingredient(getString(R.string.leche_10ml)))
 
             val substitutesList = arrayListOf(
                 Ingredient(getString(R.string.no_subtitutes)))
