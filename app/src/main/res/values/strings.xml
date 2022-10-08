@@ -587,9 +587,11 @@
     <string name="galettas_vainilla">"galletas de vainilla "</string>
     <string name="mermelada_mango">"mermelada de mango  "</string>
     <string name="cheesecake_mango_taza_preparation">
-        1- Mezcla el queso crema, crema de leche, azúcar y vainilla hasta que quede homogéneo. \n\n
-        2- Triturar las galletas y mezclar con mantequilla hasta que quede homogéneo.\n\n
-        3- En un vaso de postres colocamos la galleta con mantequilla en el fondo, aplanamos un poco, agregamos la mezcla y hasta arriba colocamos rebanadas delgadas de mango o medio centímetro de mermelada, dejamos enfriar y listo para servir.</string>
+        1- Mezcla el queso crema, la crema de leche, el azúcar y la vainilla hasta que quede homogéneo. \n\n
+        2- Tritura las galletas y mezcla con mantequilla derretida hasta que quede homogéneo.\n\n
+        3- En un vaso de postres colóca la galleta con mantequilla en el fondo, aplana un poco, agrega la mezcla y hasta arriba coloca rebanadas delgadas de mango o medio centímetro de mermelada.
+        4- Mete al refijerador por 30 min.
+        5- Disfruta</string>
 
     <string name="title_arroz_leche">Arroz con Leche</string>
     <string name="raja_canela">"1 raja de canela  "</string>
@@ -600,7 +602,7 @@
     <string name="pasas_1_2tz">"½ taza de pasas.  "</string>
     <string name="arroz_leche_preparation">
         1- En una olla calienta el agua con la canela a fuego medio , cuando empiece a hervir agrega el arroz, deja durante 15 min. \n\n
-        2- Agrega la leche condensada, la leche evaporada y si quieres las pasas, y bajas a fuego bajo, mueve de 20 a 25 min hasta que empiece a espesar. \n\n
+        2- Agrega la leche condensada, la leche evaporada y si quieres las pasas, y bajas a "fuego bajo", mueve de 20 a 25 min hasta que empiece a espesar. \n\n
         3- Sirve y espolvorea la canela encima.</string>
     <string name="postres">Postres</string>
     <string name="tortas">Tortas</string>
@@ -614,13 +616,13 @@
     <string name="caramelo_liquido">"caramelo líquido "</string>
     <string name="mantequilla_3cda">"3 cucharadas de mantequilla  "</string>
     <string name="budin_pan_preparation">
-        1- Cortamos el pan duro en cubos pequeños y los colocamos en un bowl con la leche.\n\n
-        2- Aplastamos el pan con un tenedor y revolvemos hasta tener una mezcla homogénea. \n\n
-        3- Agregamos el azúcar, los huevos, la vainilla, la mantequilla derretida y volvemos a mezclar hasta que esté todo homogéneo.\n\n
-        4- Ahora agregamos el chocolate y volvemos a mezclar.\n\n
-        5- En un molde de pastel o panqué para microondas colocamos el caramelo en el fondo del molde, cuidando que cubra todo el fondo y agregamos la mezcla. \n\n
-        6- Metemos al microondas por unos 13 min (dividirlo en sesiones de 4 minutos con 30 seg para evitar que brinque) o bien de la forma tradicional,  lo cubrimos con papel aluminio y lo ponemos sobre otra charola con agua y hornear a 180°C durante 1 hora.\n\n
-        7- Sacamos del horno de microondas o el horno convencional y , lo dejamos enfriar  despegamos los bordes con un cuchillo (no será necesario si el molde es de silicón) ponemos un plato sobre el molde y volteamos.</string>
+        1- Corta el pan duro en cubos pequeños y los colocalos en un bowl con la leche.\n\n
+        2- Aplasta el pan con un tenedor y revuelve hasta tener una mezcla homogénea. \n\n
+        3- Agrega el azúcar, los huevos, la vainilla, la mantequilla derretida y volve a mezclar hasta que esté todo homogéneo.\n\n
+        4- Agrega el chocolate y vuelve a mezclar.\n\n
+        5- En un molde de pastel o panqué para microondas coloca el caramelo en el fondo del molde, cuidando que cubra todo el fondo y agregamos la mezcla. \n\n
+        6- Mete al microondas por unos 13 min (dividirlo en sesiones de 4 minutos con 30 seg para evitar que brinque) o bien de la forma tradicional, lo cubrelo con papel aluminio y ponlo sobre otra charola con agua y hornealo a 180°C durante 1 hora.\n\n
+        7- Saca del horno de microondas o el horno convencional y dejalo enfriar. Despega los bordes con un cuchillo (no será necesario si el molde es de silicón) pon un plato sobre el molde y voltealo.</string>
 
     <string name="title_panque_zanahoria_taza">Panque de Zanahoria en Taza</string>
     <string name="harina_1_4tz">"¼ de taza de harina de trigo "</string>
@@ -633,9 +635,9 @@
     <string name="nueces_trozo">"nueces en trozo  "</string>
 
     <string name="panque_zanahoria_taza_preparation">
-        1- Lavamos perfectamente la zanahoria y la rallamos en tiras finas. \n\n
-        2- En una taza o un recipiente apto para microondas agrega la zanahoria, la harina, el huevo, la canela, la vainilla, el yogurt y el polvo para hornear. mezcla hasta que tengas una mezcla homogénea. \n\n
-        3- Metemos al microondas y calentamos por 2 min. \n\n
+        1- Lava perfectamente la zanahoria y rállala en tiras finas. \n\n
+        2- En una taza o un recipiente apto para microondas agrega la zanahoria, la harina, el huevo, la canela, la vainilla, el yogurt y el polvo para hornear. Bate hasta que tengas una mezcla homogénea. \n\n
+        3- Mete al microondas y calenta por 2 min. \n\n
         4- Saca y deja enfriar el recipiente, puedes decorar con glaseado o crema batida y nueces en trozos.</string>
 
     <string name="title_rol_canela_taza">Rol de Canela en Taza</string>
@@ -644,9 +646,17 @@
     <string name="leche_1_3tz">"⅓ de taza de leche  "</string>
     <string name="rol_canela_taza_preparation">
         1- Corta las orillas de las rebanadas de pan. \n\n
-        2- Mientras mezclamos la mantequilla el azúcar y la canela y con ayuda de un cuchillo de mantequilla unta las rebanadas de pan por ambos lados.\n\n
-        3- Sobreponer una esquina de pan con otra esquina de pan y aplastarlas para que se peguen. \n\n
-        4- Agrega la nuez a lo largo de toda la tira  enrolla y corta el rola a la mitad de tal forma que te queden dos rollos de canela.</string>
+        2- Mientras mezcla la mantequilla el azúcar, la canela y con ayuda de un cuchillo unta las rebanadas de pan con mantequilla por ambos lados.\n\n
+        3- Sobrep una esquina de pan con otra esquina de pan y aplastarlas para que se peguen. \n\n
+        4- Agrega la nuez a lo largo de toda la tira,  enrolla y corta el rol a la mitad de tal forma que te queden dos rollos de canela.\n\n
+        5- En una taza previamente engrasada con mantequilla, coloca uno de los rollos.\n\n
+        6- En un tazón aparte mezcla la leche, el huevo y la vainilla.\n\n
+        7- Agrega la mitad de la mezcla anterior encima del rol en la taza.\n\n
+        8- Encima coloca el segundo rollo y vacia el resto de la mezcla encima del rollo. \n\n
+        9- Mete al microondas y pon 40 seg, abre la puerta, volve a cerrar y agrega otros 40 seg.\n\n
+        10- Saca y deja enfriar un poco. Disfruta. \n\n
+            puedes acompañarlo con la bebida de tu preferencia.
+</string>
 
     <string name="title_crumble_manzana_taza">Crumble de Manzana en Taza</string>
     <string name="manzana_1pza">"1 manzana  "</string>
