@@ -190,6 +190,35 @@ class PastasMenu : AppCompatActivity() {
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
                 preparation)
         }
+        binding.btPizzaMultiComor.setOnClickListener {
+
+            val title = getString(R.string.title_pizza_multi_color)
+
+            val image = R.drawable.spaghetti_cremoso
+
+            val ingredientList = arrayListOf(
+                Ingredient(getString(R.string.harina_1tz)),
+                Ingredient(getString(R.string.agua_1tz)),
+                Ingredient(getString(R.string.sal_1cda)),
+                Ingredient(getString(R.string.azucar_1cda)),
+                Ingredient(getString(R.string.polvo_hornear_1cda)),
+                Ingredient(getString(R.string.aceite_1cda)),
+                Ingredient(getString(R.string.mezcla_queso_rayado)),
+                Ingredient(getString(R.string.jitomate_cherry_colores_180g)),
+                Ingredient(getString(R.string.manojo_albahaca_1)),
+                Ingredient(getString(R.string.sal_grano)),
+                Ingredient(getString(R.string.aceite_oliva_4cda)))
+
+            val substitutesList = arrayListOf(Ingredient(getString(R.string.jitomate_bola_saladet)))
+
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
+
+            val preparation = getString(R.string.pizza_multi_color_preparation)
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation)
+        }
     }
 
     private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,

@@ -39,7 +39,7 @@
             android:textSize="40sp"
             android:background="@drawable/madera_boton"
             android:fontFamily="@font/dancin_script_regular"
-            android:text="Pastas" />
+            android:text="Pizzas y Pastas" />
 
 
         <TextView

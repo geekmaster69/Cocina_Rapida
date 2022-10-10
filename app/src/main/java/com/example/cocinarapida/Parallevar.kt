@@ -21,6 +21,12 @@ class Parallevar : AppCompatActivity() {
         binding.btTortas.setOnClickListener {
             startActivity(Intent(this, Tortas::class.java))
         }
+        binding.btOniguiri.setOnClickListener {
+            startActivity(Intent(this, OniguiriActivity::class.java))
+        }
+        binding.btEnsaladas.setOnClickListener {
+            startActivity(Intent(this, EnsaladasActivity::class.java))
+        }
 
     }
 

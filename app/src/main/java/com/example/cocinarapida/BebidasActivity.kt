@@ -111,32 +111,8 @@ class BebidasActivity : AppCompatActivity() {
                 preparation)
         }
 
-        binding.btLicuadoMangoCremaCoco.setOnClickListener {
 
-            val title = getString(R.string.title_licuado_mango_crema_coco)
 
-            val image = R.drawable.licuado_mango_crema_coco
-
-            val ingredientList = arrayListOf(
-                Ingredient(getString(R.string.mango_1tz)),
-                Ingredient(getString(R.string.crema_coco_1tz)),
-                Ingredient(getString(R.string.yogurt_natural_1tz)),
-                Ingredient(getString(R.string.hielo)),
-                Ingredient(getString(R.string.chichitos_colores_1_2tz)),
-                Ingredient(getString(R.string.azucar_glas)),
-                Ingredient(getString(R.string.agua_1cda)))
-
-            val substitutesList = arrayListOf(
-                Ingredient(getString(R.string.no_subtitutes)))
-
-            val optionsList = arrayListOf(
-                Ingredient(getString(R.string.no_optios)))
-
-            val preparation: String = getString(R.string.licuado_mango_crema_coco_preparation)
-
-            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
-        }
 
         binding.btLicuadoPinaPlatanoCoco.setOnClickListener {
 
@@ -171,14 +147,9 @@ class BebidasActivity : AppCompatActivity() {
 
             val image = R.drawable.licuado_mango_crema_coco
 
-
-
             val ingredientList = arrayListOf(
 
-                Ingredient(getString(R.string.agua_1tz)),
-                Ingredient(getString(R.string.azucar_1_2tz)),
-                Ingredient(getString(R.string.chocolate_polvo_3_4tz)),
-                Ingredient(getString(R.string.chocolate_amargo_50g)),
+                Ingredient(getString(R.string.chocolate_liquido)),
                 Ingredient(getString(R.string.galletas_chocolate_6pz)),
                 Ingredient(getString(R.string.leche_1_1_2tz)),
                 Ingredient(getString(R.string.helado_vainilla_1tz)))
