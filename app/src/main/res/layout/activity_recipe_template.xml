@@ -40,8 +40,8 @@
             <ImageButton
                 android:id="@+id/basicos_icon"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_menu_book"
+                android:layout_height="match_parent"
+                android:src="@drawable/ic_help"
                 android:background="?attr/selectableItemBackground"
                 app:tint="@color/black"
                 android:paddingHorizontal="16dp"/>

@@ -12,6 +12,7 @@ import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.cocinarapida.databinding.ActivityRecipeTemplateBinding
 import com.google.android.material.snackbar.Snackbar
+import java.io.Serializable
 
 class RecipeTemplateActivity : AppCompatActivity(), OnClickListenerIngredient {
     private lateinit var binding: ActivityRecipeTemplateBinding
@@ -30,8 +31,20 @@ class RecipeTemplateActivity : AppCompatActivity(), OnClickListenerIngredient {
             it.title = intent.extras?.getString("title")
         }
 
+        val helpargs = intent.getBundleExtra("HelpListBundle")
+        val serialisableListHelp = helpargs!!.getSerializable("HelpList") as ArrayList<Help>
+
         binding.basicosIcon.setOnClickListener {
-            startActivity(Intent(this, BasicosActivity::class.java))
+
+            val intent = Intent(this, HelpActivity::class.java)
+
+
+            val sendhelpargs = Bundle()
+            sendhelpargs.putSerializable("sendHelpList", serialisableListHelp as Serializable)
+            intent.putExtra("sendHelpListBundle", sendhelpargs)
+
+            startActivity(intent)
+
         }
         binding.shopingListIcon.setOnClickListener {
             startActivity(Intent(this, ShoppingListActivity::class.java))
@@ -73,6 +86,13 @@ class RecipeTemplateActivity : AppCompatActivity(), OnClickListenerIngredient {
 
 
         binding.tvPreparation.text = intent.extras?.getString("preparation")
+
+
+    }
+
+    private fun openHelpActivity(serialisableList: java.util.ArrayList<Help>) {
+
+
     }
 
     private fun addlistaCompras(ingredient: Ingredient) {

@@ -5,6 +5,8 @@
       <map>
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1575" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/drawable/background_button_rout.xml" value="0.149" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/drawable/ic_help.xml" value="0.1885" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/drawable/ic_ist_alt.xml" value="0.1885" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/drawable/ic_kitchen.xml" value="0.1385" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1535" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/drawable/ic_menu_book.xml" value="0.1" />
@@ -28,6 +30,7 @@
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/activity_enfrijoladas.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/activity_ensaladas.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/activity_especias.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/activity_help.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/activity_huevo_lugo_lopez.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/activity_huevo_salchicha.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/activity_huevo_tortilla_jalapenos.xml" value="0.27447916666666666" />
@@ -74,6 +77,7 @@
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/activity_wrap_sushi.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/activity_wraps.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/fragment_onion_soup.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/item_helper.xml" value="0.2734375" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/item_ingredient.xml" value="0.30778894472361806" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/item_ingredient_list.xml" value="0.27447916666666666" />
         <entry key="..\:/Users/emman/AndroidStudioProjects/CocinaRapida/app/src/main/res/layout/item_modifi_list.xml" value="0.27447916666666666" />

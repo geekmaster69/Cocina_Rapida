@@ -54,12 +54,16 @@ class Bento : AppCompatActivity() {
 
             val preparation =  getString(R.string.cerdo_agridulce_preparation)
 
-            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList, preparation)
+            val helpList = arrayListOf(
+                Help(R.drawable.cortar_cebolla, "Esta es la manera correcta de cortar cebolla")
+            )
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList, preparation, helpList)
         }
     }
 
     private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,
-        substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>, preparation: String) {
+        substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>, preparation: String, helpList:ArrayList<Help>) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
         intent.putExtra("title", title)
@@ -75,7 +79,12 @@ class Bento : AppCompatActivity() {
         args.putSerializable("OptionalList", optionsList as Serializable)
         intent.putExtra("OptionalListBundle", args)
 
+        args.putSerializable("HelpList", helpList as Serializable)
+        intent.putExtra("HelpListBundle", args)
+
         intent.putExtra("preparation", preparation)
+
+
 
         startActivity(intent)
     }
