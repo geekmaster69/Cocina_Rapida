@@ -41,8 +41,14 @@ class OniguiriActivity : AppCompatActivity() {
             val preparation = getString(R.string.nori_salmon_preparation)
 
             val helpList = arrayListOf(
-                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
-                    getString(R.string.no_help_suggestion_description)))
+                Help(
+                    getString(R.string.help_arroz_title),
+                    R.drawable.ic_help_null,
+                    getString(R.string.help_arroz_oniguiri)),
+                Help(
+                    getString(R.string.help_oniguiri_title),
+                    R.drawable.ic_help_null,
+                    getString(R.string.help_oniguiri)))
 
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
                 preparation, helpList)

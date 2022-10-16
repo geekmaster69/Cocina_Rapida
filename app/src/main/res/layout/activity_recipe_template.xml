@@ -21,23 +21,38 @@
             android:src="@drawable/ic_image"
             android:adjustViewBounds="true"/>
 
-        <LinearLayout
-            android:gravity="center_horizontal"
+        <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingVertical="8dp"
-            android:orientation="horizontal">
+            android:layout_height="wrap_content">
 
             <ImageButton
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/basicos_icon"
                 android:id="@+id/shoping_list_icon"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:src="@drawable/ic_ist_alt"
                 android:background="?attr/selectableItemBackground"
                 app:tint="@color/black"
                 android:paddingHorizontal="16dp"/>
 
+            <TextView
+                app:layout_constraintStart_toStartOf="@id/shoping_list_icon"
+                app:layout_constraintTop_toBottomOf="@id/shoping_list_icon"
+                app:layout_constraintEnd_toEndOf="@id/shoping_list_icon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textColor="@color/black"
+                android:text="Lista de compras"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
             <ImageButton
+                app:layout_constraintStart_toEndOf="@id/shoping_list_icon"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
                 android:id="@+id/basicos_icon"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
@@ -45,7 +60,18 @@
                 android:background="?attr/selectableItemBackground"
                 app:tint="@color/black"
                 android:paddingHorizontal="16dp"/>
-        </LinearLayout>
+
+            <TextView
+                app:layout_constraintStart_toStartOf="@id/basicos_icon"
+                app:layout_constraintTop_toBottomOf="@id/basicos_icon"
+                app:layout_constraintEnd_toEndOf="@id/basicos_icon"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:textColor="@color/black"
+                android:text="Basicos de esta receta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
             android:layout_width="match_parent"

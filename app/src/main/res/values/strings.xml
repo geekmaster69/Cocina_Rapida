@@ -307,7 +307,7 @@
         3- Cuando el sartén esté humeando vaciamos el bowl y asegúrate que el huevo cubra todo el sartén y tapa.\n\n
         4- Cuando la tortilla de huevo esté bien cocida, pon el queso en toda la tortilla, el jamón ponlo sólo en la mitad al igual que las espinacas.\n\n
         5- Dobla la tortilla, tapa y baja a fuego bajo y espera 5 min a que se cocinen un poco las espinacas.\n\n
-        6- Destapa y sirve. puedes acompañar con la salsa de tu preferencia.</string>
+        6- Destapa y sirve. Puedes acompañar con la salsa de tu preferencia.</string>
 
     <string name="champiñones_taza_1">1 taza de champiñones rebanados desinfectados</string>
     <string name="cebolla_picada_1_4">¼ de cebolla picada</string>
@@ -860,17 +860,17 @@
     <string name="cebollin_10pz">10 ramas de cebollin</string>
     <string name="nori_salmon_preparation">
         *Para el arroz:\n
-        1- lavar el arroz y escurrir el agua 2 o 3 veces (o hasta que el agua salga trasparente). .\n\n
-        2- Poner el arroz y el agua en una olla y hervir a fuego alto. .\n\n
-        3- Cuando el agua hierva cocinar el arroz 10min a fuego bajo. .\n\n
+        1- Lava el arroz y escurre el agua 2 o 3 veces (o hasta que el agua salga trasparente). .\n\n
+        2- Pon el arroz y el agua en una olla y hervir a fuego alto. .\n\n
+        3- Cuando el agua hierva cocina el arroz 10min a fuego bajo. .\n\n
         4- Cocina 5 seg a fuego alto y apaga el fuego.\n\n 
         5- Deja que se siga cocinando con el vapor por 10 minutos. .\n\n
-        6- Cuando ya no salga vapor mezcla suavemente.\n\n
+        6- Cuando ya no salga vapor mezcla suavemente.
         *Para el Oniguiri:\n
         1- El arroz debe estar a una temperatura que lo puedas manipular con las manos.\n\n
         2- Moja tus manos con agua, toma una porción de arroz, dale forma de tortita, esta tiene que ser gruesa y del tamaño de tu palma. .\n\n
         3- Coloca el relleno en el centro y envuelve con las orillas de la tortita de arroz hasta hacer una bolita, procura que el relleno se quede en el centro.\n\n
-        4- Dale forma de triangulo y coloca una tira de alga nori.\n\n
+        4- Dale forma de triangulo y coloca una tira de alga nori.
         *Para el relleno:\n
         1- Pica el cebollín finamente.\n\n
         2- Em un bowl combina el salmón, la mantequilla, la crema acida y el cebollín picado. Mezcla.\n\n
@@ -911,5 +911,19 @@
         5- La pasta debe estar suabe.</string>
     <string name="no_help_suggestion">Sin sugerencias</string>
     <string name="no_help_suggestion_description">No hay sugerencias disponibles</string>
+    <string name="help_arroz_oniguiri">
+        1- Lava el arroz y escurre el agua 2 o 3 veces (o hasta que el agua salga trasparente).\n\n
+        2- Pon el arroz y el agua en una olla y hervir a fuego alto.\n\n
+        3- Cuando el agua hierva cocina el arroz 10min a fuego bajo.\n\n
+        4- Cocina 5 seg a fuego alto y apaga el fuego.\n\n
+        5- Deja que se siga cocinando con el vapor por 10 minutos.\n\n
+        6- Cuando ya no salga vapor mezcla suavemente.</string>
+    <string name="help_arroz_title">Para el Arroz</string>
+    <string name="help_oniguiri_title">Para el Oniguiri</string>
+    <string name="help_oniguiri">
+        1- El arroz debe estar a una temperatura que lo puedas manipular con las manos.\n\n
+        2- Moja tus manos con agua, toma una porción de arroz, dale forma de tortita, esta tiene que ser gruesa y del tamaño de tu palma.\n\n
+        3- Coloca el relleno en el centro y envuelve con las orillas de la tortita de arroz hasta hacer una bolita, procura que el relleno se quede en el centro.\n\n
+        4- Dale forma de triangulo y coloca una tira de alga nori."</string>
 
 </resources>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="8dp"
     android:orientation="vertical"
-    android:background="@drawable/helper_background"
+    android:background="@drawable/fondo_amarillo"
     tools:context=".HelpActivity">
 
     <androidx.recyclerview.widget.RecyclerView

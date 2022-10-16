@@ -15,7 +15,6 @@
         android:gravity="center"
         android:textStyle="italic"
         android:id="@+id/tvHelpTitle"
-        android:paddingVertical="4dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
@@ -27,7 +26,6 @@
         android:adjustViewBounds="true"
         tools:src="@drawable/ic_help"
         android:layout_width="match_parent"
-        android:paddingVertical="4dp"
         android:layout_height="wrap_content"/>
 
     <TextView
@@ -37,9 +35,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="match_parent"
         android:textColor="@color/black"
-        android:textSize="22sp"
+        android:textSize="18sp"
         tools:text="Este es un texto de ejemplo"
-        android:paddingVertical="4dp"
         android:layout_height="wrap_content"/>
 
 
