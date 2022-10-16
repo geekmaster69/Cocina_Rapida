@@ -42,8 +42,13 @@ class DesayunosActivity : AppCompatActivity() {
 
             val preparation: String = getString(R.string.omelette_jamon_queso_preparation)
 
+            val helpList = arrayListOf(
+                Help(
+                    getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btHuevoAmelia.setOnClickListener {
@@ -68,9 +73,13 @@ class DesayunosActivity : AppCompatActivity() {
 
             val preparation: String = getString(R.string.huevos_amelia_preparation)
 
+            val helpList = arrayListOf(
+                Help(
+                    getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
 
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btHuevoLugoLopez.setOnClickListener {
@@ -97,8 +106,13 @@ class DesayunosActivity : AppCompatActivity() {
 
             val preparation: String = getString(R.string.huevos_kuego_lopez_preparation)
 
+            val helpList = arrayListOf(
+                Help(
+                    getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btHuevoSalsaJitomate.setOnClickListener {
@@ -125,8 +139,13 @@ class DesayunosActivity : AppCompatActivity() {
 
             val preparation: String = getString(R.string.huevos_salsa_jitomate_preparation)
 
+            val helpList = arrayListOf(
+                Help(
+                    getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btChilaquilesRojosVerdes.setOnClickListener {
@@ -155,8 +174,12 @@ class DesayunosActivity : AppCompatActivity() {
 
             val preparation: String = getString(R.string.chilaquiles_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btEnfrijoladas.setOnClickListener {
@@ -186,8 +209,12 @@ class DesayunosActivity : AppCompatActivity() {
 
             val preparation: String = getString(R.string.enfrijoladas_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btAvocadoToas.setOnClickListener {
@@ -213,8 +240,12 @@ class DesayunosActivity : AppCompatActivity() {
 
             val preparation: String = getString(R.string.avocado_toas_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btOmurice.setOnClickListener {
@@ -240,8 +271,12 @@ class DesayunosActivity : AppCompatActivity() {
 
             val preparation: String = getString(R.string.omurice_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btOmeletteEspinacas.setOnClickListener {
@@ -268,8 +303,12 @@ class DesayunosActivity : AppCompatActivity() {
 
             val preparation: String = getString(R.string.omelette_espinacas_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btOmeletteChampinones.setOnClickListener {
@@ -296,8 +335,12 @@ class DesayunosActivity : AppCompatActivity() {
 
             val preparation: String = getString(R.string.omelette_champinones_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btHuevoSalchicha.setOnClickListener {
@@ -321,13 +364,18 @@ class DesayunosActivity : AppCompatActivity() {
 
             val preparation: String = getString(R.string.huevos_salchicha_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
     }
 
     private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,
-                                           substitutesList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>, preparation: String) {
+                                           substitutesList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>,
+                                           preparation: String, helpList:ArrayList<Help>) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
         intent.putExtra("title", title)
@@ -344,6 +392,9 @@ class DesayunosActivity : AppCompatActivity() {
         intent.putExtra("OptionalListBundle", args)
 
         intent.putExtra("preparation", preparation)
+
+        args.putSerializable("HelpList", helpList as Serializable)
+        intent.putExtra("HelpListBundle", args)
 
         startActivity(intent)
     }

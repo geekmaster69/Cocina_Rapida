@@ -39,7 +39,6 @@ class Bento : AppCompatActivity() {
                 Ingredient("4 cucharadas de salsa de soya"),
                 Ingredient("2 cucharadas de agua"),
                 Ingredient("2 cucharadas de maizena"))
-//
 
             val substitutesList = arrayListOf(
                 Ingredient("frasco de ajo picado"),
@@ -51,19 +50,19 @@ class Bento : AppCompatActivity() {
                 Ingredient("cebollín"),
                 Ingredient("semillas de sésamo"))
 
-
             val preparation =  getString(R.string.cerdo_agridulce_preparation)
 
             val helpList = arrayListOf(
-                Help(R.drawable.cortar_cebolla, "Esta es la manera correcta de cortar cebolla")
-            )
+                Help("Sin sugerencias", R.drawable.ic_help_null, "No hay sugerencias disponibles"))
 
-            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList, preparation, helpList)
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation, helpList)
         }
     }
 
     private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,
-        substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>, preparation: String, helpList:ArrayList<Help>) {
+        substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>,
+                                           preparation: String, helpList:ArrayList<Help>) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
         intent.putExtra("title", title)
@@ -84,13 +83,8 @@ class Bento : AppCompatActivity() {
 
         intent.putExtra("preparation", preparation)
 
-
-
         startActivity(intent)
     }
-
-
-
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == android.R.id.home){

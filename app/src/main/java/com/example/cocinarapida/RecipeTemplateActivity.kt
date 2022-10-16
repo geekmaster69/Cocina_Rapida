@@ -37,12 +37,9 @@ class RecipeTemplateActivity : AppCompatActivity(), OnClickListenerIngredient {
         binding.basicosIcon.setOnClickListener {
 
             val intent = Intent(this, HelpActivity::class.java)
-
-
             val sendhelpargs = Bundle()
             sendhelpargs.putSerializable("sendHelpList", serialisableListHelp as Serializable)
             intent.putExtra("sendHelpListBundle", sendhelpargs)
-
             startActivity(intent)
 
         }
@@ -64,34 +61,24 @@ class RecipeTemplateActivity : AppCompatActivity(), OnClickListenerIngredient {
 
 
         ingredientListAdapter = IngredientAdapter(serialisableList, this)
-
         binding.rvIngredient.apply {
             layoutManager = LinearLayoutManager(this@RecipeTemplateActivity)
             adapter = ingredientListAdapter
         }
 
         sustitutesListAdapter = IngredientAdapter(subtitutesList, this)
-
         binding.rvSubstitutes.apply {
             layoutManager = LinearLayoutManager(this@RecipeTemplateActivity)
             adapter = sustitutesListAdapter
         }
 
         optionListAdapter = IngredientAdapter(optionsList, this)
-
         binding.rvOptionals.apply {
             layoutManager = LinearLayoutManager(this@RecipeTemplateActivity)
             adapter = optionListAdapter
         }
 
-
         binding.tvPreparation.text = intent.extras?.getString("preparation")
-
-
-    }
-
-    private fun openHelpActivity(serialisableList: java.util.ArrayList<Help>) {
-
 
     }
 

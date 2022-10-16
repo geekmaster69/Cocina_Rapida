@@ -40,13 +40,18 @@ class OniguiriActivity : AppCompatActivity() {
 
             val preparation = getString(R.string.nori_salmon_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
     }
 
     private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,
-                                           substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>, preparation: String) {
+                                           substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>,
+                                           preparation: String, helpList:ArrayList<Help>) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
         intent.putExtra("title", title)
@@ -61,6 +66,9 @@ class OniguiriActivity : AppCompatActivity() {
 
         args.putSerializable("OptionalList", optionsList as Serializable)
         intent.putExtra("OptionalListBundle", args)
+
+        args.putSerializable("HelpList", helpList as Serializable)
+        intent.putExtra("HelpListBundle", args)
 
         intent.putExtra("preparation", preparation)
 

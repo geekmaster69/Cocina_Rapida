@@ -49,8 +49,12 @@ class Postres : AppCompatActivity() {
 
             val preparation = getString(R.string.panque_platano_taza_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btPanqueAvena.setOnClickListener {
@@ -76,8 +80,12 @@ class Postres : AppCompatActivity() {
 
             val preparation = getString(R.string.panque_avena_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btCheescakeFrutosRojos.setOnClickListener {
@@ -111,8 +119,12 @@ class Postres : AppCompatActivity() {
 
             val preparation = getString(R.string.cheesecake_frutos_rojos_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
 
         }
 
@@ -166,8 +178,12 @@ class Postres : AppCompatActivity() {
 
             val preparation = getString(R.string.carlota_limon_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btCheesecakeMangotaza.setOnClickListener {
@@ -192,8 +208,12 @@ class Postres : AppCompatActivity() {
 
             val preparation = getString(R.string.cheesecake_mango_taza_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
 
         }
 
@@ -219,8 +239,12 @@ class Postres : AppCompatActivity() {
 
             val preparation = getString(R.string.arroz_leche_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btBudinPane.setOnClickListener {
@@ -247,8 +271,12 @@ class Postres : AppCompatActivity() {
 
             val preparation = getString(R.string.budin_pan_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btPanqueZanahoriaTaza.setOnClickListener {
@@ -277,8 +305,12 @@ class Postres : AppCompatActivity() {
 
             val preparation = getString(R.string.panque_zanahoria_taza_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btRolCanelaTaza.setOnClickListener {
@@ -307,8 +339,12 @@ class Postres : AppCompatActivity() {
 
             val preparation = getString(R.string.rol_canela_taza_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btCrumbleManzanaTaza.setOnClickListener {
@@ -335,8 +371,12 @@ class Postres : AppCompatActivity() {
 
             val preparation = getString(R.string.crumble_manzana_taza_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btPastelTresLechesTaza.setOnClickListener {
@@ -367,8 +407,12 @@ class Postres : AppCompatActivity() {
 
             val preparation = getString(R.string.pastel_tres_leches_taza_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btGalletasMicroondas.setOnClickListener {
@@ -395,14 +439,19 @@ class Postres : AppCompatActivity() {
 
             val preparation = getString(R.string.galletas_microondas_preparation)
 
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
     }
 
     private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,
-                                           substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>, preparation: String) {
+                                           substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>,
+                                           preparation: String, helpList:ArrayList<Help>) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
         intent.putExtra("title", title)
@@ -417,6 +466,9 @@ class Postres : AppCompatActivity() {
 
         args.putSerializable("OptionalList", optionsList as Serializable)
         intent.putExtra("OptionalListBundle", args)
+
+        args.putSerializable("HelpList", helpList as Serializable)
+        intent.putExtra("HelpListBundle", args)
 
         intent.putExtra("preparation", preparation)
 

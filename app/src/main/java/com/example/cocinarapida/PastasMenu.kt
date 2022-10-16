@@ -43,8 +43,13 @@ class PastasMenu : AppCompatActivity() {
 
             val preparation = getString(R.string.pasta_camarones_preparation)
 
+            val helpList = arrayListOf(
+                Help("Cocer Pasta",
+                    R.drawable.cortar_cebolla,
+                    getString(R.string.help_pasta_preparation)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btPastaTomateAlbahaca.setOnClickListener {
@@ -71,8 +76,13 @@ class PastasMenu : AppCompatActivity() {
 
             val preparation = getString(R.string.pasta_albahaca_preparation)
 
+            val helpList = arrayListOf(
+                Help("Cocer Pasta",
+                    R.drawable.cortar_cebolla,
+                    getString(R.string.help_pasta_preparation)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
 
         }
         binding.btPastaSalsaPesto.setOnClickListener {
@@ -99,8 +109,13 @@ class PastasMenu : AppCompatActivity() {
 
             val preparation = getString(R.string.spaghetti_pesto_preparation)
 
+            val helpList = arrayListOf(
+                Help("Cocer Pasta",
+                    R.drawable.cortar_cebolla,
+                    getString(R.string.help_pasta_preparation)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btSpaghettiCremaAguacate.setOnClickListener {
@@ -130,8 +145,13 @@ class PastasMenu : AppCompatActivity() {
 
             val preparation = getString(R.string.spaghetti_crema_aguacate_preparation)
 
+            val helpList = arrayListOf(
+                Help("Cocer Pasta",
+                    R.drawable.cortar_cebolla,
+                    getString(R.string.help_pasta_preparation)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btSpaghettiPimientosCremoso.setOnClickListener {
@@ -158,8 +178,13 @@ class PastasMenu : AppCompatActivity() {
 
             val preparation = getString(R.string.spaghetti_pimiento_cremoso_preparation)
 
+            val helpList = arrayListOf(
+                Help("Cocer Pasta",
+                    R.drawable.cortar_cebolla,
+                    getString(R.string.help_pasta_preparation)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
 
         binding.btSpaghettiRojoCremoso.setOnClickListener {
@@ -187,8 +212,13 @@ class PastasMenu : AppCompatActivity() {
 
             val preparation = getString(R.string.spaghetti_rojo_cremoso_preparation)
 
+            val helpList = arrayListOf(
+                Help("Cocer Pasta",
+                    R.drawable.cortar_cebolla,
+                    getString(R.string.help_pasta_preparation)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
         binding.btPizzaMultiComor.setOnClickListener {
 
@@ -216,13 +246,19 @@ class PastasMenu : AppCompatActivity() {
 
             val preparation = getString(R.string.pizza_multi_color_preparation)
 
+            val helpList = arrayListOf(
+                Help("Cocer Pasta",
+                    R.drawable.cortar_cebolla,
+                    getString(R.string.help_pasta_preparation)))
+
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation)
+                preparation, helpList)
         }
     }
 
     private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,
-                                           substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>, preparation: String) {
+                                           substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>,
+                                           preparation: String, helpList:ArrayList<Help>) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
         intent.putExtra("title", title)
@@ -237,6 +273,9 @@ class PastasMenu : AppCompatActivity() {
 
         args.putSerializable("OptionalList", optionsList as Serializable)
         intent.putExtra("OptionalListBundle", args)
+
+        args.putSerializable("HelpList", helpList as Serializable)
+        intent.putExtra("HelpListBundle", args)
 
         intent.putExtra("preparation", preparation)
 

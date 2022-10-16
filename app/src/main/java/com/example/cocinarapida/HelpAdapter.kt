@@ -19,6 +19,7 @@ class HelpAdapter(var helpList: ArrayList<Help>, private val listener: OnClickLi
         val help = helpList.get(position)
         holder.binding.tvHelper.text = help.helpText
         holder.binding.imgHelper.setImageResource(help.imgHelper)
+        holder.binding.tvHelpTitle.text = help.helpTitle
 
     }
 
