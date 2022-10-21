@@ -45,7 +45,7 @@ class PastasMenu : AppCompatActivity() {
 
             val helpList = arrayListOf(
                 Help("Cocer Pasta",
-                    R.drawable.cortar_cebolla,
+                    R.drawable.pasta_help,
                     getString(R.string.help_pasta_preparation)))
 
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
@@ -78,7 +78,7 @@ class PastasMenu : AppCompatActivity() {
 
             val helpList = arrayListOf(
                 Help("Cocer Pasta",
-                    R.drawable.cortar_cebolla,
+                    R.drawable.pasta_help,
                     getString(R.string.help_pasta_preparation)))
 
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
@@ -111,7 +111,7 @@ class PastasMenu : AppCompatActivity() {
 
             val helpList = arrayListOf(
                 Help("Cocer Pasta",
-                    R.drawable.cortar_cebolla,
+                    R.drawable.pasta_help,
                     getString(R.string.help_pasta_preparation)))
 
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
@@ -147,7 +147,7 @@ class PastasMenu : AppCompatActivity() {
 
             val helpList = arrayListOf(
                 Help("Cocer Pasta",
-                    R.drawable.cortar_cebolla,
+                    R.drawable.pasta_help,
                     getString(R.string.help_pasta_preparation)))
 
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
@@ -180,7 +180,7 @@ class PastasMenu : AppCompatActivity() {
 
             val helpList = arrayListOf(
                 Help("Cocer Pasta",
-                    R.drawable.cortar_cebolla,
+                    R.drawable.pasta_help,
                     getString(R.string.help_pasta_preparation)))
 
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
@@ -214,7 +214,7 @@ class PastasMenu : AppCompatActivity() {
 
             val helpList = arrayListOf(
                 Help("Cocer Pasta",
-                    R.drawable.cortar_cebolla,
+                    R.drawable.pasta_help,
                     getString(R.string.help_pasta_preparation)))
 
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
@@ -248,7 +248,7 @@ class PastasMenu : AppCompatActivity() {
 
             val helpList = arrayListOf(
                 Help("Cocer Pasta",
-                    R.drawable.cortar_cebolla,
+                    R.drawable.pasta_help,
                     getString(R.string.help_pasta_preparation)))
 
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
@@ -281,7 +281,6 @@ class PastasMenu : AppCompatActivity() {
 
         startActivity(intent)
     }
-
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if(item.itemId == android.R.id.home){

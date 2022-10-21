@@ -43,7 +43,7 @@ class OniguiriActivity : AppCompatActivity() {
             val helpList = arrayListOf(
                 Help(
                     getString(R.string.help_arroz_title),
-                    R.drawable.ic_help_null,
+                    R.drawable.arroz_help,
                     getString(R.string.help_arroz_oniguiri)),
                 Help(
                     getString(R.string.help_oniguiri_title),
