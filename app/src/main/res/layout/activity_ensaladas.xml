@@ -28,4 +28,16 @@
         android:layout_marginBottom="8dp"
         android:text="@string/title_ensalada_col_mostaza_miel"/>
 
+    <TextView
+        android:id="@+id/bt_ensaladaVerdeBurrata"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:textSize="24sp"
+        android:background="@drawable/madera_boton"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:fontFamily="@font/dancin_script_regular"
+        android:layout_marginBottom="8dp"
+        android:text="@string/title_ensalada_verde_burrata"/>
+
 </LinearLayout>

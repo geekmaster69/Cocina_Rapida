@@ -926,5 +926,28 @@
         3- Coloca el relleno en el centro y envuelve con las orillas de la tortita de arroz hasta hacer una bolita, procura que el relleno se quede en el centro.\n\n
         4- Dale forma de triangulo y coloca una tira de alga nori."</string>
     <string name="azucar_jijijaija">azucar</string>
+    <string name="title_ensalada_verde_burrata">Ensalada verde con Burrata</string>
+    <string name="medio_manojo_menta">½ manojo de menta</string>
+    <string name="preparation_ensalada_verde_burrata">
+        1- Cose la pasta (básicos de esta receta).\n\n
+        2 -En un recipiente mezcla la pasta con 3 cucharadas de vinagre balsámico y deja enfriar 10 min.\n\n
+        3- Agrega las hojas de menta, las espinacas y los chicharos cocidos y mezcla.\n\n
+        4- Agrega mas vinagre balsámico y la burrata.\n\n
+        5- Disfruta.</string>
+    <string name="title_cebollas_rellenas_carne_res">Cebollas  Rellenas de Carne de res</string>
+    <string name="cebollas_rellenas_carne_molida">
+        1- Corta la cebolla de manera vertical con el tallo hacia arriba y separa las capas.\n\n
+        2- Mezcla la carne molida, el cilantro picado, el pan molido, la mezcla para carne y salpimienta al gusto.\n\n
+        3- Rellena las cebollas con la carne, presiona la carne para que queden compactas.\n\n
+        4- Dora por ambos lados con un corrito de aceite durante 5 minutos cada lado o hasta que este cocida la carne.\n\n
+        5- Disfruta.</string>
+    <string name="title_crema_calabazas_curri">Crema de Calabacitas con Curry</string>
+    <string name="preparation_crema_calabacitas_curry">
+        1- Pica las calabacitas, la cebolla y fríelas con el aceite a fuego bajo por 5min.\n\n
+        2- Agrega el curry, salpimienta al gusto y mueve por 5 minutos mas.\n\n
+        3- Agrega el agua, el cubo de caldo de pollo y deja hervir por 15min.\n\n
+        4- Licua la mezcla y regresa a la olla.\n\n
+        5- Agrega una pizca de curry, el queso crema y mueve hasta que se deshaga.\n\n
+        6- Dusfruta.</string>
 
 </resources>

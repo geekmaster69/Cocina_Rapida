@@ -348,6 +348,37 @@ class SopasActivity : AppCompatActivity() {
 
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
                 preparation, helpList)
+
+        }
+        binding.btCremaCalabazasCurri.setOnClickListener {
+            val title = getString(R.string.title_crema_calabazas_curri)
+
+            val image = R.drawable.crema_espinacas
+
+            val ingredientList = arrayListOf(
+                Ingredient("1Kg de calabazitas"),
+                Ingredient("1 cebolla"),
+                Ingredient("1 cucharada de aceite"),
+                Ingredient("2 cucharadas de curry amaraillo en polvo"),
+                Ingredient("1 cubo de caldo de pollo"),
+                Ingredient("150g de queso doble crema"),
+                Ingredient("700ml de agua"))
+
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes))
+            )
+
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
+
+            val preparation = getString(R.string.preparation_crema_calabacitas_curry)
+
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation, helpList)
         }
 
     }

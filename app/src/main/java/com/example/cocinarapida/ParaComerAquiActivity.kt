@@ -34,6 +34,10 @@ class ParaComerAquiActivity : AppCompatActivity() {
             openBebidasActivity()
         }
 
+        binding.btEntradas.setOnClickListener {
+            startActivity(Intent(this, EntradasActivity::class.java))
+        }
+
 
     }
 

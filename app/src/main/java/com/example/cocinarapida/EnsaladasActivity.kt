@@ -47,6 +47,39 @@ class EnsaladasActivity : AppCompatActivity() {
             starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
                 preparation, helpList)
         }
+
+        binding.btEnsaladaVerdeBurrata.setOnClickListener {
+            val title = getString(R.string.title_ensalada_verde_burrata)
+
+            val image = R.drawable.spaghetti_cremoso
+
+            val ingredientList = arrayListOf(
+                Ingredient("Sopa de municion 220g"),
+                Ingredient("Vinagre balsámico"),
+                Ingredient(getString(R.string.medio_manojo_menta)),
+                Ingredient("100g de espinaca"),
+                Ingredient("250g de chicharos cocidos"),
+                Ingredient("1 pieza de burrata"),
+            )
+
+            val substitutesList = arrayListOf(
+                Ingredient("Chicharos en lata"),
+                Ingredient("Chicharos congelados"),
+                Ingredient("Espinaca baby en bolsa"),
+            )
+
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
+
+            val preparation = getString(R.string.preparation_ensalada_verde_burrata)
+
+            val helpList = arrayListOf(
+                Help("Concer Pasta", R.drawable.pasta_help,
+                    getString(R.string.help_pasta_preparation)))
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation, helpList)
+        }
     }
 
 

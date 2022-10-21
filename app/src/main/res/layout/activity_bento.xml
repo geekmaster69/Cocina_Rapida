@@ -16,6 +16,11 @@
             android:src="@drawable/bento_title"
             android:layout_marginBottom="8dp"/>
 
+    <Button
+        android:id="@+id/btCerdoAgridulce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvBento"
         android:layout_width="match_parent"
