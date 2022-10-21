@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="8dp"
     android:background="@drawable/fondo_mantel"
+    android:orientation="vertical"
     tools:context=".Bento">
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
 
         <ImageView
             android:layout_width="match_parent"
@@ -21,18 +16,13 @@
             android:src="@drawable/bento_title"
             android:layout_marginBottom="8dp"/>
 
-        <TextView
-            android:id="@+id/btCerdoAgridulce"
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:textSize="32sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"
-            android:fontFamily="@font/dancin_script_regular"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_bento_cerdo_agridulce"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvBento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
-    </LinearLayout>
 
-</ScrollView>
+
+
+
+</LinearLayout>
