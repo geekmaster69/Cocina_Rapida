@@ -381,6 +381,96 @@ class SopasActivity : AppCompatActivity() {
                 preparation, helpList)
         }
 
+        binding.btCremaZanahorias.setOnClickListener {
+            val title = getString(R.string.title_crema_zanahorias)
+
+            val image = R.drawable.crema_espinacas
+
+            val ingredientList = arrayListOf(
+                Ingredient("4 zanahorias"),
+                Ingredient("1 cebolla"),
+                Ingredient("1 manojo de cilantro"),
+                Ingredient("150g de qeso crema"),
+                Ingredient("sal y pimienta al gusto"))
+
+            val substitutesList = arrayListOf(
+                Ingredient("pure de papa en polvo"),
+                Ingredient("crema de cacahuate sin azúcar"))
+
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
+
+            val preparation = getString(R.string.preparation_crema_zanahoria)
+
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation, helpList)
+        }
+
+        binding.btSopaManzana.setOnClickListener {
+            val title = getString(R.string.title_sopa_manzana_camote_jengibre)
+
+            val image = R.drawable.crema_espinacas
+
+            val ingredientList = arrayListOf(
+                Ingredient("2 manzanas"),
+                Ingredient("1 cebolla"),
+                Ingredient("1 camote"),
+                Ingredient("2 cm de jengibre"),
+                Ingredient("3 cucharadas de leche de coco"),
+                Ingredient("agua"),
+                Ingredient("aceite"))
+
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
+
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
+
+            val preparation = getString(R.string.preparation_sopa_manzana_camote)
+
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation, helpList)
+        }
+
+        binding.btSopaEspinacasComino.setOnClickListener {
+            val title = getString(R.string.title_sopa_espinacas_comino)
+
+            val image = R.drawable.crema_espinacas
+
+            val ingredientList = arrayListOf(
+                Ingredient("3 papas"),
+                Ingredient("300g de espinacas"),
+                Ingredient("250ml de leche"),
+                Ingredient("1 caharada de comino en polvo"),
+                Ingredient("2 cucharas de aceite"),
+                Ingredient("agua"),
+                Ingredient("150g de queso doble crema"),
+                Ingredient("sal y pimienta al gusto"))
+
+            val substitutesList = arrayListOf(
+                Ingredient(getString(R.string.no_subtitutes)))
+
+            val optionsList = arrayListOf(
+                Ingredient(getString(R.string.no_optios)))
+
+            val preparation = getString(R.string.preparation_sopa_espicancas_comino)
+
+            val helpList = arrayListOf(
+                Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                    getString(R.string.no_help_suggestion_description)))
+
+            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
+                preparation, helpList)
+        }
+
     }
     private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,
                                            substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>,

@@ -154,6 +154,42 @@
             android:background="@drawable/madera_boton"
             android:text="@string/title_crema_calabazas_curri"/>
 
+        <TextView
+            android:id="@+id/bt_crema_zanahorias"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="40sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:fontFamily="@font/dancin_script_regular"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_crema_zanahorias"/>
+
+        <TextView
+            android:id="@+id/bt_sopa_manzana"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="40sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:fontFamily="@font/dancin_script_regular"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_sopa_manzana_camote_jengibre"/>
+
+        <TextView
+            android:id="@+id/bt_sopa_espinacas_comino"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:textSize="40sp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:fontFamily="@font/dancin_script_regular"
+            android:textColor="@color/white"
+            android:background="@drawable/madera_boton"
+            android:text="@string/title_sopa_espinacas_comino"/>
+
 
 
 

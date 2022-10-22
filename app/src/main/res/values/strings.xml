@@ -946,8 +946,26 @@
         1- Pica las calabacitas, la cebolla y fríelas con el aceite a fuego bajo por 5min.\n\n
         2- Agrega el curry, salpimienta al gusto y mueve por 5 minutos mas.\n\n
         3- Agrega el agua, el cubo de caldo de pollo y deja hervir por 15min.\n\n
-        4- Licua la mezcla y regresa a la olla.\n\n
+        4- Vierte todo el contenido a la licuadora, licua y regresa a la olla.\n\n
         5- Agrega una pizca de curry, el queso crema y mueve hasta que se deshaga.\n\n
         6- Dusfruta.</string>
+    <string name="title_crema_zanahorias">Crema de Zanahorias</string>
+    <string name="preparation_crema_zanahoria">
+        1-Pica la zanahoria y la cebolla en cubos pequeños.\n\n
+        2-Coloca los cubitos en una olla, salpimiéntalos y cúbrelos con agua al ras, ponlos a hervir por 30min.\n\n
+        3-Licua las zanahorias hervidas y regresa a la olla, agrega el queso crema y mueve hasta que se deshaga.\n\n
+        4-Sirve. Agrega cilantro finamente picado. "</string>
+    <string name="title_sopa_manzana_camote_jengibre">Sopa de manzana, Camote y Jengibre</string>
+    <string name="preparation_sopa_manzana_camote">
+        1-Pica finamente la cebolla y en una olla sofríela con aceite por 5 minutos a fuego medio.\n\n
+        2-Pica en cubos pequeños las manzanas, el camote y el jengibre, agrégalos a la olla y cubre con agua al ras. Deja hervir por 30min a fuego medio.\n\n
+        3-Vierte todo el contenido de la olla en una licuadora y agrega 3 cucharadas de leche de coco. Licua.\n\n
+        4-Sirve y disfruta. "</string>
+    <string name="title_sopa_espinacas_comino">Sopa de Espinacas y Comino</string>
+    <string name="preparation_sopa_espicancas_comino">
+        1-Corta las papas en cubos pequeños ponlas en una olla, agrega las espinacas y cúbrelas con agua al ras. Deja hervir por 15min a fuego medio.\n\n
+        2-Agrega la leche y el comino y mezcla a fuego medio por otros 15min.\n\n
+        3-Vierte todo el contenido en una licuadora, agrega el queso crema, el aceite, salpimienta y licua.\n\n
+        4-Sirve y disfruta.</string>
 
 </resources>
