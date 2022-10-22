@@ -3,7 +3,7 @@ package com.example.cocinarapida
 import android.content.res.Resources
 import android.content.Context
 
-class BentoProvider() {
+class BentoProvider {
     companion object{
         val bentoList = arrayListOf(
             Recipe(Resources.getSystem().getString(R.string.title_bento_cerdo_agridulce),

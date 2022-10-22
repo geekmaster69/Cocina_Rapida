@@ -5,12 +5,16 @@ import android.os.Bundle
 import android.view.MenuItem
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.cocinarapida.adapter.ReceipeClickListener
+import com.example.cocinarapida.adapter.RecipeAdapter
 import com.example.cocinarapida.databinding.ActivityBentoBinding
 import java.io.Serializable
 import java.util.ArrayList
 
-class Bento : AppCompatActivity() {
+class Bento : AppCompatActivity(), ReceipeClickListener {
     private lateinit var binding: ActivityBentoBinding
+    private lateinit var recipeAdapter: RecipeAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityBentoBinding.inflate(layoutInflater)
@@ -19,76 +23,71 @@ class Bento : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        binding.btCerdoAgridulce.setOnClickListener {
-
-            val title = getString(R.string.title_bento_cerdo_agridulce)
-
-            val image = R.drawable.bento_cerdo_agridulce
-
-            val ingredientList = arrayListOf(
-                Ingredient("1kg de filete de cerdo"),
-                Ingredient("2 cucharadas de salsa de soya"),
-                Ingredient("1 cucharada de pimienta"),
-                Ingredient("1 huevo"),
-                Ingredient("harina de trigo"),
-                Ingredient("aceite para freír"),
-                Ingredient("1 cuchara de ajo picado"),
-                Ingredient("1 cucharada de jengibre picado"),
-                Ingredient("1 taza de jugo de naranja natural"),
-                Ingredient("3 cucharadas de azúcar"),
-                Ingredient("2 cucharadas de vinagre blanco"),
-                Ingredient("2 cucharadas de puré de tomate"),
-                Ingredient("4 cucharadas de salsa de soya"),
-                Ingredient("2 cucharadas de agua"),
-                Ingredient("2 cucharadas de maizena"))
-
-            val substitutesList = arrayListOf(
-                Ingredient("frasco de ajo picado"),
-                Ingredient("jugo de naranja en tetrapack"),
-                Ingredient("stevia"),
-                Ingredient("ketchup"))
-
-            val optionsList = arrayListOf(
-                Ingredient("cebollín"),
-                Ingredient("semillas de sésamo"))
-
-            val preparation =  getString(R.string.cerdo_agridulce_preparation)
-
-            val helpList = arrayListOf(
-                Help("Sin sugerencias", R.drawable.ic_help_null, "No hay sugerencias disponibles"))
-
-            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation, helpList)
+        val recipeList = arrayListOf<Recipe>(
+            Recipe(
+                getString(R.string.title_bento_cerdo_agridulce),
+                R.drawable.bento_cerdo_agridulce,
+                arrayListOf(
+                    Ingredient("1kg de filete de cerdo"),
+                    Ingredient("2 cucharadas de salsa de soya"),
+                    Ingredient("1 cucharada de pimienta"),
+                    Ingredient("1 huevo"),
+                    Ingredient("harina de trigo"),
+                    Ingredient("aceite para freír"),
+                    Ingredient("1 cuchara de ajo picado"),
+                    Ingredient("1 cucharada de jengibre picado"),
+                    Ingredient("1 taza de jugo de naranja natural"),
+                    Ingredient("3 cucharadas de azúcar"),
+                    Ingredient("2 cucharadas de vinagre blanco"),
+                    Ingredient("2 cucharadas de puré de tomate"),
+                    Ingredient("4 cucharadas de salsa de soya"),
+                    Ingredient("2 cucharadas de agua"),
+                    Ingredient("2 cucharadas de maizena")),
+                arrayListOf(
+                    Ingredient("frasco de ajo picado"),
+                    Ingredient("jugo de naranja en tetrapack"),
+                    Ingredient("stevia"),
+                    Ingredient("ketchup")),
+                arrayListOf(
+                    Ingredient("cebollín"),
+                    Ingredient("semillas de sésamo")),
+                getString(R.string.cerdo_agridulce_preparation),
+                arrayListOf(
+                    Help("Sin sugerencias",
+                        R.drawable.ic_help_null,
+                        "No hay sugerencias disponibles")))
+        )
+        recipeAdapter = RecipeAdapter(recipeList, this)
+        binding.rvBento.apply {
+            layoutManager = LinearLayoutManager(this@Bento)
+            adapter = recipeAdapter
         }
 
+        }
 
-
-    }
-
-    fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,
-        substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>,
-                                           preparation: String, helpList:ArrayList<Help>) {
+    override fun recipeOnClickListener(recipe: Recipe) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
         intent.putExtra("title", title)
-        intent.putExtra("img_top_recipe", image)
+        intent.putExtra("img_top_recipe", recipe.image)
 
         val args = Bundle()
-        args.putSerializable("ARRAYLIST", ingredientList as Serializable)
+        args.putSerializable("ARRAYLIST", recipe.ingredients as Serializable)
         intent.putExtra("BUNDLE", args)
 
-        args.putSerializable("SubstituteList", substituteList as Serializable)
+        args.putSerializable("SubstituteList", recipe.substitutes as Serializable)
         intent.putExtra("SubstituteListBundle", args)
 
-        args.putSerializable("OptionalList", optionsList as Serializable)
+        args.putSerializable("OptionalList", recipe.optional as Serializable)
         intent.putExtra("OptionalListBundle", args)
 
-        args.putSerializable("HelpList", helpList as Serializable)
+        args.putSerializable("HelpList", recipe.help as Serializable)
         intent.putExtra("HelpListBundle", args)
 
-        intent.putExtra("preparation", preparation)
+        intent.putExtra("preparation", recipe.process)
 
         startActivity(intent)
+
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
