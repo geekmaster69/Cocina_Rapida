@@ -579,12 +579,12 @@
         3- Puedes decorar con ralladura de limón, dos rodajas delgadas de limón y media galleta puesta verticalmente.</string>
 
     <string name="title_cheesecake_mango_taza">Cheesecake de mango en Taza</string>
-    <string name="media_crema_4cda">"4 cucharadas de crema de leche (media crema)  "</string>
+    <string name="media_crema_4cda">4 cucharadas de crema de leche (media crema)</string>
     <string name="azucar">azucar</string>
-    <string name="esencia_vainilla">"esencia de vainilla  "</string>
-    <string name="mango_manila">"mango manila maduro "</string>
-    <string name="galettas_vainilla">"galletas de vainilla "</string>
-    <string name="mermelada_mango">"mermelada de mango  "</string>
+    <string name="esencia_vainilla">esencia de vainilla</string>
+    <string name="mango_manila">mango manila maduro</string>
+    <string name="galettas_vainilla">galletas de vainilla</string>
+    <string name="mermelada_mango">mermelada de mango</string>
     <string name="cheesecake_mango_taza_preparation">
         1- Mezcla el queso crema, la crema de leche, el azúcar y la vainilla hasta que quede homogéneo. \n\n
         2- Tritura las galletas y mezcla con mantequilla derretida hasta que quede homogéneo.\n\n
@@ -595,7 +595,7 @@
     <string name="title_arroz_leche">Arroz con Leche</string>
     <string name="raja_canela">"1 raja de canela  "</string>
     <string name="arroz_1tz">"1 taza de arroz  "</string>
-    <string name="leche_condensada_1lata">"1 lata de leche condensada  "</string>
+    <string name="leche_condensada_1lata">"1 lata de leche condensada </string>
     <string name="leche_evaporada_1lata">"1 lata de leche evaporada "</string>
     <string name="canela_molida_1_2cda">"½ cucharada de canela molida  "</string>
     <string name="pasas_1_2tz">"½ taza de pasas.  "</string>
@@ -751,11 +751,11 @@
 
     <string name="title_limonada_frutos_rojos">Limonada de Frutos Rojos</string>
     <string name="frutos_rojos_congelados_1tz">1 taza de frutos rojos congelados</string>
-    <string name="jugo_linos_1_4tz">"¼ de taza de jugo de limón "</string>
+    <string name="jugo_linos_1_4tz">¼ de taza de jugo de limón</string>
     <string name="jarabe_natural_1cda">1 cucharada de ajrabe natural</string>
-    <string name="agua_agua_mineral_1tz">"1 taza de agua o agua mineral  "</string>
-    <string name="consentrado_jugo_limon">"concentrado de jugo de limón, sustituye al jugo de limón. "</string>
-    <string name="hojas_menta">"hojas frescas de menta.  "</string>
+    <string name="agua_agua_mineral_1tz">1 taza de agua o agua mineral</string>
+    <string name="consentrado_jugo_limon">concentrado de jugo de limón, sustituye al jugo de limón</string>
+    <string name="hojas_menta">hojas frescas de menta</string>
     <string name="limonada_frutos_rojos_preparation">
         1- En un microondas descongela el puño de frutos rojos. \n\n
         2- Cuando estén derretidos triturarlos en el fondo del vaso que usarás para tu limonada. \n\n

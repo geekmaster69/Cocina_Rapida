@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="8dp"
+    android:orientation="vertical"
     android:background="@drawable/fondo_mantel"
     tools:context=".BebidasActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+
 
         <ImageView
             android:layout_width="match_parent"
@@ -20,105 +18,10 @@
             android:src="@drawable/babidas_menu"
             android:layout_marginBottom="8dp"/>
 
-        <TextView
-            android:id="@+id/btAguaJamaicaNatural"
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:textSize="32sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"
-            android:fontFamily="@font/dancin_script_regular"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_agua_jamaica_natural"/>
-
-        <TextView
-            android:id="@+id/btLimonadaFrutosRojos"
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:textSize="32sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"
-            android:fontFamily="@font/dancin_script_regular"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_limonada_frutos_rojos"/>
-
-        <TextView
-            android:id="@+id/btLatteFresaTeverdes"
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:textSize="32sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"
-            android:fontFamily="@font/dancin_script_regular"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_latte_fresa_te_verde"/>
-
-        <TextView
-            android:id="@+id/btLatteCafeBaileys"
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:textSize="32sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"
-            android:fontFamily="@font/dancin_script_regular"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_latte_cafe_baileys"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
-
-        <TextView
-            android:id="@+id/btLicuadoPinaPlatanoCoco"
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:textSize="30sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"
-            android:fontFamily="@font/dancin_script_regular"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_licuado_pina_platano_coco"/>
-
-        <TextView
-            android:id="@+id/btLicuadoGalletaOreoChocolate"
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:textSize="30sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"
-            android:fontFamily="@font/dancin_script_regular"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_licuado_oreo_chocolate"/>
-
-        <TextView
-            android:id="@+id/btLicuadoDuraznoFresaPlatano"
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:textSize="30sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"
-            android:fontFamily="@font/dancin_script_regular"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_licuado_duraazno_fresa_platano"/>
-
-        <TextView
-            android:id="@+id/btLicuadoMameyNuez"
-            android:layout_width="match_parent"
-            android:layout_height="72dp"
-            android:textSize="30sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"
-            android:fontFamily="@font/dancin_script_regular"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_licuado_mamey_nuez"/>
-
-
-    </LinearLayout>
-
-</ScrollView>
+</LinearLayout>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -10,12 +10,6 @@
     android:layout_marginBottom="8dp"
     tools:context=".SopasActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,184 +17,12 @@
             android:adjustViewBounds="true"
             android:layout_marginBottom="8dp"/>
 
-        <TextView
-            android:id="@+id/bt_sopa_verdolagas"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:fontFamily="@font/dancin_script_regular"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_sopa_verdolagas"/>
-
-        <TextView
-            android:id="@+id/bt_caldo_talpeno"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:layout_marginBottom="8dp"
-            android:gravity="center"
-            android:fontFamily="@font/dancin_script_regular"
-            android:textColor="@color/white"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_caldo_tlalpeno"/>
-
-        <TextView
-            android:id="@+id/bt_sopa_fideos"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/madera_boton"
-            android:fontFamily="@font/dancin_script_regular"
-            android:text="@string/title_sopa_fideos"/>
-
-        <TextView
-            android:id="@+id/bt_sopa_poro"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:layout_marginBottom="8dp"
-            android:gravity="center"
-            android:fontFamily="@font/dancin_script_regular"
-            android:textColor="@color/white"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_sopa_poro"/>
-
-        <TextView
-            android:id="@+id/bt_caldo_pollo"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:layout_marginBottom="8dp"
-            android:gravity="center"
-            android:fontFamily="@font/dancin_script_regular"
-            android:textColor="@color/white"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_caldo_pollo"/>
-
-        <TextView
-            android:id="@+id/bt_sopa_col"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:gravity="center"
-            android:fontFamily="@font/dancin_script_regular"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_sopa_col_tomate"/>
-        <TextView
-            android:id="@+id/bt_crema_champiñones"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:layout_marginBottom="8dp"
-            android:gravity="center"
-            android:fontFamily="@font/dancin_script_regular"
-            android:textColor="@color/white"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_crema_champinones"/>
-        <TextView
-            android:id="@+id/bt_crema_habas"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:layout_marginBottom="8dp"
-            android:gravity="center"
-            android:fontFamily="@font/dancin_script_regular"
-            android:textColor="@color/white"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_crema_habas"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
-        <TextView
-            android:id="@+id/bt_crema_espinacas"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:layout_marginBottom="8dp"
-            android:gravity="center"
-            android:fontFamily="@font/dancin_script_regular"
-            android:textColor="@color/white"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_crema_espinacas"/>
-
-        <TextView
-            android:id="@+id/bt_crema_verduras"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:layout_marginBottom="8dp"
-            android:gravity="center"
-            android:fontFamily="@font/dancin_script_regular"
-            android:textColor="@color/white"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_crema_verduras"/>
-
-        <TextView
-            android:id="@+id/bt_crema_calabazas_curri"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:layout_marginBottom="8dp"
-            android:gravity="center"
-            android:fontFamily="@font/dancin_script_regular"
-            android:textColor="@color/white"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_crema_calabazas_curri"/>
-
-        <TextView
-            android:id="@+id/bt_crema_zanahorias"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:layout_marginBottom="8dp"
-            android:gravity="center"
-            android:fontFamily="@font/dancin_script_regular"
-            android:textColor="@color/white"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_crema_zanahorias"/>
-
-        <TextView
-            android:id="@+id/bt_sopa_manzana"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:layout_marginBottom="8dp"
-            android:gravity="center"
-            android:fontFamily="@font/dancin_script_regular"
-            android:textColor="@color/white"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_sopa_manzana_camote_jengibre"/>
-
-        <TextView
-            android:id="@+id/bt_sopa_espinacas_comino"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:layout_marginBottom="8dp"
-            android:gravity="center"
-            android:fontFamily="@font/dancin_script_regular"
-            android:textColor="@color/white"
-            android:background="@drawable/madera_boton"
-            android:text="@string/title_sopa_espinacas_comino"/>
-
-
-
-
-
-
-    </LinearLayout>
-
-
-
-
-
-</ScrollView>
+</LinearLayout>
             
             

@@ -4,12 +4,16 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.cocinarapida.adapter.ReceipeClickListener
+import com.example.cocinarapida.adapter.RecipeAdapter
 import com.example.cocinarapida.databinding.ActivityPastasMenuBinding
 import java.io.Serializable
 import java.util.ArrayList
 
-class PastasMenu : AppCompatActivity() {
+class PastasMenu : AppCompatActivity(), ReceipeClickListener {
     private lateinit var binding: ActivityPastasMenuBinding
+    private lateinit var recipeAdapter: RecipeAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityPastasMenuBinding.inflate(layoutInflater)
@@ -17,269 +21,205 @@ class PastasMenu : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        binding.btPastaCamaronBlanco.setOnClickListener {
+        val recipeList = arrayListOf(
+            Recipe(
+                getString(R.string.title_spaghetti_camarones_salsa_blanca),
+                R.drawable.spaghetti_camarones,
+                arrayListOf(
+                    Ingredient(getString(R.string.camarones_precosidos_300grs)),
+                    Ingredient(getString(R.string.sal_pimineta_gusto)),
+                    Ingredient(getString(R.string.ajo_cabeza_1)),
+                    Ingredient(getString(R.string.mantequilla)),
+                    Ingredient(getString(R.string.crema)),
+                    Ingredient(getString(R.string.agua)),
+                    Ingredient(getString(R.string.pasta_espagueti)),
+                    Ingredient(getString(R.string.queso_parmesano)),
+                    Ingredient(getString(R.string.perejil))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.ajos_picados_frasco)),
+                    Ingredient(getString(R.string.perejil_seco))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.pasta_camarones_preparation),
+                arrayListOf(
+                    Help("Cocer Pasta",
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation))
+                )
+            ),
+            Recipe(
+                getString(R.string.title_spaghetti_salsa_tomate_albahaca),
+                R.drawable.spaghetti_albahaca,
+                arrayListOf(
+                    Ingredient(getString(R.string.jitomate_bola_3)),
+                    Ingredient(getString(R.string.manojo_albahaca_1)),
+                    Ingredient(getString(R.string.ajos_picados_4)),
+                    Ingredient(getString(R.string.sal_grano)),
+                    Ingredient(getString(R.string.pimienta)),
+                    Ingredient(getString(R.string.queso_parmesano))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.substitute_pasta_albahaca_1)),
+                    Ingredient(getString(R.string.pasta_albahaca_substitute_1)),
+                    Ingredient(getString(R.string.pasta_albahaca_subtitute_3))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.pasta_albahaca_preparation),
+                arrayListOf(
+                    Help("Cocer Pasta",
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation))
+                )
+            ),
+            Recipe(
+                getString(R.string.title_spaghetti_salsa_pesto),
+                R.drawable.spaghetti_pesto,
+                arrayListOf(
+                    Ingredient(getString(R.string.manojo_albahaca_1)),
+                    Ingredient(getString(R.string.queso_parmesano_cda)),
+                    Ingredient(getString(R.string.ajo_1)),
+                    Ingredient(getString(R.string.aceite_oliva_1_2_tza)),
+                    Ingredient(getString(R.string.nueces_1_4_tza)),
+                    Ingredient(getString(R.string.sal_gusto)),
+                    Ingredient(getString(R.string.spaghetti_500g))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.spaghetti_pesto_substitute))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.pan_con_mantequilla)),
+                    Ingredient(getString(R.string.ensalada_campesina))
+                ),
+                getString(R.string.spaghetti_pesto_preparation),
+                arrayListOf(
+                    Help("Cocer Pasta",
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation))
+                )
 
-            val title = getString(R.string.title_spaghetti_camarones_salsa_blanca)
+            ),
+            Recipe(
+                getString(R.string.title_spaghetti_crema_aguacate),
+                R.drawable.spaghetti_aguacate,
+                arrayListOf(
+                    Ingredient(getString(R.string.spaghetti_500g)),
+                    Ingredient(getString(R.string.cacahuates_1_3_tza)),
+                    Ingredient(getString(R.string.mente_fresca_tza_1)),
+                    Ingredient(getString(R.string.perejil_1_2_tza)),
+                    Ingredient(getString(R.string.cilantro_1_2_tza)),
+                    Ingredient(getString(R.string.ajo_1)),
+                    Ingredient(getString(R.string.limones_3)),
+                    Ingredient(getString(R.string.aguacates_grandes_1_1_2)),
+                    Ingredient(getString(R.string.aceite_oliva_1_4_tza)),
+                    Ingredient(getString(R.string.agua_coccion_pasta))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),arrayListOf(
+                    Ingredient(getString(R.string.pechuga_asada)),
+                    Ingredient(getString(R.string.queso_parmesano))
+                ),
+                getString(R.string.spaghetti_crema_aguacate_preparation),
+                arrayListOf(
+                    Help("Cocer Pasta",
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation))
+                )
+            ), Recipe(
+                getString(R.string.title_spaghetti_pimiento_rojo_cremoso),
+                R.drawable.spaghetti_pimiento,
+                arrayListOf(
+                    Ingredient(getString(R.string.spaghetti_500g)),
+                    Ingredient(getString(R.string.lata_chile_morron_1)),
+                    Ingredient(getString(R.string.cubo_caldo_pollo_1)),
+                    Ingredient(getString(R.string.mantequilla_cda_1)),
+                    Ingredient(getString(R.string.lata_media_crema_1)),
+                    Ingredient(getString(R.string.leche_10ml))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.pechuga_asada)),
+                    Ingredient(getString(R.string.pan_con_mantequilla)),
+                    Ingredient(getString(R.string.ensalada_campesina))
+                ),
+                getString(R.string.spaghetti_pimiento_cremoso_preparation),
+                arrayListOf(
+                    Help("Cocer Pasta",
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation))
+                )
+            ),
+            Recipe(
+                getString(R.string.title_spaghetti_rojo_cremoso),
+                R.drawable.spaghetti_cremoso,
+                arrayListOf(
+                    Ingredient(getString(R.string.spaghetti_500g)),
+                    Ingredient(getString(R.string.jitomate_rebanado_sin_semilla_6)),
+                    Ingredient(getString(R.string.cucharadas_aceite_2)),
+                    Ingredient(getString(R.string.sal_gusto)),
+                    Ingredient(getString(R.string.hierbas_finas_cda_1)),
+                    Ingredient(getString(R.string.pimienta_negra_molida_1_4_cda)),
+                    Ingredient(getString(R.string.leche_evaporada_250ml)),
+                    Ingredient(getString(R.string.cubo_caldo_pollo_1))
+                ),
+                arrayListOf(Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.pechuga_asada)),
+                    Ingredient(getString(R.string.albondigas)),
+                    Ingredient(getString(R.string.ensalada_campesina))
+                ),
+                getString(R.string.spaghetti_rojo_cremoso_preparation),
+                arrayListOf(
+                    Help("Cocer Pasta",
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation))
+                )
+            ),
+            Recipe(
+                getString(R.string.title_pizza_multi_color),
+                R.drawable.spaghetti_cremoso,
+                arrayListOf(
+                    Ingredient(getString(R.string.harina_1tz)),
+                    Ingredient(getString(R.string.agua_1tz)),
+                    Ingredient(getString(R.string.sal_1cda)),
+                    Ingredient(getString(R.string.azucar_1cda)),
+                    Ingredient(getString(R.string.polvo_hornear_1cda)),
+                    Ingredient(getString(R.string.aceite_1cda)),
+                    Ingredient(getString(R.string.mezcla_queso_rayado)),
+                    Ingredient(getString(R.string.jitomate_cherry_colores_180g)),
+                    Ingredient(getString(R.string.manojo_albahaca_1)),
+                    Ingredient(getString(R.string.sal_grano)),
+                    Ingredient(getString(R.string.aceite_oliva_4cda))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.jitomate_bola_saladet))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.pizza_multi_color_preparation),
+                arrayListOf(
+                    Help("Cocer Pasta",
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation))
+                )
+            )
+        )
 
-            val image = R.drawable.spaghetti_camarones
-
-            val ingredientList = arrayListOf(
-                Ingredient(getString(R.string.camarones_precosidos_300grs)),
-                Ingredient(getString(R.string.sal_pimineta_gusto)),
-                Ingredient(getString(R.string.ajo_cabeza_1)),
-                Ingredient(getString(R.string.mantequilla)),
-                Ingredient(getString(R.string.crema)),
-                Ingredient(getString(R.string.agua)),
-                Ingredient(getString(R.string.pasta_espagueti)),
-                Ingredient(getString(R.string.queso_parmesano)),
-                Ingredient(getString(R.string.perejil)))
-
-            val substitutesList = arrayListOf(
-                Ingredient(getString(R.string.ajos_picados_frasco)),
-                Ingredient(getString(R.string.perejil_seco)))
-
-            val optionsList = arrayListOf(
-                Ingredient(getString(R.string.no_optios)))
-
-            val preparation = getString(R.string.pasta_camarones_preparation)
-
-            val helpList = arrayListOf(
-                Help("Cocer Pasta",
-                    R.drawable.pasta_help,
-                    getString(R.string.help_pasta_preparation)))
-
-            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation, helpList)
+        recipeAdapter = RecipeAdapter(recipeList, this)
+        binding.rvRecipe.apply {
+            layoutManager = LinearLayoutManager(this@PastasMenu)
+            adapter = recipeAdapter
         }
 
-        binding.btPastaTomateAlbahaca.setOnClickListener {
-
-            val title = getString(R.string.title_spaghetti_salsa_tomate_albahaca)
-
-            val image = R.drawable.spaghetti_albahaca
-
-            val ingredientList = arrayListOf(
-               Ingredient(getString(R.string.jitomate_bola_3)),
-                Ingredient(getString(R.string.manojo_albahaca_1)),
-                Ingredient(getString(R.string.ajos_picados_4)),
-                Ingredient(getString(R.string.sal_grano)),
-                Ingredient(getString(R.string.pimienta)),
-                Ingredient(getString(R.string.queso_parmesano)))
-
-            val substitutesList = arrayListOf(
-                Ingredient(getString(R.string.substitute_pasta_albahaca_1)),
-                Ingredient(getString(R.string.pasta_albahaca_substitute_1)),
-                Ingredient(getString(R.string.pasta_albahaca_subtitute_3)))
-
-            val optionsList = arrayListOf(
-                Ingredient(getString(R.string.no_optios)))
-
-            val preparation = getString(R.string.pasta_albahaca_preparation)
-
-            val helpList = arrayListOf(
-                Help("Cocer Pasta",
-                    R.drawable.pasta_help,
-                    getString(R.string.help_pasta_preparation)))
-
-            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation, helpList)
-
-        }
-        binding.btPastaSalsaPesto.setOnClickListener {
-
-            val title = getString(R.string.title_spaghetti_salsa_pesto)
-
-            val image = R.drawable.spaghetti_pesto
-
-            val ingredientList = arrayListOf(
-                Ingredient(getString(R.string.manojo_albahaca_1)),
-                Ingredient(getString(R.string.queso_parmesano_cda)),
-                Ingredient(getString(R.string.ajo_1)),
-                Ingredient(getString(R.string.aceite_oliva_1_2_tza)),
-                Ingredient(getString(R.string.nueces_1_4_tza)),
-                Ingredient(getString(R.string.sal_gusto)),
-                Ingredient(getString(R.string.spaghetti_500g)))
-
-            val substitutesList = arrayListOf(
-                Ingredient(getString(R.string.spaghetti_pesto_substitute)))
-
-            val optionsList = arrayListOf(
-                Ingredient(getString(R.string.pan_con_mantequilla)),
-                Ingredient(getString(R.string.ensalada_campesina)))
-
-            val preparation = getString(R.string.spaghetti_pesto_preparation)
-
-            val helpList = arrayListOf(
-                Help("Cocer Pasta",
-                    R.drawable.pasta_help,
-                    getString(R.string.help_pasta_preparation)))
-
-            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation, helpList)
-        }
-
-        binding.btSpaghettiCremaAguacate.setOnClickListener {
-
-            val title = getString(R.string.title_spaghetti_crema_aguacate)
-
-            val image = R.drawable.spaghetti_aguacate
-
-            val ingredientList = arrayListOf(
-                Ingredient(getString(R.string.spaghetti_500g)),
-                Ingredient(getString(R.string.cacahuates_1_3_tza)),
-                Ingredient(getString(R.string.mente_fresca_tza_1)),
-                Ingredient(getString(R.string.perejil_1_2_tza)),
-                Ingredient(getString(R.string.cilantro_1_2_tza)),
-                Ingredient(getString(R.string.ajo_1)),
-                Ingredient(getString(R.string.limones_3)),
-                Ingredient(getString(R.string.aguacates_grandes_1_1_2)),
-                Ingredient(getString(R.string.aceite_oliva_1_4_tza)),
-                Ingredient(getString(R.string.agua_coccion_pasta)))
-
-            val substitutesList = arrayListOf(
-                Ingredient(getString(R.string.no_subtitutes)))
-
-            val optionsList = arrayListOf(
-                Ingredient(getString(R.string.pechuga_asada)),
-                Ingredient(getString(R.string.queso_parmesano)))
-
-            val preparation = getString(R.string.spaghetti_crema_aguacate_preparation)
-
-            val helpList = arrayListOf(
-                Help("Cocer Pasta",
-                    R.drawable.pasta_help,
-                    getString(R.string.help_pasta_preparation)))
-
-            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation, helpList)
-        }
-
-        binding.btSpaghettiPimientosCremoso.setOnClickListener {
-
-            val title = getString(R.string.title_spaghetti_pimiento_rojo_cremoso)
-
-            val image = R.drawable.spaghetti_pimiento
-
-            val ingredientList = arrayListOf(
-                Ingredient(getString(R.string.spaghetti_500g)),
-                Ingredient(getString(R.string.lata_chile_morron_1)),
-                Ingredient(getString(R.string.cubo_caldo_pollo_1)),
-                Ingredient(getString(R.string.mantequilla_cda_1)),
-                Ingredient(getString(R.string.lata_media_crema_1)),
-                Ingredient(getString(R.string.leche_10ml)))
-
-            val substitutesList = arrayListOf(
-                Ingredient(getString(R.string.no_subtitutes)))
-
-            val optionsList = arrayListOf(
-                Ingredient(getString(R.string.pechuga_asada)),
-                Ingredient(getString(R.string.pan_con_mantequilla)),
-                Ingredient(getString(R.string.ensalada_campesina)))
-
-            val preparation = getString(R.string.spaghetti_pimiento_cremoso_preparation)
-
-            val helpList = arrayListOf(
-                Help("Cocer Pasta",
-                    R.drawable.pasta_help,
-                    getString(R.string.help_pasta_preparation)))
-
-            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation, helpList)
-        }
-
-        binding.btSpaghettiRojoCremoso.setOnClickListener {
-
-            val title = getString(R.string.title_spaghetti_rojo_cremoso)
-
-            val image = R.drawable.spaghetti_cremoso
-
-            val ingredientList = arrayListOf(
-                Ingredient(getString(R.string.spaghetti_500g)),
-                Ingredient(getString(R.string.jitomate_rebanado_sin_semilla_6)),
-                Ingredient(getString(R.string.cucharadas_aceite_2)),
-                Ingredient(getString(R.string.sal_gusto)),
-                Ingredient(getString(R.string.hierbas_finas_cda_1)),
-                Ingredient(getString(R.string.pimienta_negra_molida_1_4_cda)),
-                Ingredient(getString(R.string.leche_evaporada_250ml)),
-                Ingredient(getString(R.string.cubo_caldo_pollo_1)))
-
-            val substitutesList = arrayListOf(Ingredient(getString(R.string.no_subtitutes)))
-
-            val optionsList = arrayListOf(
-                Ingredient(getString(R.string.pechuga_asada)),
-                Ingredient(getString(R.string.albondigas)),
-                Ingredient(getString(R.string.ensalada_campesina)))
-
-            val preparation = getString(R.string.spaghetti_rojo_cremoso_preparation)
-
-            val helpList = arrayListOf(
-                Help("Cocer Pasta",
-                    R.drawable.pasta_help,
-                    getString(R.string.help_pasta_preparation)))
-
-            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation, helpList)
-        }
-        binding.btPizzaMultiComor.setOnClickListener {
-
-            val title = getString(R.string.title_pizza_multi_color)
-
-            val image = R.drawable.spaghetti_cremoso
-
-            val ingredientList = arrayListOf(
-                Ingredient(getString(R.string.harina_1tz)),
-                Ingredient(getString(R.string.agua_1tz)),
-                Ingredient(getString(R.string.sal_1cda)),
-                Ingredient(getString(R.string.azucar_1cda)),
-                Ingredient(getString(R.string.polvo_hornear_1cda)),
-                Ingredient(getString(R.string.aceite_1cda)),
-                Ingredient(getString(R.string.mezcla_queso_rayado)),
-                Ingredient(getString(R.string.jitomate_cherry_colores_180g)),
-                Ingredient(getString(R.string.manojo_albahaca_1)),
-                Ingredient(getString(R.string.sal_grano)),
-                Ingredient(getString(R.string.aceite_oliva_4cda)))
-
-            val substitutesList = arrayListOf(Ingredient(getString(R.string.jitomate_bola_saladet)))
-
-            val optionsList = arrayListOf(
-                Ingredient(getString(R.string.no_optios)))
-
-            val preparation = getString(R.string.pizza_multi_color_preparation)
-
-            val helpList = arrayListOf(
-                Help("Cocer Pasta",
-                    R.drawable.pasta_help,
-                    getString(R.string.help_pasta_preparation)))
-
-            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation, helpList)
-        }
-    }
-
-    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,
-                                           substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>,
-                                           preparation: String, helpList:ArrayList<Help>) {
-
-        val intent = Intent(this, RecipeTemplateActivity::class.java)
-        intent.putExtra("title", title)
-        intent.putExtra("img_top_recipe", image)
-
-        val args = Bundle()
-        args.putSerializable("ARRAYLIST", ingredientList as Serializable)
-        intent.putExtra("BUNDLE", args)
-
-        args.putSerializable("SubstituteList", substituteList as Serializable)
-        intent.putExtra("SubstituteListBundle", args)
-
-        args.putSerializable("OptionalList", optionsList as Serializable)
-        intent.putExtra("OptionalListBundle", args)
-
-        args.putSerializable("HelpList", helpList as Serializable)
-        intent.putExtra("HelpListBundle", args)
-
-        intent.putExtra("preparation", preparation)
-
-        startActivity(intent)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -287,5 +227,29 @@ class PastasMenu : AppCompatActivity() {
             onBackPressed()
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun recipeOnClickListener(recipe: Recipe) {
+
+        val intent = Intent(this, RecipeTemplateActivity::class.java)
+        intent.putExtra("title", title)
+        intent.putExtra("img_top_recipe", recipe.image)
+
+        val args = Bundle()
+        args.putSerializable("ARRAYLIST", recipe.ingredients as Serializable)
+        intent.putExtra("BUNDLE", args)
+
+        args.putSerializable("SubstituteList", recipe.substitutes as Serializable)
+        intent.putExtra("SubstituteListBundle", args)
+
+        args.putSerializable("OptionalList", recipe.optional as Serializable)
+        intent.putExtra("OptionalListBundle", args)
+
+        args.putSerializable("HelpList", recipe.help as Serializable)
+        intent.putExtra("HelpListBundle", args)
+
+        intent.putExtra("preparation", recipe.process)
+
+        startActivity(intent)
     }
 }

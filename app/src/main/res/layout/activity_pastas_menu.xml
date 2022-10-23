@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,10 +9,7 @@
     android:background="@drawable/fondo_mantel"
     tools:context=".PastasMenu">
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+
 
             <ImageView
                 android:layout_width="match_parent"
@@ -21,94 +18,13 @@
                 android:adjustViewBounds="true"
                 android:layout_marginBottom="16dp"/>
 
-            <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/bt_pasta_camaron_blanco"
-                android:layout_width="match_parent"
-                android:layout_height="64dp"
-                android:textSize="24sp"
-                android:background="@drawable/madera_boton"
-                android:gravity="center"
-                android:textColor="@color/white"
-                android:fontFamily="@font/dancin_script_regular"
-                android:layout_marginBottom="8dp"
-                android:text="@string/title_spaghetti_camarones_salsa_blanca"/>
-
-            <androidx.appcompat.widget.AppCompatTextView
-                android:id="@+id/bt_pasta_tomate_albahaca"
-                android:layout_width="match_parent"
-                android:layout_height="64dp"
-                android:textSize="24sp"
-                android:gravity="center"
-                android:textColor="@color/white"
-                android:fontFamily="@font/dancin_script_regular"
-                android:background="@drawable/madera_boton"
-                android:layout_marginBottom="8dp"
-                android:text="@string/title_spaghetti_salsa_tomate_albahaca"/>
-
-            <TextView
-                android:id="@+id/bt_pasta_salsa_pesto"
-                android:layout_width="match_parent"
-                android:layout_height="64dp"
-                android:textSize="24sp"
-                android:gravity="center"
-                android:background="@drawable/madera_boton"
-                android:textColor="@color/white"
-                android:layout_marginBottom="8dp"
-                android:fontFamily="@font/dancin_script_regular"
-                android:text="@string/title_spaghetti_salsa_pesto"/>
-
-            <TextView
-                android:id="@+id/bt_spaghetti_crema_aguacate"
-                android:layout_width="match_parent"
-                android:layout_height="64dp"
-                android:textSize="24sp"
-                android:gravity="center"
-                android:background="@drawable/madera_boton"
-                android:textColor="@color/white"
-                android:layout_marginBottom="8dp"
-                android:fontFamily="@font/dancin_script_regular"
-                android:text="@string/title_spaghetti_crema_aguacate"/>
-            <TextView
-                android:id="@+id/bt_spaghetti_pimientos_cremoso"
-                android:layout_width="match_parent"
-                android:layout_height="64dp"
-                android:textSize="24sp"
-                android:gravity="center"
-                android:background="@drawable/madera_boton"
-                android:textColor="@color/white"
-                android:layout_marginBottom="8dp"
-                android:fontFamily="@font/dancin_script_regular"
-                android:text="@string/title_spaghetti_pimiento_rojo_cremoso"/>
-
-            <TextView
-                android:id="@+id/bt_spaghetti_rojo_cremoso"
-                android:layout_width="match_parent"
-                android:layout_height="64dp"
-                android:textSize="24sp"
-                android:gravity="center"
-                android:background="@drawable/madera_boton"
-                android:textColor="@color/white"
-                android:layout_marginBottom="8dp"
-                android:fontFamily="@font/dancin_script_regular"
-                android:text="@string/title_spaghetti_rojo_cremoso"/>
-
-            <TextView
-                android:id="@+id/bt_pizza_multi_comor"
-                android:layout_width="match_parent"
-                android:layout_height="64dp"
-                android:textSize="24sp"
-                android:gravity="center"
-                android:background="@drawable/madera_boton"
-                android:textColor="@color/white"
-                android:layout_marginBottom="8dp"
-                android:fontFamily="@font/dancin_script_regular"
-                android:text="@string/title_pizza_multi_color"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
 
 
-        </LinearLayout>
 
-
-
-</ScrollView>
+</LinearLayout>

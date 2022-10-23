@@ -55,7 +55,8 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Help("Sin sugerencias",
                         R.drawable.ic_help_null,
-                        "No hay sugerencias disponibles")))
+                        "No hay sugerencias disponibles"))
+            )
         )
         recipeAdapter = RecipeAdapter(recipeList, this)
         binding.rvBento.apply {
@@ -63,7 +64,7 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
             adapter = recipeAdapter
         }
 
-        }
+    }
 
     override fun recipeOnClickListener(recipe: Recipe) {
 
