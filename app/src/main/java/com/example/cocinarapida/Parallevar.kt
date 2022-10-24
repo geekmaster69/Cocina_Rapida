@@ -12,6 +12,7 @@ class Parallevar : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityParallevarBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         binding.btBento.setOnClickListener {

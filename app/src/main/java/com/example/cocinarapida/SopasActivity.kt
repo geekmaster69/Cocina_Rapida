@@ -202,7 +202,7 @@ class SopasActivity : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 getString(R.string.title_crema_verduras),
-                R.drawable.crema_verduras,
+                R.drawable.crema_verduras_2,
                 arrayListOf(
                     Ingredient(getString(R.string.mezcla_verduras_500g)),
                     Ingredient(getString(R.string.caldo_pollo_1_2l)),
@@ -226,7 +226,7 @@ class SopasActivity : AppCompatActivity(), ReceipeClickListener {
                 )
             ),
             Recipe(
-                getString(R.string.title_crema_verduras),
+                getString(R.string.title_caldo_tlalpeno),
                 R.drawable.caldo_tlalpeno,
                 arrayListOf(
                     Ingredient(getString(R.string.piernas_pollo_sin_piel_2)),
@@ -261,7 +261,7 @@ class SopasActivity : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 getString(R.string.title_crema_calabazas_curri),
-                R.drawable.crema_espinacas,
+                R.drawable.crema_calabazas_currry,
                 arrayListOf(
                     Ingredient("1Kg de calabazitas"),
                     Ingredient("1 cebolla"),
@@ -285,7 +285,7 @@ class SopasActivity : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 getString(R.string.title_crema_zanahorias),
-                R.drawable.crema_espinacas,
+                R.drawable.crema_zanahoria,
                 arrayListOf(
                     Ingredient("4 zanahorias"),
                     Ingredient("1 cebolla"),
@@ -308,7 +308,7 @@ class SopasActivity : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 getString(R.string.title_sopa_manzana_camote_jengibre),
-                R.drawable.crema_espinacas,
+                R.drawable.crema_manzana_camote,
                 arrayListOf(
                     Ingredient("2 manzanas"),
                     Ingredient("1 cebolla"),
@@ -332,7 +332,7 @@ class SopasActivity : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 getString(R.string.title_sopa_espinacas_comino),
-                R.drawable.crema_espinacas,
+                R.drawable.crema_espinacas_comino,
                 arrayListOf(
                     Ingredient("3 papas"),
                     Ingredient("300g de espinacas"),
@@ -374,7 +374,7 @@ class SopasActivity : AppCompatActivity(), ReceipeClickListener {
     override fun recipeOnClickListener(recipe: Recipe) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
-        intent.putExtra("title", title)
+        intent.putExtra("title",  recipe.title)
         intent.putExtra("img_top_recipe", recipe.image)
 
         val args = Bundle()

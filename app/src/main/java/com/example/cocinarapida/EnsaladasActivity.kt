@@ -23,7 +23,7 @@ class EnsaladasActivity : AppCompatActivity(), ReceipeClickListener {
         val recipeList = arrayListOf(
             Recipe(
                 getString(R.string.title_ensalada_col_mostaza_miel),
-                R.drawable.spaghetti_cremoso,
+                R.drawable.ensalada_col_mostaza,
                 arrayListOf(
                     Ingredient(getString(R.string.huevo_1)),
                     Ingredient(getString(R.string.mostaza_miel_1cda)),
@@ -49,7 +49,7 @@ class EnsaladasActivity : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 getString(R.string.title_ensalada_verde_burrata),
-                R.drawable.spaghetti_cremoso,
+                R.drawable.ensalada_burrata,
                 arrayListOf(
                     Ingredient("Sopa de municion 220g"),
                     Ingredient("Vinagre balsámico"),
@@ -92,7 +92,7 @@ class EnsaladasActivity : AppCompatActivity(), ReceipeClickListener {
     override fun recipeOnClickListener(recipe: Recipe) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
-        intent.putExtra("title", title)
+        intent.putExtra("title",  recipe.title)
         intent.putExtra("img_top_recipe", recipe.image)
 
         val args = Bundle()

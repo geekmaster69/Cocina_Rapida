@@ -185,7 +185,7 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 getString(R.string.title_pizza_multi_color),
-                R.drawable.spaghetti_cremoso,
+                R.drawable.pizza_multicolor,
                 arrayListOf(
                     Ingredient(getString(R.string.harina_1tz)),
                     Ingredient(getString(R.string.agua_1tz)),
@@ -232,7 +232,7 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
     override fun recipeOnClickListener(recipe: Recipe) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
-        intent.putExtra("title", title)
+        intent.putExtra("title",  recipe.title)
         intent.putExtra("img_top_recipe", recipe.image)
 
         val args = Bundle()

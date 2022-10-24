@@ -43,7 +43,7 @@ class BebidasActivity : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 getString(R.string.title_limonada_frutos_rojos),
-                R.drawable.agua_jamaica_natural,
+                R.drawable.limonada_frutos_rojos,
                 arrayListOf(
                     Ingredient(getString(R.string.frutos_rojos_congelados_1tz)),
                     Ingredient(getString(R.string.jugo_limon_1_4tz)),
@@ -113,7 +113,7 @@ class BebidasActivity : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 getString(R.string.title_licuado_pina_platano_coco),
-                R.drawable.licuado_mango_crema_coco,
+                R.drawable.licuado_piana_platano,
                 arrayListOf(
                     Ingredient(getString(R.string.ralladura_coco_1_2tz)),
                     Ingredient(getString(R.string.leche_coco_1_2tz)),
@@ -138,7 +138,7 @@ class BebidasActivity : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 getString(R.string.title_licuado_oreo_chocolate),
-                R.drawable.licuado_mango_crema_coco,
+                R.drawable.licuado_oreo,
                 arrayListOf(
                     Ingredient(getString(R.string.chocolate_liquido)),
                     Ingredient(getString(R.string.galletas_chocolate_6pz)),
@@ -160,7 +160,7 @@ class BebidasActivity : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 getString(R.string.title_licuado_duraazno_fresa_platano),
-                R.drawable.licuado_mango_crema_coco,
+                R.drawable.licuado_fresa_durasno,
                 arrayListOf(
                     Ingredient(getString(R.string.leche_2tz)),
                     Ingredient(getString(R.string.fresa_125g)),
@@ -184,7 +184,7 @@ class BebidasActivity : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 getString(R.string.title_licuado_mamey_nuez),
-                R.drawable.licuado_mango_crema_coco,
+                R.drawable.licuado_mamey_nuez,
                 arrayListOf(
                     Ingredient(getString(R.string.mamey_1_2pz)),
                     Ingredient(getString(R.string.leche_2tz)),
@@ -199,6 +199,31 @@ class BebidasActivity : AppCompatActivity(), ReceipeClickListener {
                     Ingredient(getString(R.string.no_optios))
                 ),
                 getString(R.string.licuado_mamey_nuez_preparation),
+                arrayListOf(
+                    Help("Sin sugerencias",
+                        R.drawable.ic_help_null,
+                        "No hay sugerencias disponibles")
+                )
+            ),
+            Recipe(
+                getString(R.string.title_licuado_mango_crema_coco),
+                R.drawable.licuado_mango_crema_coco,
+                arrayListOf(
+                    Ingredient(getString(R.string.mango_1tz)),
+                    Ingredient(getString(R.string.crema_coco_1tz)),
+                    Ingredient(getString(R.string.yogurt_natural_1tz)),
+                    Ingredient(getString(R.string.hielo)),
+                    Ingredient(getString(R.string.chichitos_colores_1_2tz)),
+                    Ingredient(getString(R.string.azucar_glas)),
+                    Ingredient(getString(R.string.agua_1cda))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.licuado_mango_crema_coco_preparation),
                 arrayListOf(
                     Help("Sin sugerencias",
                         R.drawable.ic_help_null,

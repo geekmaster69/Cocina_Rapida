@@ -69,7 +69,8 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
     override fun recipeOnClickListener(recipe: Recipe) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
-        intent.putExtra("title", title)
+
+        intent.putExtra("title",  recipe.title)
         intent.putExtra("img_top_recipe", recipe.image)
 
         val args = Bundle()
