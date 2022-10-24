@@ -101,7 +101,6 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
                         R.drawable.pasta_help,
                         getString(R.string.help_pasta_preparation))
                 )
-
             ),
             Recipe(
                 getString(R.string.title_spaghetti_crema_aguacate),
