@@ -78,8 +78,7 @@ class BebidasActivity : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(Ingredient(getString(R.string.no_subtitutes))
                 ),
                 arrayListOf(
-                    Ingredient(getString(R.string.fresas_frescas)),
-                    Ingredient(getString(R.string.hojas_menta))
+                    Ingredient(getString(R.string.fresas_frescas))
                 ),
                 getString(R.string.latte_fresa_te_verde_preparation),
                 arrayListOf(
@@ -249,7 +248,7 @@ class BebidasActivity : AppCompatActivity(), ReceipeClickListener {
     override fun recipeOnClickListener(recipe: Recipe) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
-        intent.putExtra("title", title)
+        intent.putExtra("title", recipe.title)
         intent.putExtra("img_top_recipe", recipe.image)
 
         val args = Bundle()
