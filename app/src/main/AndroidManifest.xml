@@ -10,29 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CocinaRapida">
         <activity
+            android:name=".ParaDosActivity"
+            android:exported="false"
+            android:label="Para Dos"/>
+        <activity
             android:name=".EntradasActivity"
             android:exported="false"
-            android:label="Entradas"/>
+            android:label="Entradas" />
         <activity
             android:name=".HelpActivity"
             android:exported="false"
-            android:label="Ayuda"/>
+            android:label="Ayuda" />
         <activity
             android:name=".EnsaladasActivity"
             android:exported="false"
-            android:label="Ensaladas"/>
+            android:label="Ensaladas" />
         <activity
             android:name=".OniguiriActivity"
             android:exported="false"
-            android:label="Oniguiri"/>
+            android:label="Oniguiri" />
         <activity
             android:name=".BebidasActivity"
             android:exported="false"
-            android:label="Bebidas"/>
+            android:label="Bebidas" />
         <activity
             android:name=".WrapsActivity"
             android:exported="false"
-            android:label="Wraps"/>
+            android:label="Wraps" />
         <activity
             android:name=".Postres"
             android:exported="false"
@@ -84,7 +88,8 @@
             android:exported="false" />
         <activity
             android:name=".PastasMenu"
-            android:exported="false" />
+            android:exported="false"
+            android:label="Pizzas y Pastas" />
         <activity
             android:name=".IrComiendo"
             android:exported="false"

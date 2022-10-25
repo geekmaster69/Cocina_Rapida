@@ -9,12 +9,10 @@ import com.example.cocinarapida.adapter.ReceipeClickListener
 import com.example.cocinarapida.adapter.RecipeAdapter
 import com.example.cocinarapida.databinding.ActivityDesayunosBinding
 import java.io.Serializable
-import java.util.ArrayList
 
 class DesayunosActivity : AppCompatActivity(), ReceipeClickListener {
     private lateinit var binding: ActivityDesayunosBinding
     private lateinit var recipeAdapter: RecipeAdapter
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityDesayunosBinding.inflate(layoutInflater)
@@ -339,7 +337,5 @@ class DesayunosActivity : AppCompatActivity(), ReceipeClickListener {
         intent.putExtra("preparation", recipe.process)
 
         startActivity(intent)
-
-
     }
 }

@@ -16,42 +16,24 @@ class MainActivity : AppCompatActivity() {
 
 
         binding.btParaLlevar.setOnClickListener {
-            openRideActivity()
+            startActivity( Intent(this, Parallevar::class.java))
         }
         binding.btParaIrComiendo.setOnClickListener {
-            openTogoActivity()
+            startActivity(Intent(this, IrComiendo::class.java))
         }
         binding.btParaComerAqui.setOnClickListener {
-            openParaComerAquiActivity()
+            startActivity(Intent(this, ParaComerAquiActivity::class.java))
         }
         binding.btBasicos.setOnClickListener {
-            openBasicosActivity()
+            startActivity(Intent(this, BasicosActivity::class.java))
         }
         binding.shopingList.setOnClickListener {
-            openShoppingList()
-        }}
-
-    private fun openShoppingList() {
-        startActivity(Intent(this, ShoppingListActivity::class.java))
+            startActivity(Intent(this, ShoppingListActivity::class.java))
+        }
+        binding.btParaDos.setOnClickListener {
+            startActivity(Intent(this, ParaDosActivity::class.java))
+        }
     }
-
-    private fun openParaComerAquiActivity() {
-        startActivity(Intent(this, ParaComerAquiActivity::class.java))
-    }
-
-    private fun openBasicosActivity() {
-        startActivity(Intent(this, BasicosActivity::class.java))
-    }
-
-    private fun openTogoActivity() {
-        startActivity(Intent(this, IrComiendo::class.java))
-    }
-
-    private fun openRideActivity() {
-        startActivity( Intent(this, Parallevar::class.java))
-    }
-
-
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)

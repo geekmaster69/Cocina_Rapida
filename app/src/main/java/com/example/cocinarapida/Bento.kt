@@ -3,14 +3,11 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import androidx.lifecycle.ViewModel
-import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.cocinarapida.adapter.ReceipeClickListener
 import com.example.cocinarapida.adapter.RecipeAdapter
 import com.example.cocinarapida.databinding.ActivityBentoBinding
 import java.io.Serializable
-import java.util.ArrayList
 
 class Bento : AppCompatActivity(), ReceipeClickListener {
     private lateinit var binding: ActivityBentoBinding
@@ -20,10 +17,9 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
         binding = ActivityBentoBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        val recipeList = arrayListOf<Recipe>(
+        val recipeList = arrayListOf(
             Recipe(
                 getString(R.string.title_bento_cerdo_agridulce),
                 R.drawable.bento_cerdo_agridulce,
@@ -56,7 +52,60 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                     Help("Sin sugerencias",
                         R.drawable.ic_help_null,
                         "No hay sugerencias disponibles"))
-            )
+            ),
+            Recipe(
+                "Wok de Res con Fideos de Arroz y Brocoli",
+                R.drawable.wok_res_fideos_brocoli,
+                arrayListOf(
+                    Ingredient("400g de fideos de arroz"),
+                    Ingredient("1 brocoli mediano"),
+                    Ingredient("600g de filete de res"),
+                    Ingredient("cacahuates tostados salados"),
+                    Ingredient("salsa de soya"),
+                    Ingredient("250ml de agua"),
+                    Ingredient("3 cucharadas de aceite de oliva")
+                ),
+                arrayListOf(
+                    Ingredient("fideos de frijos (Sustitulle fideos de arroz)"),
+                    Ingredient("milanesa de res (Sustitulle fielete de res)")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_wok_res_fideos_brocoli),
+                arrayListOf(
+                    Help("Sin sugerencias",
+                        R.drawable.ic_help_null,
+                        "No hay sugerencias disponibles")
+                )
+            ),
+            Recipe(
+                "Chili con carne expés",
+                R.drawable.chili_expres,
+                arrayListOf(
+                    Ingredient("2 cebollas"),
+                    Ingredient("500g de carne molida de res"),
+                    Ingredient("2 cucharadas de aceite de oliva"),
+                    Ingredient("300g de jitomates picados enlatados o tetrapak"),
+                    Ingredient("1 cucharada de comino en polvo"),
+                    Ingredient("1 cucharada de chile en polvo"),
+                    Ingredient("1 lata de frijoles ayocote morado"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient("frijoles enteros (Stutituye frijoles ayocote)"),
+                    Ingredient("500g de carne molida de cerdo (Sustituye carne de res)"),
+                ),
+                arrayListOf(
+                    Ingredient("limones")
+                ),
+                getString(R.string.preparation_chili_expres),
+                arrayListOf(
+                    Help("Sin sugerencias",
+                        R.drawable.ic_help_null,
+                        "No hay sugerencias disponibles")
+                )
+            ),
         )
         recipeAdapter = RecipeAdapter(recipeList, this)
         binding.rvBento.apply {

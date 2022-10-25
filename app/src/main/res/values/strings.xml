@@ -967,5 +967,30 @@
         2-Agrega la leche y el comino y mezcla a fuego medio por otros 15min.\n\n
         3-Vierte todo el contenido en una licuadora, agrega el queso crema, el aceite, salpimienta y licua.\n\n
         4-Sirve y disfruta.</string>
+    <string name="title_para_dos">Para Dos</string>
+    <string name="perejil_1_2_manojo">½ manojo de perejil</string>
+    <string name="preparation_lomo_papas_pesto">
+        1-Muele el perejil, los piñones y el aceite hasta tener una pasta. Reserva.\n\n
+        2-Pica las papas en rodajas, machaca los ajos y mezclaos en un bowl con la pasta hecha previamente. \n\n
+        3-Coloca el lomo en un refractario para horno, agrega sal y pimienta al gusto y vierte la mezcla del bowl sobre el lomo. \n\n
+        4-Hornea durante 20min a 210 °C.\n\n
+        5-Disfruta.</string>
+    <string name="preparation_wok_res_fideos_brocoli">
+        1-Coloca los fideos en agua hirviendo con sal durante 8 minutos. Escurre el agua.\n\n
+        2-Pica el filete en tiras, fríelos con el aceite a fuego alto durante 5 minutos.\n\n
+        3-Pica el brócoli y agrégalo a la sartén junto el agua. Deja calentar otros 5 minutos a fuego alto.\n\n
+        4-Agrega los fideos, los cacahuates, la soya y mezcla.\n\n
+        5-Sirve y disfruta.</string>
+    <string name="preparation_chili_expres">
+        1-Pica la cebolla finamente y fríela con el aceite durante 3 min a fuego medio.\n\n
+        2-Agrega la carne molida y mezcla por otros 5 min a fuego medio.\n\n
+        3-agrega los jitomates, los frijoles, el chile en polvo, el comino y sal y pimienta al gusto. Mezcla a fuego bajo por otros 20 min.
+        4-Disfruta. Puedes agregarle limón.</string>
+    <string name="preparation_carne_res_cerveza">
+        1-Derrite la mantequilla junto con el aceite en una olla.\n\n
+        2-Agrega la cebolla finamente picada y fríela por 2 min a fuego alto.\n\n
+        3-Agrega la carne picada en trozos medianos y mezcla por 5 min a fuego medio.\n\n
+        4-Agrega la cerveza, la harina, las hiervas de olor, sal y pimienta al gusto y tapa la olla. Deja calentar a fuego bajo durante 2hrs 30 min.\n\n
+        5-Sirve caliente, agrega un poco de mostaza.</string>
 
 </resources>

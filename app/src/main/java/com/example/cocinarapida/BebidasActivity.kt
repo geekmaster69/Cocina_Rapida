@@ -17,6 +17,7 @@ class BebidasActivity : AppCompatActivity(), ReceipeClickListener {
         super.onCreate(savedInstanceState)
         binding = ActivityBebidasBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val recipeList = arrayListOf(
