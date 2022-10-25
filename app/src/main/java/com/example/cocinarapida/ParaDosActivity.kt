@@ -46,7 +46,7 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
             ),
             Recipe(
                 "Carne de Res a la Cerveza",
-                R.drawable.lomo_papas_pesto,
+                R.drawable.carne_res_cerveza,
                 arrayListOf(
                     Ingredient("20g de mantequilla"),
                     Ingredient("2 cucharadas de aceite"),

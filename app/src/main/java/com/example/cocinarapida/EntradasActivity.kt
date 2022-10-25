@@ -9,7 +9,6 @@ import com.example.cocinarapida.adapter.ReceipeClickListener
 import com.example.cocinarapida.adapter.RecipeAdapter
 import com.example.cocinarapida.databinding.ActivityEntradasBinding
 import java.io.Serializable
-import java.util.ArrayList
 
 class EntradasActivity : AppCompatActivity(), ReceipeClickListener {
     private lateinit var binding: ActivityEntradasBinding
@@ -45,7 +44,34 @@ class EntradasActivity : AppCompatActivity(), ReceipeClickListener {
                         R.drawable.cebolla_morada_corte,
                         "Así es como debe verse la cebolla cuando la cortes, después separas capa por capa")
                 )
-            )
+            ),
+            Recipe(
+                "Res encebollada",
+                R.drawable.res_encebollada,
+                arrayListOf(
+                    Ingredient("4 cebollas"),
+                    Ingredient("3 dientes de ajo"),
+                    Ingredient("3 cucharadas de aceite"),
+                    Ingredient("500g de filete de res"),
+                    Ingredient("1 cucharada de fécula de maíz"),
+                    Ingredient("1 cucharadita de azúcar"),
+                    Ingredient("4 cucharadas de soya"),
+                    Ingredient("100ml de agua"),
+                    Ingredient("2 ramas de perejil")
+                ),
+                arrayListOf(
+                    Ingredient("milanesa de res (Sustitulle fielete)")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_res_encebollada),
+                arrayListOf(
+                    Help("Corte de Cebolla",
+                        R.drawable.help_cebolla_rodajas,
+                        "Así es como debe verse la cebolla cuando la cortes")
+                )
+            ),
         )
 
         recipeAdapter = RecipeAdapter(recipeList, this)
@@ -54,7 +80,6 @@ class EntradasActivity : AppCompatActivity(), ReceipeClickListener {
             adapter = recipeAdapter
         }
     }
-
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if (item.itemId == android.R.id.home){
@@ -86,6 +111,5 @@ class EntradasActivity : AppCompatActivity(), ReceipeClickListener {
         intent.putExtra("preparation", recipe.process)
 
         startActivity(intent)
-
     }
 }
