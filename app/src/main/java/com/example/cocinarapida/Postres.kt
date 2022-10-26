@@ -9,7 +9,6 @@ import com.example.cocinarapida.adapter.ReceipeClickListener
 import com.example.cocinarapida.adapter.RecipeAdapter
 import com.example.cocinarapida.databinding.ActivityPostresBinding
 import java.io.Serializable
-import java.util.ArrayList
 
 class Postres : AppCompatActivity(), ReceipeClickListener {
     private lateinit var binding: ActivityPostresBinding

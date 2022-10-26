@@ -71,6 +71,36 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                         getString(R.string.no_help_suggestion_description))
                 )
             ),
+            Recipe(
+                "Hamburguesas Suculentas",
+                R.drawable.hamburguesa_suculenta,
+                arrayListOf(
+                    Ingredient("30g de mantequilla"),
+                    Ingredient("2 cebollas"),
+                    Ingredient("1 cucharada de azúcar"),
+                    Ingredient("1 cucharada de vinagre balsámico"),
+                    Ingredient("2 cucharadas de agua"),
+                    Ingredient("4 discos de carne para hamburguesa"),
+                    Ingredient("2 cucharadas de aceite"),
+                    Ingredient("4 bollos para hamburgesas tostados"),
+                    Ingredient("salsa barbecue"),
+                    Ingredient("4 rebanadas de queso amarillo"),
+                    Ingredient("1 jitomate"),
+                    Ingredient("1 puñado de arúgula")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_hamburguesa_suculenta),
+                arrayListOf(
+                    Help(
+                        getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
+            ),
         )
 
         recipeAdapter = RecipeAdapter(recipeList, this)
@@ -109,7 +139,6 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
         intent.putExtra("preparation", recipe.process)
 
         startActivity(intent)
-
     }
 
 

@@ -1,72 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="8dp"
+    android:background="@drawable/fondo_mantel"
+    android:orientation="vertical"
     tools:context=".SalsasMenuActivity">
 
-
-    <LinearLayout
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:adjustViewBounds="true"
+        android:src="@drawable/salsas_menu"
+        android:layout_marginBottom="8dp"/>
 
-
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-
-            android:adjustViewBounds="true"
-            android:layout_marginBottom="8dp"/>
-
-        <TextView
-            android:id="@+id/bt_sopa_verdolagas"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/madera_boton"
-            android:text="Salsa Verde Cocida"/>
-
-        <TextView
-            android:id="@+id/bt_sopa_fideos"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:layout_marginBottom="8dp"
-            android:background="@drawable/madera_boton"
-            android:text="Sopa de Fideos"/>
-
-        <TextView
-            android:id="@+id/bt_caldo_pollo"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:layout_marginBottom="8dp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:background="@drawable/madera_boton"
-            android:text="Caldo de Pollo"/>
-
-        <TextView
-            android:id="@+id/bt_sopa_col"
-            android:layout_width="match_parent"
-            android:layout_height="64dp"
-            android:textSize="40sp"
-            android:gravity="center"
-            android:textColor="@color/white"
-            android:background="@drawable/madera_boton"
-            android:text="Sopa de Col y Tomate"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRecipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 
 
 
 
-    </LinearLayout>
 
-</ScrollView>
+</LinearLayout>

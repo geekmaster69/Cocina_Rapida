@@ -20,7 +20,7 @@ RecyclerView.Adapter<RecipeAdapter.ViewHolder>(){
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        val recipe = recipeList.get(position)
+        val recipe = recipeList[position]
 
         holder.binding.tvRecipe.text = recipe.title
 

@@ -72,6 +72,55 @@ class EntradasActivity : AppCompatActivity(), ReceipeClickListener {
                         "Así es como debe verse la cebolla cuando la cortes")
                 )
             ),
+            Recipe(
+                "Albóndigas con Ensalada de Jitomate",
+                R.drawable.albondigas_enslada_jitomate,
+                arrayListOf(
+                    Ingredient("1 cebolla morada"),
+                    Ingredient("30 hojas de menta"),
+                    Ingredient("600g de carme molida de res"),
+                    Ingredient("4 cucharadas de aceite"),
+                    Ingredient("20 jitomates cherry"),
+                    Ingredient("vinagre balsámico")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_albondigas_ensalada),
+                arrayListOf(
+                    Help("Corte de Cebolla",
+                        R.drawable.help_cebolla_rodajas,
+                        "Así es como debe verse la cebolla cuando la cortes")
+                )
+            ),
+            Recipe(
+                "fajitas de Res",
+                R.drawable.fajitas_res,
+                arrayListOf(
+                    Ingredient("2 cucharadas de aceite"),
+                    Ingredient("1 cucharada de especias para carne"),
+                    Ingredient("200g de filete de res"),
+                    Ingredient("tortillas de harina"),
+                    Ingredient("160g de guacamole (En salsas)"),
+                    Ingredient("120g de elote cocido en lata"),
+                    Ingredient("sal al gusto")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_fajitas_res),
+                arrayListOf(
+                    Help(getString(R.string.no_suggestions),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_suggestions))
+                )
+            ),
         )
 
         recipeAdapter = RecipeAdapter(recipeList, this)

@@ -8,7 +8,8 @@ import com.example.cocinarapida.databinding.ActivityWrapsBinding
 import java.io.Serializable
 import java.util.ArrayList
 
-class WrapsActivity : AppCompatActivity() {
+class
+WrapsActivity : AppCompatActivity() {
     private lateinit var binding: ActivityWrapsBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

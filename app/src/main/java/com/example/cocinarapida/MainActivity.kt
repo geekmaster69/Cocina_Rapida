@@ -33,7 +33,11 @@ class MainActivity : AppCompatActivity() {
         binding.btParaDos.setOnClickListener {
             startActivity(Intent(this, ParaDosActivity::class.java))
         }
+        binding.salsas.setOnClickListener {
+            startActivity(Intent(this, SalsasMenuActivity::class.java))
+        }
     }
+
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_main, menu)

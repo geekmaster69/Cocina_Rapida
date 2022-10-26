@@ -9,7 +9,6 @@ import com.example.cocinarapida.adapter.ReceipeClickListener
 import com.example.cocinarapida.adapter.RecipeAdapter
 import com.example.cocinarapida.databinding.ActivityEnsaladasBinding
 import java.io.Serializable
-import java.util.ArrayList
 
 class EnsaladasActivity : AppCompatActivity(), ReceipeClickListener {
     private lateinit var binding: ActivityEnsaladasBinding

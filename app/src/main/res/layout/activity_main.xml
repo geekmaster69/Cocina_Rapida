@@ -86,18 +86,6 @@
                    android:layout_gravity="center"
                    android:textSize="34sp"/>
 
-               <TextView
-                   android:id="@+id/tips"
-                   android:layout_width="124dp"
-                   android:layout_height="124dp"
-                   android:layout_marginEnd="16dp"
-                   android:background="@drawable/postit_fondo"
-                   android:fontFamily="@font/dancin_script_regular"
-                   android:text="@string/title_tips"
-                   android:textColor="@color/black"
-                   android:gravity="center"
-                   android:layout_gravity="center"
-                   android:textSize="40sp"/>
 
                <TextView
                    android:id="@+id/bt_basicos"

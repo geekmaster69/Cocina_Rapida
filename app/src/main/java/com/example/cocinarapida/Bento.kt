@@ -106,6 +106,31 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                         "No hay sugerencias disponibles")
                 )
             ),
+            Recipe(
+                "Brochetas de Albóndigas con Ensalada de Jitomate",
+                R.drawable.brochetas_albondigas_ensalada,
+                arrayListOf(
+                    Ingredient("1 cebolla morada"),
+                    Ingredient("30 hojas de menta"),
+                    Ingredient("palitos para brocheta"),
+                    Ingredient("600g de carme molida de res"),
+                    Ingredient("4 cucharadas de aceite"),
+                    Ingredient("20 jitomates cherry"),
+                    Ingredient("vinagre balsámico")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient("puedes acompañar con pasta o arroz")
+                ),
+                getString(R.string.preparation_brochetas_albondigas_ensalada),
+                arrayListOf(
+                    Help("Corte de Cebolla",
+                        R.drawable.help_cebolla_rodajas,
+                        "Así es como debe verse la cebolla cuando la cortes")
+                )
+            )
         )
         recipeAdapter = RecipeAdapter(recipeList, this)
         binding.rvBento.apply {

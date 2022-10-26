@@ -951,51 +951,88 @@
         6- Dusfruta.</string>
     <string name="title_crema_zanahorias">Crema de Zanahorias</string>
     <string name="preparation_crema_zanahoria">
-        1-Pica la zanahoria y la cebolla en cubos pequeños.\n\n
-        2-Coloca los cubitos en una olla, salpimiéntalos y cúbrelos con agua al ras, ponlos a hervir por 30min.\n\n
-        3-Licua las zanahorias hervidas y regresa a la olla, agrega el queso crema y mueve hasta que se deshaga.\n\n
-        4-Sirve. Agrega cilantro finamente picado. "</string>
+        1- Pica la zanahoria y la cebolla en cubos pequeños.\n\n
+        2- Coloca los cubitos en una olla, salpimiéntalos y cúbrelos con agua al ras, ponlos a hervir por 30min.\n\n
+        3- Licua las zanahorias hervidas y regresa a la olla, agrega el queso crema y mueve hasta que se deshaga.\n\n
+        4- Sirve. Agrega cilantro finamente picado. "</string>
     <string name="title_sopa_manzana_camote_jengibre">Sopa de manzana, Camote y Jengibre</string>
     <string name="preparation_sopa_manzana_camote">
-        1-Pica finamente la cebolla y en una olla sofríela con aceite por 5 minutos a fuego medio.\n\n
-        2-Pica en cubos pequeños las manzanas, el camote y el jengibre, agrégalos a la olla y cubre con agua al ras. Deja hervir por 30min a fuego medio.\n\n
-        3-Vierte todo el contenido de la olla en una licuadora y agrega 3 cucharadas de leche de coco. Licua.\n\n
-        4-Sirve y disfruta. "</string>
+        1- Pica finamente la cebolla y en una olla sofríela con aceite por 5 minutos a fuego medio.\n\n
+        2- Pica en cubos pequeños las manzanas, el camote y el jengibre, agrégalos a la olla y cubre con agua al ras. Deja hervir por 30min a fuego medio.\n\n
+        3- Vierte todo el contenido de la olla en una licuadora y agrega 3 cucharadas de leche de coco. Licua.\n\n
+        4- Sirve y disfruta. "</string>
     <string name="title_sopa_espinacas_comino">Sopa de Espinacas y Comino</string>
     <string name="preparation_sopa_espicancas_comino">
-        1-Corta las papas en cubos pequeños ponlas en una olla, agrega las espinacas y cúbrelas con agua al ras. Deja hervir por 15min a fuego medio.\n\n
-        2-Agrega la leche y el comino y mezcla a fuego medio por otros 15min.\n\n
-        3-Vierte todo el contenido en una licuadora, agrega el queso crema, el aceite, salpimienta y licua.\n\n
-        4-Sirve y disfruta.</string>
+        1- Corta las papas en cubos pequeños ponlas en una olla, agrega las espinacas y cúbrelas con agua al ras. Deja hervir por 15min a fuego medio.\n\n
+        2- Agrega la leche y el comino y mezcla a fuego medio por otros 15min.\n\n
+        3- Vierte todo el contenido en una licuadora, agrega el queso crema, el aceite, salpimienta y licua.\n\n
+        4- Sirve y disfruta.</string>
     <string name="title_para_dos">Para Dos</string>
     <string name="perejil_1_2_manojo">½ manojo de perejil</string>
     <string name="preparation_lomo_papas_pesto">
-        1-Muele el perejil, los piñones y el aceite hasta tener una pasta. Reserva.\n\n
-        2-Pica las papas en rodajas, machaca los ajos y mezclaos en un bowl con la pasta hecha previamente. \n\n
-        3-Coloca el lomo en un refractario para horno, agrega sal y pimienta al gusto y vierte la mezcla del bowl sobre el lomo. \n\n
-        4-Hornea durante 20min a 210 °C.\n\n
-        5-Disfruta.</string>
+        1- Muele el perejil, los piñones y el aceite hasta tener una pasta. Reserva.\n\n
+        2- Pica las papas en rodajas, machaca los ajos y mezclaos en un bowl con la pasta hecha previamente. \n\n
+        3- Coloca el lomo en un refractario para horno, agrega sal y pimienta al gusto y vierte la mezcla del bowl sobre el lomo. \n\n
+        4- Hornea durante 20min a 210 °C.\n\n
+        5- Disfruta.</string>
     <string name="preparation_wok_res_fideos_brocoli">
-        1-Coloca los fideos en agua hirviendo con sal durante 8 minutos. Escurre el agua.\n\n
-        2-Pica el filete en tiras, fríelos con el aceite a fuego alto durante 5 minutos.\n\n
-        3-Pica el brócoli y agrégalo a la sartén junto el agua. Deja calentar otros 5 minutos a fuego alto.\n\n
-        4-Agrega los fideos, los cacahuates, la soya y mezcla.\n\n
-        5-Sirve y disfruta.</string>
+        1- Coloca los fideos en agua hirviendo con sal durante 8 minutos. Escurre el agua.\n\n
+        2- Pica el filete en tiras, fríelos con el aceite a fuego alto durante 5 minutos.\n\n
+        3- Pica el brócoli y agrégalo a la sartén junto el agua. Deja calentar otros 5 minutos a fuego alto.\n\n
+        4- Agrega los fideos, los cacahuates, la soya y mezcla.\n\n
+        5- Sirve y disfruta.</string>
     <string name="preparation_chili_expres">
-        1-Pica la cebolla finamente y fríela con el aceite durante 3 min a fuego medio.\n\n
-        2-Agrega la carne molida y mezcla por otros 5 min a fuego medio.\n\n
-        3-agrega los jitomates, los frijoles, el chile en polvo, el comino y sal y pimienta al gusto. Mezcla a fuego bajo por otros 20 min.
-        4-Disfruta. Puedes agregarle limón.</string>
+        1- Pica la cebolla finamente y fríela con el aceite durante 3 min a fuego medio.\n\n
+        2- Agrega la carne molida y mezcla por otros 5 min a fuego medio.\n\n
+        3- agrega los jitomates, los frijoles, el chile en polvo, el comino y sal y pimienta al gusto. Mezcla a fuego bajo por otros 20 min.
+        4- Disfruta. Puedes agregarle limón.</string>
     <string name="preparation_carne_res_cerveza">
-        1-Derrite la mantequilla junto con el aceite en una olla.\n\n
-        2-Agrega la cebolla finamente picada y fríela por 2 min a fuego alto.\n\n
-        3-Agrega la carne picada en trozos medianos y mezcla por 5 min a fuego medio.\n\n
-        4-Agrega la cerveza, la harina, las hiervas de olor, sal y pimienta al gusto y tapa la olla. Deja calentar a fuego bajo durante 2hrs 30 min.\n\n
-        5-Sirve caliente, agrega un poco de mostaza.</string>
+        1- Derrite la mantequilla junto con el aceite en una olla.\n\n
+        2- Agrega la cebolla finamente picada y fríela por 2 min a fuego alto.\n\n
+        3- Agrega la carne picada en trozos medianos y mezcla por 5 min a fuego medio.\n\n
+        4- Agrega la cerveza, la harina, las hiervas de olor, sal y pimienta al gusto y tapa la olla. Deja calentar a fuego bajo durante 2hrs 30 min.\n\n
+        5- Sirve caliente, agrega un poco de mostaza.</string>
     <string name="preparation_res_encebollada">
-        1-Corta la cebolla y el ajo en rodajas y fríelas con el aceite a fuego medio por 3 min.\n\n
-        2-corta la carne en trozos medianos y agrégalos al sartén. Fríelos por 5 min a fuego alto.\n\n
-        3-Agra la fécula de miz, el azúcar, la salsa de soya, el agua y mezcla durante 15 min a fuego bajo.\n\n
-        4-Sirve. Agrega hojas de perejil para decorar.</string>
+        1- Corta la cebolla y el ajo en rodajas y fríelas con el aceite a fuego medio por 3 min.\n\n
+        2- Corta la carne en trozos medianos y agrégalos al sartén. Fríelos por 5 min a fuego alto.\n\n
+        3- Agra la fécula de miz, el azúcar, la salsa de soya, el agua y mezcla durante 15 min a fuego bajo.\n\n
+        4- Sirve. Agrega hojas de perejil para decorar.</string>
+    <string name="preparation_albondigas_ensalada">
+        1- Pica la cebolla y la menta finamente, mézclala con la carne molida y haz bolitas pequeñas, deben ser 20 aprox. \n\n
+        2- Frie las albóndigas con el aceite durante 5 min, muévelas para que queden bien cocidas.\n\n
+        3- Corta los jitomates a la mitad y la cebolla en tiras delgadas, mézclalas con el vinagre balsámico.\n\n
+        4- Sirve una porción de ensalada con alboigas y disfruta. "</string>
+    <string name="preparation_brochetas_albondigas_ensalada">
+        1- Pica la cebolla y la menta finamente, mézclala con la carne molida y haz bolitas pequeñas, deben ser 20 aprox e insértalas en los palitos para brocheta. \n\n
+        2- Frie las albóndigas con el aceite durante 5 min, muévelas para que queden bien cocidas.\n\n
+        3- Corta los jitomates a la mitad y la cebolla en tiras delgadas, mézclalas con el vinagre balsámico.\n\n
+        4- Sirve una porción de ensalada con alboigas y disfruta.</string>
+    <string name="preparation_linguine_albondigas">
+        1- Cocer la pasta (Básicos de esta receta).\n\n
+        2- Pica la cebolla, ½ manojo de albahaca finamente y mézclala con la carne y la paprika, haz bolitas de carne.\n\n
+        3- Frie las albóndigas a fuego medio con el aceite por 5 min. Muévelas para que queden bien cocidas.\n\n
+        4- Agrega los jitomates, el ajo picado y deja por 10 min a fuego bajo.\n\n
+        5- Mezcla el linguine, las albóndigas, el otro ½ manojo de albahaca, y el parmesano, agrega sal y pimienta al gusto.\n\n
+        6- Disfruta. "</string>
+    <string name="preparation_hamburguesa_suculenta">
+        1- Derrite la mantequilla en una sartén, agrega la cebolla en tiras, el azúcar y una pizca de sal. Mueve durante 5 min a fuego bajo.\n\n
+        2- Agrega la cucharada de vinagre balsámico, el agua y tapa. Deja calentar a fuego bajo por 20 min.\n\n
+        3- Frie la carne con el aceite por ambos lados, 3 min por cada lado. Agrega sal y pimienta.\n\n
+        4- Arma la hamburguesa de la siguiente manera:\n -pan-salsa-carne-queso-jitomate en rodajas-cebolla-arúgula-pan \n\n
+        5- Disfruta.</string>
+    <string name="preparation_fajitas_res">
+        1- Corta la carne en tiras medianas y mezclaras con el aceite, la mezcla de especias para carne y un poco de sal. Deja marinar por 15 min. \n\n
+        2- Vierte la carne en una sartén y calienta a fuego alto por 5 min o hasta que este cocida. \n\n
+        3- calienta las tortillas de harina en n microondas por 50 seg. \n\n
+        4- Arma de la siguiente manera:\n
+        -tortilla-capa de guacamole-elote-fajitas de carne \n\n
+        5- Disfruta. "</string>
+    <string name="no_suggestions">Sin sugerencias</string>
+    <string name="preparation_guacamole">
+        1- Corta en cubos el jitomate, la cebolla y el aguacate.\n\n
+        2- Mezlcalos junto con el vinagre, el jugo de limón, el aceite de oliva y agregarle sal y pimienta al gusto.\n\n
+        3- Pica el cilantro y el chile serrano finamente, estos también se agregan al gusto. Bate hasta tener una mezcla uniforme.\n\n
+        4- Deja el hueso del aguacate en la salsa, esto evitara que se oxide rápido (Que se ponga negro).\n\n
+        5- Disfruta. "</string>
 
 </resources>

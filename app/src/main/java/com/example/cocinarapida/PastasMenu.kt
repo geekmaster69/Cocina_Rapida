@@ -9,7 +9,6 @@ import com.example.cocinarapida.adapter.ReceipeClickListener
 import com.example.cocinarapida.adapter.RecipeAdapter
 import com.example.cocinarapida.databinding.ActivityPastasMenuBinding
 import java.io.Serializable
-import java.util.ArrayList
 
 class PastasMenu : AppCompatActivity(), ReceipeClickListener {
     private lateinit var binding: ActivityPastasMenuBinding
@@ -205,6 +204,33 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
                     Ingredient(getString(R.string.no_optios))
                 ),
                 getString(R.string.pizza_multi_color_preparation),
+                arrayListOf(
+                    Help("Cocer Pasta",
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation))
+                )
+            ),
+            Recipe(
+                "Linguine con Albóndigas",
+                R.drawable.linguine_albondigas,
+                arrayListOf(
+                    Ingredient("450g de carne molida de res"),
+                    Ingredient("1 cebolla"),
+                    Ingredient("1 pizca de paprica"),
+                    Ingredient("2 cucharadas de aceite"),
+                    Ingredient("400g de linguine"),
+                    Ingredient("1 manojo de albaca"),
+                    Ingredient("70g de queso parmesano"),
+                    Ingredient("1 diente de ajo"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_linguine_albondigas),
                 arrayListOf(
                     Help("Cocer Pasta",
                         R.drawable.pasta_help,
