@@ -1,7 +1,6 @@
 package com.example.cocinarapida
 
 import android.content.Intent
-import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.KeyEvent
@@ -40,25 +39,17 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
             adapter = notesFinishedAdapter
         }
 
-//        binding.shareMail.setOnClickListener {
-//
-//            val info = database.getAllNotes()
-//
-//            info.forEach { note ->
-//                val lissend = arrayListOf(note)
-//
-//            }
-//            val intent = Intent(Intent.ACTION_SENDTO).apply {
-//                data = Uri.parse("mailto:")
-//                putExtra(Intent.EXTRA_EMAIL, arrayOf("micorreo@gmail.com"))
-//                putExtra(Intent.EXTRA_SUBJECT, "base de datos")
-//                putExtra(Intent.EXTRA_TEXT, lissend.toString())
-//            }
-//            startActivity(intent)
-//
-//        }
+        binding.shareMail.setOnClickListener {
 
-        binding.etDescription.setOnKeyListener(View.OnKeyListener { v, keyCode, event ->
+            val info = database.getAllNotes().map { it.description}
+            val intent = Intent(Intent.ACTION_SEND)
+            intent.putExtra(Intent.EXTRA_TEXT,info.toString())
+            intent.type = "text/plain"
+            startActivity(Intent.createChooser(intent,"Enviar Lista de Compras"))
+
+        }
+
+        binding.etDescription.setOnKeyListener(View.OnKeyListener { _, keyCode, event ->
             if (keyCode == KeyEvent.KEYCODE_ENTER && event.action == KeyEvent.ACTION_UP) {
                 if (binding.etDescription.text.toString().isNotBlank()){
                     val note = Note (description = binding.etDescription.text.toString().trim())
@@ -109,26 +100,21 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
         }
     }
 
-    fun sendList(note: Note){
-
-
-
-
-    }
-
     override fun onLongClick(note: Note, currentAdapter: NoteAdapter) {
         val builder = AlertDialog.Builder(this)
             .setTitle(getString(R.string.alert_dialog))
-            .setPositiveButton(getString(R.string.dialog_ok), { dialogInterface, i ->
+            .setPositiveButton(getString(R.string.dialog_ok)) { _, _ ->
                 if (database.deleteNote(note)) {
                     currentAdapter.remove(note)
-                    Toast.makeText(this, "Se elimino " +
-                            "${note.description} a la lista de compras",
-                               Toast.LENGTH_SHORT).show()
-                }else{
+                    Toast.makeText(
+                        this, "Se elimino " +
+                                "${note.description} a la lista de compras",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                } else {
                     showMesssage(R.string.message_write_database_error)
                 }
-            })
+            }
             .setNegativeButton(getString(R.string.dialog_cancel), null)
         builder.create().show()
     }
@@ -154,12 +140,3 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
 
     }
 }
-
-
-
-
-//intent = Intent(Intent.ACTION_SEND)
-//intent.putExtra(Intent.EXTRA_TEXT, "${notesAdapter.noteList}")
-//intent.setType("text/plain")
-//intent.setPackage("com.whatsapp")
-//startActivity(intent)

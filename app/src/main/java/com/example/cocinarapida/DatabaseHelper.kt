@@ -41,14 +41,13 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, Constants.DAT
         return notes
     }
 
-    fun insertNote(note: Note): Long{
+    fun insertNote(note: Note): Long {
         val database = this.writableDatabase
         val contentValues = ContentValues().apply {
             put(Constants.PROPERTY_DESCRIPTION, note.description)
             put(Constants.PROPERTY_IS_FINISHED, note.isFinished)
         }
-        val resultId = database.insert(Constants.ENTITY_NOTE, null, contentValues)
-        return resultId
+        return database.insert(Constants.ENTITY_NOTE, null, contentValues)
     }
 
     fun updateNote(note: Note): Boolean{
