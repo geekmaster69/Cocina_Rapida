@@ -46,7 +46,6 @@ class ShoppingListActivity : AppCompatActivity(), OnClickListener {
             intent.putExtra(Intent.EXTRA_TEXT,info.toString())
             intent.type = "text/plain"
             startActivity(Intent.createChooser(intent,"Enviar Lista de Compras"))
-
         }
 
         binding.etDescription.setOnKeyListener(View.OnKeyListener { _, keyCode, event ->

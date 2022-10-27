@@ -163,7 +163,6 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
         intent.putExtra("preparation", recipe.process)
 
         startActivity(intent)
-
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
