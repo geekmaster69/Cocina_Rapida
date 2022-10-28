@@ -1034,5 +1034,58 @@
         3- Pica el cilantro y el chile serrano finamente, estos también se agregan al gusto. Bate hasta tener una mezcla uniforme.\n\n
         4- Deja el hueso del aguacate en la salsa, esto evitara que se oxide rápido (Que se ponga negro).\n\n
         5- Disfruta. "</string>
-
+    <string name="preparation_lasagna_berenjena">
+        1- Pica la cebolla finamente y fríela con el caite junto con la carne por 5 min, agrega sal y pimienta al gusto.\n\n
+        2- Agrega la salsa para espagueti y deja calentar a fuego bajo por 20 minutos.\n\n
+        3- Corta la berenjena en rodajas y desflémala (Básicos d esta receta)
+        4- Coce las berenjenas en una parrilla, en un comal o sartén.\n\n
+        5- Mezcla los huevos con el queso mozzarella y arma de la siguiente manera:\n
+        -Berenjena-Carne con tomate-Berenjena-carne con tomate-Huevos con queso\n\n
+        6- Disfruta.</string>
+    <string name="preparation_saltimbocca">
+        1- Agrega sal y pimienta a la carne y le colocamos el queso encima, cubriendo la carne.\n\n
+        2- Agrega un poco de romero y envuelve, con los palillos atraviesa en rollo para que no se deshaga.\n\n
+        3- Frielos con el aceite durante 5 min por cada lado a fuego alto
+        4- Disfruta.</string>
+    <string name="preparation_rollos_res_pastor">
+        1- Extiende las milanesas y agregales sal y pimienta al gusto.\n\n
+        2- Coloca una procion de carne al pastor y cilantro picado y enrolla.\n\n
+        3- Ata los rollos con la cuerda para que no se deshagan o puedes usar palillos.\n\n
+        4- Coloca en un refractario para horno los rollos, la mantequilla y el agua. Hornea por 50 min a 200 °c .\n\n
+        5- Disfruta.</string>
+    <string name="preparation_res_champinones">1-Rebana los champiñones y caliéntalos a fuego medio por 10 min.\n\n
+        2- Agrega una cucharada de aceite y fríe a fuego medio por 10 min más y retira del fuego.\n\n
+        3- Corta la carne en tiras delgadas y fríela con una cucharada de aceite por 10 min a fuego alto.\n\n
+        4- Agrega la crema, los champiñones, la pimienta rosa, sal y pimienta al gusto.\n\n
+        5- Disfruta.</string>
+    <string name="preparation_costillas_bbq">1-Coloca las costillas en un refractario para horno o charola y agregarle sal al gusto.\n\n
+        2- Pica el ajo finamente y agrega a las costillas junto con el tomillo y envuelve con aluminio. Hornea por 3 horas a 140 °C.\n\n
+        3- Pica el camote en cubos medianos y la cebolla finamente.\n\n
+        4- Pasadas las 3 horas quita el aluminio y agrega el camote y la cebolla con la cucharada de aceite.\n\n
+        5- Hornea por otros 30 min a 180 °C.\n\n
+        6- Para terminar agrega la BBQ a tu gusto y disfruta.</string>
+    <string name="preparation_filete_mignon">
+        1- Muele en una licuadora el jitomate, el ajo y la mostaza.\n\n
+        2- Vierte sobre la carne en un refractario o tupper y deja marinar en el refrigerador por 3 Hrs.\n\n
+        3- Pica la cebolla finamente y viértela sobre la carne marinada. Hornea por 20 min a 210 °C.\n\n
+        4- Baja la temperatura a 180 °C y hornea por otros 25 min.\n\n
+        5- Disfruta.</string>
+    <string name="preparation_salteado_cerdo_pina">
+        1- Frie la carne con la mantequilla a fuego alto por 2 min, mueve para que sea uniforme. Retira del fuego.\n\n
+        2- Pica el chile morrón en tiras, la cebolla en rodajas y el ajo finamente y fríelos con la mantequilla del sartén por 10 min a fuego alto.\n\n
+        3- Agrega la carne, la piña en trozos, el jugo de 1 linos y sal y pimienta al gusto.\n\n
+        4- Deja calentar a fuego medio por 15 min.\n\n
+        5- Disfruta.</string>
+    <string name="preparation_salteado_cerdo_jengibre">
+        1- Pica toda la cebolla (Incluyendo el tallo) y el jengibre en rodajas delgadas .\n\n
+        2- Frie la cebolla y el jengibre con el caite por 5 min a fuego medio.\n\n
+        3- Corta la carne de cubos medianos y agrégala al sartén.\n\n
+        4- Agrega la salsa de soya, el azúcar y deja calentar a fuego alto por 10 min.\n\n
+        5- Salpimineta al gusto y Sirve.</string>
+    <string name="preparation_cerdo_curry">
+        1- Corta el filete en cubos medianos y fríelos con el aceite a fuego medio por 5 min.\n\n
+        2- Agrega el curry y calienta por 2 min mas a fuego medio. Mezcla.\n\n
+        3- Agrega el agua, la crema y sal al gusto.\n\n
+        4- Calienta a fuego bajo por 15 min y mueve constantemente.\n\n
+        5- Sirve.</string>
 </resources>

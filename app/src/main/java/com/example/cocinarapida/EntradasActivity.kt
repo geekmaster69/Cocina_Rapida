@@ -97,7 +97,7 @@ class EntradasActivity : AppCompatActivity(), ReceipeClickListener {
                 )
             ),
             Recipe(
-                "fajitas de Res",
+                "Fajitas de Res",
                 R.drawable.fajitas_res,
                 arrayListOf(
                     Ingredient("2 cucharadas de aceite"),
@@ -121,6 +121,107 @@ class EntradasActivity : AppCompatActivity(), ReceipeClickListener {
                         getString(R.string.no_suggestions))
                 )
             ),
+            Recipe(
+                "Lasaña de Berenjena con Carne",
+                R.drawable.moussaka,
+                arrayListOf(
+                    Ingredient("300g de carne molida de res"),
+                    Ingredient("1 cebolla"),
+                    Ingredient("1 frasco de salsa para espagueti o tetrapack"),
+                    Ingredient("2 huevos"),
+                    Ingredient("100g de queso mozzarella"),
+                    Ingredient("2 cucharadas de aceite"),
+                    Ingredient("sal y pimienta al gusto")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_lasagna_berenjena),
+                arrayListOf(
+                    Help(getString(R.string.no_suggestions),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_suggestions))
+                )
+            ),
+            Recipe(
+                "Res con Champiñones",
+                R.drawable.res_campinones,
+                arrayListOf(
+                    Ingredient("600g de champiñones"),
+                    Ingredient("1Kg de milanesas de res"),
+                    Ingredient("500ml de crema"),
+                    Ingredient("pimienta rosa"),
+                    Ingredient("2 cucharadas de aceite"),
+                    Ingredient("sal y pimineta al gusto"),
+                    Ingredient("2 cucharadas de aceite"),
+                    Ingredient("sal y pimienta al gusto")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_res_champinones),
+                arrayListOf(
+                    Help(getString(R.string.no_suggestions),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_suggestions))
+                )
+            ),
+            Recipe(
+                "Salteado de Cerdo y Piña",
+                R.drawable.res_campinones,
+                arrayListOf(
+                    Ingredient("500g de filete de cerdo"),
+                    Ingredient("50g de mantequilla"),
+                    Ingredient("1 chile morrón rojo"),
+                    Ingredient("1 diente de ajo"),
+                    Ingredient("1 cebolla"),
+                    Ingredient("1 lata de piña en almibar en trozos"),
+                    Ingredient("1 limon"),
+                    Ingredient("sal y pimienta al gusto")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_salteado_cerdo_pina),
+                arrayListOf(
+                    Help(getString(R.string.no_suggestions),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
+            ),
+            Recipe(
+                "Filete de Cerdo con Curry",
+                R.drawable.filete_cerdo_curry,
+                arrayListOf(
+                    Ingredient("700g de filete de cerdo"),
+                    Ingredient("2 cucharadas de aceite"),
+                    Ingredient("3 cucharadas de curry rojo en polvo"),
+                    Ingredient("70 ml de agua"),
+                    Ingredient("250 ml de crema"),
+                    Ingredient("sal")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_cerdo_curry),
+                arrayListOf(
+                    Help(getString(R.string.no_suggestions),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
+            )
         )
 
         recipeAdapter = RecipeAdapter(recipeList, this)

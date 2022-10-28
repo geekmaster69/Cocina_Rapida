@@ -130,6 +130,55 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                         R.drawable.help_cebolla_rodajas,
                         "Así es como debe verse la cebolla cuando la cortes")
                 )
+            ),
+            Recipe(
+                "Saltimbocca",
+                R.drawable.saltimbocca,
+                arrayListOf(
+                    Ingredient("8 milanesas de res"),
+                    Ingredient("8 rebanadas de queso mozzarela"),
+                    Ingredient("romero"),
+                    Ingredient("2 cucharadas de aceite"),
+                    Ingredient("palillos"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_saltimbocca),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
+            ),
+            Recipe(
+                "Salteado de Cerdo y Jengibre",
+                R.drawable.salteado_cerdo_jengibre,
+                arrayListOf(
+                    Ingredient("600g de filete de cerdo"),
+                    Ingredient("4 cebollas cambray"),
+                    Ingredient("3 cm de jengibre"),
+                    Ingredient("2 cucharadas de aceite"),
+                    Ingredient("3 cucharadas de aceite de soya"),
+                    Ingredient("2 cucharadas de azúcar mascabado"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient("puedes acompañar arroz blanco")
+                ),
+                getString(R.string.preparation_salteado_cerdo_jengibre),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
             )
         )
         recipeAdapter = RecipeAdapter(recipeList, this)

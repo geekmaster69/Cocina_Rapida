@@ -101,6 +101,81 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                         getString(R.string.no_help_suggestion_description))
                 )
             ),
+            Recipe(
+                "Rollo de Res al Pastor",
+                R.drawable.rollos_res_pastor,
+                arrayListOf(
+                    Ingredient("10 milanesas de res"),
+                    Ingredient("2 manojos de cilantro"),
+                    Ingredient("500g de carne al pastor preparada"),
+                    Ingredient("25g de mantequilla"),
+                    Ingredient("una cuerda para hornear (Hilo grueso de algodón)"),
+                    Ingredient("250ml de agua"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_rollos_res_pastor),
+                arrayListOf(
+                    Help(
+                        getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
+            ),
+            Recipe(
+                "Costillas de cerdo en salsa BBQ",
+                R.drawable.costillas_bbq,
+                arrayListOf(
+                    Ingredient("1.5kg de costillas de cerdo sin grasa"),
+                    Ingredient("2 dientes de ajo"),
+                    Ingredient("2 camotes"),
+                    Ingredient("1 cebolla"),
+                    Ingredient("6 ramas de tomillo"),
+                    Ingredient("salsa BBQ"),
+                    Ingredient("1 cucharada de aceite"),
+                    Ingredient("papel aluminio")
+                ),
+                arrayListOf(
+                    Ingredient("2 papas (Sustituye camote)")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_costillas_bbq),
+                arrayListOf(
+                    Help(
+                        getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
+            ),
+            Recipe(
+                "Filete Mignon",
+                R.drawable.salteado_cerdo_pina,
+                arrayListOf(
+                    Ingredient("2 fieletes de cerdo"),
+                    Ingredient("180g de jitomates deshidratados en aceite"),
+                    Ingredient("1 diente de ajo"),
+                    Ingredient("1 cucharada de mostaza dijon"),
+                    Ingredient("1 cebolla morada")
+                ),
+                arrayListOf(
+                    Ingredient("2 papas (Sustituye camote)")
+                ),
+                arrayListOf(
+                    Ingredient("Arróz"),
+                    Ingredient("Ensalada"),
+                ),
+                getString(R.string.preparation_filete_mignon),
+                arrayListOf(
+                    Help(
+                        getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
+            )
         )
 
         recipeAdapter = RecipeAdapter(recipeList, this)
