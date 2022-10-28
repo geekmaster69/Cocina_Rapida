@@ -211,6 +211,70 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
                 )
             ),
             Recipe(
+                "Pizza Exprés de Chorizo",
+                R.drawable.pizza_expres_chorizo,
+                arrayListOf(
+                    Ingredient(getString(R.string.harina_1tz)),
+                    Ingredient(getString(R.string.agua_1tz)),
+                    Ingredient(getString(R.string.sal_1cda)),
+                    Ingredient(getString(R.string.azucar_1cda)),
+                    Ingredient(getString(R.string.polvo_hornear_1cda)),
+                    Ingredient(getString(R.string.aceite_1cda)),
+                    Ingredient("salsa para pizza"),
+                    Ingredient("250g de chorizo"),
+                    Ingredient("10 aceitunas negras"),
+                    Ingredient("220g de queso mozzarella"),
+                    Ingredient("1 chorrito de aceite"),
+                    Ingredient("1 cucharada de ajo en polvo"),
+                    Ingredient("hojas de albahaca"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient("queso manchego (Sustituye mozzarella)")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_pizza_expres_chorizo),
+                arrayListOf(
+                    Help("Base para Pizza",
+                        R.drawable.help_base_pizza,
+                        getString(R.string.help_base_pizza))
+                )
+            ),
+            Recipe(
+                "Pizza de Verduras a la Parrilla",
+                R.drawable.pizza_expres_chorizo,
+                arrayListOf(
+                    Ingredient(getString(R.string.harina_1tz)),
+                    Ingredient(getString(R.string.agua_1tz)),
+                    Ingredient(getString(R.string.sal_1cda)),
+                    Ingredient(getString(R.string.azucar_1cda)),
+                    Ingredient(getString(R.string.polvo_hornear_1cda)),
+                    Ingredient(getString(R.string.aceite_1cda)),
+                    Ingredient("salsa para pizza"),
+                    Ingredient("250g de chorizo"),
+                    Ingredient("10 aceitunas negras"),
+                    Ingredient("220g de queso mozzarella"),
+                    Ingredient("1 chorrito de aceite"),
+                    Ingredient("1 cucharada de ajo en polvo"),
+                    Ingredient("hojas de albahaca"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient("queso manchego (Sustituye mozzarella)")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_pizza_expres_chorizo),
+                arrayListOf(
+                    Help("Base para Pizza",
+                        R.drawable.help_base_pizza,
+                        getString(R.string.help_base_pizza))
+                )
+            ),
+            Recipe(
                 "Linguine con Albóndigas",
                 R.drawable.linguine_albondigas,
                 arrayListOf(
@@ -238,26 +302,24 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
                 )
             ),
             Recipe(
-                "Penne en Salsa de Jitomate con Panceta y Albahaca",
-                R.drawable.linguine_albondigas,
+                "Penne en Salsa de Jitomate con Panceta y Cebolla Cambray",
+                R.drawable.penne_jitomate_cebolla,
                 arrayListOf(
-                    Ingredient("450g de carne molida de res"),
-                    Ingredient("1 cebolla"),
-                    Ingredient("1 pizca de paprica"),
-                    Ingredient("2 cucharadas de aceite"),
-                    Ingredient("400g de linguine"),
-                    Ingredient("1 manojo de albaca"),
-                    Ingredient("70g de queso parmesano"),
-                    Ingredient("1 diente de ajo"),
+                    Ingredient("400g de pasta penne"),
+                    Ingredient("12 rebanadas de panceta"),
+                    Ingredient("1 chorrito de aceite"),
+                    Ingredient("2 cebollas cambray"),
+                    Ingredient("20 jitomates cherry"),
+                    Ingredient("300ml de salsa para espagueti"),
                     Ingredient("sal y pimienta")
                 ),
                 arrayListOf(
-                    Ingredient(getString(R.string.no_subtitutes))
+                    Ingredient("12 tiras de tocino (Sustituye panceta)")
                 ),
                 arrayListOf(
                     Ingredient(getString(R.string.no_optios))
                 ),
-                getString(R.string.preparation_linguine_albondigas),
+                getString(R.string.preparation_penne_jitomate_albahaca),
                 arrayListOf(
                     Help("Cocer Pasta",
                         R.drawable.pasta_help,

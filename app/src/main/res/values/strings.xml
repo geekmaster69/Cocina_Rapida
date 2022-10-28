@@ -1088,4 +1088,20 @@
         3- Agrega el agua, la crema y sal al gusto.\n\n
         4- Calienta a fuego bajo por 15 min y mueve constantemente.\n\n
         5- Sirve.</string>
+    <string name="preparation_penne_jitomate_albahaca">
+        1- Cuece la pasta (Básicos de esta receta).\n\n
+        2- Pica la panceta y la parte blanca de la cebolla cambray (guarda los tallos) y fríelas en una olla con el aceite durante 2 min a fuego alto.\n\n
+        3- Corta los jitomates en mitades y agrégalos a la olla, fríe por otros 2 min a fuego alto.\n\n
+        4- Agrega la pasta a la olla junto con la salsa de tomate, mezcla y sazona con sal y pimienta al gusto.\n\n
+        5- Decora con los tallos de la cebolla cortados en rodajas delgadas. Sirve.</string>
+    <string name="preparation_pizza_expres_chorizo">
+        1- Prepara una base para pizza (Básicos de esta receta).\n\n
+        2- Mientras la pizza sigue en el sartén esparce la salsa por la pizza y agrega el ajo en polvo,\n\n
+        3- Pica el chorizo, las aceitunas y agrega a la pizza, cubre con el queso mozzarella.\n\n
+        4- Agregale sal y pimienta al gusto, tápala y déjala calentar por 10 min a fuego bajo.\n\n
+        5- Decora con unas hojas de albahaca y disfruta.</string>
+    <string name="help_base_pizza">
+        1- En un sartén engrasado a fuego medio coloca 1 taza de haría, 1 taza de agua, 1 cucharada de sal, 1 cucharada de azúcar y media cucharada de polvo para hornear.\n\n
+        2- Mueve hasta tener una mezcla homogénea y tapa.\n\n
+        3- Cuando la superficie ya no este húmeda tendrás lista tu base para pizza.</string>
 </resources>
