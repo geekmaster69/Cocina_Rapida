@@ -1104,4 +1104,15 @@
         1- En un sartén engrasado a fuego medio coloca 1 taza de haría, 1 taza de agua, 1 cucharada de sal, 1 cucharada de azúcar y media cucharada de polvo para hornear.\n\n
         2- Mueve hasta tener una mezcla homogénea y tapa.\n\n
         3- Cuando la superficie ya no este húmeda tendrás lista tu base para pizza.</string>
+    <string name="preparation_pizza_verduras_parrilla">
+        1- Prepara una base para pizza (Básicos de esta receta).\n\n
+        2- Mezcla los jitomates con el orégano y el aceite con una pisca de sal y viértelo sobre la base para pizza. Tapa y deja calentar por 8 min a fuego bajo\n\n
+        3- Pica las verduras en rodajas delgadas y caliéntalas en un comal a fuego bajo hasta que estén doradas.\n\n
+        4- Agrega las verduras, el jamón rebanado, el queso y la albahaca a la pizza. Tapa y deja a fuego bajo por 10 min.\n\n
+        5- Disfruta.</string>
+    <string name="preparation_pasta_chicharos_tocino_expres">
+        1- Pica la cebolla, el tocino y agrégalos junto a los chicharos y la pasta en una olla con suficiente agua.\n\n
+        2- Agrega sal y pimienta al gusto y deja hervir por 12 min a fuego bajo.\n\n
+        3- Drena el agua y agrega la crema.\n\n
+        4- Mezcla y sirve. Disfruta.</string>
 </resources>

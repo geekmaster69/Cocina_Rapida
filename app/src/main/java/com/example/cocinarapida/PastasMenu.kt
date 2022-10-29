@@ -244,7 +244,7 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 "Pizza de Verduras a la Parrilla",
-                R.drawable.pizza_expres_chorizo,
+                R.drawable.pizza_verduras_parrilla,
                 arrayListOf(
                     Ingredient(getString(R.string.harina_1tz)),
                     Ingredient(getString(R.string.agua_1tz)),
@@ -252,22 +252,22 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
                     Ingredient(getString(R.string.azucar_1cda)),
                     Ingredient(getString(R.string.polvo_hornear_1cda)),
                     Ingredient(getString(R.string.aceite_1cda)),
-                    Ingredient("salsa para pizza"),
-                    Ingredient("250g de chorizo"),
-                    Ingredient("10 aceitunas negras"),
-                    Ingredient("220g de queso mozzarella"),
-                    Ingredient("1 chorrito de aceite"),
-                    Ingredient("1 cucharada de ajo en polvo"),
+                    Ingredient("100g de jitomates picados en aceie"),
+                    Ingredient("1 cucharada de oregano seco"),
+                    Ingredient("2 cucharadas de aceite"),
+                    Ingredient("sal"),
+                    Ingredient("300g de queso manchego"),
+                    Ingredient("200g de verduras (pimiento rojo, berenjena, jitomate cherry)"),
                     Ingredient("hojas de albahaca"),
-                    Ingredient("sal y pimienta")
+                    Ingredient("jamón de tu preferencia")
                 ),
                 arrayListOf(
-                    Ingredient("queso manchego (Sustituye mozzarella)")
+                    Ingredient("mezcla de quesos italianos")
                 ),
                 arrayListOf(
                     Ingredient(getString(R.string.no_optios))
                 ),
-                getString(R.string.preparation_pizza_expres_chorizo),
+                getString(R.string.preparation_pizza_verduras_parrilla),
                 arrayListOf(
                     Help("Base para Pizza",
                         R.drawable.help_base_pizza,

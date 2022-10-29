@@ -28,7 +28,9 @@ class Parallevar : AppCompatActivity() {
         binding.btEnsaladas.setOnClickListener {
             startActivity(Intent(this, EnsaladasActivity::class.java))
         }
-
+        binding.btPastasFrias.setOnClickListener {
+            startActivity(Intent(this, PastaFriaActivity::class.java))
+        }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
