@@ -44,7 +44,8 @@ WrapsActivity : AppCompatActivity(), ReceipeClickListener {
                     Help("Sin sugerencias",
                         R.drawable.ic_help_null,
                         "No hay sugerencias disponibles"))
-            ),Recipe(
+            ),
+            Recipe(
                 getString(R.string.title_wrap_jitomate_espinaca),
                 R.drawable.wrap_jitomate_espinaca,
                 arrayListOf(
@@ -67,6 +68,28 @@ WrapsActivity : AppCompatActivity(), ReceipeClickListener {
                         R.drawable.ic_help_null,
                         "No hay sugerencias disponibles"))
             ),
+            Recipe(
+                "Wrap de Pollo Especiado",
+                R.drawable.wrap_jitomate_espinaca,
+                arrayListOf(
+                    Ingredient("2 pechuga de pollo sin piel y sin hueso"),
+                    Ingredient("2 cucharadas de aceite"),
+                    Ingredient("4 tortillas de harina para wraps o burrito"),
+                    Ingredient("aderezo de queso azul"),
+                    Ingredient("sal y pimienta al gusto")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_wrap_pollo_especiado),
+                arrayListOf(
+                    Help("Sin sugerencias",
+                        R.drawable.ic_help_null,
+                        "No hay sugerencias disponibles"))
+            )
         )
         recipeAdapter = RecipeAdapter(recipeList, this)
         binding.rvRecipe.apply {

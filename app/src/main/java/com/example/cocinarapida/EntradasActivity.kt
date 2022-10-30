@@ -221,6 +221,81 @@ class EntradasActivity : AppCompatActivity(), ReceipeClickListener {
                         R.drawable.ic_help_null,
                         getString(R.string.no_help_suggestion_description))
                 )
+            ),
+            Recipe(
+                "Piernas de Pollo Loqueadas con Miel, Limón y Cilantro",
+                R.drawable.piernas_pollo_loqueadas_miel_cilantro,
+                arrayListOf(
+                    Ingredient("8 piernas de pollo"),
+                    Ingredient("5 cucharadas de miel"),
+                    Ingredient("3 limones amarillos"),
+                    Ingredient("5 cucharadas de salsa de soya"),
+                    Ingredient("5 dientes de ajo"),
+                    Ingredient("1 manojo de cilantro")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_piernas_loqueadas_limon),
+                arrayListOf(
+                    Help(getString(R.string.no_suggestions),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
+            ),
+            Recipe(
+                "Curry Rojo con Pollo y Leche de Coco",
+                R.drawable.piernas_pollo_loqueadas_miel_cilantro,
+                arrayListOf(
+                    Ingredient("1kg de pechuga de pollo"),
+                    Ingredient("4 cucharadas de curry rojo en pasta"),
+                    Ingredient("1 limón amarillo"),
+                    Ingredient("2 cucharadas de aceite"),
+                    Ingredient("300 ml de leche de coco"),
+                    Ingredient("1 manojo de cilantro"),
+                    Ingredient("sal al gusto")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_curry_rojo_pollo_leche_coco),
+                arrayListOf(
+                    Help(getString(R.string.no_suggestions),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
+            ),
+            Recipe(
+                "Pollo Vasco",
+                R.drawable.piernas_pollo_loqueadas_miel_cilantro,
+                arrayListOf(
+                    Ingredient("4 piernas de pollo son piel"),
+                    Ingredient("4 muslos de pollo sin piel"),
+                    Ingredient("1 cebolla"),
+                    Ingredient("1 pimiento rojo"),
+                    Ingredient("1 pimiento verde"),
+                    Ingredient("400g de jitomates picados enlatados"),
+                    Ingredient("1 cucharada de hierbas provenzales"),
+                    Ingredient("sal y pimienta al gusto")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_pollo_vasco),
+                arrayListOf(
+                    Help("Cortar Cebolla en Rodajas",
+                        R.drawable.help_cebolla_rodajas,
+                        getString(R.string.help_cebolla_rodajas))
+                )
             )
         )
 

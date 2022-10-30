@@ -175,6 +175,60 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                         getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
                         getString(R.string.no_help_suggestion_description))
                 )
+            ),
+            Recipe(
+                "Jitomates Rellenos Horneados",
+                R.drawable.jitomates_rellenos_horneados,
+                arrayListOf(
+                    Ingredient("4 jitomates bola"),
+                    Ingredient("300g de salchicha"),
+                    Ingredient("1 diente de ajo"),
+                    Ingredient("1 cebolla"),
+                    Ingredient("1 manojo de perejil"),
+                    Ingredient("1 rebanada de pan de caja duro"),
+                    Ingredient("1 chorrito de aceite"),
+                    Ingredient("sal de grano y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient("pan molido (Sustituye la rebanada de pan)")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_jitomates_rellenos),
+                arrayListOf(
+                    Help(
+                        getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
+            ),
+            Recipe(
+                "Pollo Asado",
+                R.drawable.pollo_asado,
+                arrayListOf(
+                    Ingredient("1 pollo entero limpio con piel"),
+                    Ingredient("20 papas cambray"),
+                    Ingredient("3 dientes de ajo"),
+                    Ingredient("3 cucharadas de miel de abeja"),
+                    Ingredient("3 cucharadas de aceite"),
+                    Ingredient("1 limón amarillo"),
+                    Ingredient("2 ramas de romero"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_pollo_asado),
+                arrayListOf(
+                    Help(
+                        getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
             )
         )
 

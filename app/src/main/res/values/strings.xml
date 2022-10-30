@@ -1115,4 +1115,52 @@
         2- Agrega sal y pimienta al gusto y deja hervir por 12 min a fuego bajo.\n\n
         3- Drena el agua y agrega la crema.\n\n
         4- Mezcla y sirve. Disfruta.</string>
+    <string name="preparation_jitomates_rellenos">
+        1- Corta la tapa de los jitomates, con ayuda de una cuchara retira las semillas.\n\n
+        2- Espolvorea sal de grano dentro de todo del jitomate y voltéalo para que se escurra el exceso de agua.\n\n
+        3- Pica la cebolla, la salchicha, el ajo, el perejil y el pan en trozos pequeños y mezcla con pimienta.\n\n
+        4- Rellena los jitomates y ponles la tapa.\n\n
+        5- Colocalos en un refractario y agrega un chorrito de aceite sobre ellos. Hornea por 30 min a 200 °C.\n\n
+        6- Disfruta.</string>
+    <string name="preparation_pollo_asado">
+        1- En un refractario para horno coloca el pollo, las papas, los ajos pelados y una cucharada de aceite.\n\n
+        2- Mezcla la miel con el resto dela aceite y cubre toda la superficie del pollo con la mezcla.\n\n
+        3- Coloca sobre el pollo rebanadas delgadas de limón, ramas de romero y sal y pimienta.\n\n
+        4- Mete al horno durante 45 min a 200 °C, después voltea el pollo y hornea por otros 45 min. \n\n
+        5- Disfruta.</string>
+    <string name="preparation_pollo_crujiente_hojuelas">
+        1- Pica la pechuga en cubos pequeños y deja marinar 2 Hrs en una mezcla de leche y páprika.\n\n
+        2- En un recipiente mezcla la harina, sal y el ajo en polvo, en otro recipiente vas a batir los huevos y en otro colocas las hojuelas trituradas.\n\n
+        3- Cubre las pechugas con la mezcla de haría, después con el huevo batido y al final con las hojuelas de miz.\n\n
+        4- En un refractario coloca el pollo y agrega aceite.\n\n
+        5- Hornea por 15 min a 180 °C y después otros 5 min a 210 °C, esto es para que queden crujientes.
+        6- Disfruta.</string>
+    <string name="preparation_piernas_loqueadas_limon">
+        1- Pica los ajos, el cilantro y mezcla con la miel, la salsa de soya y el juego de los 3 limones.\n\n
+        2- En un refractario o bolsa con cierre mete las piernas de pollo con la mezcla previa, debes dejar marinar toda una noche en el refrigerador.\n\n
+        3- Hornea las piernas por 15 min a 240 °C, después voltea vuelve a hornear, volteas y vuelves a hornear (En total debes hornear 3 veces).\n\n
+        4- Adorna con cilantro picado encima. Disfruta.</string>
+    <string name="preparation_curry_rojo_pollo_leche_coco">
+        1- Corta el pollo en tiras, mezcla con 2 cucharadas de curry, 2 cucharadas de aceite y fríe por 5 min a fuego alto.\n\n
+        2- Agrega sal, la leche de coco otras 2 cucharadas de curry y mezcla. Calienta por otros 10 min a fuego bajo.\n\n
+        3- Adorna con cilantro picado y juego de limón. Disfruta.</string>
+    <string name="preparation_wrap_pollo_especiado">
+        1- Corta el pollo en tiras delgadas y fríelas con aceite por 3 min a fuego alto o hasta que estén bien fritas.\n\n
+        2- Agrega el curry, sal y pimienta al gusto y mezcla. 3-Calienta las tortillas de harina en el microondas por 50 seg. \n\n
+        4- Para armar los wraps imagina un rectángulo vertical en la tortilla, vas a colocar: \n
+        Tortilla-pollo-aderezo \n Sin salir del rectángulo.\n\n
+        5- La parte inferior del rectángulo dóblala hasta la mitad cubriendo el pollo y después los lados hacia el centro formando una especie de burrito. Disfruta</string>
+    <string name="preparation_pollo_vasco">
+        1- Frie con el aceite las piernas y muslos en una olla a fuego medio por 5 min.\n\n
+        2- Pica la cebolla en rodajas, los pimientos en tiras y agrégalos a la olla y calienta por 5 min a fuego alto.\n\n
+        3- Agrega los jitomates, las hierbas provenzales, sal y pimienta al gusto.\n\n
+        4- Tapa y deja calentar por 30 min a fuego bajo.\n\n
+        5- Disfruta.</string>
+    <string name="help_cebolla_rodajas">
+        1- Coloca la cebolla de manera horizontal.\n\n
+        2- Corta la cebolla en el centro y de manera consecutiva, tendrás rodajas perfectas de cebolla.</string>
+    <string name="preparation_ensalada_salmon_citricos">
+        1-Mezcla el jugo de limón, la miel, sal y pimienta y colócalos en el fondo de un frasco o bowl.\n\n
+        2-Coloca una capa de gajos de mandarina, una capa de rebanadas de aguacate, tallo de cebollín picado, dientes de granada, salmón, más gajos de naranja y termina con la mezcla de lechugas.\n\n
+        3-Disfruta.</string>
 </resources>

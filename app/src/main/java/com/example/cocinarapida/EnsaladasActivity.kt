@@ -50,17 +50,17 @@ class EnsaladasActivity : AppCompatActivity(), ReceipeClickListener {
                 getString(R.string.title_ensalada_verde_burrata),
                 R.drawable.ensalada_burrata,
                 arrayListOf(
-                    Ingredient("Sopa de municion 220g"),
-                    Ingredient("Vinagre balsámico"),
+                    Ingredient("sopa de municion 220g"),
+                    Ingredient("vinagre balsámico"),
                     Ingredient(getString(R.string.medio_manojo_menta)),
                     Ingredient("100g de espinaca"),
                     Ingredient("250g de chicharos cocidos"),
                     Ingredient("1 pieza de burrata"),
                 ),
                 arrayListOf(
-                    Ingredient("Chicharos en lata"),
-                    Ingredient("Chicharos congelados"),
-                    Ingredient("Espinaca baby en bolsa"),
+                    Ingredient("chicharos en lata"),
+                    Ingredient("chicharos congelados"),
+                    Ingredient("espinaca baby en bolsa"),
                 ),
                 arrayListOf(
                     Ingredient(getString(R.string.no_optios))
@@ -69,6 +69,35 @@ class EnsaladasActivity : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Help("Concer Pasta", R.drawable.pasta_help,
                         getString(R.string.help_pasta_preparation))
+                )
+            ),
+            Recipe(
+                "Ensalada de Salmón con Cítricos",
+                R.drawable.ensalada_burrata,
+                arrayListOf(
+                    Ingredient("4 rebanadas de salmón ahumado"),
+                    Ingredient("1 limon amarillo"),
+                    Ingredient("6 mandarinas"),
+                    Ingredient("2 aguacates"),
+                    Ingredient("1 manojo de cebolla cambray (Solo los tallos)"),
+                    Ingredient("½ granada (Solo los dientes)"),
+                    Ingredient("100g de mezcla de lechugas"),
+                    Ingredient("2 cucharadas de miel"),
+                    Ingredient("sal y pimienta"),
+                ),
+                arrayListOf(
+                    Ingredient("salmón en agua (sobre o lata)")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_ensalada_salmon_citricos),
+                arrayListOf(
+                    Help(
+                        "Concer Pasta",
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation)
+                    )
                 )
             )
         )

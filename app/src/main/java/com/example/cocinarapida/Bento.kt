@@ -179,6 +179,32 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                         R.drawable.ic_help_null,
                         getString(R.string.no_help_suggestion_description))
                 )
+            ),
+            Recipe(
+                "Pollo crujiente con Hojuelas de Maíz",
+                R.drawable.pollo_crujinte_jojuelas,
+                arrayListOf(
+                    Ingredient("2 pecuchas sin piel y sin hueso"),
+                    Ingredient("200 ml de leche"),
+                    Ingredient("1 cucharada de páprika"),
+                    Ingredient("8 cucharadas de harina"),
+                    Ingredient("1 cucharada de ajo en polvo"),
+                    Ingredient("2 huevos"),
+                    Ingredient("250g de hojuelas de miz"),
+                    Ingredient("2 cucharadas de aceite")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient("puedes acompañar arroz blanco")
+                ),
+                getString(R.string.preparation_pollo_crujiente_hojuelas),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
             )
         )
         recipeAdapter = RecipeAdapter(recipeList, this)
