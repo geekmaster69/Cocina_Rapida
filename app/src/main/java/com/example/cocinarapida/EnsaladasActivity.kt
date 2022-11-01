@@ -73,7 +73,7 @@ class EnsaladasActivity : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 "Ensalada de Salmón con Cítricos",
-                R.drawable.ensalada_burrata,
+                R.drawable.ensalada_salon_citricos,
                 arrayListOf(
                     Ingredient("4 rebanadas de salmón ahumado"),
                     Ingredient("1 limon amarillo"),

@@ -248,7 +248,7 @@ class EntradasActivity : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 "Curry Rojo con Pollo y Leche de Coco",
-                R.drawable.piernas_pollo_loqueadas_miel_cilantro,
+                R.drawable.curry_rojo_pollo_leche_coco,
                 arrayListOf(
                     Ingredient("1kg de pechuga de pollo"),
                     Ingredient("4 cucharadas de curry rojo en pasta"),
@@ -273,7 +273,7 @@ class EntradasActivity : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 "Pollo Vasco",
-                R.drawable.piernas_pollo_loqueadas_miel_cilantro,
+                R.drawable.pollo_vasco,
                 arrayListOf(
                     Ingredient("4 piernas de pollo son piel"),
                     Ingredient("4 muslos de pollo sin piel"),

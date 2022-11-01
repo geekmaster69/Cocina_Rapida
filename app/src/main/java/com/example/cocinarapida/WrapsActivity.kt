@@ -70,7 +70,7 @@ WrapsActivity : AppCompatActivity(), ReceipeClickListener {
             ),
             Recipe(
                 "Wrap de Pollo Especiado",
-                R.drawable.wrap_jitomate_espinaca,
+                R.drawable.wrap_pollo_especiado,
                 arrayListOf(
                     Ingredient("2 pechuga de pollo sin piel y sin hueso"),
                     Ingredient("2 cucharadas de aceite"),

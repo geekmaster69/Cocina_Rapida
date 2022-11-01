@@ -229,6 +229,33 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                         R.drawable.ic_help_null,
                         getString(R.string.no_help_suggestion_description))
                 )
+            ),
+            Recipe(
+                "Salmón con Papas y Eneldo",
+                R.drawable.pollo_asado,
+                arrayListOf(
+                    Ingredient("1 filete de 800g de salmon con piel"),
+                    Ingredient("20 papas cambray"),
+                    Ingredient("3 dientes de ajo"),
+                    Ingredient("3 cucharadas de miel de abeja"),
+                    Ingredient("3 cucharadas de aceite"),
+                    Ingredient("1 limón amarillo"),
+                    Ingredient("2 ramas de romero"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_pollo_asado),
+                arrayListOf(
+                    Help(
+                        getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
             )
         )
 
