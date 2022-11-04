@@ -1160,7 +1160,46 @@
         1- Coloca la cebolla de manera horizontal.\n\n
         2- Corta la cebolla en el centro y de manera consecutiva, tendrás rodajas perfectas de cebolla.</string>
     <string name="preparation_ensalada_salmon_citricos">
-        1-Mezcla el jugo de limón, la miel, sal y pimienta y colócalos en el fondo de un frasco o bowl.\n\n
-        2-Coloca una capa de gajos de mandarina, una capa de rebanadas de aguacate, tallo de cebollín picado, dientes de granada, salmón, más gajos de naranja y termina con la mezcla de lechugas.\n\n
-        3-Disfruta.</string>
+        1- Mezcla el jugo de limón, la miel, sal y pimienta y colócalos en el fondo de un frasco o bowl.\n\n
+        2- Coloca una capa de gajos de mandarina, una capa de rebanadas de aguacate, tallo de cebollín picado, dientes de granada, salmón, más gajos de naranja y termina con la mezcla de lechugas.\n\n
+        3- Disfruta.</string>
+    <string name="preparation_salom_papas_eneldop">
+        1- Rebana las papas como si las fueras a hacer en rodajas pero sin llegár a la base, solo a la mitad.\n\n
+        2- En un refractario para hornear agrega las papas, 4 cucharadas de aceite de oliva, 4 remas de eneldo y sal al gusto. Hornea por 15 min a 200°C.\n\n
+        3- Coloca el salmón en el refractario, agrega el judo de limón amarillo, un chorrito de aceite de oliva y Hornea por otros 20 min a 180 °C.\n\n
+        4- Mezcla la crema con rayadura de limón, sal, pimienta rosa y un poco de eneldo. Este servida como aderezo.\n\n
+        5- Disfruta.</string>
+    <string name="preparation_poke_bowl">
+        1- Prepara el arroz (Básicos de esta receta)
+        2- Rebana los tallos de cebolla cambray y mezcla con el salón, la salsa de soya y el aceite de ajonjolí, deja reposar 30 min.\n\n
+        3- En un tazón mezcla el arroz con el ajonjolí.\n\n
+        4- Rebana el pepino, la col y los aguacates.\n\n
+        5- Sobre el arroz coloca el salmón, el pepino, la col y los aguacates rebanados.\n\n
+        6- Disfruta.</string>
+    <string name="preparation_pasta_rotelle_salmon">
+        1- Prepara la pasta (Básicos de esta receta).\n\n
+        2- Pica la cebolla finamente y fríela con el aceite.\n\n
+        3- Agrega la crema para batir y el jugo y ralladura del limón amarillo. Calienta a fuego muy bajo por 5 min.\n\n
+        4- Afrega el salmón y revuelve. Calienta otros 3 min a fuego bajo.\n\n
+        5- En un plato hondo sirve la pasta con el salmón y los tayos de cebolla cortados en rodajas delgadas.\n\n
+        6- Disfruta.</string>
+    <string name="preparation_atun_sellado_ajonjoli_ejotes">
+        1- Cubre los ejotes con agua y cocer por 7 min a fuego medio. Escurre el agua.\n\n
+        2- Mezcla la salsa de soya con el jugo de limón y pimienta al gusto.\n\n
+        3- Deja el atún marinando en la mezcla por 20 min.\n\n
+        4- Con el aceite de ajonjolí fríe los atunes por 2 min cada lado a fuego alto.\n\n
+        5- Cubre el atún con ajonjolí, agrega marinada de atún, los ejotes cocidos y calienta a fuego medio por 5 min.\n\n
+        6- Disfruta.</string>
+    <string name="preparation_fish_chips">
+        1- Corta los camotes en tiras (Papas a la francesa). colócalas en un refractario para horno, agrégales un chorrito de aceite y hornea por 15 min a 220 °C.\n\n
+        2- En un recipiente bate el huevo, en otro coloca la harina y en otro el pan molido.\n\n
+        3- Corta el bacalao en cuadros medianos, sumérgelos en el huevo después en la harina y al final en pan molido.\n\n
+        4- Frielos por 2 min a fuego medio por ambos lados.\n\n
+        5- Sirve el camote y el bacalao frito juntos, agrega sal y pimienta al gusto.\n\n
+        6- Disfruta.</string>
+    <string name="preparation_bacalao_pochado_leche_coco_espinacas">
+        1- Calienta la leche de coco y el agua por 8 min a fuego medio.\n\n
+        2- Agrega el bacalao cortado en cubos medianos, las espinacas, el jitomate deshidratado y sal y pimienta al gusto.\n\n
+        3- Deja calentar 7 min a fuego medio.\n\n
+        4- Disfruta.</string>
 </resources>

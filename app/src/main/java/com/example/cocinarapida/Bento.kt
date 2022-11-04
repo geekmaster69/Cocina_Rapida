@@ -161,7 +161,7 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Ingredient("600g de filete de cerdo"),
                     Ingredient("4 cebollas cambray"),
-                    Ingredient("3 cm de jengibre"),
+                    Ingredient("3cm de jengibre"),
                     Ingredient("2 cucharadas de aceite"),
                     Ingredient("3 cucharadas de aceite de soya"),
                     Ingredient("2 cucharadas de azúcar mascabado"),
@@ -204,6 +204,34 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                     Help(getString(R.string.no_help_suggestion),
                         R.drawable.ic_help_null,
                         getString(R.string.no_help_suggestion_description))
+                )
+            ),
+            Recipe(
+                "Poke Bowl",
+                R.drawable.poke_bowl,
+                arrayListOf(
+                    Ingredient("300g de arroz cocido"),
+                    Ingredient("1 cucharada de ajonjolí blanco y negro"),
+                    Ingredient("300g de salmón"),
+                    Ingredient("4 cebollas cambray (Solo tallo)"),
+                    Ingredient("4 cucharadas de salsa de soya"),
+                    Ingredient("2 cucharadas de aceite de ajonjolí"),
+                    Ingredient("1 pepino"),
+                    Ingredient("1 col"),
+                    Ingredient("2 aguacates")
+                ),
+                arrayListOf(
+                    Ingredient("Sobre de salmón (Sustituye el salmón)"),
+                    Ingredient("Sobre de atún (Sustituye el salmón)")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_poke_bowl),
+                arrayListOf(
+                    Help(getString(R.string.help_arroz_title),
+                        R.drawable.arroz_help,
+                        getString(R.string.help_arroz_oniguiri))
                 )
             )
         )

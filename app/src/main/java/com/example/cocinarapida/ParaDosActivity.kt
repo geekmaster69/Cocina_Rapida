@@ -232,16 +232,16 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
             ),
             Recipe(
                 "Salmón con Papas y Eneldo",
-                R.drawable.pollo_asado,
+                R.drawable.salmon_papas_eneldo,
                 arrayListOf(
                     Ingredient("1 filete de 800g de salmon con piel"),
-                    Ingredient("20 papas cambray"),
-                    Ingredient("3 dientes de ajo"),
-                    Ingredient("3 cucharadas de miel de abeja"),
-                    Ingredient("3 cucharadas de aceite"),
+                    Ingredient("1kg de papas cambray"),
+                    Ingredient("5 ramas de eneldo"),
+                    Ingredient("aceite de oliva"),
                     Ingredient("1 limón amarillo"),
-                    Ingredient("2 ramas de romero"),
-                    Ingredient("sal y pimienta")
+                    Ingredient("200ml de crema acida"),
+                    Ingredient("1 cucharada de pimientas rosa"),
+                    Ingredient("sal")
                 ),
                 arrayListOf(
                     Ingredient(getString(R.string.no_subtitutes))
@@ -249,7 +249,7 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                 arrayListOf(
                     Ingredient(getString(R.string.no_optios))
                 ),
-                getString(R.string.preparation_pollo_asado),
+                getString(R.string.preparation_salom_papas_eneldop),
                 arrayListOf(
                     Help(
                         getString(R.string.no_help_suggestion),

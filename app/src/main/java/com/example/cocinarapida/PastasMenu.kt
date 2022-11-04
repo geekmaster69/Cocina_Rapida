@@ -325,6 +325,32 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
                         R.drawable.pasta_help,
                         getString(R.string.help_pasta_preparation))
                 )
+            ),
+            Recipe(
+                "Pasta Rotelle con Salmón",
+                R.drawable.pasta_rotelle_salmon,
+                arrayListOf(
+                    Ingredient("400g de pasta de ruedita o engrane"),
+                    Ingredient("400g de salmón"),
+                    Ingredient("½ cebolla "),
+                    Ingredient("200ml de crema para batir"),
+                    Ingredient("1 limón amarillo"),
+                    Ingredient("1 chorrito de aceite"),
+                    Ingredient("1 manojo de cebolla cambray (Solo el tayo)"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient("pescado blanco, tilapia o basa (Sustituye salón)")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_pasta_rotelle_salmon),
+                arrayListOf(
+                    Help("Cocer Pasta",
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation))
+                )
             )
         )
 
