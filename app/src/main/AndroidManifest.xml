@@ -10,9 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CocinaRapida">
         <activity
+            android:name=".PescadoActivity"
+            android:exported="false" />
+        <activity
             android:name=".PastaFriaActivity"
             android:exported="false"
-            android:label="Pastas Frias"/>
+            android:label="Pastas Frias" />
         <activity
             android:name=".ParaDosActivity"
             android:exported="false"

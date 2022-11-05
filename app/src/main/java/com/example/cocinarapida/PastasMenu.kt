@@ -351,6 +351,58 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
                         R.drawable.pasta_help,
                         getString(R.string.help_pasta_preparation))
                 )
+            ),
+            Recipe(
+                "Coditos con Pescado y Limón Amarillo",
+                R.drawable.pasta_pescado_limon_amarillo,
+                arrayListOf(
+                    Ingredient("350g de tilapia o basa"),
+                    Ingredient("400g de coditos"),
+                    Ingredient("1 limón amarillo"),
+                    Ingredient("200ml de crema para batir"),
+                    Ingredient("2 cucharadas de aceite de oliva"),
+                    Ingredient("2 cebollas cambray (Solo los tayos)"),
+                    Ingredient("1 manojo de cebolla cambray (Solo el tayo)"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient("bacalao fresco"),
+                    Ingredient("pescado sierra"),
+                ),
+                getString(R.string.preparation_pasta_pescado_limon),
+                arrayListOf(
+                    Help("Cocer Pasta",
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation))
+                )
+            ),
+            Recipe(
+                "Pescado con Jitomates Cherry y Pasta",
+                R.drawable.pescado_jitomates_cherry_pasta,
+                arrayListOf(
+                    Ingredient("300g de tilapia o basa"),
+                    Ingredient("aceite"),
+                    Ingredient("400g de coditos"),
+                    Ingredient("1 ajo"),
+                    Ingredient("400g de jitomates cherry"),
+                    Ingredient("½ manojo de albahaca"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient("pescado dorada")
+                ),
+                getString(R.string.preparation_pescado_jitomates_cherry_pasta),
+                arrayListOf(
+                    Help("Cocer Pasta",
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation))
+                )
             )
         )
 

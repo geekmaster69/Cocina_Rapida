@@ -37,6 +37,9 @@ class ParaComerAquiActivity : AppCompatActivity() {
         binding.btEntradas.setOnClickListener {
             startActivity(Intent(this, EntradasActivity::class.java))
         }
+        binding.btPescado.setOnClickListener {
+            startActivity(Intent(this, PescadoActivity::class.java))
+        }
 
 
     }
