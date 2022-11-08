@@ -40,8 +40,10 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                 getString(R.string.preparation_lomo_papas_pesto),
                 arrayListOf(
                     Help(
-                        getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             ),
             Recipe(
@@ -67,8 +69,10 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                 getString(R.string.preparation_carne_res_cerveza),
                 arrayListOf(
                     Help(
-                        getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             ),
             Recipe(
@@ -97,8 +101,10 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                 getString(R.string.preparation_hamburguesa_suculenta),
                 arrayListOf(
                     Help(
-                        getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             ),
             Recipe(
@@ -122,8 +128,10 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                 getString(R.string.preparation_rollos_res_pastor),
                 arrayListOf(
                     Help(
-                        getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             ),
             Recipe(
@@ -148,8 +156,10 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                 getString(R.string.preparation_costillas_bbq),
                 arrayListOf(
                     Help(
-                        getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             ),
             Recipe(
@@ -172,8 +182,10 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                 getString(R.string.preparation_filete_mignon),
                 arrayListOf(
                     Help(
-                        getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             ),
             Recipe(
@@ -200,7 +212,8 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                     Help(
                         getString(R.string.no_help_suggestion),
                         R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             ),
             Recipe(
@@ -227,7 +240,8 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                     Help(
                         getString(R.string.no_help_suggestion),
                         R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             ),
             Recipe(
@@ -254,7 +268,96 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                     Help(
                         getString(R.string.no_help_suggestion),
                         R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Pasta con Camarones y azafrán",
+                R.drawable.pasta_camaron_azafran,
+                arrayListOf(
+                    Ingredient("250g de camarones"),
+                    Ingredient("1 pizca de azafrán"),
+                    Ingredient("1 diente de ajo"),
+                    Ingredient("350g de jitomates picados enlatados"),
+                    Ingredient("250g de spaghetti"),
+                    Ingredient("agua"),
+                    Ingredient("sal")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_pasta_camarones_asafran),
+                arrayListOf(
+                    Help(
+                        getString(R.string.help_pasta_preparation_title),
+                        R.drawable.ic_help_null,
+                        getString(R.string.help_pasta_preparation)
+                    )
+                )
+            ),
+            Recipe(
+                "Papas con Camarones y Espinacas",
+                R.drawable.papas_camaron_espinacas,
+                arrayListOf(
+                    Ingredient("20 camarones cocidos"),
+                    Ingredient("80g de espinaca baby"),
+                    Ingredient("500g de papas cambray"),
+                    Ingredient("2 cucharadas de vinagre balsámico"),
+                    Ingredient("5 cucharadas de aceite de oliva"),
+                    Ingredient("1 cucharada de mostaza antigua"),
+                    Ingredient("sal de grano"),
+                    Ingredient("agua"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient("espinacas en bolsa (Sustituye espinacas baby)")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_papas_camarones_espinacas),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Pizza de Corazones de Alcachofa, Higos y Provolone",
+                R.drawable.pizza_alcachofa_higo_provolone,
+                arrayListOf(
+                    Ingredient(getString(R.string.harina_1tz)),
+                    Ingredient(getString(R.string.agua_1tz)),
+                    Ingredient(getString(R.string.sal_1cda)),
+                    Ingredient(getString(R.string.azucar_1cda)),
+                    Ingredient(getString(R.string.polvo_hornear_1cda)),
+                    Ingredient(getString(R.string.aceite_1cda)),
+                    Ingredient("1 lata o tetra pak de salsa para pizza"),
+                    Ingredient("1 cucharada de orenago seco"),
+                    Ingredient("200g de queso mozzarela"),
+                    Ingredient("100g de queso provolone"),
+                    Ingredient("50g de corazones de alcachofa en conserva"),
+                    Ingredient("1 puñado de arúgula"),
+                    Ingredient("2 higos"),
+                    Ingredient("100g de queso provolone"),
+                ),
+                arrayListOf(
+                    Ingredient("espinacas en bolsa (Sustituye espinacas baby)")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_pizza_alcachofa_higos_provolone),
+                arrayListOf(
+                    Help("Base para Pizza",
+                        R.drawable.help_base_pizza,
+                        getString(R.string.help_base_pizza)
+                    )
                 )
             )
         )
@@ -276,23 +379,9 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
     override fun recipeOnClickListener(recipe: Recipe) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
-        intent.putExtra("title",  recipe.title)
-        intent.putExtra("img_top_recipe", recipe.image)
-
         val args = Bundle()
-        args.putSerializable("ARRAYLIST", recipe.ingredients as Serializable)
-        intent.putExtra("BUNDLE", args)
-
-        args.putSerializable("SubstituteList", recipe.substitutes as Serializable)
-        intent.putExtra("SubstituteListBundle", args)
-
-        args.putSerializable("OptionalList", recipe.optional as Serializable)
-        intent.putExtra("OptionalListBundle", args)
-
-        args.putSerializable("HelpList", recipe.help as Serializable)
-        intent.putExtra("HelpListBundle", args)
-
-        intent.putExtra("preparation", recipe.process)
+        args.putSerializable("Recipe", recipe as Serializable)
+        intent.putExtra("Bundle", args)
 
         startActivity(intent)
     }

@@ -852,7 +852,7 @@
     <string name="aguacate_1">1 aguacate</string>
     <string name="salsa_fav">salsa de tu preferencia</string>
     <string name="pan_tostadas_crutones">pan tostado o crutones</string>
-    <string name="title_oniguiri_salmon">Oniguiri de Salmon</string>
+    <string name="title_oniguiri_salmon">Oniguiri de Salmón</string>
     <string name="arroz_300g">300g de arroz</string>
     <string name="agua_400ml">400ml de agua</string>
     <string name="salmon_sobre_lata_400g">400g de salmon en sobre o lata</string>
@@ -908,7 +908,8 @@
         2- Agrega: 1 diente de ajo, media cebolla, sal de grano y 3 hojas de laurel.\n\n
         3- Calienta hasta que empiece a hervir.\n\n
         4- El tiempo de cocción cambia dependiendo de la pasta de entre 5 a 15 minutos.\n\n
-        5- La pasta debe estar suave.</string>
+        5- La pasta debe estar suave.\n\n
+        6- Escucrre el agua de la pasta con un colador.</string>
     <string name="no_help_suggestion">Sin sugerencias</string>
     <string name="no_help_suggestion_description">No hay sugerencias disponibles</string>
     <string name="help_arroz_oniguiri">
@@ -1235,4 +1236,53 @@
         3- En la misma olla agrega el ajo picado finamente, 3 cucharadas de aceite y los jitomates Cherry cortados en mitades. Calienta por 10 min a fuego medio.\n\n
         4- Agrega el pescado, la pasta, hojas de albahaca y sal y pimienta.\n\n
         5- Disfruta.</string>
+    <string name="preparation_empanada_sardina">
+        1- Tira el aceite de las sardinas y desmenúzalas.\n\n
+        2- Mezcla las sardinas con el queso crema, las aceitunas rebanadas y sal y pimienta.\n\n 3-Envuelve la mezcla con el pan de mil hojas hasta darle forma de empanda.\n\n
+        4- Frie en una sartén con el aceite hasta que queden doradas.\n\n
+        5- Disfruta.</string>
+    <string name="prparation_sapghetti_sardinas">
+        1- Coce la pasta (Básicos de esta receta).\n\n
+        2- Corta la cebolla finamente y fríela en una sartén con el aceite por 5 min a fuego medio.\n\n
+        3- Agrega las sardinas, las pasas, el azafrán y el agua. Calienta por 5 min a fuego medio.\n\n
+        4- Mezcla con la pasta, agrega hojas de eneldo y sal y pimienta.
+        5- Disfruta.</string>
+    <string name="preparation_ensalada_bo_bun">
+        1- Calienta el agua hasta hervir y sumerge los fideos, déjalos reposar por 5 min y escurre el agua.\n\n
+        2- Pica la lechuga, el pepino, y las zanahorias en tiras delgadas.\n\n
+        3- Mezcla los fideos con las verduras picadas y la salsa agridulce.\n\n
+        4- Coloca los rollos primavera a un lado o agrega la vinagreta, hojas de menta y los cacahuates.\n\n
+        5- Disfruta.</string>
+    <string name="preparation_empanada_camaron">
+        1- Pica en trozos pequeños el camarón, el tallo de cebollín y el jengibre. \n\n
+        2- Bate la clara hasta que se haga una espuma y agrega el camarón, la fécula de maíz y el vino.\n\n
+        3- Haz bolitas con la mezcla y envuélvelas con el pan de mil hojas.\n\n
+        4- Con el aceite fríelos hasta que estén dorados en una sartén.\n\n
+        5- Disfruta.</string>
+    <string name="preparation_arroz_camarones_chicharos">
+        1- Pica la cebolla finamente y fríela con la mantequilla a fuego medio por 3 min.\n\n
+        2- Agrega el arroz y fríelo hasta que ya no se pegue a la olla.\n\n
+        3- Agrega el caldo de pollo, los chicharos y deja calentar a fuego bajo por 20 min.\n\n
+        4- Frie los camarones con el aceite a fuego alto, 2 min por cada lado.\n\n
+        5- Sirve el arroz con una porción de camarones.\n\n
+        6- Disfruta.</string>
+    <string name="preparation_pasta_camarones_asafran">
+        1- Cocer la pasta (Básicos de esta receta).\n\n
+        2- Pica el ajo finamente y agrégalo a la pasta junto con el azafrán, los camarones, los jitomates en lata y agrega sal al gusto.\n\n
+        3- Calienta a fuego medio por 12 min.\n\n
+        4- Disfruta.</string>
+    <string name="help_pasta_preparation_title">Cocer la Pasta</string>
+    <string name="preparation_papas_camarones_espinacas">
+        1- Coce las papas en agua con un puño de sal de grano durante 20 min a fuego medio.\n\n
+        2- Escurrre el agua de las papas y corta a la mitad.\n\n
+        3- Mezcla las papas, el vinagre balsámico, la mostaza, el aceite de oliva, los camarones y las espinacas. Mezcla y refrigera por 20 min.\n\n
+        4- Agrega sal y pimienta al gusto. \n\n
+        5- Disfruta.</string>
+    <string name="preparation_pizza_alcachofa_higos_provolone">
+        1- Haz una base para pizza de sartén (Básicos de esta receta).\n\n
+        2- Mezcla la salsa de jitomate con el orégano y el aceite de oliva.\n\n
+        3- Agrega una capa de salsa de tomate, mozzarela, provolone y corazones de alcachofa cortados en mitades.\n\n
+        4- Tapa y deja a fuego bajo por 10 min.\n\n
+        5- Agrega la arúgula y los higos cortados en 4 partes.\n\n
+        6- Disfruta.</string>
 </resources>

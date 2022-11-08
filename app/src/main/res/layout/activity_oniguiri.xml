@@ -16,16 +16,9 @@
         android:adjustViewBounds="true"
         android:layout_marginBottom="8dp"/>
 
-    <TextView
-        android:id="@+id/bt_oniguiri_salmon"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvRecipe"
         android:layout_width="match_parent"
-        android:layout_height="64dp"
-        android:textSize="40sp"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:fontFamily="@font/dancin_script_regular"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/madera_boton"
-        android:text="@string/title_oniguiri_salmon"/>
+        android:layout_height="wrap_content"/>
 
 </LinearLayout>

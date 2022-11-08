@@ -233,6 +233,89 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                         R.drawable.arroz_help,
                         getString(R.string.help_arroz_oniguiri))
                 )
+            ),
+            Recipe(
+                "Ensalada Bo Bun",
+                R.drawable.ensalada_bo_bun,
+                arrayListOf(
+                    Ingredient("150g de fideos de arroz"),
+                    Ingredient("4 cucharadas de salsa nem o thai agridulce"),
+                    Ingredient("8 hojas de lechuga francesa"),
+                    Ingredient("1 pepino"),
+                    Ingredient("2 zanahorias"),
+                    Ingredient("8 rollos primavera de camarón"),
+                    Ingredient("4 ramas de menta"),
+                    Ingredient("4 cucharadas de cacahuates"),
+                    Ingredient("1L de agua")
+                ),
+                arrayListOf(
+                    Ingredient("fideos de frijol (Sustituyen fideos de arroz)")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_ensalada_bo_bun),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Arroz con Camarones y Chícharos",
+                R.drawable.arroz_camaron_chicharos,
+                arrayListOf(
+                    Ingredient("300g de camarones"),
+                    Ingredient("250g de arroz"),
+                    Ingredient("20g de mantequilla"),
+                    Ingredient("200g chícharos"),
+                    Ingredient("450 ml de caldo de pollo"),
+                    Ingredient("aceite"),
+                    Ingredient("½ cebolla")
+                ),
+                arrayListOf(
+                    Ingredient("caldo de pollo tetra pak (Sustituye caldo de pollo)"),
+                    Ingredient("caldo de pollo en polvo (Sustituye caldo de pollo)")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_arroz_camarones_chicharos),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Papas con Camarones y Espinacas",
+                R.drawable.papas_camaron_espinacas,
+                arrayListOf(
+                    Ingredient("20 camarones cocidos"),
+                    Ingredient("80g de espinaca baby"),
+                    Ingredient("500g de papas cambray"),
+                    Ingredient("2 cucharadas de vinagre balsámico"),
+                    Ingredient("5 cucharadas de aceite de oliva"),
+                    Ingredient("1 cucharada de mostaza antigua"),
+                    Ingredient("sal de grano"),
+                    Ingredient("agua"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient("espinacas en bolsa (Sustituye espinacas baby)")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_papas_camarones_espinacas),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
             )
         )
         recipeAdapter = RecipeAdapter(recipeList, this)
@@ -240,30 +323,15 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
             layoutManager = LinearLayoutManager(this@Bento)
             adapter = recipeAdapter
         }
-
     }
 
     override fun recipeOnClickListener(recipe: Recipe) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
 
-        intent.putExtra("title",  recipe.title)
-        intent.putExtra("img_top_recipe", recipe.image)
-
         val args = Bundle()
-        args.putSerializable("ARRAYLIST", recipe.ingredients as Serializable)
-        intent.putExtra("BUNDLE", args)
-
-        args.putSerializable("SubstituteList", recipe.substitutes as Serializable)
-        intent.putExtra("SubstituteListBundle", args)
-
-        args.putSerializable("OptionalList", recipe.optional as Serializable)
-        intent.putExtra("OptionalListBundle", args)
-
-        args.putSerializable("HelpList", recipe.help as Serializable)
-        intent.putExtra("HelpListBundle", args)
-
-        intent.putExtra("preparation", recipe.process)
+        args.putSerializable("Recipe", recipe as Serializable)
+        intent.putExtra("Bundle", args)
 
         startActivity(intent)
     }

@@ -76,6 +76,33 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
                 )
             ),
             Recipe(
+                "Spaghetti con Sardinas",
+                R.drawable.spaghetti_sardinas,
+                arrayListOf(
+                    Ingredient("400g de spaghetti"),
+                    Ingredient("1 cebolla"),
+                    Ingredient("1 lata de sardinas en aceite"),
+                    Ingredient("30g de pasas"),
+                    Ingredient("1 pizca de azafrán"),
+                    Ingredient("1 manojo de eneldo"),
+                    Ingredient("3 cucharadas de aceite"),
+                    Ingredient("50 ml de agua"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.prparation_sapghetti_sardinas),
+                arrayListOf(
+                    Help("Cocer Pasta",
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation))
+                )
+            ),
+            Recipe(
                 getString(R.string.title_spaghetti_salsa_pesto),
                 R.drawable.spaghetti_pesto,
                 arrayListOf(
@@ -271,7 +298,8 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Help("Base para Pizza",
                         R.drawable.help_base_pizza,
-                        getString(R.string.help_base_pizza))
+                        getString(R.string.help_base_pizza)
+                    )
                 )
             ),
             Recipe(
@@ -424,23 +452,9 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
     override fun recipeOnClickListener(recipe: Recipe) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
-        intent.putExtra("title",  recipe.title)
-        intent.putExtra("img_top_recipe", recipe.image)
-
         val args = Bundle()
-        args.putSerializable("ARRAYLIST", recipe.ingredients as Serializable)
-        intent.putExtra("BUNDLE", args)
-
-        args.putSerializable("SubstituteList", recipe.substitutes as Serializable)
-        intent.putExtra("SubstituteListBundle", args)
-
-        args.putSerializable("OptionalList", recipe.optional as Serializable)
-        intent.putExtra("OptionalListBundle", args)
-
-        args.putSerializable("HelpList", recipe.help as Serializable)
-        intent.putExtra("HelpListBundle", args)
-
-        intent.putExtra("preparation", recipe.process)
+        args.putSerializable("Recipe", recipe as Serializable)
+        intent.putExtra("Bundle", args)
 
         startActivity(intent)
     }

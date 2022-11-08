@@ -3,15 +3,10 @@ package com.example.cocinarapida
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.Menu
 import android.view.MenuItem
-import android.view.View
-import android.widget.ArrayAdapter
-import android.widget.ListView
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.cocinarapida.databinding.ActivityRecipeTemplateBinding
-import com.google.android.material.snackbar.Snackbar
 import java.io.Serializable
 
 class RecipeTemplateActivity : AppCompatActivity(), OnClickListenerIngredient {
@@ -24,61 +19,50 @@ class RecipeTemplateActivity : AppCompatActivity(), OnClickListenerIngredient {
         super.onCreate(savedInstanceState)
         binding = ActivityRecipeTemplateBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val args = intent.getBundleExtra("Bundle")
+        val recipe = args!!.getSerializable("Recipe") as Recipe
+
         database = DatabaseHelper(this)
 
         supportActionBar?.let {
             it.setDisplayHomeAsUpEnabled(true)
-            it.title = intent.extras?.getString("title")
+            it.title = recipe.title
         }
-
-        val helpargs = intent.getBundleExtra("HelpListBundle")
-        val serialisableListHelp = helpargs!!.getSerializable("HelpList") as ArrayList<Help>
 
         binding.basicosIcon.setOnClickListener {
 
             val intent = Intent(this, HelpActivity::class.java)
             val sendhelpargs = Bundle()
-            sendhelpargs.putSerializable("sendHelpList", serialisableListHelp as Serializable)
+            sendhelpargs.putSerializable("sendHelpList", recipe.help as Serializable)
             intent.putExtra("sendHelpListBundle", sendhelpargs)
             startActivity(intent)
-
         }
         binding.shopingListIcon.setOnClickListener {
             startActivity(Intent(this, ShoppingListActivity::class.java))
         }
-        val imgRecipe = intent?.getIntExtra("img_top_recipe", 0)
-        binding.imgRecipe.setImageResource(imgRecipe!!)
 
+        binding.imgRecipe.setImageResource(recipe.image)
 
-        val args = intent.getBundleExtra("BUNDLE")
-        val serialisableList = args!!.getSerializable("ARRAYLIST") as ArrayList<Ingredient>
-
-        val substituteargs = intent.getBundleExtra("SubstituteListBundle")
-        val subtitutesList = substituteargs!!.getSerializable("SubstituteList") as ArrayList<Ingredient>
-
-        val optionalargs = intent.getBundleExtra("OptionalListBundle")
-        val optionsList = optionalargs!!.getSerializable("OptionalList") as ArrayList<Ingredient>
-
-
-        ingredientListAdapter = IngredientAdapter(serialisableList, this)
+        ingredientListAdapter = IngredientAdapter(recipe.ingredients, this)
         binding.rvIngredient.apply {
             layoutManager = LinearLayoutManager(this@RecipeTemplateActivity)
             adapter = ingredientListAdapter
         }
 
-        sustitutesListAdapter = IngredientAdapter(subtitutesList, this)
+        sustitutesListAdapter = IngredientAdapter(recipe.substitutes, this)
         binding.rvSubstitutes.apply {
             layoutManager = LinearLayoutManager(this@RecipeTemplateActivity)
             adapter = sustitutesListAdapter
         }
 
-        optionListAdapter = IngredientAdapter(optionsList, this)
+        optionListAdapter = IngredientAdapter(recipe.optional, this)
         binding.rvOptionals.apply {
             layoutManager = LinearLayoutManager(this@RecipeTemplateActivity)
             adapter = optionListAdapter
         }
 
-        binding.tvPreparation.text = intent.extras?.getString("preparation")
+        binding.tvPreparation.text = recipe.process
 
     }
 

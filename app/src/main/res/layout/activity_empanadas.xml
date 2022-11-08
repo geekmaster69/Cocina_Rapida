@@ -5,19 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="8dp"
-    android:background="@drawable/fondo_mantel"
     android:orientation="vertical"
-    tools:context=".Bento">
+    android:background="@drawable/fondo_mantel"
+    tools:context=".EmpanadasActivity">
 
-        <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:adjustViewBounds="true"
-            android:src="@drawable/bento_title"
-            android:layout_marginBottom="8dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/empanadas_menu"
+        android:layout_marginBottom="8dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rvBento"
+        android:id="@+id/rvRecipe"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 

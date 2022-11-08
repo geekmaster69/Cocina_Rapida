@@ -4,12 +4,15 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
+import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.cocinarapida.adapter.ReceipeClickListener
+import com.example.cocinarapida.adapter.RecipeAdapter
 import com.example.cocinarapida.databinding.ActivityOniguiriBinding
 import java.io.Serializable
-import java.util.ArrayList
 
-class OniguiriActivity : AppCompatActivity() {
+class OniguiriActivity : AppCompatActivity(), ReceipeClickListener {
     private lateinit var binding: ActivityOniguiriBinding
+    private lateinit var recipeAdapter: RecipeAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityOniguiriBinding.inflate(layoutInflater)
@@ -17,68 +20,41 @@ class OniguiriActivity : AppCompatActivity() {
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
-        binding.btOniguiriSalmon.setOnClickListener {
-            val title = getString(R.string.title_oniguiri_salmon)
+        val recipeList = arrayListOf(
+            Recipe(
+                getString(R.string.title_oniguiri_salmon),
+                R.drawable.onigiri_menu,
+                arrayListOf(
+                    Ingredient(getString(R.string.arroz_300g)),
+                    Ingredient(getString(R.string.agua_400ml)),
+                    Ingredient(getString(R.string.hoja_nori)),
+                    Ingredient(getString(R.string.salmon_sobre_lata_400g)),
+                    Ingredient(getString(R.string.mantequilla_cda_1)),
+                    Ingredient(getString(R.string.crema_acida_120ml)),
+                    Ingredient(getString(R.string.cebollin_10pz)),
+                    Ingredient(getString(R.string.sal_pimineta_gusto))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes)
+                    )
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.nori_salmon_preparation),
+                arrayListOf(
+                    Help(getString(R.string.help_oniguiri_title),
+                        R.drawable.ic_help_null,
+                        getString(R.string.help_oniguiri))
+                )
+            )
+        )
 
-            val image = R.drawable.onigiri_menu
-
-            val ingredientList = arrayListOf(
-                Ingredient(getString(R.string.arroz_300g)),
-                Ingredient(getString(R.string.agua_400ml)),
-                Ingredient(getString(R.string.hoja_nori)),
-                Ingredient(getString(R.string.salmon_sobre_lata_400g)),
-                Ingredient(getString(R.string.mantequilla_cda_1)),
-                Ingredient(getString(R.string.crema_acida_120ml)),
-                Ingredient(getString(R.string.cebollin_10pz)),
-                Ingredient(getString(R.string.sal_pimineta_gusto)))
-
-            val substitutesList = arrayListOf(
-                Ingredient(getString(R.string.no_subtitutes)))
-
-            val optionsList = arrayListOf(
-                Ingredient(getString(R.string.no_optios)))
-
-            val preparation = getString(R.string.nori_salmon_preparation)
-
-            val helpList = arrayListOf(
-                Help(
-                    getString(R.string.help_arroz_title),
-                    R.drawable.arroz_help,
-                    getString(R.string.help_arroz_oniguiri)),
-                Help(
-                    getString(R.string.help_oniguiri_title),
-                    R.drawable.ic_help_null,
-                    getString(R.string.help_oniguiri)))
-
-            starRecipeTemplateActivity(title, image, ingredientList, substitutesList, optionsList,
-                preparation, helpList)
+        recipeAdapter = RecipeAdapter(recipeList, this)
+        binding.rvRecipe.apply {
+            layoutManager = LinearLayoutManager(this@OniguiriActivity)
+            adapter = recipeAdapter
         }
-    }
-
-    private fun starRecipeTemplateActivity(title: String, image: Int, ingredientList: ArrayList<Ingredient>,
-                                           substituteList: ArrayList<Ingredient>, optionsList: ArrayList<Ingredient>,
-                                           preparation: String, helpList:ArrayList<Help>) {
-
-        val intent = Intent(this, RecipeTemplateActivity::class.java)
-        intent.putExtra("title", title)
-        intent.putExtra("img_top_recipe", image)
-
-        val args = Bundle()
-        args.putSerializable("ARRAYLIST", ingredientList as Serializable)
-        intent.putExtra("BUNDLE", args)
-
-        args.putSerializable("SubstituteList", substituteList as Serializable)
-        intent.putExtra("SubstituteListBundle", args)
-
-        args.putSerializable("OptionalList", optionsList as Serializable)
-        intent.putExtra("OptionalListBundle", args)
-
-        args.putSerializable("HelpList", helpList as Serializable)
-        intent.putExtra("HelpListBundle", args)
-
-        intent.putExtra("preparation", preparation)
-
-        startActivity(intent)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
@@ -86,5 +62,14 @@ class OniguiriActivity : AppCompatActivity() {
             onBackPressed()
         }
         return super.onOptionsItemSelected(item)
+    }
+
+    override fun recipeOnClickListener(recipe: Recipe) {
+
+        val intent = Intent(this, RecipeTemplateActivity::class.java)
+        val args = Bundle()
+        args.putSerializable("Recipe", recipe as Serializable)
+        intent.putExtra("Bundle", args)
+        startActivity(intent)
     }
 }

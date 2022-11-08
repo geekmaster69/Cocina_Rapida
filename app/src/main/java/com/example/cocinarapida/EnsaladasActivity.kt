@@ -120,23 +120,9 @@ class EnsaladasActivity : AppCompatActivity(), ReceipeClickListener {
     override fun recipeOnClickListener(recipe: Recipe) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
-        intent.putExtra("title",  recipe.title)
-        intent.putExtra("img_top_recipe", recipe.image)
-
         val args = Bundle()
-        args.putSerializable("ARRAYLIST", recipe.ingredients as Serializable)
-        intent.putExtra("BUNDLE", args)
-
-        args.putSerializable("SubstituteList", recipe.substitutes as Serializable)
-        intent.putExtra("SubstituteListBundle", args)
-
-        args.putSerializable("OptionalList", recipe.optional as Serializable)
-        intent.putExtra("OptionalListBundle", args)
-
-        args.putSerializable("HelpList", recipe.help as Serializable)
-        intent.putExtra("HelpListBundle", args)
-
-        intent.putExtra("preparation", recipe.process)
+        args.putSerializable("Recipe", recipe as Serializable)
+        intent.putExtra("Bundle", args)
 
         startActivity(intent)
 
