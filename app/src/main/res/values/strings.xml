@@ -1133,7 +1133,7 @@
         1- Pica la pechuga en cubos pequeños y deja marinar 2 Hrs en una mezcla de leche y páprika.\n\n
         2- En un recipiente mezcla la harina, sal y el ajo en polvo, en otro recipiente vas a batir los huevos y en otro colocas las hojuelas trituradas.\n\n
         3- Cubre las pechugas con la mezcla de haría, después con el huevo batido y al final con las hojuelas de miz.\n\n
-        4- En un refractario coloca el pollo y agrega aceite.\n\n
+        4- En un refractario coloca el pollo y agrégales aceite.\n\n
         5- Hornea por 15 min a 180 °C y después otros 5 min a 210 °C, esto es para que queden crujientes.
         6- Disfruta.</string>
     <string name="preparation_piernas_loqueadas_limon">
@@ -1171,8 +1171,8 @@
         4- Mezcla la crema con rayadura de limón, sal, pimienta rosa y un poco de eneldo. Este servida como aderezo.\n\n
         5- Disfruta.</string>
     <string name="preparation_poke_bowl">
-        1- Prepara el arroz (Básicos de esta receta)
-        2- Rebana los tallos de cebolla cambray y mezcla con el salón, la salsa de soya y el aceite de ajonjolí, deja reposar 30 min.\n\n
+        1- Prepara el arroz (Básicos de esta receta).\n\n
+        2- Rebana los tallos de cebolla cambray y mezcla con el salmón, la salsa de soya y el aceite de ajonjolí, deja reposar 30 min.\n\n
         3- En un tazón mezcla el arroz con el ajonjolí.\n\n
         4- Rebana el pepino, la col y los aguacates.\n\n
         5- Sobre el arroz coloca el salmón, el pepino, la col y los aguacates rebanados.\n\n
@@ -1285,4 +1285,27 @@
         4- Tapa y deja a fuego bajo por 10 min.\n\n
         5- Agrega la arúgula y los higos cortados en 4 partes.\n\n
         6- Disfruta.</string>
+    <string name="preparation_poro_gratinado_queso">
+        1- Derrite la mantequilla en una olla, agrega la harina, la leche, la nuez moscada, sal y pimienta y mezcla.\n\n
+        2- Corta el poro en rodajas y agrega a la mezcla.\n\n
+        3- Vierte la mezcla en un refractario y cúbrelo con queso. Hornea por 40 min a 180°C.\n\n
+        4- Disfruta</string>
+    <string name="preparation_papas_gratinadas">
+        1- Pica las papas y las cebollas en rodajas delgadas.\n\n
+        2- Pon las papas y la cebolla en una olla, agrega la leche, las hojas de laurel con sal y pimienta. (Agrega un poco de agua para cubrir bien las papas)Calienta por 20 min a fuego medio.\n\n
+        3- Coloca las papas en un refractario y esparce cuadritos de mantequilla por encima.\n\n
+        4- Agregale unas hojas de perejil encima y hornea por 40 min a 200°C.\n\n
+        5- Disfrtua.</string>
+    <string name="preparation_calabaza_gratinada_ajonjoli">
+        1- Pela la calabaza y córtala en cubos medianos (Retira las semillas).\n\n
+        2- En una olla coloca las calabazas, agrega el aceite, el agua y sal y pimienta al gusto. Tapa y calienta 20 min a fuego medio.\n\n
+        3- Escurre el agua y licua las calabazas.\n\n
+        4- Vierte la mezcla en un refractario, agrega el queso, el ajonjolí con sal y pimienta.\n\n 5-Hornea por 10 min a 200°C.\n\n
+        5- Disfrtua.</string>
+    <string name="preparation_chile_morron_calabaza_feta">
+        1- Corta el pimiento en toras, la calabaza en rodajas y ponlos en una olla con aceite, sal y pimienta. Calienta a fuego medio por 10 min.\n\n
+        2- Bate los huevos con la leche. Reserva.\n\n
+        3- En un refractario vierte los pimientos y la calabaza, agrega la mezcla de leche y huevo, las hierbas provenzales y el queso feta.\n\n
+        4- Hornea por 30 min a 180°C.\n\n
+        5- Disfruta. "</string>
 </resources>

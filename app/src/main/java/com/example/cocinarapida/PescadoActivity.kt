@@ -13,7 +13,6 @@ import java.io.Serializable
 class PescadoActivity : AppCompatActivity(), ReceipeClickListener {
     private lateinit var binding: ActivityPescadoBinding
     private lateinit var recipeAdapter: RecipeAdapter
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityPescadoBinding.inflate(layoutInflater)
@@ -22,7 +21,7 @@ class PescadoActivity : AppCompatActivity(), ReceipeClickListener {
 
         val recipeList = arrayListOf(
             Recipe(
-                "Atún Sellado con Ajonjolí y ejotes",
+                "Atún Sellado con Ajonjolí y Ejotes",
                 R.drawable.atun_sellado_ajonjoli_ejotes,
                 arrayListOf(
                     Ingredient("4 medallones de atún"),

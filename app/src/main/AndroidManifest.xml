@@ -10,13 +10,17 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CocinaRapida">
         <activity
+            android:name=".GuarnicionesActivity"
+            android:exported="false"
+            android:label="Guarniciones"/>
+        <activity
             android:name=".EmpanadasActivity"
             android:exported="false"
-            android:label="Empanadas"/>
+            android:label="Empanadas" />
         <activity
             android:name=".PescadoActivity"
             android:exported="false"
-            android:label="Pescado"/>
+            android:label="Pescado" />
         <activity
             android:name=".PastaFriaActivity"
             android:exported="false"

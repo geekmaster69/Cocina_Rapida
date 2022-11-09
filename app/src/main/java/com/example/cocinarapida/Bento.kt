@@ -181,7 +181,7 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                 )
             ),
             Recipe(
-                "Pollo crujiente con Hojuelas de Maíz",
+                "Pollo Crujiente con Hojuelas de Maíz",
                 R.drawable.pollo_crujinte_jojuelas,
                 arrayListOf(
                     Ingredient("2 pecuchas sin piel y sin hueso"),
