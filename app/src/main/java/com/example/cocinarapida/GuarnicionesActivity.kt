@@ -121,6 +121,32 @@ class GuarnicionesActivity : AppCompatActivity(), ReceipeClickListener {
                         R.drawable.ic_help_null,
                         getString(R.string.no_help_suggestion_description))
                 )
+            ),
+            Recipe(
+                "Clafoutis de Jitomates Cherry",
+                R.drawable.clafoutis_hitomate_cherry,
+                arrayListOf(
+                    Ingredient("350g de jitomates cherry"),
+                    Ingredient("250ml de leche"),
+                    Ingredient("250ml de crema para batir"),
+                    Ingredient("4 huevos"),
+                    Ingredient("90g de harina"),
+                    Ingredient("2 ramas de albahaca"),
+                    Ingredient("50g de queso parmesano"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_clafoutis_jitomate_cherry),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
             )
         )
 

@@ -303,6 +303,39 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
                 )
             ),
             Recipe(
+                "Pizza Blanca con Mozzarella y Albahaca",
+                R.drawable.pizza_blanca_mozzarella_albahaca,
+                arrayListOf(
+                    Ingredient(getString(R.string.harina_1tz)),
+                    Ingredient(getString(R.string.agua_1tz)),
+                    Ingredient(getString(R.string.sal_1cda)),
+                    Ingredient(getString(R.string.azucar_1cda)),
+                    Ingredient(getString(R.string.polvo_hornear_1cda)),
+                    Ingredient(getString(R.string.aceite_1cda)),
+                    Ingredient("1 diente de ajo"),
+                    Ingredient("50g de parmesano"),
+                    Ingredient("50g de cacahuates"),
+                    Ingredient("20 hojas de albahaca"),
+                    Ingredient("4 cucharadas de crema acida"),
+                    Ingredient("125g de queso ozzarella"),
+                    Ingredient("4 cucharadas de aceite de oliva"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient("mezcla de quesos italianos (Sustituye mozzarella)")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_pizza_blanca_mozzarella_albahaca),
+                arrayListOf(
+                    Help("Base para Pizza",
+                        R.drawable.help_base_pizza,
+                        getString(R.string.help_base_pizza)
+                    )
+                )
+            ),
+            Recipe(
                 "Linguine con Albóndigas",
                 R.drawable.linguine_albondigas,
                 arrayListOf(

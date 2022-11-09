@@ -67,7 +67,7 @@
                 app:layout_constraintEnd_toEndOf="@id/basicos_icon"
                 app:layout_constraintBottom_toBottomOf="parent"
                 android:textColor="@color/black"
-                android:text="Basicos de esta receta"
+                android:text="Básicos de esta receta"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
 
