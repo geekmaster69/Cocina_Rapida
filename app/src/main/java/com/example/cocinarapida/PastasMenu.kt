@@ -464,6 +464,57 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
                         R.drawable.pasta_help,
                         getString(R.string.help_pasta_preparation))
                 )
+            ),
+            Recipe(
+                "Linguine con Espárragos y Cacahuate",
+                R.drawable.linguine_esparragos_cacahuate,
+                arrayListOf(
+                    Ingredient("400g de linguine"),
+                    Ingredient("2 manojos de espárragos"),
+                    Ingredient("3 cucharadas de crema acida"),
+                    Ingredient("1 cucharada de pasta de cacahuate"),
+                    Ingredient("1 limon amarillo"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_linguine_esparragos_cacahuate),
+                arrayListOf(
+                    Help("Cocer Pasta",
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation))
+                )
+            ),
+            Recipe(
+                "Pasta a la Puttanesca",
+                R.drawable.pasta_puttanesca,
+                arrayListOf(
+                    Ingredient("400g de coditos"),
+                    Ingredient("250g de jitomates picados en lata o tetra pack"),
+                    Ingredient("1 cebolla"),
+                    Ingredient("100g de aceitunas negras"),
+                    Ingredient("2 cucharadas de alcaparras"),
+                    Ingredient("3 cucharadas de aceite"),
+                    Ingredient("1 cubo de caldo de pollo"),
+                    Ingredient("4 ramas de tomillo"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_pasta_puttanesca),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
             )
         )
 

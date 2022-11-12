@@ -1321,4 +1321,34 @@
         4- Cubre la pizza con queso mozzarella y 10 hojas de albahaca.\n\n
         5- Tapa y calienta a fuego bajo por 10 min.\n\n
         6- Disfruta.</string>
+    <string name="preparation_mac_cheese">
+        1- Prepara la pasta (Básicos de esta receta).\n\n
+        2- Derrite la mantequilla en una olla a fuego bajo y agrega la harina, la leche, la mitad del queso cheddar, la mitad del queso mozzarella, sal y pimienta. Mueve hasta que se derritan los quesos.\n\n
+        3- En un refractario mezcla los macarrones cocidos y los quesos de la olla. Hornea por 10 min a 200° C.\n\n
+        4- Saca del horno y coloca una capa de queso sobre los macarrones y hornea por 20 min a  200° C.\n\n
+        5- Disfruta.</string>
+    <string name="preparation_linguine_esparragos_cacahuate">
+        1- Coce la pasta (Básicos de esta receta).\n\n
+        2- Corta los espárragos en trozos medianos (aprox. 3cm) y cócelos con agua durante 10 min a fuego medio.\n\n
+        3- Mezcla la pasta de cacahuate, la crema acida y 3 cucharadas de agua.\n\n
+        4- Mezcla la pasta, los espárragos y la crema con cacahuate, agrega ralladura de limón amarillo, sal y pimienta al gusto.\n\n
+        5- Disfruta.</string>
+    <string name="preparation_lasana_calabacitas">
+        1- Corta las calabazas en trozos pequeños y fríelos en una sartén a fuego medio por 4 min, agrega sal y pimienta al gusto.\n\n
+        2- Agrega la mitas del queso crema y el queso cheddar a las calabazas y mezcla hasta que se derrita.\n\n
+        3- En un refractario coloca una capa de cátsup, una capa de lasaña y una capa de queso con calabazas y repite.\n\n
+        4- Termina con el resto de queso crema y queso cheddar.\n\n
+        5- Hornea por 20 min a 210°C.</string>
+    <string name="preparation_canelones_queso_crema_espinacas">
+        1- Frie las espinacas cona aceite a fuego bajo durante 5 min y licúalas.\n\n
+        2- Mezcla las espinacas con el queso crema, 2 yemas de huevo, 100g de parmesano, sal y pimienta.\n\n
+        3- Rellena los canelones con la mezcla de espinacas y queso crema.\n\n
+        4- En un refractario coloca una capa de salsa de tomate y una capa de canelones, repite y termina con el resto de queso parmesano.\n\n
+        5- Hornea por 20 min a 180°C.\n\n
+        6- Disfruta.</string>
+    <string name="preparation_pasta_puttanesca">
+        1- Rebana las aceitunas en rodajas delgadas y la cebolla en cuadritos finos.\n\n
+        2- En una olla mezcla las aceitunas y la cebolla con los jitomates, las alcaparras, las hojas de tomillo, los coditos, el aceite, el caldo de pollo, sal y pimienta.\n\n
+        3- Cubre con agua y coche a fuego medio por 12 minutos (Sin tapa).
+        4- Disfrtua.</string>
 </resources>

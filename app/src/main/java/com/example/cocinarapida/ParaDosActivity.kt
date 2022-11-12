@@ -359,6 +359,32 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                         getString(R.string.help_base_pizza)
                     )
                 )
+            ),
+            Recipe(
+                "Canelones Rellenos de Queso Crema y Espinacas",
+                R.drawable.canelones_rellenos_queso_crema_espinacas,
+                arrayListOf(
+                    Ingredient("20 canelones"),
+                    Ingredient("350g de espinacas"),
+                    Ingredient("300g de queso crema"),
+                    Ingredient("200g de queso parmesano"),
+                    Ingredient("2 huevos"),
+                    Ingredient("Salsa de tomate para pasta"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_canelones_queso_crema_espinacas),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
             )
         )
 

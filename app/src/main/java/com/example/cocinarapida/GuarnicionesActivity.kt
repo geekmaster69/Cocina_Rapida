@@ -94,12 +94,13 @@ class GuarnicionesActivity : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Help(getString(R.string.no_help_suggestion),
                         R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             ),
             Recipe(
                 "Chile Morrón Gratinados con Calabacitas y Queso Oaxaca",
-                R.drawable.pimientos_gratinados_calabacitas_feta,
+                R.drawable.mac_cheese,
                 arrayListOf(
                     Ingredient("2 pimientos rojos"),
                     Ingredient("1 calabacita"),
@@ -119,7 +120,8 @@ class GuarnicionesActivity : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Help(getString(R.string.no_help_suggestion),
                         R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             ),
             Recipe(
@@ -145,7 +147,60 @@ class GuarnicionesActivity : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Help(getString(R.string.no_help_suggestion),
                         R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Mac and Cheese",
+                R.drawable.clafoutis_hitomate_cherry,
+                arrayListOf(
+                    Ingredient("400g de macarrones"),
+                    Ingredient("500g de queso cheddar"),
+                    Ingredient("300g de queso mozzarella"),
+                    Ingredient("1.5L de leche"),
+                    Ingredient("100g de harina"),
+                    Ingredient("100g de mantequilla con sal"),
+                    Ingredient("sal y pimienta"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_mac_cheese),
+                arrayListOf(
+                    Help(getString(R.string.help_pasta_preparation_title),
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation)
+                    )
+                )
+            ),
+            Recipe(
+                "Lasaña de Calabacitas",
+                R.drawable.lasana_calabacitas,
+                arrayListOf(
+                    Ingredient("3 cabalazas"),
+                    Ingredient("2 cucharadas de aceite"),
+                    Ingredient("200g de queso crema"),
+                    Ingredient("salsa catsup"),
+                    Ingredient("1 caja de lasaña precocida"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_lasana_calabacitas),
+                arrayListOf(
+                    Help(getString(R.string.help_pasta_preparation_title),
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation)
+                    )
                 )
             )
         )

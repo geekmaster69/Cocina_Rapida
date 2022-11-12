@@ -44,7 +44,34 @@ class PastaFriaActivity : AppCompatActivity(), ReceipeClickListener {
                         R.drawable.ic_help_null,
                         getString(R.string.no_help_suggestion_description))
                 )
-            )
+            ),
+            Recipe(
+                "Pasta a la Puttanesca",
+                R.drawable.pasta_puttanesca,
+                arrayListOf(
+                    Ingredient("400g de coditos"),
+                    Ingredient("250g de jitomates picados en lata o tetra pack"),
+                    Ingredient("1 cebolla"),
+                    Ingredient("100g de aceitunas negras"),
+                    Ingredient("2 cucharadas de alcaparras"),
+                    Ingredient("3 cucharadas de aceite"),
+                    Ingredient("1 cubo de caldo de pollo"),
+                    Ingredient("4 ramas de tomillo"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_pasta_puttanesca),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description))
+                )
+            ),
         )
 
         recipeAdapter = RecipeAdapter(recipeList, this)
