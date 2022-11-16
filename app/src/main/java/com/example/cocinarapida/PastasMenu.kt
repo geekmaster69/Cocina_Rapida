@@ -515,6 +515,33 @@ class PastasMenu : AppCompatActivity(), ReceipeClickListener {
                         R.drawable.ic_help_null,
                         getString(R.string.no_help_suggestion_description))
                 )
+            ),
+            Recipe(
+                "Coditos con Vegetales Verdes",
+                R.drawable.coditos_vegetales_verdes,
+                arrayListOf(
+                    Ingredient("400g de coditos"),
+                    Ingredient("150g de chicharos"),
+                    Ingredient("1 cebolla"),
+                    Ingredient("1 calabaza"),
+                    Ingredient("1 brócoli"),
+                    Ingredient("2 cucharadas de queso mascarpone"),
+                    Ingredient("1 cucharada de aceite"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_coditos_vegetales_verdes),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
             )
         )
 

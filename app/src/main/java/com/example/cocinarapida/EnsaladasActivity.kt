@@ -43,7 +43,8 @@ class EnsaladasActivity : AppCompatActivity(), ReceipeClickListener {
                 getString(R.string.preparation_ensalada_col_mostaza_miel),
                 arrayListOf(
                     Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             ),
             Recipe(
@@ -68,7 +69,8 @@ class EnsaladasActivity : AppCompatActivity(), ReceipeClickListener {
                 getString(R.string.preparation_ensalada_verde_burrata),
                 arrayListOf(
                     Help("Concer Pasta", R.drawable.pasta_help,
-                        getString(R.string.help_pasta_preparation))
+                        getString(R.string.help_pasta_preparation)
+                    )
                 )
             ),
             Recipe(
@@ -94,9 +96,65 @@ class EnsaladasActivity : AppCompatActivity(), ReceipeClickListener {
                 getString(R.string.preparation_ensalada_salmon_citricos),
                 arrayListOf(
                     Help(
-                        "Concer Pasta",
-                        R.drawable.pasta_help,
-                        getString(R.string.help_pasta_preparation)
+                        getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Tabulé de Quinoa",
+                R.drawable.tabule_quinoa,
+                arrayListOf(
+                    Ingredient("300g de quinoa cocida"),
+                    Ingredient("4 jitomates"),
+                    Ingredient("1 pepino"),
+                    Ingredient("vinagre balsámico"),
+                    Ingredient("4 ramas de perejil"),
+                    Ingredient("1 cucharada de aceite de oliva"),
+                    Ingredient("2 cucharadas de agua")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_tabule_quinoa),
+                arrayListOf(
+                    Help(
+                        getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Ensalada de Cítricos y Aguacate",
+                R.drawable.ensalada_citricos_aguacate,
+                arrayListOf(
+                    Ingredient("2 toronjas"),
+                    Ingredient("2 naranjas"),
+                    Ingredient("1 aguacate"),
+                    Ingredient("1 limón amarillo"),
+                    Ingredient("2 cebollas cambray"),
+                    Ingredient("2 cucharadas de aceite de oliva"),
+                    Ingredient("2 ramas de eneldo"),
+                    Ingredient("2 ramas de menta"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_tabule_quinoa),
+                arrayListOf(
+                    Help(
+                        getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
                     )
                 )
             )
@@ -108,7 +166,6 @@ class EnsaladasActivity : AppCompatActivity(), ReceipeClickListener {
             adapter = recipeAdapter
         }
     }
-
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         if(item.itemId == android.R.id.home){

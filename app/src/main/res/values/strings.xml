@@ -378,7 +378,7 @@
     <string name="spaghetti_crema_aguacate_preparation">
         1- Cuece la pasta(ir a básicos de la cocina)\n\n
         2- Licua todos los ingredientes (menos la pasta) hasta que tenga consistencia de puré y color uniforme\n\n
-        3- Mezcla la salsa con la pasta (Suavemente para no romper la pasta)
+        3- Mezcla la salsa con la pasta (Suavemente para no romper la pasta).\n\n
         4- Sirve.</string>
 
     <string name="pechuga_asada">pechuga asada</string>
@@ -1350,5 +1350,24 @@
         1- Rebana las aceitunas en rodajas delgadas y la cebolla en cuadritos finos.\n\n
         2- En una olla mezcla las aceitunas y la cebolla con los jitomates, las alcaparras, las hojas de tomillo, los coditos, el aceite, el caldo de pollo, sal y pimienta.\n\n
         3- Cubre con agua y coche a fuego medio por 12 minutos (Sin tapa).
+        4- Disfrtua.</string>
+    <string name="preparation_coditos_vegetales_verdes">
+        1- Pica y desinfecta el brócoli (Básicos de esta receta).\n\n
+        2- Pela los chicharos, corta la calabaza en trozos medianos y pica la cebolla finamente.\n\n
+        3- En una olla agrega los coditos, los chicharos, el brócoli, la cebolla, la calabaza, el queso mascarpone, el aceite, sal y pimienta al gusto.\n\n
+        4- Cubre la pasta con agua y calienta hasta que hierba, una vez que hierba cocer a fuego medio por 12 min.\n\n
+        5- Disfruta.</string>
+    <string name="preparation_arroz_calabaza_mantequilla">
+        1- Pica la cebolla finamente y en una olla fríela con 3 cucharadas de aceite de oliva durante 2 min a fuego bajo.\n\n
+        2- Agrega el arroz y fríelo por 2 min a fuego bajo.\n\n
+        3- Pela y pica la calabaza en cuadros pequeños y agrégalos al arroz.\n\n
+        4- Agrega el vino blanco y ½ litro de caldo de pollo y deja cocer a fuego bajo por 10 min.\n\n
+        5- Despues de 10 minutos agrega lentamente el otro ½ litro de caldo de pollo y deja calentar otros 10 min.\n\n
+        6- Agrega 2 cucharadas de aceite de oliva, sal y pimienta al gusto.\n\n
+        7- Disfrtua.</string>
+    <string name="preparation_tabule_quinoa">
+        1- En una olla agrega la quinoa, 1 cucharada de aceite de oliva, 2 cucharadas de agua y calienta a fuego medio por 3 minutos.\n\n
+        2- Pica el jitomate y el pepino el cubos pequeños y agrégalos en un recipiente junto con el vinagre balsámico. Dejar reposar 5 min.\n\n
+        3- Decora con unas hojas de perejil.\n\n
         4- Disfrtua.</string>
 </resources>

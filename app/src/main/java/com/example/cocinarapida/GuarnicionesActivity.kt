@@ -43,7 +43,8 @@ class GuarnicionesActivity : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Help(getString(R.string.no_help_suggestion),
                         R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             ),
             Recipe(
@@ -196,6 +197,33 @@ class GuarnicionesActivity : AppCompatActivity(), ReceipeClickListener {
                     Ingredient(getString(R.string.no_optios))
                 ),
                 getString(R.string.preparation_lasana_calabacitas),
+                arrayListOf(
+                    Help(getString(R.string.help_pasta_preparation_title),
+                        R.drawable.pasta_help,
+                        getString(R.string.help_pasta_preparation)
+                    )
+                )
+            ),
+            Recipe(
+                "Arroz de Calabaza Mantequilla",
+                R.drawable.arroz_calabaza_mantequilla,
+                arrayListOf(
+                    Ingredient("400g de arooz"),
+                    Ingredient("500g de calabaza mantequilla"),
+                    Ingredient("1 cebolla"),
+                    Ingredient("100ml de vino blanco"),
+                    Ingredient("5 cucharadas de aceite de oliva"),
+                    Ingredient("1L de caldo de pollo"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient("caldo de pollo en tetra pack"),
+                    Ingredient("cubo de caldo de pollo"),
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_arroz_calabaza_mantequilla),
                 arrayListOf(
                     Help(getString(R.string.help_pasta_preparation_title),
                         R.drawable.pasta_help,
