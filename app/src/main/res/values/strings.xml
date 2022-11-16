@@ -1370,4 +1370,34 @@
         2- Pica el jitomate y el pepino el cubos pequeños y agrégalos en un recipiente junto con el vinagre balsámico. Dejar reposar 5 min.\n\n
         3- Decora con unas hojas de perejil.\n\n
         4- Disfrtua.</string>
+    <string name="preparation_ensalada_citricos_aguacate">
+        1- Pela y rebana las naranjas y las toronjas, también rebana toda la cebolla cambray (Incluyendo el tallo) Agrégalo todo aun bowl.\n\n
+        2- Rebana el aguacate y mézclalo con las naranjas y toronjas, agrega el jugo de limón amarillo.\n\n
+        3- Agrega las hojas de menta, las hojas de eneldo, 2 cucharadas de aceite de oliva, sal y pimienta al gusto.\n\n
+        4- Disfruta.</string>
+    <string name="preparation_ensalada_lenteja">
+        1- Coce los huevos en agua durante 10 min a fuego alto. Retirar y cortar en 4.\n\n
+        2- Coce las lentejas durante 20 min a fuego alto. Escurre al agua y vierte las lentejas en un bowl.\n\n
+        3- Pela y pica el betabel en cuadros pequeños y agrégalos a las lentejas junto con los granos de la granada.\n\n
+        4- Agrega la pizca de comino, el aceite de oliva, el vinagre, las hojas de estragón, sal y pimienta al gusto.\n\n
+        5- Disfruta.</string>
+    <string name="preparation_curry_indio_verduras">
+        1- Corta la berenjena en cuadros medianos y desflémala (Básicos de esta receta).\n\n
+        2- Corta el camote en cuadros medianos y la cebolla en medias lunas (Básicos de esta receta).\n\n
+        3- Frie la berenjena, la cebolla, y el camote con aceite en una olla durante 5 min a fuego alto.\n\n
+        4- Agrega el curry, sal y pimienta al gusto. Cubre con agua y coche a fuego bajo durante 30 min.\n\n
+        5- Decora con hojas de cilantro y disfruta.</string>
+    <string name="help_desflemar_berenjena">
+        1- Corta las berenjenas en laminas, rodajas o cuadros.\n\n
+        2- Coloca las berenjenas cortadas en una olla o recipiente hondo y agrega 2 puños de sal de grano.\n\n
+        3- Cubrelas con agua y deja reposar 30 min.\n\n
+        4- Sacalas del agua y enjuágalas.\n\n
+        5- Listo.</string>
+    <string name="help_desflemar_berenjena_title">Desflemar Berenjena</string>
+    <string name="help_cebolla_media_luna_title">Cebollas en Media Luna</string>
+    <string name="help_cebolla_media_luna_description">
+        1- Quita la primera cama de la cebolla.\n\n
+        2- Corta la cebolla a la mitad de manera vertical, con el tallo hacia arriba.\n\n
+        3- Corta la cebolla verticalmente, en rebanadas delgadas.\n\n
+        4- Listo.</string>
 </resources>

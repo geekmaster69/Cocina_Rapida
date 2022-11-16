@@ -51,7 +51,9 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Help("Sin sugerencias",
                         R.drawable.ic_help_null,
-                        "No hay sugerencias disponibles"))
+                        "No hay sugerencias disponibles"
+                    )
+                )
             ),
             Recipe(
                 "Wok de Res con Fideos de Arroz y Brocoli",
@@ -76,7 +78,8 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Help("Sin sugerencias",
                         R.drawable.ic_help_null,
-                        "No hay sugerencias disponibles")
+                        "No hay sugerencias disponibles"
+                    )
                 )
             ),
             Recipe(
@@ -103,7 +106,8 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Help("Sin sugerencias",
                         R.drawable.ic_help_null,
-                        "No hay sugerencias disponibles")
+                        "No hay sugerencias disponibles"
+                    )
                 )
             ),
             Recipe(
@@ -128,7 +132,8 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Help("Corte de Cebolla",
                         R.drawable.help_cebolla_rodajas,
-                        "Así es como debe verse la cebolla cuando la cortes")
+                        "Así es como debe verse la cebolla cuando la cortes"
+                    )
                 )
             ),
             Recipe(
@@ -152,7 +157,8 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Help(getString(R.string.no_help_suggestion),
                         R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             ),
             Recipe(
@@ -177,7 +183,8 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Help(getString(R.string.no_help_suggestion),
                         R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             ),
             Recipe(
@@ -203,7 +210,8 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Help(getString(R.string.no_help_suggestion),
                         R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             ),
             Recipe(
@@ -231,7 +239,8 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Help(getString(R.string.help_arroz_title),
                         R.drawable.arroz_help,
-                        getString(R.string.help_arroz_oniguiri))
+                        getString(R.string.help_arroz_oniguiri)
+                    )
                 )
             ),
             Recipe(

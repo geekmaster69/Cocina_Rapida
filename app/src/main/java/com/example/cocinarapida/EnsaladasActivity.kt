@@ -149,7 +149,36 @@ class EnsaladasActivity : AppCompatActivity(), ReceipeClickListener {
                 arrayListOf(
                     Ingredient(getString(R.string.no_optios))
                 ),
-                getString(R.string.preparation_tabule_quinoa),
+                getString(R.string.preparation_ensalada_citricos_aguacate),
+                arrayListOf(
+                    Help(
+                        getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Ensalada de Lentejas",
+                R.drawable.ensalada_lentejas,
+                arrayListOf(
+                    Ingredient("4 huevos"),
+                    Ingredient("200g de lentejas"),
+                    Ingredient("1 pizca de comino en polvo"),
+                    Ingredient("1 betabel"),
+                    Ingredient("6 ramas de estragón"),
+                    Ingredient("½ granada"),
+                    Ingredient("4 cucharadas de aceite de olvia"),
+                    Ingredient("1 cucharada de vinagre de manzana"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_ensalada_lenteja),
                 arrayListOf(
                     Help(
                         getString(R.string.no_help_suggestion),

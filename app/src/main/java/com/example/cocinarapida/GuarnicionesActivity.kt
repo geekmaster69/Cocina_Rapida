@@ -230,6 +230,36 @@ class GuarnicionesActivity : AppCompatActivity(), ReceipeClickListener {
                         getString(R.string.help_pasta_preparation)
                     )
                 )
+            ),
+            Recipe(
+                "Curry Indio con Verduras",
+                R.drawable.curry_indio_verduras,
+                arrayListOf(
+                    Ingredient("3 camotes"),
+                    Ingredient("2 berenjenas"),
+                    Ingredient("2 cebollas"),
+                    Ingredient("2 cucharadas de aceite"),
+                    Ingredient("2 cucharadas de curry en polvo"),
+                    Ingredient("1 manojo de cilantro"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_curry_indio_verduras),
+                arrayListOf(
+                    Help(getString(R.string.help_desflemar_berenjena_title),
+                        R.drawable.help_desflemar_berenjena,
+                        getString(R.string.help_desflemar_berenjena)
+                    ),
+                    Help(getString(R.string.help_cebolla_media_luna_title),
+                        R.drawable.help_cebolla_media_luna,
+                        getString(R.string.help_cebolla_media_luna_description)
+                    ),
+                )
             )
         )
 
