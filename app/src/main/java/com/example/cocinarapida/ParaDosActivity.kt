@@ -385,6 +385,32 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
                         getString(R.string.no_help_suggestion_description)
                     )
                 )
+            ),
+            Recipe(
+                "Jitomates Rostizados con Queso de cabra y Albahaca",
+                R.drawable.jitomates_rostisados_queso_cabra_albahaca,
+                arrayListOf(
+                    Ingredient("1Kg de jitomate bola"),
+                    Ingredient("50g de queso de cabra"),
+                    Ingredient("pan molido"),
+                    Ingredient("hojas de albahaca fresca"),
+                    Ingredient("aceite"),
+                    Ingredient("Salsa de tomate para pasta"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_jitomates_rostizados_queso_cabra_albahaca),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
             )
         )
 

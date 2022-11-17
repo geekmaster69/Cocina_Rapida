@@ -325,6 +325,34 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                         getString(R.string.no_help_suggestion_description)
                     )
                 )
+            ),
+            Recipe(
+                "Zanahorias con Comino y Cúrcuma",
+                R.drawable.zanahorias_comino_curcuma,
+                arrayListOf(
+                    Ingredient("800g de zanahorias"),
+                    Ingredient("1 cebolla"),
+                    Ingredient("1 cucharada de comino entero"),
+                    Ingredient("1 cucharada de cúrcuma en polvo"),
+                    Ingredient("2 cucharadas de comino en polvo"),
+                    Ingredient("½ manojo de cilantro"),
+                    Ingredient("200ml de agua"),
+                    Ingredient("aceite"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient("Puedes acompañar con una pechuga azada y arroz blanco o integral.")
+                ),
+                getString(R.string.preparation_zanahorias_comino_curcuma),
+                arrayListOf(
+                    Help(getString(R.string.help_cebolla_rodajas_title),
+                        R.drawable.help_cebolla_rodajas,
+                        getString(R.string.help_cebolla_rodajas)
+                    )
+                )
             )
         )
         recipeAdapter = RecipeAdapter(recipeList, this)

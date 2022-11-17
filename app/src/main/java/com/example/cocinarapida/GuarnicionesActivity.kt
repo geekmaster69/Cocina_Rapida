@@ -153,6 +153,34 @@ class GuarnicionesActivity : AppCompatActivity(), ReceipeClickListener {
                 )
             ),
             Recipe(
+                "Ratatouille Provenzal",
+                R.drawable.ratatouille_provenzal,
+                arrayListOf(
+                    Ingredient("4 calabazas"),
+                    Ingredient("2 berenjenas"),
+                    Ingredient("4 jitomates"),
+                    Ingredient("2 pimientos morrones rojos"),
+                    Ingredient("1 cebolla"),
+                    Ingredient("3 ajos"),
+                    Ingredient("1 manojo de hierbas de olor"),
+                    Ingredient("aceite"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_ratatouille_provenzal),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
                 "Mac and Cheese",
                 R.drawable.clafoutis_hitomate_cherry,
                 arrayListOf(
@@ -258,7 +286,57 @@ class GuarnicionesActivity : AppCompatActivity(), ReceipeClickListener {
                     Help(getString(R.string.help_cebolla_media_luna_title),
                         R.drawable.help_cebolla_media_luna,
                         getString(R.string.help_cebolla_media_luna_description)
-                    ),
+                    )
+                )
+            ),
+            Recipe(
+                "Papas Rellenas",
+                R.drawable.papas_rellenas,
+                arrayListOf(
+                    Ingredient("8 papas"),
+                    Ingredient("300ml de yogurt griego"),
+                    Ingredient("½ manojo de cebolla cambray (Solo los tallos)"),
+                    Ingredient("½ manojo de perejil"),
+                    Ingredient("1 limón amarillo"),
+                    Ingredient("150g de queso manchego"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_papas_rellenas),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Papas Fritas con Sal de Ajo",
+                R.drawable.papas_fritas_sal_ajo,
+                arrayListOf(
+                    Ingredient("1Kg de papas"),
+                    Ingredient("2 ajos"),
+                    Ingredient("75g de tomillo"),
+                    Ingredient("250g de sal"),
+                    Ingredient("2L de aceite para freir")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_papas_fritas_sal_ajo),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             )
         )
