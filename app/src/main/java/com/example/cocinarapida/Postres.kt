@@ -417,6 +417,33 @@ class Postres : AppCompatActivity(), ReceipeClickListener {
                         getString(R.string.no_help_suggestion_description)
                     )
                 )
+            ),
+            Recipe(
+                "Clafoutis de Cerezas y Almendras",
+                R.drawable.clafoutis_cereza_almendra,
+                arrayListOf(
+                    Ingredient("3 huevos"),
+                    Ingredient("80g de almendra en polvo"),
+                    Ingredient("80g de azúcar mascabado"),
+                    Ingredient("50g de harina"),
+                    Ingredient("100ml de leche"),
+                    Ingredient("500g de cerezas congeladas"),
+                    Ingredient("1 cucharada de aceite"),
+                    Ingredient("1 cucharada de extracto de vainilla"),
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_clafoutis_cereza_almendra),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
             )
         )
 
