@@ -1435,4 +1435,61 @@
         3- Agrega aceite y fríe por 8 minutos a fuego medio. \n\n
         4- Agrega las hierbas de olor, el ajo finamente ficado, sal y pimienta al gusto y calienta a fuego bajo por 1 hora.\n\n
         5- Disfrtua.</string>
+    <string name="preparation_pastel_verdutas_tomillo">
+        1- Corta las calabazas, los jitomates y las berenjenas en rodajas, desflema las berenjenas (Básicos de esta receta).\n\n
+        2- Acomoda las rodajas verticalmente en un refractario y cúbrelas con un chorrito de aceite.\n\n
+        3- Pica el ajo finamente y agrégalo junto con las ramas de tomillo, sal y pimienta. Agrega otro chorrito de aceite.\n\n
+        4- Hornea durante 45 min a 180°C. Constantemente baña las verduras con el mismo jugo de la cocción.\n\n
+        5- Decora con las hojas de albahaca y disfruta.</string>
+    <string name="preparation_tortita_ayocote">
+        1- Drena el liquido de los frijoles y aplástalos hasta tener una masa.\n\n
+        2- Mezcla el curry, la cebolla picada finamente, la zanahoria rayada, el huevo y el pan molido junto con los frijoles aplastados. Agrega sal y pimienta al gusto.\n\n
+        3- Toma un trozo de la mezcla y dale forma de tortita.\n\n
+        4- Friela con aceite durante 3 min por cada lado a fuego alto.\n\n
+        5- Disfruta.</string>
+    <string name="preparation_tortilla_papas">
+        1- En una olla agrega las papas, cúbrelas con agua y cócelas durante 12 min a fuego medio.\n\n
+        2- Escurre las papas y córtalas en rodajas delgadas, fríe las rodajas por 5 min a fuego alto en una olla apta para horno.\n\n
+        3- Corta en rodajas delgadas 3 cebollas cambray (Con todo y tallo), pica el perejil finamente y mézclalo con la cayena, los huevos, sal y pimienta.\n\n
+        4- Agrega la mezcla de huevo a la olla con papas y hornea por 13 min a 200°C.\n\n
+        5- Gira para desmoldar. Decora con cebolla Cambray picada, perejil picado y lechuga.\n\n
+        6- Disfruta.</string>
+    <string name="preparation_frittata_espinaca_champinones">
+        1- Pica la cebolla finamente y en una sartén fríela con la mantequilla por 5 min a fuego medio.\n\n
+        2- Agrega los champiñones picados y fríelos por 5 minutos mas.\n\n
+        3- Agrega las espinacas y fríelas por 3 min a fuego bajo.\n\n
+        4- En un bowl bate los huevos con la crema para batir, sal y pimenta al gusto.\n\n
+        5- En un refractario para horno agrega los champiñones con cebolla y espinacas junto con el huevo batido. Hornea por 17 min a 180 °C.\n\n
+        6- Disfruta.</string>
+    <string name="preparation_caponata_siciliana">
+        1- Corta la cebolla finamente y fríela con aceite en una olla durante 3 min a fuego medio.\n\n
+        2- Corta los jitomates y las berenjenas en cuadros medianos, desflema las berenjenas (Básicos de esta receta).\n\n
+        3- Agrega los jitomates y las berenjenas a la olla, calienta durante 10 in a fuego medio.\n\n
+        4- Agrega el vinagre de manzana, las alcaparras, el azúcar, sal y pimienta. Tapa y coce durante 40 min a fuego bajo.\n\n
+        5- Decora con hojas de albahaca y disfruta.</string>
+    <string name="preparation_hamburguesa_vegetariana_berenjena">
+        1- Corta la berenjena en rodajas gruesas, desflema la berenjena (Básicos de esta receta).\n\n
+        2- Frie la berenjena con un chorrito de aceite de oliva por 5 min a fuego medio por ambos lados.\n\n
+        3- Rebana los aguacates y licúalos con el jugo de limón, un chorrito de acete de oliva, sal y pimienta.\n\n
+        4- Arma las hamburguesas de la siguiente manera:\n
+        Pan-Pesto de aguacate-Berenjena-Manchego-Arúgula-Pan \n\n
+        5- Disfrtua.</string>
+    <string name="preparation_fondant_tibio_chocolate_jengibre">
+        1- Derrite el chocolate y la mantequilla en una olla a fuego muy bajo. Mezcla.\n\n
+        2- Retira del fuego y agrega el azúcar, la harina, los huevos, el jengibre y mezcla.\n\n
+        3- Engrasa un molde para cupcakes (Con aceite o mantequilla) y agrega mezcla de chocolate en cada espacio del molde.\n\n
+        4- Hornea por 10 min a 180°C.\n\n
+        5- Disfruta.</string>
+    <string name="preparation_brownie_nuez">
+        1- Derrite el chocolate y la mantequilla en una olla a fuego muy bajo. Pasa la mezcla a un bowl.\n\n
+        2- Agrega el azúcar mascabado, la harina, los huevos y mezcla.\n\n
+        3- Cubre un refractario para horno con el papel encerado y agrega la mezcla.\n\n
+        4- Exparce las nueces y hornea por 17 min a 180°C.\n\n
+        5- Disfruta.</string>
+    <string name="preparation_pastel_chocolate_principiante">
+        1- Derrite el chocolate y la mantequilla en una olla a fuego muy bajo. Pasa la mezcla a un bowl.\n\n
+        2- Agrega el azúcar mascabado, 1 cucharada de harina, los huevos y mezcla.\n\n
+        3- Engrasa un refractario para horno con mantequilla y espolvorea con harina. Agrega la mezcla.\n\n
+        4- Hornea por 25 min a 180°C.\n\n
+        5- Disfrtua.</string>
 </resources>

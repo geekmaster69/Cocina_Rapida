@@ -22,6 +22,10 @@ class IrComiendo : AppCompatActivity() {
         binding.btWraps.setOnClickListener {
             startActivity(Intent(this, WrapsActivity::class.java))
         }
+
+        binding.btHamburguesas.setOnClickListener {
+            startActivity(Intent(this, HamburguesasActivity::class.java))
+        }
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

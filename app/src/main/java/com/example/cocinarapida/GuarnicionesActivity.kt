@@ -174,9 +174,39 @@ class GuarnicionesActivity : AppCompatActivity(), ReceipeClickListener {
                 ),
                 getString(R.string.preparation_ratatouille_provenzal),
                 arrayListOf(
-                    Help(getString(R.string.no_help_suggestion),
-                        R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description)
+                    Help(
+                        getString(R.string.help_desflemar_berenjena_title),
+                        R.drawable.help_desflemar_berenjena,
+                        getString(R.string.help_desflemar_berenjena)
+                    )
+                )
+            ),
+            Recipe(
+                "Pastel de Verduras y Tomillo",
+                R.drawable.pastel_verduras_tomillo,
+                arrayListOf(
+                    Ingredient("4 calabazas"),
+                    Ingredient("2 berenjenas"),
+                    Ingredient("6 jitomates"),
+                    Ingredient("3 ramas de tomillo"),
+                    Ingredient("8 hojas de albahaca"),
+                    Ingredient("3 ajos"),
+                    Ingredient("aceite"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(
+                    R.string.preparation_pastel_verdutas_tomillo),
+                arrayListOf(
+                    Help(
+                        getString(R.string.help_desflemar_berenjena_title),
+                        R.drawable.help_desflemar_berenjena,
+                        getString(R.string.help_desflemar_berenjena)
                     )
                 )
             ),
@@ -338,6 +368,33 @@ class GuarnicionesActivity : AppCompatActivity(), ReceipeClickListener {
                         getString(R.string.no_help_suggestion_description)
                     )
                 )
+            ),
+            Recipe(
+                "Caponata Siciliana",
+                R.drawable.caponata_siciliana,
+                arrayListOf(
+                    Ingredient("4 berenjenas"),
+                    Ingredient("2 cucharadas de alcaparras"),
+                    Ingredient("6 jitomates"),
+                    Ingredient("1 cucharada de azúcar"),
+                    Ingredient("2 cucharadas de vinagre de manzana"),
+                    Ingredient("2 cucharadas de aceite"),
+                    Ingredient("hojas de albahaca"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_caponata_siciliana),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
             )
         )
 
@@ -350,11 +407,9 @@ class GuarnicionesActivity : AppCompatActivity(), ReceipeClickListener {
 
     override fun recipeOnClickListener(recipe: Recipe) {
         val intent = Intent(this, RecipeTemplateActivity::class.java)
-
         val args = Bundle()
         args.putSerializable("Recipe", recipe as Serializable)
         intent.putExtra("Bundle", args)
-
         startActivity(intent)
     }
 

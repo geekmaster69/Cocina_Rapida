@@ -10,9 +10,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CocinaRapida">
         <activity
+            android:name=".HamburguesasActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".GuarnicionesActivity"
             android:exported="false"
-            android:label="Guarniciones"/>
+            android:label="Guarniciones" />
         <activity
             android:name=".EmpanadasActivity"
             android:exported="false"

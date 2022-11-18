@@ -337,8 +337,85 @@ class Postres : AppCompatActivity(), ReceipeClickListener {
                 ),
                 getString(R.string.galletas_microondas_preparation),
                 arrayListOf(
-                    Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
-                        getString(R.string.no_help_suggestion_description))
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Fondant Tibio de Chocolate y Jengibre",
+                R.drawable.fondant_tibio_chocolate_jengibre,
+                arrayListOf(
+                    Ingredient("200g de chocolate amargo"),
+                    Ingredient("120g de mantequilla"),
+                    Ingredient("120g de azúcar mascabado"),
+                    Ingredient("80g de harina"),
+                    Ingredient("2 huevos"),
+                    Ingredient("50g de nueces"),
+                    Ingredient("papel encerado")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_fondant_tibio_chocolate_jengibre),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Brownie con Nuez",
+                R.drawable.brownie_nuez,
+                arrayListOf(
+                    Ingredient("150g de chocolate amargo"),
+                    Ingredient("90g de mantequilla"),
+                    Ingredient("130g de azúcar mascabado"),
+                    Ingredient("80g de harina"),
+                    Ingredient("2 huevos"),
+                    Ingredient("1 cucharada de jengibre en polvo")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_brownie_nuez),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Pastel de Chocolate para Principiantes",
+                R.drawable.pastel_chocolate_principiante,
+                arrayListOf(
+                    Ingredient("200g de chocolate amargo"),
+                    Ingredient("160g de mantequilla"),
+                    Ingredient("250g de azúcar"),
+                    Ingredient("3 cucharadas de harina"),
+                    Ingredient("4 huevos"),
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_pastel_chocolate_principiante),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
                 )
             )
         )

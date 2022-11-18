@@ -297,6 +297,65 @@ class DesayunosActivity : AppCompatActivity(), ReceipeClickListener {
                     Help(getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
                         getString(R.string.no_help_suggestion_description))
                 )
+            ),
+            Recipe(
+                "Tortilla de papas",
+                R.drawable.tortilla_papas,
+                arrayListOf(
+                    Ingredient("8 huevos"),
+                    Ingredient("4 cebollas cambray"),
+                    Ingredient("1 manojo de perejil"),
+                    Ingredient("2 pizcas de pimienta de cayena"),
+                    Ingredient("500g de papas cambray"),
+                    Ingredient("2 puñados de mezcla de lechuga"),
+                    Ingredient("aceite"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.catsup)),
+                    Ingredient(getString(R.string.tortillas))
+                ),
+                getString(
+                    R.string.preparation_tortilla_papas),
+                arrayListOf(
+                    Help(
+                        getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Frittata de Espinacas y Champiñones",
+                R.drawable.frittata_espinaca_champinones,
+                arrayListOf(
+                    Ingredient("6 huevos"),
+                    Ingredient("3 cucharadas de crema para batir"),
+                    Ingredient("1 cebolla"),
+                    Ingredient("100g de champiñones"),
+                    Ingredient("1 puñado de espinacas"),
+                    Ingredient("20g de mantequilla"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.catsup)),
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(
+                    R.string.preparation_frittata_espinaca_champinones),
+                arrayListOf(
+                    Help(
+                        getString(R.string.help_desflemar_berenjena_title),
+                        R.drawable.help_desflemar_berenjena,
+                        getString(R.string.help_desflemar_berenjena)
+                    )
+                )
             )
         )
 
@@ -318,11 +377,9 @@ class DesayunosActivity : AppCompatActivity(), ReceipeClickListener {
     override fun recipeOnClickListener(recipe: Recipe) {
 
         val intent = Intent(this, RecipeTemplateActivity::class.java)
-
         val args = Bundle()
         args.putSerializable("Recipe", recipe as Serializable)
         intent.putExtra("Bundle", args)
-
         startActivity(intent)
     }
 }

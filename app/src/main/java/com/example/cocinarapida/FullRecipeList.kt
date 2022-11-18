@@ -667,6 +667,7 @@ class FullRecipeList {
                 arrayListOf(
                     Help(Resources.getSystem().getString(R.string.no_help_suggestion), R.drawable.ic_help_null,
                         Resources.getSystem().getString(R.string.no_help_suggestion_description))
+
                 )
             ),
             Recipe(
@@ -799,7 +800,7 @@ class FullRecipeList {
                         Resources.getSystem().getString(R.string.help_pasta_preparation)
                     )
                 )
-            ),
+            )
 
         )
     }

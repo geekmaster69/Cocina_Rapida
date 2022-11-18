@@ -353,6 +353,33 @@ class Bento : AppCompatActivity(), ReceipeClickListener {
                         getString(R.string.help_cebolla_rodajas)
                     )
                 )
+            ),
+            Recipe(
+                "Tortitas de Ayocotes",
+                R.drawable.tortitas_ayocotes,
+                arrayListOf(
+                    Ingredient("1 lata de ayocotes cocidos"),
+                    Ingredient("1 cucharada de curry en polvo"),
+                    Ingredient("1 cebolla"),
+                    Ingredient("1 zanahoria"),
+                    Ingredient("1 huevo"),
+                    Ingredient("70g de pan molido"),
+                    Ingredient("aceite"),
+                    Ingredient("sal y pimienta")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_tortita_ayocote),
+                arrayListOf(
+                    Help(getString(R.string.help_cebolla_rodajas_title),
+                        R.drawable.help_cebolla_rodajas,
+                        getString(R.string.help_cebolla_rodajas)
+                    )
+                )
             )
         )
         recipeAdapter = RecipeAdapter(recipeList, this)
