@@ -36,6 +36,9 @@ class MainActivity : AppCompatActivity() {
         binding.salsas.setOnClickListener {
             startActivity(Intent(this, SalsasMenuActivity::class.java))
         }
+        binding.btAgradecimiento.setOnClickListener {
+            startActivity(Intent(this, AgradecimientoActivity::class.java))
+        }
     }
 
 
