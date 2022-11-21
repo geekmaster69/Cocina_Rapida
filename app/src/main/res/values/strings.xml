@@ -1492,5 +1492,45 @@
         3- Engrasa un refractario para horno con mantequilla y espolvorea con harina. Agrega la mezcla.\n\n
         4- Hornea por 25 min a 180°C.\n\n
         5- Disfrtua.</string>
-    <string name="preparation_clafoutis_cereza_almendra">"1-En un recipiente mezcla los huevos, el azúcar mascabado, la almendra en polvo, la harina, el extracto de vainilla y la leche. Bate hasta tener una mezcla homogénea.\n\n 2-Engrasa un refractario para horno y espolvorea un poco de azúcar mascabado.\n\n 3-Agrega la mezcla y las cerezas al refractario y espolvorea un poco de azúcar mascabado encima.\n\n 4-Hornea por 30 min a 180°C. \n\n 5-Disfruta. "</string>
+    <string name="preparation_clafoutis_cereza_almendra">
+        1- En un recipiente mezcla los huevos, el azúcar mascabado, la almendra en polvo, la harina, el extracto de vainilla y la leche. Bate hasta tener una mezcla homogénea.\n\n
+        2- Engrasa un refractario para horno y espolvorea un poco de azúcar mascabado.\n\n
+        3- Agrega la mezcla y las cerezas al refractario y espolvorea un poco de azúcar mascabado encima.\n\n
+        4- Hornea por 30 min a 180°C. \n\n
+        5- Disfruta.</string>
+    <string name="preparation_bocaditos_limon_amarillo">
+        1- En un recipiente bate 150g de harina, 50g de azúcar y 60g de mantequilla hasta tener una mezcla homogénea.\n\n
+        2- Agrega la mezcla en un refractario para horno y hornea por 13 min a 180°C.\n\n
+        3- En un recipiente agrega los huevos, el resto de la harina, el resto de la azúcar, el jugo de el limón, rayadura de limón y una cucharada de bicarbonato de sodio. Bate hasta tener una mezcla homogénea.\n\n
+        4- Agrega la mezcla sobre la base que metiste al horno previamente y hornea por otros 20 min a 180°C.\n\n
+        5- Disfrtua.</string>
+    <string name="preparation_volteado_pina">
+        1- En un bowl mezcla la harina, el polvo para hornear, el azúcar y vainilla.\n\n
+        2- Agrega la mantequilla y los huevos. Reserva,\n\n
+        3- En un refractario para horno (De preferencia de silicón) coloca las rodajas de piña y las cerezas en el fondo, agrega un poco de caramelo y cúbrelas con la mezcla.\n\n
+        4- Hornea durante 20 min a 180°C. deja reposar 5 minutos y gira para desmoldar.\n\n
+        5- Disfrtua.</string>
+    <string name="preparation_pay_nata">
+        1- Mezcla la harina con la mitad de la leche. Reserva.\n\n
+        2- En una olla calienta la otra mitad de la leche durante 5 min a fuego medio, después agrega el azúcar, la canela, la yema de huevo, la mezcla anterior de harina y leche, mezcla y deja enfriar 10 min.\n\n
+        3- En moldes para cupcakes haz una base de masa de hojaldre y agrega una porción de la mezcla.\n\n
+        4- Hornea durante 10 min a 290°C.\n\n
+        5- Disfruta.</string>
+    <string name="preparation_enjambres_chocolate">
+        1- En una olla derrite el chocolate, el azúcar glass y el aceite de coco durante 5 min a fuego bajo.\n\n
+        2- En una sartén agrega el cacahuate, las almendras, las nueces, las hojuelas de maíz y el arroz inflado y caliéntalo 5 min fuego bajo. Mezcla.\n\n
+        3- Mezcla los cereales y el chocolate, toma una pequeña porción y ponla en un capacillo, deja que se enfríe.\n\n
+        4- Disfruta.</string>
+    <string name="preparation_manzanas_horneadas">
+        1- En un bowl mezcla la crema con las nueces garapiñadas.\n\n
+        2- Con una cuchara o un cuchillo descorazona las manzanas.\n\n
+        3- Rellena las manzanas con la mezcla de crema y hornea por 30 min a 180°C.\n\n
+        4- Disfruta.</string>
+    <string name="preparation_rollos_verano_fruta">
+        1- Remoja las hojas de arroz en agua y colócalas sobre un trapo.\n\n
+        2- Corta toda la fruta en tiras delgadas. Distribuye la fruta en el centro de la hoja.\n\n
+        3- Dobla la parte superior e inferior a un cuarto de la hoja y dobla los laterales al centro para formar un rectángulo y enróllalo desde la parte inferior.\n\n
+        4- En una olla derrite el chocolate con la leche, calienta durante 5 min a fuego muy bajo, usa el chocolate como dip.\n\n
+        5- Disfruta.</string>
+    <string name="agradecimiento_text">Hola!!!, soy Emmanuel y primero que nada quiero agradecerte por haberle dado una oportunidad a mi aplicación. \n\n Es mi primer desarrollo y la hice con la finalidad de ayudar a la gente que se le complica la cocina.\n\n Por cada anuncio que pase mientras cocinas me estas ayudando a pagar mis estudios y convertirme en un programador titulado y dejar el trabajo que tengo de repartidor.\n\n Si encuentras una falta de ortografía, no entiendes una receta o te gustaría que agregue una no dudes en ponerte en contacto conmigo, estoy a tu servicio y de nuevo muchas gracias por darme una oportunidad.\n\n Disfrútala.</string>
 </resources>

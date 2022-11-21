@@ -18,10 +18,7 @@ class Postres : AppCompatActivity(), ReceipeClickListener {
         binding = ActivityPostresBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-
-
 
        val recipeList = arrayListOf(
             Recipe(
@@ -444,6 +441,135 @@ class Postres : AppCompatActivity(), ReceipeClickListener {
                         getString(R.string.no_help_suggestion_description)
                     )
                 )
+            ),
+            Recipe(
+                "Bocaditos de Limón Amarillo",
+                R.drawable.bocaditos_limon_amarillo,
+                arrayListOf(
+                    Ingredient("2 huevos"),
+                    Ingredient("200g de azucar"),
+                    Ingredient("1 cucharada de bicarbonato de sodio"),
+                    Ingredient("150g de harina"),
+                    Ingredient("70g de mantequilla"),
+                    Ingredient("1 limón amarillo")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_bocaditos_limon_amarillo),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Volteado de Piña",
+                R.drawable.volteado_pina,
+                arrayListOf(
+                    Ingredient("3 huevos"),
+                    Ingredient("180g de azucar"),
+                    Ingredient("6 gramos de polvo para hornear"),
+                    Ingredient("200g de harina"),
+                    Ingredient("100g de mantequilla"),
+                    Ingredient("80g de cerezas en almíbar "),
+                    Ingredient("caramelo liquido"),
+                    Ingredient("1 cucharada de esencia de vainilla"),
+                    Ingredient("1 lata de piña en almíbar en rodajas ")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_volteado_pina),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Manzanas Horneadas con Nueces Garapiñadas",
+                R.drawable.manzana_horneada_nuez_garapinada,
+                arrayListOf(
+                    Ingredient("150ml de crema ácida"),
+                    Ingredient("100g de nueces garapiñadas"),
+                    Ingredient("8 manzanas pequeñas")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_manzanas_horneadas),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Rollos de Verano con Frutas",
+                R.drawable.rollos_verano_frutas,
+                arrayListOf(
+                    Ingredient("8 hojas de arroz"),
+                    Ingredient("1 manzana"),
+                    Ingredient("2 kiwis"),
+                    Ingredient("250g de fresas"),
+                    Ingredient("1 mango"),
+                    Ingredient("8 hojas de menta"),
+                    Ingredient("100g de chocolate oscuro"),
+                    Ingredient("50ml de leche")
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_subtitutes))
+                ),
+                arrayListOf(
+                    Ingredient(getString(R.string.no_optios))
+                ),
+                getString(R.string.preparation_rollos_verano_fruta),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
+            ),
+            Recipe(
+                "Cheesecake de Pera",
+                R.drawable.cheesecake_frutos_rojos,
+                arrayListOf(
+                    Ingredient("150g de galletas de especias"),
+                    Ingredient("60g de mantequilla"),
+                    Ingredient("2 cucharadas de miel"),
+                    Ingredient("2 cucharadas de crema ácida"),
+                    Ingredient("200g de queso crema"),
+                    Ingredient("180g de pure de pera"),
+                    Ingredient("2 cucharadas de crema para batir muy fria")
+                ),
+                arrayListOf(
+                    Ingredient("base para pay preparada")
+                ),
+                arrayListOf(
+                    Ingredient("cajeta"),
+                    Ingredient("nueces en trozos")
+                ),
+                getString(R.string.preparation_rollos_verano_fruta),
+                arrayListOf(
+                    Help(getString(R.string.no_help_suggestion),
+                        R.drawable.ic_help_null,
+                        getString(R.string.no_help_suggestion_description)
+                    )
+                )
             )
         )
 
@@ -467,7 +593,6 @@ class Postres : AppCompatActivity(), ReceipeClickListener {
         val args = Bundle()
         args.putSerializable("Recipe", recipe as Serializable)
         intent.putExtra("Bundle", args)
-
         startActivity(intent)
     }
 }

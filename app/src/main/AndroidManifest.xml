@@ -10,10 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CocinaRapida">
         <activity
-            android:name=".HamburguesasActivity"
-            android:label="Hamburguesas"
+            android:name=".AgradecimientoActivity"
             android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
+        <activity
+            android:name=".SnackActivity"
+            android:exported="false"
+            android:label="Snack" />
+        <activity
+            android:name=".PayActivity"
+            android:exported="false"
+            android:label="Pay" />
+        <activity
+            android:name=".HamburguesasActivity"
+            android:exported="false"
+            android:label="Hamburguesas" />
         <activity
             android:name=".GuarnicionesActivity"
             android:exported="false"
