@@ -11,11 +11,8 @@
         android:theme="@style/Theme.CocinaRapida">
         <activity
             android:name=".AgradecimientoActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
+            android:label="Agradecimiento"
+            android:exported="false"/>
         <activity
             android:name=".SnackActivity"
             android:exported="false"
