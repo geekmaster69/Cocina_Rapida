@@ -563,7 +563,7 @@ class Postres : AppCompatActivity(), ReceipeClickListener {
                     Ingredient("cajeta"),
                     Ingredient("nueces en trozos")
                 ),
-                getString(R.string.preparation_rollos_verano_fruta),
+                getString(R.string.preparation_cheesecake_pera),
                 arrayListOf(
                     Help(getString(R.string.no_help_suggestion),
                         R.drawable.ic_help_null,
