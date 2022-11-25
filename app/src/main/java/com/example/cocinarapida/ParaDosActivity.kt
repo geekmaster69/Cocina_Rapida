@@ -22,7 +22,7 @@ class ParaDosActivity : AppCompatActivity(), ReceipeClickListener{
         val recipeList = arrayListOf(
             Recipe(
                 "Lomo de Cerdo y Papas con Pesto",
-                R.drawable.omelette_jamon_queso,
+                R.drawable.lomo_papas_pesto,
                 arrayListOf(
                     Ingredient(getString(R.string.perejil_1_2_manojo)),
                     Ingredient("4 cucharadas de aceite de oliva"),
