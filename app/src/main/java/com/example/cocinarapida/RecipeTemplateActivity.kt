@@ -22,6 +22,7 @@ class RecipeTemplateActivity : AppCompatActivity(), OnClickListenerIngredient {
 
         val args = intent.getBundleExtra("Bundle")
         val recipe = args!!.getSerializable("Recipe") as Recipe
+        // n.n
 
         database = DatabaseHelper(this)
 
